@@ -27,17 +27,9 @@ Items in the Focus View can be pinned, to move the item to the top of the list, 
 
 ***
 
-## Workspaces
-
-GitKraken Workspaces allow you to create easily accessible groups of repositories and share them with your organization members or [teams](/gitkraken-client/gitkraken-organization/#teams) to work with in gitkraken.dev, [GitKraken Client](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos). Additionally, Workspaces can be used to filter pull requests and issues in the Focus View.
-
-<img src="/wp-content/uploads/gkd-workspaces-view.png" class="img-responsive center img-bordered"> 
-
-***
-
 ## Integrations
 
-To begin working with the Focus View and Workspaces, start by connecting an integration from https://gitkraken.dev/settings/integrations. To connect an integration, select the desired integration.
+To begin working with the Focus View, start by connecting an integration from https://gitkraken.dev/settings/integrations. To connect an integration, select the desired integration.
 
 - For Cloud integrations: Log in to the desired account and then approve access for GitKraken.
 - For Self-Hosted/Server integrations: Fill out Host Domain, select `Generate a token on {service}` - this will open the service on the PAT creation page with the required scopes, fill out the PAT and then select `Connect`.
