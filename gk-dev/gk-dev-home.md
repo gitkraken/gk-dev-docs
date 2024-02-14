@@ -37,7 +37,7 @@ To begin working with the Focus View, start by connecting an integration from ht
 <img src="/wp-content/uploads/gkd-integrations.png" class="img-responsive center img-bordered"> 
 
 <div class='callout callout--basic'>
-   	<p>Note for GitHub.com: In order to work with repositories owned by a GitHub organization, the organization will need to allow [Organization Approval](https://help.github.com/articles/requesting-organization-approval-for-your-authorized-applications/) for GitKraken.</p>
+   	<p>Note for GitHub.com: In order to work with repositories owned by a GitHub organization, the organization will need to allow <a href="https://help.github.com/articles/requesting-organization-approval-for-your-authorized-applications/">Organization Approval</a> for GitKraken.</p>
 </div>
 
 ***
@@ -59,7 +59,7 @@ Allow developers in your organization to create Cloud Patches that can be shared
 
 #### Self-hosted
 
-You can host your organization’s Cloud Patches on your own AWS S3 bucket. To do so login to gitkraken.dev/settings/security, copy the bucket policy by clicking “Copy policy.” Open the AWS Console and navigate to the S3 service. From there, click on the bucket you want to store Cloud Patches. Click the "Permissions" tab and look for the “Bucket policy" section. Click the "Edit" button and paste the bucket policy into the text box. Rename CUSTOMER_BUCKET_NAME with the name of your bucket. Finally, click "Save changes” and return to gitkraken.dev/settings/security to test your bucket.
+You can host your organization’s Cloud Patches on your own AWS S3 bucket. To do so login to https://gitkraken.dev/settings/security, copy the bucket policy by clicking “Copy policy.” Open the AWS Console and navigate to the S3 service. From there, click on the bucket you want to store Cloud Patches. Click the "Permissions" tab and look for the “Bucket policy" section. Click the "Edit" button and paste the bucket policy into the text box. Rename CUSTOMER_BUCKET_NAME with the name of your bucket. Finally, click "Save changes” and return to https://gitkraken.dev/settings/security to test your bucket.
 
 Please note to setup self-hosted Cloud Patches require you to have the role [owner, admin, or billing contact](/gitkraken-client/gitkraken-organization/#roles) on an [Enterprise plan](https://www.gitkraken.com/pricing).
 
