@@ -19,7 +19,7 @@ The Launchpad will provide you with a summary of pull requests and issues releva
 
 <img src="/wp-content/uploads/gkd-focus-view.png" class="img-responsive center img-bordered"> 
 
-There is a search bar and filters to limit the issues and pull requests shown. Actions can be taken on issues and pull requests from the Actions column. Both can be opened on the connected service by selecting `Open`. Additionally, from the `Open` dropdown, pull requests can be opened in GitKraken Client, VS Code, and VS Code Insiders. 
+There is a search bar and filters to limit the issues and pull requests shown. Actions can be taken on issues and pull requests from the Actions column. Both can be opened on the connected service by selecting `Open`. Additionally, from the `Open` dropdown, pull requests can be opened in GitKraken Desktop, VS Code, and VS Code Insiders. 
 
 Items in the Launchpad can be pinned, to move the item to the top of the list, and can be snoozed, to be hidden under the SNOOZED section. To pin or unpin and item, click the pin <i class="fa-solid fa-thumbtack"></i> in the pin column. To snooze an item, hover over an item, select the snooze <i class="fa-solid fa-snooze"></i> icon, and select the desired time option - selecting snooze will snooze the item until it is manually unsnoozed. To unsnooze an item, click on the `SNOOZED` section header, hover over the desired item and select the unsnooze icon for that item.
 
@@ -29,7 +29,7 @@ Items in the Launchpad can be pinned, to move the item to the top of the list, a
 
 ## Cloud Patches
 
-A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Client, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-home/#self-hosted).
+A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-home/#self-hosted).
 
 Cloud Patches allow the ability to engage early with your team before a pull request. They can be created as soon as you have a work in progress. This can help with collaborating on changes prior to a pull request and minimize the delay of pull request reviews.
 
@@ -37,7 +37,7 @@ Cloud Patches allow the ability to engage early with your team before a pull req
 
 ## Workspaces
 
-GitKraken Workspaces allow you to create easily accessible groups of repositories and share them with your organization members or [teams](/gitkraken-client/gitkraken-organization/#teams) to work with in gitkraken.dev, [GitKraken Client](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos). Additionally, Workspaces can be used to filter pull requests and issues in the Launchpad.
+GitKraken Workspaces allow you to create easily accessible groups of repositories and share them with your organization members or [teams](/gitkraken-client/gitkraken-organization/#teams) to work with in gitkraken.dev, [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos). Additionally, Workspaces can be used to filter pull requests and issues in the Launchpad.
 
 <img src="/wp-content/uploads/gkd-workspaces-view.png" class="img-responsive center img-bordered"> 
 
@@ -130,7 +130,7 @@ Roles grant members permissions within an organization. There are four roles a u
 
 ### Teams
 
-Teams are the best way to organize members of your GitKraken organization. In addition, teams can create Shared Workspaces to bring focus to their collaborative work and help [identify conflicts in GitKraken Client](/gitkraken-client/working-with-repositories/team-view/) by showing what files and branches your team is working on. Any member can create a team by visiting the Teams or within [GitKraken Client](/gitkraken-client/teams/). 
+Teams are the best way to organize members of your GitKraken organization. In addition, teams can create Shared Workspaces to bring focus to their collaborative work and help [identify conflicts in GitKraken Desktop](/gitkraken-client/working-with-repositories/team-view/) by showing what files and branches your team is working on. Any member can create a team by visiting the Teams or within [GitKraken Desktop](/gitkraken-client/teams/). 
 
 <img src="/wp-content/uploads/gkd-teams.png" class="img-responsive center img-bordered"> 
 
