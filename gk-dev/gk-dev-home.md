@@ -83,7 +83,7 @@ GitKraken Code Suggest simplifies code review by allowing you to make suggestion
 
 ### Working with Code Suggestions
 
-Code Suggestions can be created from [GitKraken Desktop](), [GitLens](gitlens/gitlens-features/#code-suggest-preview), and the [GitKraken CLI](/cli/cli-home/#code-suggest) - see linked Help Center documentation for creating and working with them in each. 
+Code Suggestions can be created from [GitKraken Desktop](/gitkraken-client/pull-requests/#review-code-and-suggest-changes), [GitLens](gitlens/gitlens-features/#code-suggest-preview), and the [GitKraken CLI](/cli/cli-home/#code-suggest) - see linked Help Center documentation for creating and working with them in each. 
 
 Once a suggestion is created, it will include a comment on the pull request with two options: you can select _Code Suggestion for #PR_ to open the suggestion in gitkraken.dev or select _locally on your machine_ to open the suggestion in GitKraken or GitLens.
 
