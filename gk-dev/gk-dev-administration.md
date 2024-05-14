@@ -1,7 +1,7 @@
 ---
 
-title: gitkraken.dev administration
-description: Administration on gitkraken.dev 
+title: GitKraken.dev Administration
+description: Learn how to work with administrative features on GitKraken.dev
 taxonomy:
     category: gk-dev
 
@@ -25,7 +25,7 @@ Once you have created your GitKraken account, your account is tied to the primar
 
 ### Manage Account
 
-`Manage Account` can be accessed from the dropdown in the top right to do things like [personalize your account](/gitkraken-client/gitkraken-account/#personalization), start a [multi-user trial](/gitkraken-client/trials/#multi-user-trials), [set up SSO](/gitkraken-client/single-sign-on/), [transfer the organization ownership](/gitkraken-client/gitkraken-organization/#transfer-ownership),
+`Manage Account` can be accessed from the dropdown in the top right to do things like [personalize your account](/gitkraken-client/gitkraken-account/#personalization), start a [multi-user trial](/gitkraken-client/trials/#multi-user-trials), [set up SSO](/gitkraken-client/single-sign-on/) and [transfer the organization ownership](/gitkraken-client/gitkraken-organization/#transfer-ownership).
 
 <img src="/wp-content/uploads/gkd-manage-account.png" class="img-responsive center img-bordered">
 

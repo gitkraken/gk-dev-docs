@@ -1,6 +1,6 @@
 ---
 
-title: GitKraken.dev Features
+title: GitKraken.dev Support Home
 description: Learn how to work with gitkraken.dev features
 taxonomy:
     category: gk-dev
@@ -45,13 +45,13 @@ A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be
 
 They can be created from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview-%e2%98%81%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#cloud-patches). From gitkraken.dev you can manage all Cloud Patches, including ones that have been shared with you.
 
-<img src="/wp-content/uploads/gkd-cloud-patch-view" class="img-responsive center img-bordered"> 
+<img src="/wp-content/uploads/gkd-cloud-patch-view.png" class="img-responsive center img-bordered"> 
 
 ### Working with Cloud Patches
 
 Select `Open` to view the files and diffs included in the Cloud Patch. From here, you can open the Cloud Patch in [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches) or [GitLens](gitlens/gitlens-features/#cloud-patches-preview-%e2%98%81%ef%b8%8f) to then apply the Cloud Patch to a specific branch.
 
-<img src="/wp-content/uploads/gkd-open-cloud-patch" class="img-responsive center img-bordered"> 
+<img src="/wp-content/uploads/gkd-open-cloud-patch.png" class="img-responsive center img-bordered"> 
 
 ***
 
