@@ -1,6 +1,6 @@
 ---
 
-title: gitkraken.dev
+title: gitkraken.dev administration
 description: Administration on gitkraken.dev 
 taxonomy:
     category: gk-dev
