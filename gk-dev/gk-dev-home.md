@@ -9,7 +9,7 @@ taxonomy:
 
  GitKraken.dev is your command center for understanding the status of your development projects and teams. See pull requests and issues relevant to you, gain clear insights into your workflows, collaborate with your team, and begin working all within a browser via desktop or mobile. In addition to working with repositories, you can manage your Organization, Subscription and Security Controls from [Administration](gk-dev/gk-dev-administration/). 
 
-<img src="/wp-content/uploads/gkd-main.png" class="img-responsive center img-bordered"> 
+<img src="/wp-content/uploads/gkd-main-0.png" class="img-responsive center img-bordered"> 
 
 ***
 
