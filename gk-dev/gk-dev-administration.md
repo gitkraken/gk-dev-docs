@@ -19,7 +19,7 @@ Your GitKraken account is your key to unlock the most personal experience across
 
 You can create your GitKraken account at [gitkraken.dev](https://gitkraken.dev/register) or GitKraken Desktop. When presented with the login page, you may need to select “Create an account” before selecting how you would like to create your GitKraken account. There are seven options available to create your GitKraken account and login. You can choose your preferred hosting service (GitHub, GitLab, Bitbucket, and Azure DevOps), login with email, Google, or [SSO](/gitkraken-client/single-sign-on/).
 
-<img src="/wp-content/uploads/gkd-login.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkd-log-in.png" class="img-responsive center img-bordered">
 
 Once you have created your GitKraken account, your account is tied to the primary email address of whichever method you selected. If you use the “Sign up with Email” method, you will need to verify your email address with a link sent to your email.
 
@@ -35,7 +35,7 @@ Once you have created your GitKraken account, your account is tied to the primar
 
 To add someone to your organization select "Users" and then "Add Users". Here you can enter as many email addresses as you want and the [role](/gitkraken-client/gitkraken-organization/#roles) (in the drop down) you would like to assign them all. 
 
-<img src="/wp-content/uploads/gkd-add-users.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gkd-add-user.png" class="img-responsive center img-bordered">
 
 Only members that have a [role](/gk-dev/gk-dev-administration/#roles) with permission can add users to an organization. When you do add someone, it will consume a license of your subscription. If all available licenses are consumed when adding a user, a billing summary will show up during the process, select "Purchase licenses & Add X User(s)" to complete the transaction and add the users.
 
