@@ -39,17 +39,17 @@ To organize further, items in the Launchpad can be pinned, to move the item to t
 
 ## Cloud Patches
 
-A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-home/#self-hosted). Cloud Patches allow the ability to engage early with your team before a pull request.
+A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-administration/#self-hosted). Cloud Patches allow the ability to engage early with your team before a pull request.
 
 ### Creating a Cloud Patch
 
-They can be created from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview-%e2%98%81%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#cloud-patches). From gitkraken.dev you can manage all Cloud Patches, including ones that have been shared with you.
+They can be created from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview), and the [GitKraken CLI](/cli/cli-home/#cloud-patches). From gitkraken.dev you can manage all Cloud Patches, including ones that have been shared with you.
 
 <img src="/wp-content/uploads/gkd-cloud-patch-view.png" class="img-responsive center img-bordered"> 
 
 ### Working with Cloud Patches
 
-Select `Open` to view the files and diffs included in the Cloud Patch. From here, you can open the Cloud Patch in [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches) or [GitLens](gitlens/gitlens-features/#cloud-patches-preview-%e2%98%81%ef%b8%8f) to then apply the Cloud Patch to a specific branch.
+Select `Open` to view the files and diffs included in the Cloud Patch. From here, you can open the Cloud Patch in [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches) or [GitLens](gitlens/gitlens-features/#cloud-patches-preview) to then apply the Cloud Patch to a specific branch.
 
 <img src="/wp-content/uploads/gkd-open-cloud-patch.png" class="img-responsive center img-bordered"> 
 
@@ -69,7 +69,7 @@ To create a workspace, first connect the [integration](/gk-dev/gk-dev-administra
 
 ### Working with Workspaces
 
-Select `Open Launchpad` to filer the Launchpad by the selected workspace for pull requests and issues. Additionally, workspaces can be used in [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos) to perform actions on multiple repositories, view repositories status at a glance, and much more. 
+Select `Open Launchpad` to filer the Launchpad by the selected workspace for pull requests and issues. Additionally, workspaces can be used in [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-preview), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos) to perform actions on multiple repositories, view repositories status at a glance, and much more. 
 
 <img src="/wp-content/uploads/gkd-open-workspace.png" class="img-responsive center img-bordered"> 
 
