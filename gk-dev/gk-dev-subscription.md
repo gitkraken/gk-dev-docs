@@ -9,6 +9,8 @@ taxonomy:
 
 Subscriptions are tied directly to an [organization](/gk-dev/gk-dev-organization/), even if the subscription is for one user. The subscription is identical for everyone in the organization and one license is required for every member (unless their [role](/gk-dev/gk-dev-organization/#roles) does not use a license).
 
+***
+
 ## How to purchase
 
 To purchase a subscription for the first time follow these steps:
