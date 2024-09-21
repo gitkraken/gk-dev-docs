@@ -138,7 +138,7 @@ Any member can create a team by visiting the Teams tab within the organization a
 
 Organization settings can be accessed from [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization). Visiting the Settings section of your organization will give you a snapshot of your subscription and allow you to edit a few key aspects of your organization like changing the organization name, transferring ownership of the organization, leaving an organization, and setting up single sign-on.
 
-<img src="/wp-content/uploads/gitkraken-organization-settings-1.png" class="img-responsive center img-bordered">
+<img src="/wp-content/uploads/gk-dev-organization-settings.png" srcset='/wp-content/uploads/gk-dev-organization-settings@2x.png' class="img-responsive center img-bordered">
 
 ### Transfer ownership
 

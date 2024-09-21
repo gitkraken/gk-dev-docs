@@ -9,6 +9,8 @@ taxonomy:
 
 Manage security controls for your organization and users.
 
+***
+
 ## AI features
 
 The GitKraken suite includes a lineup of AI features that are intended to speed up your workflow. These features require sending some of your code to an AI hosted on the cloud such as ChatGPT. If you are concerned that AI features do not comply with your company’s data security, you can disable AI features for everyone in your organization. Please note that changing this setting requires you to have the role [owner, admin, or billing contact](/gk-dev-administration/#roles) on a [Teams or Enterprise plan](https://www.gitkraken.com/pricing).
