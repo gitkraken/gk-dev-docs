@@ -156,18 +156,5 @@ This option will only be available if you are part of another organization and y
 
 ### Single sign-on
 
-Single sign-on (SSO) is available for organizations that require it. SSO requires:
-+ A Teams or Enterprise subscription (If you want to give SSO a try, start an org trial or reach out to us)
-+ A GitKraken organization
-+ A compatible Identity Provider (IDP) which is limited to:
-    + Azure Active Directory
-    + Okta
-    + Google Identity Platform (G Suite)
-    + Ping Identity
-+ SSO can only be set up by the Owner or by an Admin of the organization.
-+ SSO is set up at the Organization level. Each organization can have multiple IDPs connected simultaneously.
-
-#### How to setup single sign-on
-
-See how to setup SSO by visiting the [Setting up SSO](/gitkraken-desktop/single-sign-on/#setting-up-sso-on-a-gitkraken-organization) section.
+Single sign-on (SSO) is available for organizations that require it. See how to setup SSO by visiting our [Single Sign-On documentation](/gk-dev/gk-dev-single-sign-on/).
 
