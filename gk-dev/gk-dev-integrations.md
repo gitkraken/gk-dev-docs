@@ -1,7 +1,7 @@
 ---
 
 title: Integrations
-description: Learn how to work with Integrations on GitKraken.dev
+description: Learn how to work with integrations on gitkraken.dev
 taxonomy:
     category: gk-dev
 
