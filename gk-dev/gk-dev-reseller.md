@@ -55,7 +55,7 @@ Once the purchase is complete you will be emailed a copy of your receipt.
 ### 3. Transfer Ownership to the Customer
 
 Finally, you will need to [transfer the ownership](gk-dev/gk-dev-organization/#transfer-ownership) to the customer:
-* Navigate to [Users](gitkraken.dev/users)
+* Navigate to [Users](https://gitkraken.dev/users)
 * Add the customer with the role [Billing Contact](/gk-dev/gk-dev-organization/#roles)
 	* This role does not consume a license
 * Navigate to [Settings > Organization](https://gitkraken.dev/settings/organization) and transfer the ownership to that user

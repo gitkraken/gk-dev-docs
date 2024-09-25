@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
- GitKraken.dev is your command center for understanding the status of your development projects and teams. See pull requests and issues relevant to you, gain clear insights into your workflows, collaborate with your team, and begin working all within a browser via desktop or mobile. In addition to working with repositories, you can manage your Organization, Subscription and Security Controls from [Administration](gk-dev/gk-dev-administration/). 
+ GitKraken.dev is your command center for understanding the status of your development projects and teams. See pull requests and issues relevant to you, gain clear insights into your workflows, collaborate with your team, and begin working all within a browser via desktop or mobile. In addition to working with repositories, you can manage your Organization, Subscription and Security Controls. 
 
 <img src="/wp-content/uploads/gkd-main-0.png" class="img-responsive center img-bordered"> 
 
@@ -15,7 +15,7 @@ taxonomy:
 
 ## Launchpad
 
-The Launchpad provides you with a summary of pull requests and issues relevant to you for the filtered selection and allows you to take action on these items. Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on. To begin working with the Launchpad, start by connecting an [integration](/gk-dev/gk-dev-administration/#integrations) to see your issues and pull requests. 
+The Launchpad provides you with a summary of pull requests and issues relevant to you for the filtered selection and allows you to take action on these items. Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on. To begin working with the Launchpad, start by connecting an [integration](/gk-dev/gk-dev-integrations/) to see your issues and pull requests. 
 
 <img src="/wp-content/uploads/gkd-focus-view.png" class="img-responsive center img-bordered"> 
 
@@ -39,7 +39,7 @@ To organize further, items in the Launchpad can be pinned, to move the item to t
 
 ## Cloud Patches
 
-A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-administration/#self-hosted). Cloud Patches allow the ability to engage early with your team before a pull request.
+A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted). Cloud Patches allow the ability to engage early with your team before a pull request.
 
 ### Creating a Cloud Patch
 
@@ -57,13 +57,13 @@ Select `Open` to view the files and diffs included in the Cloud Patch. From here
 
 ## Workspaces
 
-GitKraken Workspaces allow you to create easily accessible groups of repositories and share them with your organization members or [teams](/gitkraken-client/gitkraken-organization/#teams) to work with in gitkraken.dev, [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos). 
+GitKraken Workspaces allow you to create easily accessible groups of repositories and share them with your organization members or [teams](/gk-dev/gk-dev-organization/#teams) to work with in gitkraken.dev, [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos). 
 
 <img src="/wp-content/uploads/gkd-workspaces-view.png" class="img-responsive center img-bordered"> 
 
 ### Creating a Workspace
 
-To create a workspace, first connect the [integration](/gk-dev/gk-dev-administration/#integrations) for the desired service. Once connected, select `Create Workspace`, provide a name, select a provider, and optionally provide a photo, description, or share with teams or members. 
+To create a workspace, first connect the [integration](/gk-dev/gk-dev-integrations/) for the desired service. Once connected, select `Create Workspace`, provide a name, select a provider, and optionally provide a photo, description, or share with teams or members. 
 
 <img src="/wp-content/uploads/gkd-create-workspace.png" class="img-responsive center img-bordered"> 
 
