@@ -19,7 +19,9 @@ Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOp
     </p>
 </div>
 
-### How do I use GitKraken Insights?
+***
+
+## How do I use GitKraken Insights?
 
 Insights can be accessed from [gitkraken.dev/insights](https://gitkraken.dev/insights).
 
@@ -33,17 +35,20 @@ Once you have done both, you will be able to filter by a workspace to see the In
 
 <div class='callout callout--note'>
     <p>
-        Filtering by 14 days is available for Teams subscriptions and filtering by 28 days is available for Enterprise Subscriptions. 
+        When using Insights, we will attempt to add webhooks to your workspace repositories in order to reduce API calls and improve data performance.
     </p>
-</div>
-
-<div class='callout callout--note'>
     <p>
-        <strong>Note:</strong> When using Insights, we will attempt to add webhooks to your workspace repositories in order to reduce API calls and improve data performance.
-    </p>
+        Filtering by 14 days is available for Teams subscriptions and filtering by 28 days is available for Enterprise Subscriptions.
+    </p> 
 </div>
 
-### Metrics
+### Requirement for Azure Insights and Workspaces
+
+In order to work with Insights and [Workspaces](/gk-dev/gk-dev-home/#workspaces) for Azure, `Third-party application access via OAuth` will need to be enabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
+
+***
+
+## Metrics
 
 Insights offer the following metrics. You can also hover over the <i class="fa-solid fa-circle-info"></i> icon to see a description of the metric.
 
@@ -53,6 +58,16 @@ Insights offer the following metrics. You can also hover over the <i class="fa-s
 * **Open**: The total number of pull requests opened for the selected timeframe.
 * **Merged**: The total number of pull requests merged for the selected timeframe.
 
-### Requirement for Azure Insights and Workspaces
+***
 
-In order to work with Insights and [Workspaces](/gitkraken-desktop/workspaces/) for Azure, `Third-party application access via OAuth` will need to be enabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
+## Export Insights Data
+
+Insights data can be exported into a CSV by selecting "Export CSV" in the top right. 
+
+<img src="/wp-content/uploads/gkdev-insights-export.png" srcset="/wp-content/uploads/gkdev-insights-export@2x.png" class="img-bordered img-responsive center">
+
+<div class='callout callout--note'>
+    <p>
+        <strong>Note:</strong> Exporting is only available for Enterprise subscriptions.
+    </p>
+</div>
