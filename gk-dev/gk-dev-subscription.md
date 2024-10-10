@@ -57,6 +57,8 @@ To update your billing method, go to [gitkraken.dev](https://gitkraken.dev/), se
 
 ***
 
-### Billing History
+## Billing history
 
-Each billing cycle, the owner and billing contacts of the organization will receive an email with the receipt attached. If you would like to receive prior receipts, please contact [accounting](https://www.gitkraken.com/billing-issues) for additional copies.
+You may view your billing history from [gitkraken.dev/subscription/history](https://staging.gitkraken.dev/subscription/history) or by navigating to Subscription > View Billing History. Here, you may select `Download PDF` to obtain previous invoices. Each billing cycle, the owner and billing contacts of the organization will receive an email with the invoice attached.
+
+<img src="/wp-content/uploads/gkdev-billing-history.png" srcset="/wp-content/uploads/gkdev-billing-history@2x.png" class="img-responsive center img-bordered">

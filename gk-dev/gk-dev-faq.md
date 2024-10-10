@@ -53,7 +53,7 @@ We only accept credit card payments for GitKraken Pro and Teams. We do however a
 
 ### When are invoices sent when I purchase a paid license?
 
-Invoice copies are emailed to the purchaser (Owner or Billing Contact) from `accounting@gitkraken.com` immediately upon purchase. If you have additional questions, please [contact our accounting team](https://www.gitkraken.com/billing-issues). 
+Invoice copies are emailed to the purchaser (Owner or Billing Contact) from `accounting@gitkraken.com` immediately upon purchase. You can also obtain a copy by going to [Billing History](https://gitkraken.dev/subscription/history).
 
 ***
 

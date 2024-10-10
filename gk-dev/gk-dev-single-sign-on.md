@@ -172,7 +172,7 @@ How to Create SAML Application in G Suite:
 
 <img src="/wp-content/uploads/sso-example-idp-10.jpg" class="img-bordered img-responsive center">
 
-Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setting-up-sso-on-a-gitkraken-organization)
+Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setup-sso)
 
 ### Azure Active Directory
 
@@ -209,7 +209,7 @@ How to create SAML application in Azure Active Directory:
 
 <img src="/wp-content/uploads/sso-azure-7-1.png" class="img-bordered img-responsive center">
 
-Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setting-up-sso-on-a-gitkraken-organization)
+Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setup-sso)
 ### Okta
 
 <div class='callout callout--warning'>
@@ -249,7 +249,7 @@ Step 10: Select “I am an Okta customer adding an internal app” from option m
 
 <img src="/wp-content/uploads/sso-okta-7.png" class="img-bordered img-responsive center">
 
-Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setting-up-sso-on-a-gitkraken-organization)
+Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setup-sso)
 
 ### Ping Identity
 
@@ -333,7 +333,7 @@ How to Create SAML Application in Ping Identity
 
 20.	Then use the *IDP Metadata URL* and *Metadata* from step 18 for *Metadata URL* and *Metadata*. Click on *Create Connection*
 
-<img src="/wp-content/uploads/gkd-ping-identity-sso-connect.png" class="img-bordered img-responsive center">
+<img src="/wp-content/uploads/gkd-ping-identity-sso-connect-1.png" class="img-bordered img-responsive center">
 
 21.	Now the users who were added in step 7 can *Sign in with SSO*.
 
