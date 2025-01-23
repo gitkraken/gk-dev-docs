@@ -9,7 +9,7 @@ taxonomy:
  
 ## Trials 
 
-Both GitKraken Desktop and GitLens offer 14-day trials of Pro. You can initiate these trials by logging into the corresponding app with a GitKraken account for the first time. Each trial is separate, so starting a 7-day trial with your GitKraken account in one app does not start it for the other. 
+Both GitKraken Desktop and GitLens offer 14-day trials of Pro. You can initiate these trials by logging into the corresponding app with a GitKraken account for the first time. Each trial is separate, so starting a 14-day trial with your GitKraken account in one app does not start it for the other. 
  
 *** 
  
