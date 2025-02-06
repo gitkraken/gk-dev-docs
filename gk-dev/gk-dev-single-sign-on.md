@@ -77,7 +77,7 @@ Single sign-on requires a GitKraken Teams, GitKraken Enterprise, or a 30-day mul
 
 ### Just-in-time provisioning (JIT)
 
-You can enable JIT on <a href="gitkraken.dev/settings/sso">gitkraken.dev/settings/sso</a>. With JIT enabled, when a user logs in with SSO successfully and is not part of your organization, they will automatically join your organization and consume a license. You do need to have spare licenses available for this to work, if all licenses are used then the user will not join automatically even if JIT is on.
+You can enable JIT on <a href="https://gitkraken.dev/settings/sso">GitKraken.dev > Settings > SSO</a>. With JIT enabled, when a user logs in with SSO successfully and is not part of your organization, they will automatically join your organization and consume a license. You do need to have spare licenses available for this to work, if all licenses are used then the user will not join automatically even if JIT is on.
 
 ### SSO login experience
 
@@ -90,7 +90,7 @@ You can enable JIT on <a href="gitkraken.dev/settings/sso">gitkraken.dev/setting
 
 ## Setup SSO
 
-- Login to <a href="gitkraken.dev">gitkraken.dev</a>.
+- Login to <a href="https://gitkraken.dev">GitKraken.dev</a>.
   - Login as an owner or admin.
   - Navigate the left sidebar to [Settings], then [Single sign-on].
 - Click [Setup SSO].
