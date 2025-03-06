@@ -11,7 +11,7 @@ GitKraken Automations makes it easier to manage your team’s workflows by codif
 
 
 
-## Auotmation Examples
+## Automation Examples
 
 These are just a few ways teams are already using Automations to reduce manual effort, enforce best practice standards, and create more scalable, repeatable workflows.
 - Safe Deployments: Add a checklist for database migrations to ensure smooth rollouts.
@@ -24,7 +24,7 @@ These are just a few ways teams are already using Automations to reduce manual e
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-           Currently, Automations supports GitHub and GitLab repositories.
+           Currently, Automations supports cloud integrations. Self-Hosted Integration Automations will be available at a later date. 
     </p>
 </div>
 
@@ -47,26 +47,26 @@ Then, create a name for your automation. Next, using the Provider drop down sele
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-            A webhook will be set up on the selected repository in order to trigger when saving the automation.
+            A webhook will be set up on the selected repository after saving the automation. Permission will need to be granted on the repository to allow the creation of the webhook.
     </p>
 </div>
 
 
 ## Conditions
 
-Next up, you will set up conditions, which are a list of criteria that determine when a Trigger should execute. We currently support 3 types of conditions: "File location", "File contents", and "Pull Request"
+Next up, you will set up conditions, which are a list of criteria that determine when a Action should execute. We currently support 3 types of conditions: "File location", "File contents", and "Pull Request"
 
 <img src="/wp-content/uploads/gkdev-createautomations3.png" class="help-center-img img-bordered">
 
 ### Boolean logic
 
-You can choose whether all or any of the conditions you set up apply to your Trigger:
+You can choose whether all or any of the conditions you set up trigger your Action:
 
 <img src="/wp-content/uploads/gkdev-createautomations4.png" class="help-center-img img-bordered">
 
 ### File Location  
 
-The Following File Location trigger options can be selected: 
+The Following File Location Action options can be selected: 
 - File name condition: This condition matches the name of files in your repository.
 - File path condition: This condition matches the path of files in your repository.
 - File added in folder condition: This condition matches when files are added to a specific folder in a pull request. For example, the filter "File added in folder" with the operator "folder path equals" with the value "src/components/icons" would match any file that was added in that icons folder (or subfolders).
@@ -81,14 +81,14 @@ The Following File Location trigger options can be selected:
 
 ### File Contents
 
-The Following File Contet trigger options can be selected: 
+The Following File Contet Action options can be selected: 
 - Old Code condition: Matches against modified lines of code from before your code change: the red on the left-hand side of a split view diff.
 - New Code condition: Matches against modified lines of code from after your code change: the green on the right-hand side of a split view diff.
 - New and Old Code condition: Matches both sides of the diff view
 
 ### Pull Request
 
-The Following Pull Request trigger options can be selected: 
+The Following Pull Request Action options can be selected: 
 - Number of changed files condition: This condition matches when the number of files that are part of this pull request satisfy the inequality. 
 - PR Author condition: This condition matches the author of the pull request. This automation will only run if the author matches this condition.
 - Labels on the PR condition: This condition matches the GitHub Labels specified 
@@ -100,14 +100,14 @@ Five kinds of actions are currently supported: posting a comment, adding a check
 
 - Add Comment: When this action is executed, GitKraken will post the comment on the matching pull request
 - Add to Checklist: When this action is executed, GitKraken will add a new checklist item to the PR description. You can add as many checklist items as you need by adding an action for each item.
-- Add Assignee: When this action is executed, GitKraken will assign the pull request to the user of your choice. If you'd like to assign multiple users, you can create multiple instances of this action on the same Trigger. If you supply an optional message to explain why this user is being assigned, GitKraken will post a comment notifying that user and explaining why they were assigned.
-- Add Label: When this action is executed, GitKraken will assign the selected GitHub label to the pull request. If you'd like to add multiple labels, you can create multiple instances of this action on the same Trigger.
-- Add Reviewer: When this action is executed, GitKraken will assign the person or team of your choice as a reviewer on the PR. If you'd like to add multiple reviewers, you can create multiple instances of this action on the same Trigger. If you supply an optional message to explain why this user is being assigned as a reviewer, GitKraken will post a comment notifying that user and explaining why they were assigned as a reviewer.
+- Add Assignee: When this action is executed, GitKraken will assign the pull request to the user of your choice. If you'd like to assign multiple users, you can create multiple instances of this on the same Action. If you supply an optional message to explain why this user is being assigned, GitKraken will post a comment notifying that user and explaining why they were assigned.
+- Add Label: When this action is executed, GitKraken will assign the selected GitHub label to the pull request. If you'd like to add multiple labels, you can create multiple instances of this action on the same Action.
+- Add Reviewer: When this action is executed, GitKraken will assign the person or team of your choice as a reviewer on the PR. If you'd like to add multiple reviewers, you can create multiple instances of this action on the same Action. If you supply an optional message to explain why this user is being assigned as a reviewer, GitKraken will post a comment notifying that user and explaining why they were assigned as a reviewer.
 
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-           A pull request can never have the author of the pull request as a reviewer. If an action would cause the author to be a reviewer on their own pull request, GitKraken will skip over that action, but still perform all other actions on the trigger.
+           A pull request can never have the author of the pull request as a reviewer. If an action would cause the author to be a reviewer on their own pull request, GitKraken will skip over that step, but still perform all other steps on the Action.
     </p>
 </div>
 
