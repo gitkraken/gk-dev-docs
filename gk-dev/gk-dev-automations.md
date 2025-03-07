@@ -3,7 +3,7 @@
 title: Automations
 description: Automations makes it easier to manage your team’s workflows
 taxonomy:
-    category: gk-dev-docs
+    category: gk-dev
 
 ---
 
@@ -47,7 +47,7 @@ Then, create a name for your automation. Next, using the Provider drop down sele
 <div class='callout callout--warning'>
     <p>
         <strong>Note:</strong>
-            A webhook will be set up on the selected repository after saving the automation. Permission will need to be granted on the repository to allow the creation of the webhook.
+            A webhook will be set up on the selected repository after saving the automation. You will need to have permission on the repository to allow the creation of the webhook.
     </p>
 </div>
 
