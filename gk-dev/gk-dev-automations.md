@@ -137,4 +137,13 @@ GitKraken Automations has two options for sorting, Status and Action. Status is 
 
 To create an additional Automation, select <button class="button button--success button--ui button--nolink">+ Create Automation</button>.
 
+## Repoistory Management
+
+Once your automations are created you will then have access to the Repository Management Automations page. 
+
+<img src="/wp-content/uploads/gkdev-createautomations8.png" class="help-center-img img-bordered">
+
+From this you can see which repositories have had a Automation connected, who created the automation, the hosting provider and how many automations are active on each repository. You can also perform additional administrative tasks like removing or adding repositories for tracking. This page is perfect for admins that need Automation information at a glance. 
+
+<img src="/wp-content/uploads/gkdev-createautomations9.png" class="help-center-img img-bordered">
 
