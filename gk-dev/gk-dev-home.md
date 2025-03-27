@@ -15,6 +15,10 @@ taxonomy:
 
 ## Launchpad
 
+<div class='callout callout--warning'>
+    <p>This Feature is only available for Pro subscription tiers or higher</p>
+</div>
+
 The Launchpad provides you with a summary of pull requests and issues relevant to you for the filtered selection and allows you to take action on these items. Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on. To begin working with the Launchpad, start by connecting an [integration](/gk-dev/gk-dev-integrations/) to see your issues and pull requests. 
 
 <img src="/wp-content/uploads/gkd-focus-view.png" class="img-responsive center img-bordered"> 
@@ -37,9 +41,13 @@ To organize further, items in the Launchpad can be pinned, to move the item to t
 
 ***
 
-## Cloud Patches
+## Cloud Patches `PRO`
 
 A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted). Cloud Patches allow the ability to engage early with your team before a pull request.
+
+<div class='callout callout--warning'>
+    <p>This Feature is only available for Pro subscription tiers or higher</p>
+</div>
 
 ### Creating a Cloud Patch
 
@@ -79,11 +87,15 @@ In order to work with Workspaces and [Insights](/gk-dev/gk-dev-insights) for Azu
 
 ***
 
-## Code Suggest
+## Code Suggest `PRO`
 
 GitKraken Code Suggest simplifies code review by allowing you to make suggestions and edits across the entire project, not just on the lines that were changed, within gitkraken.dev, GitLens, and GitKraken Desktop. When a Pull Request is open, you can make suggestions to the pull request that others can then review and accept to include in the pull request. 
 
 <img src="/wp-content/uploads/cli-code-suggest.png" class="img-responsive center img-bordered"> 
+
+<div class='callout callout--warning'>
+    <p>This Feature is only available for Pro subscription tiers or higher</p>
+</div>
 
 ### Working with Code Suggestions
 

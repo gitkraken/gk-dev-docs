@@ -9,7 +9,9 @@ taxonomy:
 
 GitKraken Automations makes it easier to manage your team’s workflows by codifying best practices, automating repetitive tasks, and proactively highlighting potential issues for you.
 
-
+<div class='callout callout--warning'>
+    <p>This Feature is only available for Pro subscription tiers or higher</p>
+</div>
 
 ## Automation Examples
 

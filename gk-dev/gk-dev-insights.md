@@ -1,6 +1,6 @@
 ---
 
-title: Insights
+title: Insights `Pro`
 description: GitKraken Insights is a powerful tool that helps you visualize how pull requests are merged into your repositories.
 taxonomy:
     category: gk-dev
@@ -12,6 +12,10 @@ GitKraken Insights is a powerful tool that helps you visualize how pull requests
 Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOps (Hosted).
 
 <img src="/wp-content/uploads/gkdev-insights.png" srcset="/wp-content/uploads/gkdev-insights@2x.png" class="img-bordered img-responsive center">
+
+<div class='callout callout--warning'>
+    <p>This Feature is only available for Pro subscription tiers or higher</p>
+</div>
 
 <div class='callout callout--warning'>
     <p>

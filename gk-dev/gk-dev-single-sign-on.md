@@ -13,6 +13,10 @@ Once your organization has set up SSO with an Identity Provider (IdP), the Owner
 
 Note: You must have a GitKraken Teams or GitKraken Enterprise subscription to enable SSO. You also can try SSO during a 30-day multi-user trial.
 
+<div class='callout callout--warning'>
+    <p>This Feature is only available for Pro subscription tiers or higher</p>
+</div>
+
 ***
 
 ## What is Single Sign-on (SSO)?
