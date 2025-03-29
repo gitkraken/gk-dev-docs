@@ -8,7 +8,9 @@ taxonomy:
 ---
 
 A GitKraken organization is a collection of [GitKraken accounts](/gk-dev/gk-dev-account/) which unlocks a shared [subscription](/gk-dev/gk-dev-subscription/), collaboration features between members, and administration of the members in the organization. If you are creating an account for the first time, an organization will automatically be created for you.
-
+<div class='callout callout--warning'>
+    <p>Community users are a single user plan, and can not perform any org management. Pro plans and above can perform Org management functions.</p>
+</div>
 ***
 
 ## Add users
