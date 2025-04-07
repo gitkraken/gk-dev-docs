@@ -13,11 +13,11 @@ Both GitKraken Desktop and GitLens offer 14-day trials of Pro. You can initiate 
  
 *** 
  
-### Multi-User Trials
+### Business Plan Trials
 
-Multi-user trials are available for groups of users that would like to try the [GitKraken DevEx platform](https://www.gitkraken.com/devex) across members of their team, company, or organization. After a multi-user trial is started, it will be active for 30 days. The duration of the multi-user trial is shared by everyone in the organization. 
+Business plan trials are available for groups of users that would like to try the [GitKraken DevEx platform](https://www.gitkraken.com/devex) across members of their team, company, or organization. After a Business plan trial is started, it will be active for 30 days. The duration of the Business plan trial is shared by everyone in the organization. 
  
-To start a multi-user trial: 
+To start a Business plan trial: 
  
 1. Visit [gitkraken.dev](https://gitkraken.dev/) 
 2. Login with your GitKraken account 
@@ -25,5 +25,5 @@ To start a multi-user trial:
 6. Once users are added, your extended organization trial has begun 
  
 <div class='callout callout--basic'> 
-   	<p>It is not possible for a user to be a member of more than one multi-user trial at a time. Once the multi-user trial has lapsed, an owner cannot start another multi-user trial.</p> 
+   	<p>It is not possible for a user to be a member of more than one Business plan trial at a time. Once the Business plan trial has lapsed, an owner cannot start another multi-user trial.</p> 
 </div> 
