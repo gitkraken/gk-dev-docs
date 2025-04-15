@@ -11,7 +11,7 @@ Connect integrations on gitkraken.dev to begin working with Launchpad, Workspace
 
 ***
 
-Integrations can be connected from https://gitkraken.dev/settings/integrations. To connect an integration, select the desired integration under **Add Integration**.
+Integrations can be connected from [Integrations](https://gitkraken.dev/settings/integrations?source=help_center&product=gitkraken_dot_dev). To connect an integration, select the desired integration under **Add Integration**.
 
 - For Cloud integrations: Log in to the desired account and then approve access for GitKraken.
 - For Self-Hosted/Server integrations: Fill out Host Domain, select `Generate a token on {service}` - this will open the service on the PAT creation page with the required scopes - fill out the PAT and then select `Connect`.

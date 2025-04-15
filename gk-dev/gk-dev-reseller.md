@@ -15,7 +15,7 @@ Follow this reseller guide for purchasing and user license management informatio
 
 ### 1. Create an account or sign in
 
-First, create a GitKraken account using your reseller email address by navigating to [gitkraken.dev](https://gitkraken.dev/).
+First, create a GitKraken account using your reseller email address by navigating to [gitkraken.dev](https://gitkraken.dev/?source=help_center).
 
 + Be sure to create an account using email, do not use the auto-sign-in options (like "sign in with GitHub").
 + Do not enter end-user information on the account creation form. Resellers should register with their own email.
@@ -36,7 +36,7 @@ Once you have created your GitKraken account, your account is tied to the primar
 Navigate to `Purchase Subscription`, select the desired subscription type, and set the desired seats. Finally, proceed with filling out the required payment information.
 
 <div class='callout callout--basic'>
-   	<p>If you need to make a new organization for a separate customer, you can do so at <a href="https://gitkraken.dev/purchase">gitkraken.dev/purchase</a>.</p>
+   	<p>If you need to make a new organization for a separate customer, you can do so at <a href="https://gitkraken.dev/purchase?source=help_center">gitkraken.dev/purchase</a>.</p>
 </div>
 
 To complete the purchase, input:
@@ -55,10 +55,10 @@ Once the purchase is complete you will be emailed a copy of your receipt.
 ### 3. Transfer Ownership to the Customer
 
 Finally, you will need to [transfer the ownership](gk-dev/gk-dev-organization/#transfer-ownership) to the customer:
-* Navigate to [Users](https://gitkraken.dev/users)
+* Navigate to [Users](https://gitkraken.dev/users?source=help_center)
 * Add the customer with the role [Billing Contact](/gk-dev/gk-dev-organization/#roles)
 	* This role does not consume a license
-* Navigate to [Settings > Organization](https://gitkraken.dev/settings/organization) and transfer the ownership to that user
+* Navigate to [Settings > Organization](https://gitkraken.dev/settings/organization?source=help_center) and transfer the ownership to that user
 
 If the customer's email has not been verified, they will receive an email to activate their account and accept the ownership transfer. They have 7 days to accept this and you will remain as owner until they accept it. If the 7 days lapse you can always reinitiate the ownership transfer.
 
@@ -68,7 +68,7 @@ If the customer's email has not been verified, they will receive an email to act
 
 Follow this reseller guide for purchasing additional licenses on an existing account.
 
-1. Log into [gitkraken.dev](https://gitkraken.dev/)
+1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
 2. Select the customer’s organization from the top left dropdown (if you are part of more than one organization)
 3. Navigate to the "Subscriptions" tab
 4. Update your billing details if needed
@@ -79,7 +79,7 @@ Follow this reseller guide for purchasing additional licenses on an existing acc
 
 <div class='callout callout--basic'>
    	<p>The cost to add users to an existing account is prorated against the billing cycle of the initial purchase of the account.</p>
-    <p>If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for assistance.</p>
+    <p>If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our <a href="https://www.gitkraken.com/sales-inquiries?source=help_center">Customer Success team</a> for assistance.</p>
 </div>
 
 ***
@@ -90,7 +90,7 @@ Follow this reseller guide for purchasing additional licenses on an existing acc
 
 Here’s how to obtain a quote for an upgrade (either adding licenses or changing plans).
 
-1. Log into [gitkraken.dev](https://gitkraken.dev/)
+1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
 2. Select the customer’s organization from the top left dropdown (if you are part of more than one organization)
 3. Navigate to the "Subscriptions" tab
 4. Select "Edit Plan"
@@ -99,7 +99,7 @@ Here’s how to obtain a quote for an upgrade (either adding licenses or changin
 
 ### Renewal Quote
 
-1. Log into [gitkraken.dev](https://gitkraken.dev/)
+1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
 2. Select the customer’s organization from the top left dropdown (if you are part of more than one organization)
 3. Navigate to the "Subscriptions" tab
 4. The Billing Summary will indicate the Annual Total. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed as “Next charge”

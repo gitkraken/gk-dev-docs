@@ -23,8 +23,8 @@ Allow developers in your organization to create Cloud Patches that can be shared
 
 ### Self-hosted
 
-You can host your organization’s Cloud Patches on your own AWS S3 bucket. To do so login to https://gitkraken.dev/settings/security, copy the bucket policy by clicking “Copy policy.” Open the AWS Console and navigate to the S3 service. From there, click on the bucket you want to store Cloud Patches. Click the "Permissions" tab and look for the “Bucket policy" section. Click the "Edit" button and paste the bucket policy into the text box. Rename CUSTOMER_BUCKET_NAME with the name of your bucket. Finally, click "Save changes” and return to https://gitkraken.dev/settings/security to test your bucket.
+You can host your organization’s Cloud Patches on your own AWS S3 bucket. To do so login to [Security](https://gitkraken.dev/settings/security?source=help_center&product=gitkraken_dot_dev), copy the bucket policy by clicking “Copy policy.” Open the AWS Console and navigate to the S3 service. From there, click on the bucket you want to store Cloud Patches. Click the "Permissions" tab and look for the “Bucket policy" section. Click the "Edit" button and paste the bucket policy into the text box. Rename CUSTOMER_BUCKET_NAME with the name of your bucket. Finally, click "Save changes” and return to [Security](https://gitkraken.dev/settings/security?source=help_center&product=gitkraken_dot_dev) to test your bucket.
 
-Please note to setup self-hosted Cloud Patches require you to have the role [owner, admin, or billing contact](gk-dev/gk-dev-organization/#roles) on an [Enterprise plan](https://www.gitkraken.com/pricing).
+Please note to setup self-hosted Cloud Patches require you to have the role [owner, admin, or billing contact](gk-dev/gk-dev-organization/#roles) on an [Enterprise plan](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 <img src="/wp-content/uploads/gkd-self-hosted-bucket.png" class="img-responsive center img-bordered"> 
