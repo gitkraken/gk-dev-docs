@@ -14,7 +14,7 @@ Subscriptions are tied directly to an [organization](/gk-dev/gk-dev-organization
 ## How to purchase
 
 To purchase a subscription for the first time follow these steps:
-1. Visit [gitkraken.dev](https://gitkraken.dev).
+1. Visit [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev).
 2. Login with your [GitKraken account](/gk-dev/gk-dev-account/) or create an account.
 3. Select your organization in the left panel and select "Purchase Subscription" (remember you need to have a [role](/gk-dev/gk-dev-organization/#roles) with permission to purchase).
 4. Set the desired number of user seats. Then, select the tier that is best for your organization (Pro, Teams, or Enterprise). There are links at the bottom of each while can further elaborate on the differences.
@@ -31,7 +31,7 @@ To purchase a subscription for the first time follow these steps:
 
 ## Cancel
 
-You can cancel your subscription at any time. To do so, login to [gitkraken.dev](https://gitkraken.dev/), select the organization, select "Subscription" on the left side, and select "<span style='color: red;'>Cancel</span>." Follow the flow to complete cancellation. Once canceled, you will keep your subscription for the remainder of its billing period. Once the period is up, everyone in the organization will lose access to the subscription.
+You can cancel your subscription at any time. To do so, login to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), select the organization, select "Subscription" on the left side, and select "<span style='color: red;'>Cancel</span>." Follow the flow to complete cancellation. Once canceled, you will keep your subscription for the remainder of its billing period. Once the period is up, everyone in the organization will lose access to the subscription.
 
 When your subscription is set to cancel but you can still use it, your organization will be labeled as "<span style='color: red;'>non-renewing</span>." When your subscription is completely canceled and the billing period has passed, it will be labeled as "<span style='color: red;'>canceled</span>."
 
@@ -43,7 +43,7 @@ When your subscription is set to cancel but you can still use it, your organizat
 
 ## Reactivation
 
-You can always reactivate a canceled subscription. You can reactivate by logging into [gitkraken.dev](https://gitkraken.dev/), select the organization, select "Subscription" on the left side, and select "<span style='color: green;'>Keep GitKraken</span>." 
+You can always reactivate a canceled subscription. You can reactivate by logging into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), select the organization, select "Subscription" on the left side, and select "<span style='color: green;'>Keep GitKraken</span>." 
 
 If your subscription is set to cancel but still active, denoted as <span style='color: red;'>non-renewing</span>, reactivation will not charge you until your next renewal or if you decide to upgrade from the plan you already have.
 
@@ -51,7 +51,7 @@ If your subscription is set to cancel but still active, denoted as <span style='
 
 ## Edit billing
 
-To update your billing method, go to [gitkraken.dev](https://gitkraken.dev/), select the organization, select Subscription on the left side, and click "Update" From here you may select to update your existing payment method or switch between payment methods.
+To update your billing method, go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), select the organization, select Subscription on the left side, and click "Update" From here you may select to update your existing payment method or switch between payment methods.
 
 <img src="/wp-content/uploads/gk-dev-update-billing.png" srcset="/wp-content/uploads/gk-dev-update-billing@2x.png" class="img-responsive center img-bordered">
 
@@ -59,6 +59,6 @@ To update your billing method, go to [gitkraken.dev](https://gitkraken.dev/), se
 
 ## Billing history
 
-You may view your billing history from [gitkraken.dev/subscription/history](https://staging.gitkraken.dev/subscription/history) or by navigating to Subscription > View Billing History. Here, you may select `Download PDF` to obtain previous invoices. Each billing cycle, the owner and billing contacts of the organization will receive an email with the invoice attached.
+You may view your billing history from [gitkraken.dev/subscription/history](https://staging.gitkraken.dev/subscription/history?source=help_center&product=gitkraken_dot_dev) or by navigating to Subscription > View Billing History. Here, you may select `Download PDF` to obtain previous invoices. Each billing cycle, the owner and billing contacts of the organization will receive an email with the invoice attached.
 
 <img src="/wp-content/uploads/gkdev-billing-history.png" srcset="/wp-content/uploads/gkdev-billing-history@2x.png" class="img-responsive center img-bordered">

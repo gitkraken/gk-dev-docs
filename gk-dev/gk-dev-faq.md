@@ -25,7 +25,7 @@ Be sure you are logged in with the same email address registered with your paid 
 
 ### Can I transfer account ownership?
 
-Yes. If you are the `Owner` of a <strong>Paid</strong> subscription, then you may [transfer ownership](/gk-dev/gk-dev-organization/#transfer-ownership) to a different user on your account from [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization).
+Yes. If you are the `Owner` of a <strong>Paid</strong> subscription, then you may [transfer ownership](/gk-dev/gk-dev-organization/#transfer-ownership) to a different user on your account from [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/?source=help_center&product=gitkraken_dot_dev).
 
 <img src="/wp-content/uploads/gk-dev-transfer-owner.gif" class="img-responsive center img-bordered">
 
@@ -53,7 +53,7 @@ We only accept credit card payments for GitKraken Pro and Teams. We do however a
 
 ### When are invoices sent when I purchase a paid license?
 
-Invoice copies are emailed to the purchaser (Owner or Billing Contact) from `accounting@gitkraken.com` immediately upon purchase. You can also obtain a copy by going to [Billing History](https://gitkraken.dev/subscription/history).
+Invoice copies are emailed to the purchaser (Owner or Billing Contact) from `accounting@gitkraken.com` immediately upon purchase. You can also obtain a copy by going to [Billing History](https://gitkraken.dev/subscription/history?source=help_center&product=gitkraken_dot_dev).
 
 ***
 
@@ -65,7 +65,7 @@ Enter a value of your choice. Most use "Personal" or "Self".
 
 ### I just purchased a license. Where is my key? Shouldn't I get emailed a license?
 
-You license is tied to your email. While GitKraken Desktop is a downloadable application, there is no key for your account. All GitKraken licenses are managed from [gitkraken.dev](https://gitkraken.dev/). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
+You license is tied to your email. While GitKraken Desktop is a downloadable application, there is no key for your account. All GitKraken licenses are managed from [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev). Additionally, any users you add to your account will be emailed a link to activate their account automatically.
 
 ***
 
@@ -85,4 +85,4 @@ If using the GitKraken Stand-Alone Client, the client will lock upon license exp
 
 ### I will pay using a credit card, but I need the credit card details removed after purchase.
 
-Please [contact our accounting team](https://www.gitkraken.com/billing-issues) with any request to manually remove billing details from an account. We typically fulfill these requests within 1 business day.
+Please [contact our accounting team](https://www.gitkraken.com/billing-issues?source=help_center&product=gitkraken_dot_dev) with any request to manually remove billing details from an account. We typically fulfill these requests within 1 business day.

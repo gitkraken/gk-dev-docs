@@ -19,9 +19,9 @@ Business plan trials are available for groups of users that would like to try th
  
 To start a Business plan trial: 
  
-1. Visit [gitkraken.dev](https://gitkraken.dev/) 
+1. Visit [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev) 
 2. Login with your GitKraken account 
-5. Navigate to [Users](https://gitkraken.dev/users) and add a user(s)
+5. Navigate to [Users](https://gitkraken.dev/users?source=help_center&product=gitkraken_dot_dev) and add a user(s)
 6. Once users are added, your extended organization trial has begun 
  
 <div class='callout callout--basic'> 

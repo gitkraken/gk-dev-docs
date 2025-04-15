@@ -15,7 +15,7 @@ A GitKraken organization is a collection of [GitKraken accounts](/gk-dev/gk-dev-
 
 ## Add users
 
-To add someone to your organization, go to [gitkraken.dev](https://gitkraken.dev/), select your organization dropdown in the top left, select "Users", and finally select "Add Users." 
+To add someone to your organization, go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), select your organization dropdown in the top left, select "Users", and finally select "Add Users." 
 
 <img src="/wp-content/uploads/gk-dev-add-user.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-responsive center img-bordered">
 
@@ -130,7 +130,7 @@ Roles grant members permissions within an organization. There are four roles a u
 
 Teams are the best way to organize members of your GitKraken organization. In addition, teams can create Shared Workspaces to bring focus to their collaborative work and help identify conflicts by showing what files and branches your team is working on.
 
-Any member can create a team by visiting the Teams tab within the organization at [gitkraken.dev](https://gitkraken.dev). For more information on creating and working with teams, see the [Teams](/gitkraken-desktop/teams/) page.
+Any member can create a team by visiting the Teams tab within the organization at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev). For more information on creating and working with teams, see the [Teams](/gitkraken-desktop/teams/) page.
 
 <img src='/wp-content/uploads/gk-dev-teams.png' srcset='/wp-content/uploads/gk-dev-teams@2x.png' class='img-bordered img-responsive center'>
 
@@ -138,7 +138,7 @@ Any member can create a team by visiting the Teams tab within the organization a
 
 ## Organization Settings
 
-Organization settings can be accessed from [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization). Visiting the Settings section of your organization will give you a snapshot of your subscription and allow you to edit a few key aspects of your organization like changing the organization name, transferring ownership of the organization, leaving an organization, and setting up single sign-on.
+Organization settings can be accessed from [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization?source=help_center&product=gitkraken_dot_dev). Visiting the Settings section of your organization will give you a snapshot of your subscription and allow you to edit a few key aspects of your organization like changing the organization name, transferring ownership of the organization, leaving an organization, and setting up single sign-on.
 
 <img src="/wp-content/uploads/gk-dev-organization-settings.png" srcset='/wp-content/uploads/gk-dev-organization-settings@2x.png' class="img-responsive center img-bordered">
 

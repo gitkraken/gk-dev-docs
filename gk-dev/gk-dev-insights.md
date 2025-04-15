@@ -27,11 +27,11 @@ Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOp
 
 ## How do I use GitKraken Insights?
 
-Insights can be accessed from [gitkraken.dev/insights](https://gitkraken.dev/insights).
+Insights can be accessed from [gitkraken.dev/insights](https://gitkraken.dev/insights?source=help_center).
 
 In order to work with Insights, you will need to:
-* [Connect an integration](/gk-dev/gk-dev-integrations/) from [gitkraken.dev/settings/integrations](https://gitkraken.dev/settings/integrations)
-* And create a [Cloud Workspace](/gk-dev/gk-dev-home/#workspaces) from [gitkraken.dev/workspaces](https://gitkraken.dev/workspaces)
+* [Connect an integration](/gk-dev/gk-dev-integrations/) from [gitkraken.dev/settings/integrations](https://gitkraken.dev/settings/integrations?source=help_center)
+* And create a [Cloud Workspace](/gk-dev/gk-dev-home/#workspaces) from [gitkraken.dev/workspaces](https://gitkraken.dev/workspaces?source=help_center)
 
 Once you have done both, you will be able to filter by a workspace to see the Insights for the repositories in that workspace. You can also filter by date range.
 
