@@ -1,6 +1,6 @@
 ---
 
-title: Insights `Pro`
+title: Insights
 description: GitKraken Insights is a powerful tool that helps you visualize how pull requests are merged into your repositories.
 taxonomy:
     category: gk-dev
