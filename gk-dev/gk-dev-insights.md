@@ -14,10 +14,6 @@ Insights is available for Github.com, Bitbucket.org, Gitlab.com, and Azure DevOp
 <img src="/wp-content/uploads/gkdev-insights.png" srcset="/wp-content/uploads/gkdev-insights@2x.png" class="img-bordered img-responsive center">
 
 <div class='callout callout--warning'>
-    <p>This Feature is only available for Pro subscription tiers or higher</p>
-</div>
-
-<div class='callout callout--warning'>
     <p>
         <strong>Note:</strong> Insights is in Preview mode, and we'd love to hear your thoughts and feedback. Just click on the "Feedback" button in the top right to tell us what you think.
     </p>
