@@ -11,10 +11,10 @@ Single Sign On (SSO) is an easy way to manage your users across all your service
 
 Once your organization has set up SSO with an Identity Provider (IdP), the Owner or an Admin on your GitKraken organization can link your organization to that identity provider. Then, any users associated with your IdP can login to GitKraken apps and services.
 
-Note: You must have a GitKraken Teams or GitKraken Enterprise subscription to enable SSO. You also can try SSO during a 30-day multi-user trial.
+
 
 <div class='callout callout--warning'>
-    <p>This Feature is only available for Pro subscription tiers or higher</p>
+    <p>You must have a GitKraken Advanced subscription or higher to enable SSO. You also can try SSO during a 30-day multi-user trial.</p>
 </div>
 
 ***
