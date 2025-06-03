@@ -1,5 +1,4 @@
 ---
-
 title: GitKraken.dev Support Home
 description: Learn how to work with gitkraken.dev features
 taxonomy:
@@ -7,107 +6,143 @@ taxonomy:
 
 ---
 
- GitKraken.dev is your command center for understanding the status of your development projects and teams. See pull requests and issues relevant to you, gain clear insights into your workflows, collaborate with your team, and begin working all within a browser via desktop or mobile. In addition to working with repositories, you can manage your Organization, Subscription and Security Controls. 
+<kbd>Last updated: June 2025</kbd>
 
-<img src="/wp-content/uploads/gkd-main-0.png" class="img-responsive center img-bordered"> 
+GitKraken.dev is a web app that helps you stay on top of your projects. You can track issues and pull requests, work with your team, and manage repositories from your browser.
+
+<figure>
+  <img src="/wp-content/uploads/gkd-main-0.png" class="img-responsive center img-bordered help-center-img" alt="GitKraken.dev dashboard overview">
+  <figcaption style="color:#888;text-align:center">GitKraken.dev dashboard overview</figcaption>
+</figure>
 
 ***
 
 ## Launchpad
 
+The Launchpad provides a summary of pull requests and issues relevant to your filters, allowing quick action. Instead of searching for these items individually, you get a comprehensive view of your tasks. Connect an [integration](/gk-dev/gk-dev-integrations/) to begin.
+
 <div class='callout callout--warning'>
-    <p>This Feature is only available for Pro subscription tiers or higher</p>
+    <p>This feature is only available on Pro or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
 </div>
 
-The Launchpad provides you with a summary of pull requests and issues relevant to you for the filtered selection and allows you to take action on these items. Instead of hunting for these pieces of information separately, you can get a holistic view of what you’re working on. To begin working with the Launchpad, start by connecting an [integration](/gk-dev/gk-dev-integrations/) to see your issues and pull requests. 
-
-<img src="/wp-content/uploads/gkd-focus-view.png" class="img-responsive center img-bordered"> 
 
 ### Launchpad Actions
 
-From the Launchpad you can begin working with pull requests and issues by taking actions on them from the actions column. Quickly update pull request or issue fields, open branches in GitKraken Desktop or VS Code, merge or close pull requests, open [code suggestions](/gk-dev/gk-dev-home/#code-suggest), and much more. 
+From the Launchpad, take actions on pull requests and issues via the actions column. Update fields, open branches in GitKraken Desktop or VS Code, merge or close pull requests, or open [code suggestions](/gk-dev/gk-dev-home/#code-suggest-pro).
 
-<img src="/wp-content/uploads/gkd-take-action.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-take-action.png" class="img-bordered help-center-img" alt="Launchpad action options for PRs and issues">
+  <figcaption style="color:#888;text-align:center">Launchpad action options for PRs and issues</figcaption>
+</figure>
 
 ### Organizing the Launchpad
 
-To change or narrow down your items shown, use the filters under the search bar. Select the desired service for your pull requests and issues, show only items where you are assigned/created/mentioned, or filter further based on [workspaces](/gk-dev/gk-dev-home/#workspaces). 
+Use filters under the search bar to refine items shown. Select services, assigned/created/mentioned statuses, or filter further based on [workspaces](/gk-dev/gk-dev-home/#workspaces).
 
-<img src="/wp-content/uploads/gkd-launchpad-filter.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-launchpad-filter.png" class="img-responsive center img-bordered help-center-img" alt="Launchpad filter options to refine visible items">
+  <figcaption style="color:#888;text-align:center">Launchpad filter options to refine visible items</figcaption>
+</figure>
 
-To organize further, items in the Launchpad can be pinned, to move the item to the top of the list, and can be snoozed, to be hidden under the SNOOZED section. To pin or unpin and item, click the pin <i class="fa-solid fa-thumbtack"></i> in the pin column. To snooze an item, hover over an item, select the snooze <i class="fa-solid fa-snooze"></i> icon, and select the desired time option - selecting snooze will snooze the item until it is manually unsnoozed. To unsnooze an item, click on the `SNOOZED` section header, hover over the desired item and select the unsnooze icon for that item.
+Pin or snooze items for easier management. Click the pin icon to prioritize an item, or snooze it to hide under the SNOOZED section. Unsnooze items by revisiting the SNOOZED section.
 
-<img src="/wp-content/uploads/gkd-pin-or-snooze.gif" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-pin-or-snooze.gif" class="img-responsive center img-bordered help-center-img" alt="GIF showing pinning and snoozing actions in Launchpad">
+  <figcaption style="color:#888;text-align:center">Pin or snooze items to manage task visibility</figcaption>
+</figure>
 
 ***
 
 ## Cloud Patches `PRO`
 
-A Cloud Patch is a Git patch that GitKraken securely stores for you so it can be easily shared with others across GitKraken Desktop, GitLens, and the GitKraken CLI. The patch is directly transferred from your machine into secure storage or on your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted). Cloud Patches allow the ability to engage early with your team before a pull request.
+Cloud Patches are Git patches securely stored by GitKraken, accessible via GitKraken Desktop, GitLens, or the GitKraken CLI. Store patches securely or on your [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted) and collaborate early without a pull request.
 
 <div class='callout callout--warning'>
-    <p>This Feature is only available for Pro subscription tiers or higher</p>
+    <p>This feature is only available on Pro or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
 </div>
+
 
 ### Creating a Cloud Patch
 
-They can be created from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview), and the [GitKraken CLI](/cli/cli-home/#cloud-patches). From gitkraken.dev you can manage all Cloud Patches, including ones that have been shared with you.
+Create patches from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview), or [GitKraken CLI](/cli/cli-home/#cloud-patches). Manage shared Cloud Patches from gitkraken.dev.
 
-<img src="/wp-content/uploads/gkd-cloud-patch-view.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-cloud-patch-view.png" class="img-responsive center img-bordered help-center-img" alt="List of cloud patches in GitKraken.dev">
+  <figcaption style="color:#888;text-align:center">Manage shared Cloud Patches from gitkraken.dev</figcaption>
+</figure>
 
 ### Working with Cloud Patches
 
-Select `Open` to view the files and diffs included in the Cloud Patch. From here, you can open the Cloud Patch in [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches) or [GitLens](gitlens/gitlens-features/#cloud-patches-preview) to then apply the Cloud Patch to a specific branch.
+Select `Open` to view patch contents. Open in [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches) or [GitLens](gitlens/gitlens-features/#cloud-patches-preview) to apply patches.
 
-<img src="/wp-content/uploads/gkd-open-cloud-patch.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-open-cloud-patch.png" class="img-responsive center img-bordered help-center-img" alt="Open and review contents of a Cloud Patch">
+  <figcaption style="color:#888;text-align:center">Review patch contents before applying</figcaption>
+</figure>
 
 ***
 
 ## Workspaces
 
-GitKraken Workspaces allow you to create easily accessible groups of repositories and share them with your organization members or [teams](/gk-dev/gk-dev-organization/#teams) to work with in gitkraken.dev, [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-☁%ef%b8%8f), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos). 
+Group and share repositories with [teams](/gk-dev/gk-dev-organization/#teams) or organization members via GitKraken.dev, GitKraken Desktop, GitLens, or GitKraken CLI.
 
-<img src="/wp-content/uploads/gkd-workspaces-view.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-workspaces-view.png" class="img-bordered help-center-img" alt="Workspace list showing multiple repo groups">
+  <figcaption style="color:#888;text-align:center">Manage grouped repositories in Workspaces</figcaption>
+</figure>
 
 ### Creating a Workspace
 
-To create a workspace, first connect the [integration](/gk-dev/gk-dev-integrations/) for the desired service. Once connected, select `Create Workspace`, provide a name, select a provider, and optionally provide a photo, description, or share with teams or members. 
+Connect a [service integration](/gk-dev/gk-dev-integrations/), select `Create Workspace`, provide a name and provider, and optionally set a photo or share settings.
 
-<img src="/wp-content/uploads/gkd-create-workspace.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-create-workspace.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
+  <figcaption style="color:#888;text-align:center">Create and customize a new Workspace</figcaption>
+</figure>
 
 ### Working with Workspaces
 
-Select `Open Launchpad` to filer the Launchpad by the selected workspace for pull requests and issues. Additionally, workspaces can be used in [GitKraken Desktop](/gitkraken-client/workspaces/), [GitLens](/gitlens/side-bar/#workspaces-preview), and the [GitKraken CLI](/cli/cli-home/#create-workspaces-to-group-repos) to perform actions on multiple repositories, view repositories status at a glance, and much more. 
+Select `Open Launchpad` to filter by workspace. Use in GitKraken Desktop, GitLens, or GitKraken CLI to perform actions across repositories.
 
-<img src="/wp-content/uploads/gkd-open-workspace.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/gkd-open-workspace.png" class="img-bordered help-center-img" alt="Open workspace to view associated repositories">
+  <figcaption style="color:#888;text-align:center">Filter Launchpad and manage workspace repos</figcaption>
+</figure>
 
 ### Requirement for Azure Workspaces and Insights
 
-In order to work with Workspaces and [Insights](/gk-dev/gk-dev-insights) for Azure, `Third-party application access via OAuth` will need to be enabled in Azure from `Organization Settings > Policies`. You can find more information on this setting [here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
+To use Workspaces and [Insights](/gk-dev/gk-dev-insights) with Azure, enable `Third-party application access via OAuth` in Azure's `Organization Settings > Policies`. [More details by Microsoft here](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
 
 ***
 
 ## Code Suggest `PRO`
 
-GitKraken Code Suggest simplifies code review by allowing you to make suggestions and edits across the entire project, not just on the lines that were changed, within gitkraken.dev, GitLens, and GitKraken Desktop. When a Pull Request is open, you can make suggestions to the pull request that others can then review and accept to include in the pull request. 
+GitKraken Code Suggest simplifies code review by letting you suggest edits across the project—not just changed lines—using GitKraken.dev, GitLens, or GitKraken Desktop. Suggestions are posted to the pull request for review and acceptance.
 
-<img src="/wp-content/uploads/cli-code-suggest.png" class="img-responsive center img-bordered"> 
+<figure>
+  <img src="/wp-content/uploads/cli-code-suggest.png" class="img-bordered help-center-img" alt="Suggesting code changes within a pull request">
+  <figcaption style="color:#888;text-align:center">Propose code changes across the project</figcaption>
+</figure>
 
 <div class='callout callout--warning'>
-    <p>This Feature is only available for Pro subscription tiers or higher</p>
+    <p>This feature is only available on Pro or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
 </div>
+
 
 ### Working with Code Suggestions
 
-Code Suggestions can be created from [GitKraken Desktop](/gitkraken-client/pull-requests/#review-code-and-suggest-changes), [GitLens](gitlens/gitlens-features/#code-suggest-preview), and the [GitKraken CLI](/cli/cli-home/#code-suggest) - see linked Help Center documentation for creating and working with them in each. 
+Create suggestions in [GitKraken Desktop](/gitkraken-client/pull-requests/#review-code-and-suggest-changes) or [GitLens](gitlens/gitlens-features/#code-suggest-preview).
 
-Once a suggestion is created, it will include a comment on the pull request with two options: you can select _Code Suggestion for #PR_ to open the suggestion in gitkraken.dev or select _locally on your machine_ to open the suggestion in GitKraken or GitLens.
+Once submitted, the pull request includes a comment with links to open the suggestion in GitKraken.dev or on your machine.
 
-<img src="/wp-content/uploads/gl-code-suggest-comment.png" class="img-bordered img-responsive center">
+<figure>
+  <img src="/wp-content/uploads/gl-code-suggest-comment.png" class="img-bordered help-center-img" alt="PR comment with code suggestion options">
+  <figcaption style="color:#888;text-align:center">Choose where to review code suggestions</figcaption>
+</figure>
 
-When selecting the _Code Suggestion for #PR_ you will be taken to gitkraken.dev to review and accept the changes. Here, you can review the changes by selecting each file and once you are ready, you can select _Commit Suggestions_. This will create a new commit on the remote for the existing branch (shown under _COMMIT SUGGESTIONS TO_). 
+Select _Code Suggestion for #PR_ to open in GitKraken.dev and review the changes. Accepting adds a commit to the remote branch.
 
-<img src="/wp-content/uploads/gl-accept-code-suggestion.gif" class="img-bordered img-responsive center">
-
-
-
+<figure>
+  <img src="/wp-content/uploads/gl-accept-code-suggestion.gif" class="img-bordered help-center-img" alt="GIF showing how to accept a code suggestion">
+  <figcaption style="color:#888;text-align:center">Review and accept code suggestions in GitKraken.dev</figcaption>
+</figure>
