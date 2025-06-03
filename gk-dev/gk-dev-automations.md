@@ -1,151 +1,169 @@
 ---
-
 title: Automations
 description: Automations makes it easier to manage your team’s workflows
 taxonomy:
     category: gk-dev
-
 ---
 
-GitKraken Automations makes it easier to manage your team’s workflows by codifying best practices, automating repetitive tasks, and proactively highlighting potential issues for you.
+<kbd>Last updated: June 2025</kbd>
+
+GitKraken Automations helps manage your team’s workflows by codifying best practices, automating repetitive tasks, and highlighting potential issues proactively.
 
 <div class='callout callout--warning'>
-    <p>This Feature is only available for Pro subscription tiers or higher</p>
+    <p>This feature is only available on Pro subscription tiers or higher. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
 </div>
 
-## Automation Examples
+## Automation examples
 
-These are just a few ways teams are already using Automations to reduce manual effort, enforce best practice standards, and create more scalable, repeatable workflows.
-- Safe Deployments: Add a checklist for database migrations to ensure smooth rollouts.
-- Critical Code Reviews: Assign the right engineers to review high-impact areas of the codebase, such as a payment service.
-- Security Checks: Flag changes to sensitive areas like authentication and ensure a security review is completed.
-- Refactoring Guardrails: Prevent conflicting changes during refactors and follow up with post-refactor maintenance tasks.
-- SOC 2 Compliance: Automate checklists for encryption, security scans, and documentation to meet regulatory standards.
-- DevOps Enhancements: Simplify deployment pipelines, enforce pre-deployment quality checks, and manage infrastructure-as-code changes with Automation workflows tailored to your processes.
+Here are a few ways teams are using Automations to reduce manual effort and create scalable workflows:
+
+- **Safe deployments**: Add a checklist for database migrations.
+- **Critical code reviews**: Assign reviewers to high-impact areas like payments.
+- **Security checks**: Flag sensitive changes (e.g., auth) for review.
+- **Refactoring guardrails**: Prevent conflicts and schedule follow-ups.
+- **SOC 2 compliance**: Automate tasks for encryption and security checks.
+- **DevOps enhancements**: Enforce quality checks and automate infrastructure changes.
 
 <div class='callout callout--warning'>
-    <p>
-        <strong>Note:</strong>
-           Currently, Automations supports cloud integrations. Self-Hosted Integration Automations will be available at a later date. 
-    </p>
+    <p><strong>Note:</strong> Automations currently supports cloud integrations. Self-hosted support will be added in a future update.</p>
 </div>
 
+## Get started with automations
 
-## Get Started with Automations
+Log in at [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev) and select **Automations** in the left menu. If it's your first time, you'll see the get started page with the option to create a new automation or use a suggested template.
 
-To get started with Automations simply login to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev) and select Automations on the left side menu. If this is your first automation you will be directed to our get started landing page, from here you can create a new automation or select a template from the suggestion list. 
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations.jpeg" class="help-center-img img-bordered" alt="Automations landing page in GitKraken.dev">
+  <figcaption style="color:#888;text-align:center">Automations landing page on GitKraken.dev</figcaption>
+</figure>
 
-<img src="/wp-content/uploads/gkdev-createautomations.jpeg" class="help-center-img img-bordered">
+### Create an automation
 
+Click <button class="button button--success button--ui button--nolink">+ Create Automation</button>.
 
-### Create a Automation
+1. Name your automation.
+2. Choose **GitHub** or **GitLab** from the Provider dropdown.
+3. Pick the target repository.
+4. (Optional) Enable for draft pull requests by checking the box.
 
-To create a Automation, select <button class="button button--success button--ui button--nolink">+ Create Automation</button>.
-
-Then, create a name for your automation. Next, using the Provider drop down select either GitHub or GitLab as your hosting provider. And finally locate the repository you wish to apply the automation to in the Repository drop down. If you wish for the Automation to also apply to draft pull requests please select the checkbox. 
-
-<img src="/wp-content/uploads/gkdev-createautomations2.png" class="help-center-img img-bordered">
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations2.png" class="help-center-img img-bordered" alt="Form to create a new automation rule">
+  <figcaption style="color:#888;text-align:center">Setup form for new automation</figcaption>
+</figure>
 
 <div class='callout callout--warning'>
-    <p>
-        <strong>Note:</strong>
-            A webhook will be set up on the selected repository after saving the automation. You will need to have permission on the repository to allow the creation of the webhook.
-    </p>
+    <p><strong>Note:</strong> Creating an automation sets up a webhook on the repository. You’ll need the appropriate permissions.</p>
 </div>
-
 
 ## Conditions
 
-Next up, you will set up conditions, which are a list of criteria that determine when a Action should execute. We currently support 3 types of conditions: "File location", "File contents", and "Pull Request"
+Conditions define when an action is triggered. GitKraken currently supports:
 
-<img src="/wp-content/uploads/gkdev-createautomations3.png" class="help-center-img img-bordered">
+- **File location**
+- **File contents**
+- **Pull request**
+
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations3.png" class="help-center-img img-bordered" alt="Conditions configuration screen">
+  <figcaption style="color:#888;text-align:center">Set up condition rules for triggering actions</figcaption>
+</figure>
 
 ### Boolean logic
 
-You can choose whether all or any of the conditions you set up trigger your Action:
+You can choose whether **all** or **any** of the conditions must be true.
 
-<img src="/wp-content/uploads/gkdev-createautomations4.png" class="help-center-img img-bordered">
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations4.png" class="help-center-img img-bordered" alt="Boolean logic options for condition matching">
+  <figcaption style="color:#888;text-align:center">Select logic to match all or any conditions</figcaption>
+</figure>
 
-### File Location  
+### File location conditions
 
-The Following File Location Action options can be selected: 
-- File name condition: This condition matches the name of files in your repository.
-- File path condition: This condition matches the path of files in your repository.
-- File added in folder condition: This condition matches when files are added to a specific folder in a pull request. For example, the filter "File added in folder" with the operator "folder path equals" with the value "src/components/icons" would match any file that was added in that icons folder (or subfolders).
+- **File name**: Matches file names.
+- **File path**: Matches full file paths.
+- **File added in folder**: Triggers when a new file is added to a specified folder in a PR.
 
 <div class='callout callout--warning'>
-    <p>
-        <strong>Note:</strong>
-           A file path is different from a file name. For example: *src/app/index.ts* is a file path, while *index.ts* is a file name.
-    </p>
+    <p><strong>Note:</strong> A file path includes folders, e.g. <code>src/app/index.ts</code>, while a file name is just <code>index.ts</code>.</p>
 </div>
 
+### File contents conditions
 
-### File Contents
+- **Old code**: Matches the red (left side) of a split diff.
+- **New code**: Matches the green (right side) of a split diff.
+- **New and old code**: Matches both sides.
 
-The Following File Contet Action options can be selected: 
-- Old Code condition: Matches against modified lines of code from before your code change: the red on the left-hand side of a split view diff.
-- New Code condition: Matches against modified lines of code from after your code change: the green on the right-hand side of a split view diff.
-- New and Old Code condition: Matches both sides of the diff view
+### Pull request conditions
 
-### Pull Request
-
-The Following Pull Request Action options can be selected: 
-- Number of changed files condition: This condition matches when the number of files that are part of this pull request satisfy the inequality. 
-- PR Author condition: This condition matches the author of the pull request. This automation will only run if the author matches this condition.
-- Labels on the PR condition: This condition matches the GitHub Labels specified 
-
+- **Number of changed files**
+- **PR author**
+- **PR labels**
 
 ## Actions
 
-Five kinds of actions are currently supported: posting a comment, adding a checklist item, assigning a pull request, and assigning a reviewer.
+GitKraken supports these automation actions:
 
-- Add Comment: When this action is executed, GitKraken will post the comment on the matching pull request
-- Add to Checklist: When this action is executed, GitKraken will add a new checklist item to the PR description. You can add as many checklist items as you need by adding an action for each item.
-- Add Assignee: When this action is executed, GitKraken will assign the pull request to the user of your choice. If you'd like to assign multiple users, you can create multiple instances of this on the same Action. If you supply an optional message to explain why this user is being assigned, GitKraken will post a comment notifying that user and explaining why they were assigned.
-- Add Label: When this action is executed, GitKraken will assign the selected GitHub label to the pull request. If you'd like to add multiple labels, you can create multiple instances of this action on the same Action.
-- Add Reviewer: When this action is executed, GitKraken will assign the person or team of your choice as a reviewer on the PR. If you'd like to add multiple reviewers, you can create multiple instances of this action on the same Action. If you supply an optional message to explain why this user is being assigned as a reviewer, GitKraken will post a comment notifying that user and explaining why they were assigned as a reviewer.
+- **Add comment**: Posts a comment on the PR.
+- **Add to checklist**: Adds checklist items to the PR description.
+- **Add assignee**: Assigns the PR to selected users and can include a message.
+- **Add label**: Applies a GitHub label to the PR.
+- **Add reviewer**: Assigns a reviewer or team, with an optional message.
 
 <div class='callout callout--warning'>
-    <p>
-        <strong>Note:</strong>
-           A pull request can never have the author of the pull request as a reviewer. If an action would cause the author to be a reviewer on their own pull request, GitKraken will skip over that step, but still perform all other steps on the Action.
-    </p>
+    <p><strong>Note:</strong> Authors can’t review their own PRs. If selected, GitKraken will skip that step and apply all others.</p>
 </div>
 
+## Manage saved automations
 
-## Managing Saved Automations
+Once you've created automations, manage them at [GitKraken.dev](https://gitkraken.dev/automations/general?source=help_center&product=gitkraken_dot_dev).
 
-After creating your first automation you will now see a list of all your saved automations on [GitKraken.dev](https://gitkraken.dev/automations/general?source=help_center&product=gitkraken_dot_dev). From this screen you can add additional automations, disable/enable, delete, sort, edit and duplicate your saved automations. 
+You can:
 
-<img src="/wp-content/uploads/gkdev-createautomations5.png" class="help-center-img img-bordered">
+- Enable/disable
+- Edit
+- Delete
+- Duplicate
+- Sort by status or action
 
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations5.png" class="help-center-img img-bordered" alt="List of saved automations">
+  <figcaption style="color:#888;text-align:center">Manage and organize saved automations</figcaption>
+</figure>
 
-### Edit / Delete / Duplicate an Automation
+### Edit, delete, or duplicate
 
-Edit / Delete / Duplicate a Automation by selecting the ellipsis <i class="fas fa-ellipsis-v"></i> icon by the Automation name.
+Use the <i class="fas fa-ellipsis-v"></i> icon next to an automation name.
 
-<img src="/wp-content/uploads/gkdev-createautomations6.png" class="help-center-img img-bordered">
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations6.png" class="help-center-img img-bordered" alt="Automation options menu">
+  <figcaption style="color:#888;text-align:center">Automation menu with edit, delete, and duplicate options</figcaption>
+</figure>
 
+### Sort automations
 
-### Sort Automations
+Sort by **Status** (enabled/disabled) or **Action** (type of triggered automation).
 
-GitKraken Automations has two options for sorting, Status and Action. Status is if the Automation is Enabled or Disabled. Actions allows you to sort by the triggered action of your automation. 
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations7.png" class="help-center-img img-bordered" alt="Sorting automations by status or action">
+  <figcaption style="color:#888;text-align:center">Sort saved automations by different criteria</figcaption>
+</figure>
 
-<img src="/wp-content/uploads/gkdev-createautomations7.png" class="help-center-img img-bordered">
+### Add another automation
 
+Click <button class="button button--success button--ui button--nolink">+ Create Automation</button> again from the list view.
 
-### Add Additional Automations
+## Repository management
 
-To create an additional Automation, select <button class="button button--success button--ui button--nolink">+ Create Automation</button>.
+The Repository Management screen shows which repos have active automations, who created them, the provider, and automation counts.
 
-## Repoistory Management
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations8.png" class="help-center-img img-bordered" alt="Repository automation overview">
+  <figcaption style="color:#888;text-align:center">View repository-level automation status</figcaption>
+</figure>
 
-Once your automations are created you will then have access to the Repository Management Automations page. 
+Admins can also add/remove repos or perform bulk actions.
 
-<img src="/wp-content/uploads/gkdev-createautomations8.png" class="help-center-img img-bordered">
-
-From this you can see which repositories have had a Automation connected, who created the automation, the hosting provider and how many automations are active on each repository. You can also perform additional administrative tasks like removing or adding repositories for tracking. This page is perfect for admins that need Automation information at a glance. 
-
-<img src="/wp-content/uploads/gkdev-createautomations9.png" class="help-center-img img-bordered">
-
+<figure>
+  <img src="/wp-content/uploads/gkdev-createautomations9.png" class="help-center-img img-bordered" alt="Repository admin tasks for automations">
+  <figcaption style="color:#888;text-align:center">Admin view for managing repository automation</figcaption>
+</figure>
