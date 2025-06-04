@@ -4,85 +4,105 @@ title: GitKraken Pro for Students and Teachers
 description: How to enable Pro through the GitHub Student Pack
 taxonomy:
     category: gk-dev
-    
+
 ---
+
+<kbd>Last updated: June 2025</kbd>
 
 GitKraken Pro is available for free to students and teachers through the GitHub Student Pack. If you don't have the pack yet, first apply through GitHub:
 
 [Get the GitHub Student Pack](https://education.github.com/pack)
 
 <div class='callout callout--warning'>
-    <p>🚨<strong>Important:</strong> Once you get the pack, you must sign into your GitKraken account through GitHub one more time to enable Pro on your account.
-</p>
+    <p>🚨<strong>Important:</strong> After receiving the pack, sign into your GitKraken account using GitHub <strong>again</strong> to activate Pro access.</p>
 </div>
 
 ***
 
-## Enabling Pro for Students
+## Enable Pro Access for Students
 
-Once GitHub has approved your pack, you must sign into your GitKraken account through GitHub <strong>1 more time</strong> to enable Pro.
+Once approved, sign into your GitKraken account through GitHub <strong>again</strong> to activate Pro.
 
-To sign in again, launch GitKraken Desktop and navigate to <kbd>File    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
+To sign in, launch GitKraken Desktop and go to:
 
-<img src='/wp-content/uploads/file.png' class='img-bordered img-responsive center'>
+<kbd>File    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
 
-Or you may login by navigating to <kbd>the profile dropdown    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
+<figure>
+  <img src='/wp-content/uploads/file.png' class='img-bordered help-center-img center'>
+  <figcaption style='text-align: center; color: #888;'>Menu path to sign into a different account via File menu</figcaption>
+</figure>
 
-<img src='/wp-content/uploads/gkdev-sign-into-a-different-account.png' class='img-bordered img-responsive center'>
+Or, use the profile dropdown:
 
-<img src='/wp-content/uploads/gkdev-sign-in-with-github.png' class='img-bordered img-responsive center'>
+<kbd>Profile dropdown    <i class='fa fa-caret-right'></i>     Sign into a Different Account <i class='fa fa-caret-right'></i>  Sign in with GitHub</kbd>
 
-When you sign in with GitHub, GitKraken Desktop will check whether your GitHub account has the GitHub Student Pack. If the app sees the pack, you should see the `Pro` flag in the bottom right of the UI and you will be able to open private repos.
+<figure>
+  <img src='/wp-content/uploads/gkdev-sign-into-a-different-account.png' class='img-bordered help-center-img center'>
+  <figcaption style='text-align: center; color: #888;'>Sign into a different account through profile dropdown</figcaption>
+</figure>
 
-If you don't see `Pro` then this means GitKraken does not see a pack with the email address tied to your GitHub account. This may mean you need to update the primary email address for your GitHub.com account.
+<figure>
+  <img src='/wp-content/uploads/gkdev-sign-in-with-github.png' class='img-bordered help-center-img center'>
+  <figcaption style='text-align: center; color: #888;'>GitHub sign-in option</figcaption>
+</figure>
+
+GitKraken will verify your GitHub account for the Student Pack. If successful, you’ll see the `Pro` flag in the bottom right and have access to private repos.
+
+If `Pro` is missing, verify your GitHub email is the one associated with the pack.
 
 ***
 
-## Student Pack FAQ
+## FAQ
 
-### How long does it take to approve the GitHub Student Pack?
+### How long does it take to get approved?
 
-GitHub controls the approval process for the GitHub Student Pack. If you have questions about the status of your application, please email <a href="mailto:education@github.com">education@github.com</a>.
+GitHub manages approvals. For help, email <a href="mailto:education@github.com">education@github.com</a>.
 
-Once you get approved, all you need to do is sign into your GitKraken account with your GitHub account <strong>1 more time</strong>.
+### Why don't I see Pro after signing in?
 
-### I got the student pack but I don't see Pro when I open GitKraken. What should I do?
+If Pro doesn’t appear:
 
-Once GitHub has approved your pack, you must sign into your GitKraken account through GitHub <strong>1 more time</strong> to enable Pro.
+1. Sign out of GitHub in your browser.
+2. In GitKraken: <kbd>File > Sign into a different account > Sign in with GitHub</kbd>
 
-If you are still not seeing Pro, sign out of GitHub.com in your default browser. Next, in GitKraken, go to `File > Sign in to a different account > Sign in with GitHub`
+<figure>
+  <img src='/wp-content/uploads/gkdev-sign-into-a-different-account.png' class='img-bordered help-center-img center'>
+  <figcaption style='text-align: center; color: #888;'>Sign into a different account screen in GitKraken</figcaption>
+</figure>
 
-<img src='/wp-content/uploads/gkdev-sign-into-a-different-account.png' class='img-bordered img-responsive center'>
+3. Use the GitHub login tied to your Student Pack.
 
-Lastly, log into your GitHub.com account using the email address that has the GitHub Pack.
+<figure>
+  <img src='/wp-content/uploads/gkdev-gh-sign-in.png' class='img-bordered help-center-img center'>
+  <figcaption style='text-align: center; color: #888;'>GitHub login screen</figcaption>
+</figure>
 
-<img src='/wp-content/uploads/gkdev-gh-sign-in.png' class='img-bordered img-responsive center'>
+You should now see `PRO` in the GitKraken UI. If not, confirm your pack is active with GitHub support.
 
-Once authorized, you can go back to GitKraken, and you should see `PRO` in the lower right-hand corner. If you continue not seeing `PRO`, you must confirm with GitHub that you still have the student pack. They can be reached at education@github.com.
+### How long do I keep Pro?
 
-### How long will I have Pro as a student or teacher?
+You’ll retain Pro while your GitHub Student Pack remains active.
 
-You will have Pro while you have an active GitHub Student Pack. Once the pack expires, your GitKraken Pro access will expire too.
+<div class='callout callout--basic'>
+    <p><strong>Note:</strong> GitKraken Pro access ends when your GitHub Student Pack expires.</p>
+</div>
 
-### Can I use my GitKraken Pro license on more than one computer?
+### Can I use Pro on multiple devices?
 
-Yes, your GitKraken subscription is associated with your email address, not a specific computer. So you can use GitKraken Desktop on as many computers as you'd like!
+Yes, your Pro license is tied to your email address, not to a specific computer.
 
-### How do I reverify my GitHub Student Developer Pack?
+### How do I reverify my pack?
 
-To verify or reverify your GitHub Student Developer Pack, sign into GitKraken using GitHub again. Follow the instructions outlined [here](gk-dev/gk-dev-edu-pack/#i-got-the-student-pack-but-i-dont-see-pro-when-i-open-gitkraken-what-should-i-do).
+Just sign into GitKraken with GitHub again as shown above.
 
 ### How do I report a bug or vulnerability?
 
-To report a bug, join our [Public Slack](https://www.gitkraken.com/join-slack-community) and report the issue in any channel. Make sure to @keif in your report or you can send Keif a direct message.
+For bugs, join our [Public Slack](https://www.gitkraken.com/join-slack-community) and @keif in your message. For vulnerabilities, email <a href="mailto:security@gitkraken.com">security@gitkraken.com</a>.
 
-To report a Security vulnerability, please email <a href="mailto:security@gitkraken.com">security@gitkraken.com</a>.
+### Can I request GDPR-related account deletion?
 
-### How do I submit a request related to my rights under GDPR?
+Yes. Email <a href="mailto:compliance@gitkraken.com">compliance@gitkraken.com</a>. Data deletion is permanent and irreversible.
 
-If your team needs all account data deleted permanently upon cancellation, please email <a href="mailto:compliance@gitkraken.com">compliance@gitkraken.com</a> with such requests. Please note, deletion of data is irreversible.
+### Who do I contact about purchasing GitKraken?
 
-### I have a question about purchasing GitKraken.
-
-Please reach out to our [Success team](https://www.gitkraken.com/sales-inquiries) for any questions regarding purchasing. 
-
+Reach out to our [Success team](https://www.gitkraken.com/sales-inquiries) for sales questions.

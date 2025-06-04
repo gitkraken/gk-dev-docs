@@ -14,7 +14,7 @@ Both GitKraken Desktop and GitLens offer a 14-day trial of Pro. You can start a 
 
 ***
 
-### Business Plan Trials
+## Business Plan Trials
 
 Business plan trials are available for teams or organizations that want to evaluate the [GitKraken DevEx platform](https://www.gitkraken.com/devex). The Business plan trial lasts 30 days and is shared by all members of the organization.
 
