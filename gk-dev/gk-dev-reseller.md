@@ -4,8 +4,10 @@ title: GitKraken Reseller Guide
 description: For resellers to learn about how to purchase and manage GitKraken Accounts and Organizations
 taxonomy:
     category: gk-dev
-    
+
 ---
+
+<kbd>Last updated: June 2025</kbd>
 
 ## New Organization Purchases
 
@@ -13,73 +15,77 @@ Follow this reseller guide for purchasing and user license management informatio
 
 ***
 
-### 1. Create an account or sign in
+### 1. Create an Account or Sign In
 
-First, create a GitKraken account using your reseller email address by navigating to [gitkraken.dev](https://gitkraken.dev/?source=help_center).
+Go to [gitkraken.dev](https://gitkraken.dev/?source=help_center) and create a GitKraken account using your reseller email address.
 
-+ Be sure to create an account using email, do not use the auto-sign-in options (like "sign in with GitHub").
-+ Do not enter end-user information on the account creation form. Resellers should register with their own email.
-+ After account creation you will need to verify your email before taking any action. This is done by selecting the link sent to your email.
+- Use the email method (not social sign-in options).
+- Do not input end-user details. Register using your own email.
+- Verify your email address via the link sent to your inbox.
 
 <div class='callout callout--basic'>
-   	<p>If you make GitKraken purchases for multiple customers and already have a GitKraken account, choose to sign into an existing account and continue onto Step 2.</p>
+    <p>If you already use GitKraken for multiple customers, simply log in to your existing account and continue to Step 2.</p>
 </div>
 
-<img src="/wp-content/uploads/gk-dev-reseller-sign-in.png" srcset="/wp-content/uploads/gk-dev-reseller-sign-in@2x.png" class="img-responsive center img-bordered">
-
-Once you have created your GitKraken account, your account is tied to the primary email address of whichever method you selected. If you use the email method, you will need to verify your email address with a link sent to your email.
+<figure>
+  <img src="/wp-content/uploads/gk-dev-reseller-sign-in.png" srcset="/wp-content/uploads/gk-dev-reseller-sign-in@2x.png" class="help-center-img center img-bordered">
+  <figcaption style="text-align: center; color: #888;">Sign in screen for resellers</figcaption>
+</figure>
 
 ***
 
 ### 2. Purchase
 
-Navigate to `Purchase Subscription`, select the desired subscription type, and set the desired seats. Finally, proceed with filling out the required payment information.
+Go to `Purchase Subscription`, choose the subscription type, set the number of seats, and enter payment details.
 
 <div class='callout callout--basic'>
-   	<p>If you need to make a new organization for a separate customer, you can do so at <a href="https://gitkraken.dev/purchase?source=help_center">gitkraken.dev/purchase</a>.</p>
+    <p>To create a new organization for a different customer, visit <a href="https://gitkraken.dev/purchase?source=help_center">gitkraken.dev/purchase</a>.</p>
 </div>
 
-To complete the purchase, input:
-**Seats:** Number of licenses for the customer
-**Organization name:** Organization of the customer
-**Payment information:** Enter reseller billing details
+- **Seats:** Number of licenses for the customer
+- **Organization Name:** Name of the customer's organization
+- **Payment Info:** Enter reseller billing information
 
-<img src="/wp-content/uploads/gk-dev-reseller-purchase-0.png" srcset="/wp-content/uploads/gk-dev-reseller-purchase-0@2x.png" class="img-responsive center img-bordered">
+<figure>
+  <img src="/wp-content/uploads/gk-dev-reseller-purchase-0.png" srcset="/wp-content/uploads/gk-dev-reseller-purchase-0@2x.png" class="help-center-img center img-bordered">
+  <figcaption style="text-align: center; color: #888;">Purchase subscription screen</figcaption>
+</figure>
 
 <div class='callout callout--basic'>
-   	<p>GitKraken Subscriptions only accept card, PayPal, ACH bank payments, and Google Pay. However, invoicing is supported for large purchases of GitKraken Enterprise. Contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> to learn more.</p>
+    <p>We accept card, PayPal, ACH, and Google Pay. Invoicing is available for large GitKraken Enterprise orders. Contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for invoicing support.</p>
 </div>
 
-Once the purchase is complete you will be emailed a copy of your receipt.
+After purchase, a receipt will be emailed to you.
+
+***
 
 ### 3. Transfer Ownership to the Customer
 
-Finally, you will need to [transfer the ownership](gk-dev/gk-dev-organization/#transfer-ownership) to the customer:
-* Navigate to [Users](https://gitkraken.dev/users?source=help_center)
-* Add the customer with the role [Billing Contact](/gk-dev/gk-dev-organization/#roles)
-	* This role does not consume a license
-* Navigate to [Settings > Organization](https://gitkraken.dev/settings/organization?source=help_center) and transfer the ownership to that user
+Follow these steps to transfer the organization:
 
-If the customer's email has not been verified, they will receive an email to activate their account and accept the ownership transfer. They have 7 days to accept this and you will remain as owner until they accept it. If the 7 days lapse you can always reinitiate the ownership transfer.
+1. Go to [Users](https://gitkraken.dev/users?source=help_center)
+2. Add the customer as a [Billing Contact](/gk-dev/gk-dev-organization/#roles)
+3. Go to [Settings > Organization](https://gitkraken.dev/settings/organization?source=help_center) and transfer ownership
+
+If the customer hasn’t verified their email, they’ll receive an activation link. They have 7 days to accept. If they miss the window, you can reinitiate the transfer.
 
 ***
 
 ## Existing Organization Purchases
 
-Follow this reseller guide for purchasing additional licenses on an existing account.
+Follow these steps to purchase additional licenses:
 
 1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
-2. Select the customer’s organization from the top left dropdown (if you are part of more than one organization)
-3. Navigate to the "Subscriptions" tab
-4. Update your billing details if needed
-5. Select "Edit Plan"
-6. Increase Total Users quantity to reflect the total user count including the additional licenses you are purchasing for the customer
-7. The Billing Summary will populate the cost of add additional users to the customer account. Please utilize this to provide the customer an official quote for adding users
-8. Select “Save.” The customer will have immediate access to the additional licenses
+2. Select the customer’s organization from the top-left dropdown
+3. Go to the "Subscriptions" tab
+4. Update billing info if needed
+5. Click "Edit Plan"
+6. Increase the total user count
+7. Review the Billing Summary for cost and use it as an official quote
+8. Click “Save.” The additional licenses will be active immediately.
 
 <div class='callout callout--basic'>
-   	<p>The cost to add users to an existing account is prorated against the billing cycle of the initial purchase of the account.</p>
-    <p>If you are a reseller and the customer’s organization is not listed on your GitKraken account, contact our <a href="https://www.gitkraken.com/sales-inquiries?source=help_center">Customer Success team</a> for assistance.</p>
+    <p>License costs are prorated against the original billing cycle. If a customer org is not listed under your account, <a href="https://www.gitkraken.com/sales-inquiries?source=help_center">contact our Customer Success team</a>.</p>
 </div>
 
 ***
@@ -88,18 +94,18 @@ Follow this reseller guide for purchasing additional licenses on an existing acc
 
 ### Upgrade Quote
 
-Here’s how to obtain a quote for an upgrade (either adding licenses or changing plans).
+To quote for upgrades (adding seats or changing plans):
 
 1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
-2. Select the customer’s organization from the top left dropdown (if you are part of more than one organization)
-3. Navigate to the "Subscriptions" tab
-4. Select "Edit Plan"
-5. Make the upgrade you would like (either adding licenses or changing plans) but don’t select purchase yet
-6. The Billing Summary will populate the cost of the upgrade on the customer’s subscription. Please use this to provide the customer an official quote for the upgrade
+2. Select the customer organization
+3. Go to "Subscriptions"
+4. Click "Edit Plan"
+5. Make changes, but don’t purchase
+6. Use the Billing Summary as an official quote
 
 ### Renewal Quote
 
 1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
-2. Select the customer’s organization from the top left dropdown (if you are part of more than one organization)
-3. Navigate to the "Subscriptions" tab
-4. The Billing Summary will indicate the Annual Total. Please use this to provide the customer an official quote for the yearly renewal. The date of the renewal is listed as “Next charge”
+2. Select the customer organization
+3. Go to "Subscriptions"
+4. Use the Annual Total in the Billing Summary as the renewal quote. The “Next charge” date indicates the renewal timing.
