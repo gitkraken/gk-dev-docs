@@ -1,6 +1,6 @@
 ---
 
-title: Gitkraken Cloud Services Support Terms and Conditions
+title: GitKraken Cloud Services Support Terms and Conditions
 description: Learn about Gitkraken Cloud Services Support terms and conditions
 taxonomy:
     category: gk-dev
@@ -14,7 +14,7 @@ You can always reach out to us by using the Contact support. [Contact support](h
 
 ---
 
-## Gitkraken Cloud Services Support
+## GitKraken Cloud Services Support
 
 - Support requests for GitKraken Cloud Services should be submitted at [Contact support](https://help.gitkraken.com/gk-dev/gk-dev-contact-support/?product_s_=GitKraken.dev). Users submitting tickets interact primarily through emails, though other communication services, such as phone calls and screen share services, might be used to deliver Support Services.
 
