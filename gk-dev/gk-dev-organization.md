@@ -1,79 +1,28 @@
 ---
-
 title: Manage GitKraken Organization
 description: Learn about GitKraken Organizations
 taxonomy:
     category: gk-dev
-    
 ---
 
-A GitKraken organization is a collection of [GitKraken accounts](/gk-dev/gk-dev-account/) which unlocks a shared [subscription](/gk-dev/gk-dev-subscription/), collaboration features between members, and administration of the members in the organization. If you are creating an account for the first time, an organization will automatically be created for you.
+<kbd>Last updated: June 2025</kbd>
+
+A GitKraken organization is a collection of [GitKraken accounts](/gk-dev/gk-dev-account/) that share a [subscription](/gk-dev/gk-dev-subscription/), enable collaboration between members, and provide centralized administration. When you create a new account, an organization is automatically created for you.
+
 <div class='callout callout--warning'>
-    <p>Community users are a single user plan, and can not perform any org management. Pro plans and above can perform Org management functions.</p>
+    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users, roles, and settings.</p>
 </div>
-***
-
-## Add users
-
-To add someone to your organization, go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), select your organization dropdown in the top left, select "Users", and finally select "Add Users." 
-
-<img src="/wp-content/uploads/gk-dev-add-user.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-responsive center img-bordered">
-
-Here you can enter as many email addresses as you want and the [role](/gk-dev/gk-dev-organization/#roles) (in the drop down) you would like to assign them all. 
-
-<img src="/wp-content/uploads/gk-dev-add-user-modal.png" class="img-responsive center img-bordered">
-
-Only members that have a [role](/gk-dev/gk-dev-organization/#roles) with permission can add users to an organization. When you do add someone, it will consume a license of your subscription. If all available licenses are consumed when adding a user, a billing summary will show up during the process, select "Purchase" to complete the transaction and add the users.
-
-<img src="/wp-content/uploads/gk-dev-add-user-modal-2.png" class="img-responsive center img-bordered">
-
-You can also add licenses in bulk to your organization separately from adding users by going to the [Subscription](/gk-dev/gk-dev-subscription/) section in your organization.
-
-***
-
-## Inviting users to your organization
-
-As a User, you have the ability to invite other users to the organization for an Owner, Admin, or Billing Contact to approve and/or purchase a license for. 
-
-To invite a user, navigate to gitkraken.dev > Users > Invite Users. Then provide the email(s) of the desired user(s). 
-
-<img src='/wp-content/uploads/gkdev-invite-user-as-user.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered img-responsive center'>
-
-This will send an email to any Owner, Admin, or Billing Contact to review the invited user. They can select `Review` on the email or see the invitees from gitkraken.dev > Users > Review. Here, they can Approve or Deny the user. If your organization is at its user limit, you will be prompted to purchase an additional license when approving.
-
-<img src='/wp-content/uploads/gkdev-review-user-invite.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered img-responsive center'>
-
-***
-
-## Reallocate licenses
-
-Any Owner, Admin, or Billing Contact may remove users and then add users to reallocate licenses.
-
-The Billing Contact role cannot remove or edit Owner or Admin users.
-
-To reallocate a license, navigate to Users and then select "Remove" for the desired user. Then, you can add the new user. 
-
-***
-
-## Import and export users
-
-To import multiple users via CSV select the “Add User” button. From here you can select “Import via CSV”. When importing users, be sure to have columns for `Email`, `Username`, `Role`, `User License`.
-
-<img src="/wp-content/uploads/gk-dev-import-users.png" class="img-responsive center img-bordered">
-
-To export users to a CSV, select “Export via CSV”. The export will contain columns for Email, Username, Role, User License.
-
-<img src="/wp-content/uploads/gk-dev-export-users.png" class="img-responsive center img-bordered">
 
 ***
 
 ## Roles
 
-Roles grant members permissions within an organization. There are four roles a user may have:
-+ Owner: there must be exactly one owner per organization. Owners have full permission and consume a license.
-+ Admin: Admins have full permissions and consume a license. Admins cannot remove or edit the owner.
-+ User: Users have no administrative permissions but do consume a license.
-+ Billing Contact: Billing Contacts have the same permissions as admins, except they do not consume a license.
+Roles determine what permissions a member has within your organization. There are four roles available:
+
+- **Owner** – Each organization has one owner by default. The owner has full administrative and billing permissions and consumes a license.
+- **Admin** – Has full administrative and billing permissions and consumes a license. Admins cannot change or remove the owner.
+- **User** – Has access to GitKraken features but no administrative permissions. This role consumes a license.
+- **Billing Contact** – Manages billing-related settings and receives invoices. This role does not consume a license.
 
 <table class='table table--bordered table--shortcuts'>
     <thead>
@@ -98,14 +47,14 @@ Roles grant members permissions within an organization. There are four roles a u
             <th>✅</th>
             <th>✅</th>
             <th></th>
-            <th>✅</th>
+            <th></th>
         </tr>
         <tr>
             <td>Create and manage teams</td>
             <th>✅</th>
             <th>✅</th>
             <th></th>
-            <th>✅</th>
+            <th></th>
         </tr>
         <tr>
             <td>Manage billing and purchase licenses</td>
@@ -126,37 +75,151 @@ Roles grant members permissions within an organization. There are four roles a u
 
 ***
 
+## Add users
+
+To add someone to your organization, go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), open the organization dropdown in the top left, select **Users**, then click **Add Users**.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-add-user.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-bordered center help-center-img" alt="Add Users screen in GitKraken">
+  <figcaption style="color:#888;text-align:center">Access the Add Users screen from the Users tab</figcaption>
+</figure>
+
+You can enter multiple email addresses and select the [role](/gk-dev/gk-dev-organization/#roles) from the dropdown to assign to all users.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-add-user-modal.png" class="img-bordered center help-center-img" alt="Add users modal with email and role fields">
+  <figcaption style="color:#888;text-align:center">Enter emails and assign a role to each new user</figcaption>
+</figure>
+
+Only members with a [role](/gk-dev/gk-dev-organization/#roles) that includes user management permissions can invite others. Adding a user consumes a license from your subscription. If you exceed your license count during this step, a billing summary will appear. Select **Purchase** to complete the transaction and add the users.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-add-user-modal-2.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
+  <figcaption style="color:#888;text-align:center">Purchase additional licenses if needed when adding users</figcaption>
+</figure>
+
+You can also purchase extra licenses in advance from the [Subscription](/gk-dev/gk-dev-subscription/) section.
+
+***
+
+## Inviting users to your organization
+
+As a **User**, you can invite others to your organization. These invitations must be reviewed and approved by an Owner, Admin, or Billing Contact.
+
+To invite someone:
+
+1. Go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
+2. Select your organization from the top-left dropdown
+3. Navigate to **Users > Invite Users**
+4. Enter the email address(es) of the person you want to invite
+
+<figure>
+  <img src='/wp-content/uploads/gkdev-invite-user-as-user.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
+  <figcaption style='color:#888;text-align:center'>Submit user invitations for approval</figcaption>
+</figure>
+
+Once submitted, Owners, Admins, or Billing Contacts will receive an email notification. They can click **Review** from the email or go to **Users > Review** in the GitKraken interface to approve or deny the invitation. If your organization is at its user limit, approving an invite may prompt a license purchase.
+
+<figure>
+  <img src='/wp-content/uploads/gkdev-review-user-invite.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
+</figure>
+
+***
+
+## Reallocate licenses
+
+Owners, Admins, and Billing Contacts can remove existing users to free up licenses, then add new users in their place.
+
+> **Note:** Billing Contacts cannot remove or edit Owner or Admin users.
+
+To reallocate a license:
+
+1. Navigate to **Users**
+2. Click **Remove** next to the user you want to remove
+3. Invite or add a new user to use the available license
+
+***
+
+## Import and export users
+
+To import multiple users via CSV, click the **Add Users** button, then choose **Import via CSV**. Be sure your file includes the following columns: `Email`, `Username`, `Role`, and `User License`.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
+  <figcaption style="color:#888;text-align:center">Import multiple users via a formatted CSV file</figcaption>
+</figure>
+
+To export your current user list to CSV, click **Export via CSV**. The export will include columns for Email, Username, Role, and User License.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-export-users.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
+  <figcaption style="color:#888;text-align:center">Export a CSV of your organization’s members</figcaption>
+</figure>
+
+***
+
 ## Teams
 
-Teams are the best way to organize members of your GitKraken organization. In addition, teams can create Shared Workspaces to bring focus to their collaborative work and help identify conflicts by showing what files and branches your team is working on.
+Teams help you organize members within your GitKraken organization. Teams can also create Shared Workspaces to stay aligned on collaborative work and avoid merge conflicts by seeing what files and branches team members are working on.
 
-Any member can create a team by visiting the Teams tab within the organization at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev). For more information on creating and working with teams, see the [Teams](/gitkraken-desktop/teams/) page.
+Any member can create a team from the **Teams** tab in your organization at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev). For details on creating and working with teams, visit the [Teams](/gitkraken-desktop/teams/) documentation.
 
-<img src='/wp-content/uploads/gk-dev-teams.png' srcset='/wp-content/uploads/gk-dev-teams@2x.png' class='img-bordered img-responsive center'>
+<figure>
+  <img src='/wp-content/uploads/gk-dev-teams.png' srcset='/wp-content/uploads/gk-dev-teams@2x.png' class='img-bordered center help-center-img' alt='GitKraken organization teams interface'>
+  <figcaption style='color:#888;text-align:center'>Use teams to organize members and collaborate efficiently</figcaption>
+</figure>
 
 ***
 
 ## Organization Settings
 
-Organization settings can be accessed from [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization?source=help_center&product=gitkraken_dot_dev). Visiting the Settings section of your organization will give you a snapshot of your subscription and allow you to edit a few key aspects of your organization like changing the organization name, transferring ownership of the organization, leaving an organization, and setting up single sign-on.
+Access your settings at [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization?source=help_center&product=gitkraken_dot_dev). From here, you can view subscription details and update:
 
-<img src="/wp-content/uploads/gk-dev-organization-settings.png" srcset='/wp-content/uploads/gk-dev-organization-settings@2x.png' class="img-responsive center img-bordered">
+- Organization name
+- Ownership
+- SSO setup
+- Organization membership
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-organization-settings.png" srcset='/wp-content/uploads/gk-dev-organization-settings@2x.png' class="img-bordered center help-center-img" alt="Organization settings page">
+  <figcaption style="color:#888;text-align:center">Update organization settings including name, ownership, and SSO</figcaption>
+</figure>
 
 ### Transfer ownership
 
-If you’re the [owner](/gk-dev/gk-dev-organization/#roles) of an organization and would like to make someone else the owner you can do that. First you need to make sure to first add that account to the organization. Once the account is added to your organization, go to your organization, select "Settings" and then “Transfer ownership.” You will select the user within the organization to become the owner (and type their email to confirm). Once you select “Transfer Ownership,” the transfer is final and cannot be undone unless the new owner transfers ownership back to the original owner.
+If you’re the [owner](/gk-dev/gk-dev-organization/#roles) of an organization and want to assign ownership to someone else:
 
-<img src="/wp-content/uploads/gk-dev-transfer-owner.gif" class="img-responsive center img-bordered">
+1. Make sure the new owner is already added to the organization
+2. Go to **Settings > Transfer ownership**
+3. Select the user and confirm their email
+4. Click **Transfer Ownership** to finalize the change
+
+> **Note:** Ownership transfers are final unless the new owner reassigns it.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-transfer-owner.gif" class="img-bordered center help-center-img" alt="Transfer ownership workflow">
+  <figcaption style="color:#888;text-align:center">Transfer organization ownership to another member</figcaption>
+</figure>
 
 ### Leave an organization
 
-If you no longer need to be a part of an organization, you can leave an organization by navigating to Settings, then Organization and then `Leave Organization`. If you leave an organization, only an admin can invite you back. You will lose access to collaboration with members of GitKraken and your GitKraken paid license. 
+To leave an organization:
 
-This option will only be available if you are part of another organization and you are not the owner of the organization. If you are the current owner, you can [transfer the ownership](/gk-dev/gk-dev-organization/#transfer-ownership) and then leave the organization after.
+1. Navigate to **Settings > Organization**
+2. Click **Leave Organization**
 
-<img src='/wp-content/uploads/gk-dev-leave-organization.png' srcset='/wp-content/uploads/gk-dev-leave-organization@2x.png' class='img-bordered img-responsive center'>
+> **Note:** You must be part of another organization and cannot be the current owner. If you are the owner, [transfer ownership](/gk-dev/gk-dev-organization/#transfer-ownership) before leaving.
+
+Leaving an organization will revoke your GitKraken license and access to shared collaboration features.
+
+<figure>
+  <img src='/wp-content/uploads/gk-dev-leave-organization.png' srcset='/wp-content/uploads/gk-dev-leave-organization@2x.png' class='img-bordered center help-center-img' alt='Leave organization screen in GitKraken'>
+  <figcaption style='color:#888;text-align:center'>Leave your current GitKraken organization</figcaption>
+</figure>
 
 ### Single sign-on
 
-Single sign-on (SSO) is available for organizations that require it. See how to setup SSO by visiting our [Single Sign-On documentation](/gk-dev/gk-dev-single-sign-on/).
+Single sign-on (SSO) is available for organizations that require it. For setup steps, visit the [Single Sign-On documentation](/gk-dev/gk-dev-single-sign-on/).
+
 
