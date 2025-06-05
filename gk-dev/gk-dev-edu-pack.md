@@ -1,7 +1,7 @@
 ---
 
 title: GitKraken Pro for Students and Teachers
-description: How to enable Pro through the GitHub Student Pack
+description: Learn how students and educators can unlock GitKraken Desktop Pro for free using the GitHub Student Developer Pack.
 taxonomy:
     category: gk-dev
 
