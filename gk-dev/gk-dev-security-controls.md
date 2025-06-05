@@ -1,52 +1,55 @@
 ---
-title: Security Controls
-description: Learn how to manage security settings and configure a private AWS S3 bucket for Cloud Patches.
+title: Security Controls & Cloud Patch Configuration
+description: Learn how to manage GitKraken security settings, disable AI features, and configure self-hosted Cloud Patches via AWS S3.
 taxonomy:
     category: gk-dev
 ---
 
 <kbd>Last updated: June 2025</kbd>
 
-GitKraken offers built-in security settings and options to manage both AI features and Cloud Patches for your organization.
+GitKraken provides centralized security settings to help your organization control data-sharing features, enforce compliance, and manage where Git patches are stored.
 
 ***
 
-## GitKraken AI features
+## GitKraken AI Features
 
-GitKraken AI features can help speed up your workflow by suggesting code or performing smart actions. These features may require sending code snippets to GitKraken AI hosted in the cloud.
+GitKraken AI features can suggest code or perform smart actions to improve your workflow. These features may require sending code snippets to GitKraken AI hosted in the cloud.
 
-If these features do not align with your organization's data policies, you can disable GitKraken AI for all users in your organization from <strong>Settings > Security Controls</strong>.
+If these features don’t align with your organization's security policies, you can disable them for all members in your organization.
 
-Disabling AI features requires you to have the role of [owner, admin, or billing contact](/gk-dev/gk-dev-organization/#roles) on a [Teams or Enterprise plan](https://www.gitkraken.com/pricing).
+- Go to <strong>Settings > Security Controls > AI Features</strong>
+    - Requires [owner, admin, or billing contact](/gk-dev/gk-dev-organization/#roles)
+    - Available on [Teams or Enterprise plans](https://www.gitkraken.com/pricing)
 
 ***
 
 ## Cloud Patches
-Allow developers in your organization to create Cloud Patches that can be shared with others. 
 
-If you are concerned that Cloud Patches do not comply with your company’s data security, you can set up self-hosted Cloud Patches for your organization. If this is not an option for you, please contact our <a href="https://www.gitkraken.com/contact" target="_blank">customer success team</a>.
+Allow developers in your organization to create Cloud Patches that can be shared with others. Cloud Patches are encrypted Git patch files that GitKraken can store in GitKraken-managed or customer-managed storage.
 
-### Self-host Cloud Patches
+If your company policies require internal storage, you can set up self-hosted Cloud Patches using your own AWS S3 bucket.
 
-Cloud Patches are encrypted Git patch files that can be stored on your own AWS S3 bucket instead of GitKraken-managed storage.
+If this setup is not feasible, please contact our <a href="https://www.gitkraken.com/contact" target="_blank">customer success team</a>.
+
+### Self-Host Cloud Patches with AWS S3
+
+Configure your GitKraken organization to store Cloud Patches on your own infrastructure.
 
 #### Requirements
 
-Setting up self-hosted Cloud Patches requires the following:
-
-- An AWS account with access to S3
-- Administrator role permissions to configure a bucket policy
+- An AWS account with S3 access
+- Admin permissions to apply bucket policies
 - GitKraken Pro or Enterprise plan
 
-#### Step-by-step setup
+#### Setup Steps
 
-1. **Create an S3 bucket** in AWS and name it something meaningful (e.g., `gitkraken-cloud-patches`).
-2. **Apply the correct bucket policy** using the template provided in the GitKraken UI.
-3. **Add credentials** to GitKraken by providing:
-    - Bucket name
-    - Access key ID
-    - Secret access key
-    - AWS region
+1. **Create an S3 bucket** and give it a meaningful name (e.g., `gitkraken-cloud-patches`).
+2. **Apply the GitKraken-supplied bucket policy** using the UI template.
+3. **Enter your AWS credentials** into GitKraken:
+   - Bucket name
+   - Access key ID
+   - Secret access key
+   - AWS region
 4. **Test the connection** and save your configuration.
 
 <figure>
@@ -59,3 +62,11 @@ Setting up self-hosted Cloud Patches requires the following:
     GitKraken encrypts all Cloud Patches, even when self-hosted. Only users with access to the patch link and repository permissions can view contents.
   </p>
 </div>
+
+***
+
+## Next Steps
+
+- [Learn how to use Cloud Patches](/gk-dev/gk-dev-home/#cloud-patches-pro)
+- [Manage Org Roles](/gk-dev/gk-dev-organization/#roles)
+- [Explore GitKraken.dev Support Home](/gk-dev/gk-dev-home/)
