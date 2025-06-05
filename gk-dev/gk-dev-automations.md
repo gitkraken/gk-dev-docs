@@ -1,13 +1,14 @@
 ---
-title: Automations
-description: Automations makes it easier to manage your team’s workflows
+title: GitHub & GitLab Workflow Automations
+description: Learn how to use GitKraken.dev automations to streamline GitHub and GitLab workflows with triggers, conditions, and actions.
 taxonomy:
     category: gk-dev
 ---
 
 <kbd>Last updated: June 2025</kbd>
 
-GitKraken Automations helps manage your team’s workflows by codifying best practices, automating repetitive tasks, and highlighting potential issues proactively.
+Use **GitKraken.dev Automations** to create rule-based workflows that trigger actions when pull requests and issues match specific conditions. Automations help you streamline collaboration and enforce consistency across teams.
+
 
 <div class='callout callout--warning'>
     <p>This feature is only available on Pro subscription tiers or higher. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
@@ -55,7 +56,7 @@ Click <button class="button button--success button--ui button--nolink">+ Create 
     <p><strong>Note:</strong> Creating an automation sets up a webhook on the repository. You’ll need the appropriate permissions.</p>
 </div>
 
-## Conditions
+## Set Conditions
 
 Conditions define when an action is triggered. GitKraken currently supports:
 
@@ -167,3 +168,11 @@ Admins can also add/remove repos or perform bulk actions.
   <img src="/wp-content/uploads/gkdev-createautomations9.png" class="help-center-img img-bordered" alt="Repository admin tasks for automations">
   <figcaption style="color:#888;text-align:center">Admin view for managing repository automation</figcaption>
 </figure>
+
+## Next Steps
+
+Explore more ways to automate and streamline Git workflows:
+- [Connect an Integration](/gk-dev/gk-dev-integrations/)
+- [Use Launchpad to manage PRs and issues](/gk-dev/gk-dev-home/#launchpad-your-daily-git-dashboard)
+- [Visualize metrics with GitKraken Insights](/gk-dev/gk-dev-insights/)
+- [Return to GitKraken.dev Support Home](/gk-dev/gk-dev-home/)
