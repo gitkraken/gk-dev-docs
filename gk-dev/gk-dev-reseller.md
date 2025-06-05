@@ -1,10 +1,8 @@
 ---
-
 title: GitKraken Reseller Guide
-description: For resellers to learn about how to purchase and manage GitKraken Accounts and Organizations
+description: Learn how to purchase and manage GitKraken accounts and organizations as a reseller.
 taxonomy:
     category: gk-dev
-
 ---
 
 <kbd>Last updated: June 2025</kbd>
