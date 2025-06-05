@@ -1,13 +1,14 @@
 ---
-
-title: Security Information for gitkraken.dev
-description: Data Security Information for gitkraken.dev
+title: Security Information for GitKraken.dev
+description: Learn how GitKraken.dev encrypts data in transit and at rest across features like Workspaces, Launchpad, and Cloud Patches.
 taxonomy:
     category: gk-dev
-
 ---
 
-Below is a chart outlining some basic security information regarding the type of data that we collect and how we store it.
+<kbd>Last updated: June 2025</kbd>
+
+This page outlines how GitKraken.dev handles data security—including what data we collect, how it's transmitted, where it's stored, and how it's protected at rest.
+
 
 | Service | What information are we collecting | How is this information secured in the transfer| Where is this information stored | How is this information secured in storage |
 | --- | --- | --- | --- | --- |
