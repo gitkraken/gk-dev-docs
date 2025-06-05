@@ -1,6 +1,6 @@
 ---
-title: Single Sign-On (SSO)
-description: Enable and configure SSO for your GitKraken cloud organization using an Identity Provider (IdP)
+title: Configure Single Sign-On (SSO) for GitKraken
+description: Learn how to enable and configure Single Sign-On (SSO) using your identity provider (IdP) for secure access to GitKraken cloud organizations.
 taxonomy:
     category: gk-dev
 ---
