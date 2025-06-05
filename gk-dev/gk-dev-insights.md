@@ -1,79 +1,86 @@
 ---
-title: Insights
-description: GitKraken Insights is a powerful tool that helps you visualize how pull requests are merged into your repositories.
+title: GitKraken Insights | PR Analytics Dashboard 
+description: Use GitKraken Insights to analyze pull request metrics like cycle time, merge rate, and throughput with a visual dashboard.
 taxonomy:
     category: gk-dev
 ---
 
 <kbd>Last updated: June 2025</kbd>
 
-GitKraken Insights shows you how pull requests are merged into your repositories using an interactive dashboard. This helps you understand your repository’s history and how your codebase has changed over time.
+GitKraken Insights is an interactive analytics dashboard that visualizes how pull requests are merged across your repositories. Use it to track contribution velocity, monitor merge patterns, and evaluate engineering efficiency over time.
 
 <figure>
-  <img src="/wp-content/uploads/gkdev-insights.png" srcset="/wp-content/uploads/gkdev-insights@2x.png" class="img-bordered center help-center-img" alt="Graph view of pull request activity over time in GitKraken Insights">
+  <img src="/wp-content/uploads/gkdev-insights.png" srcset="/wp-content/uploads/gkdev-insights@2x.png" class="img-bordered center help-center-img" alt="Graph of PR trends in GitKraken Insights">
   <figcaption style="color:#888;text-align:center">Visualize pull request activity across your repositories</figcaption>
 </figure>
 
 <div class='callout callout--warning'>
-  <p>
-    <strong>Preview Mode:</strong> Insights is in Preview. Click the "Feedback" button in the top right to share your thoughts with us.
-  </p>
+  <p><strong>Preview Mode:</strong> Insights is in Preview. Click the "Feedback" button in the top right to share your thoughts with us.</p>
 </div>
 
 ***
 
-## How do I use GitKraken Insights?
+## How to Get Started
 
 Access Insights at [gitkraken.dev/insights](https://gitkraken.dev/insights?source=help_center).
-
-To get started:
 
 1. [Connect an integration](/gk-dev/gk-dev-integrations/) at [gitkraken.dev/settings/integrations](https://gitkraken.dev/settings/integrations?source=help_center)
 2. Create a [Cloud Workspace](/gk-dev/gk-dev-home/#workspaces) at [gitkraken.dev/workspaces](https://gitkraken.dev/workspaces?source=help_center)
 
-Once both are set up, you can filter by workspace and date range to view Insights metrics for those repositories.
+Once set up, filter by workspace and date to explore pull request data.
 
 <figure>
-  <img src="/wp-content/uploads/gkdev-insights-filters.png" srcset="/wp-content/uploads/gkdev-insights-filters@2x.png" class="img-bordered center help-center-img" alt="Filters available for GitKraken Insights by workspace and date">
+  <img src="/wp-content/uploads/gkdev-insights-filters.png" srcset="/wp-content/uploads/gkdev-insights-filters@2x.png" class="img-bordered center help-center-img" alt="Filter controls in GitKraken Insights dashboard">
   <figcaption style="color:#888;text-align:center">Filter Insights by workspace and timeframe</figcaption>
 </figure>
 
 <div class='callout callout--note'>
-  <p>
-    GitKraken attempts to add webhooks to your workspace repositories to reduce API calls and enhance data performance.
-  </p>
-  <p>
-    14-day filtering is available on Teams plans; 28-day filtering is available on Enterprise plans.
-  </p>
+  <p>GitKraken attempts to add webhooks to your workspace repositories to reduce API calls and improve data freshness.</p>
+  <p>14-day filtering is available on Teams plans; 28-day filtering is available on Enterprise plans.</p>
 </div>
 
-### Requirement for Azure Insights and Workspaces
+### Azure DevOps Requirements
 
-To use Insights and [Workspaces](/gk-dev/gk-dev-home/#workspaces) with Azure, ensure `Third-party application access via OAuth` is enabled in Azure under `Organization Settings > Policies`. [Learn more](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
-
-***
-
-## Metrics
-
-GitKraken Insights offers the following metrics. Hover over the <i class="fa-solid fa-circle-info"></i> icon in-app to see detailed descriptions.
-
-* **Cycle Time** – Average time to merge a pull request within the selected period.
-* **Average Throughput** – Number of pull requests merged in the selected period.
-* **Merge Rate** – Percentage of merged pull requests compared to all open pull requests.
-* **Open** – Total pull requests opened during the selected period.
-* **Merged** – Total pull requests merged during the selected period.
+To use Insights and [Workspaces](/gk-dev/gk-dev-home/#workspaces) with Azure, enable `Third-party application access via OAuth` under Azure’s `Organization Settings > Policies`. [Learn more](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
 
 ***
 
-## Export Insights Data
+## Insights Metrics Explained
 
-You can export Insights data as a CSV by selecting **Export CSV** in the top right corner of the screen.
+The dashboard surfaces actionable pull request metrics to help identify trends and blockers for the selected period of time:
+
+- **Cycle Time** – Average time to merge a pull request.
+- **Average Throughput** – Total number of pull requests merged.
+- **Merge Rate** – Ratio of merged pull requests to total open.
+- **Open** – Number of pull requests opened.
+- **Merged** – Number of pull requests successfully merged.
+
+Hover over the <i class="fa-solid fa-circle-info"></i> icons in-app to see detailed definitions.
+
+***
+
+## Export Your Data
+
+Insights data can be exported as a CSV file.
+
+1. Click **Export CSV** in the top right of the dashboard.
+2. Download and analyze data externally.
 
 <figure>
-  <img src="/wp-content/uploads/gkdev-insights-export.png" srcset="/wp-content/uploads/gkdev-insights-export@2x.png" class="img-bordered center help-center-img" alt="CSV export option in GitKraken Insights">
+  <img src="/wp-content/uploads/gkdev-insights-export.png" srcset="/wp-content/uploads/gkdev-insights-export@2x.png" class="img-bordered center help-center-img" alt="Export button in GitKraken Insights">
   <figcaption style="color:#888;text-align:center">Export GitKraken Insights data as a CSV</figcaption>
 </figure>
 
 <div class='callout callout--note'>
   <p><strong>Note:</strong> Exporting is only available for Enterprise subscriptions.</p>
 </div>
+
+***
+
+## Next Steps
+
+Continue exploring GitKraken.dev analytics and collaboration features:
+- [Connect an Integration](/gk-dev/gk-dev-integrations/)
+- [Set up a Workspace](/gk-dev/gk-dev-home/#workspaces-organize-projects-by-team)
+- [Learn about Launchpad](/gk-dev/gk-dev-home/#launchpad-your-daily-git-dashboard)
+- [Visit GitKraken.dev Support Home](/gk-dev/gk-dev-home/)
