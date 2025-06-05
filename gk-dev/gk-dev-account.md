@@ -1,59 +1,74 @@
 ---
-title: Manage GitKraken Account
-description: Learn about GitKraken Accounts
+title: Manage Your GitKraken Account 
+description: Set up and manage your GitKraken account used across GitKraken Desktop, GitLens, CLI, and more. Learn how to log in, personalize your profile, and delete your account.
 taxonomy:
     category: gk-dev
 ---
 
 <kbd>Last updated: June 2025</kbd>
 
-Your GitKraken account is your key to unlock the most personal experience across GitKraken products.
+Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences in one place. 
 
 <div class='callout callout--basic'>
-    <p>Note that your GitKraken account is not compatible with <a href="/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/">Git Integration for Jira</a>.</p>
-    <p>We recommend using a single GitKraken account for yourself. Avoid creating duplicate accounts or sharing your account with others.</p>
+  <p>Note that your GitKraken account is not compatible with <a href="/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/">Git Integration for Jira</a>.</p>
+  <p>We recommend using a single GitKraken account for yourself. Avoid creating duplicate accounts or sharing your account with others.</p>
 </div>
 
 ***
 
-## Login
+## Sign in or create an account
 
-You can create a GitKraken account at [gitkraken.dev](https://gitkraken.dev/register?source=help_center&product=gitkraken_dot_dev) or from GitKraken Desktop. On the login screen, click “Create an account,” then choose from one of the following methods:
+Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and choose one of the supported login options:
 
+**Git providers:**
 - GitHub
 - GitLab
 - Bitbucket
 - Azure DevOps
+
+**Other options:**
 - Google
-- Email
+- Microsoft
+- Email + password
 - [Single Sign-On (SSO)](/gk-dev/gk-dev-single-sign-on/)
 
 Each login method is tied to your primary email address. If you sign up with email, you’ll need to verify it via a confirmation link.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-create-account.png" class="img-bordered center help-center-img" alt="GitKraken account creation login screen">
-  <figcaption style="color:#888;text-align:center">Login screen to create or access your GitKraken account</figcaption>
+  <img src="/wp-content/uploads/gk-dev-create-account.png" class="img-bordered center help-center-img" alt="GitKraken login options screen">
+  <figcaption style="color:#888;text-align:center">Choose a connected service to authenticate with GitKraken</figcaption>
 </figure>
 
 ***
 
-## Personalization
+## Personalize your account
 
-After logging in, visit [gitkraken.dev/account](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev) to update your name, username, email, and password.
+Click your avatar in the top right to:
+
+- Change your display name or avatar
+- Manage your GitKraken licenses
+- Configure email settings
+- View your plan and billing information
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-account-personalization.png" class="img-bordered center help-center-img" alt="GitKraken account profile settings">
+  <figcaption style="color:#888;text-align:center">Access account and license settings</figcaption>
+</figure>
 
 GitKraken uses [Gravatar](https://gravatar.com) to manage profile avatars. To change your avatar, select your profile image and follow the link to Gravatar. Updates may take several hours to appear.
 
-<figure>
-  <img src="/wp-content/uploads/gk-dev-account-personalization.png" srcset="/wp-content/uploads/gk-dev-account-personalization@2x.png" class="img-bordered center help-center-img" alt="GitKraken account profile settings">
-  <figcaption style="color:#888;text-align:center">Customize your profile in the GitKraken account settings</figcaption>
-</figure>
-
 ***
 
-## Delete
+## Delete your account
 
-You can delete your account at [gitkraken.dev/account](https://gitkraken.dev/account?source=help_center&product=gitkraken_dot_dev) by selecting "<span style='color: red;'>Delete my Account</span>."
+To permanently delete your account:
 
-> **Note:** If you are part of a GitKraken organization and not an admin, you'll need an admin to remove your account before proceeding.
+1. Go to <strong>Settings > Account Settings</strong>
+2. Click **Delete Account**
+3. Confirm the deletion in the prompt
 
-Once deleted, your account and all associated data—including subscriptions, cloud workspaces, Insights, and organizations—are permanently removed. GitKraken is GDPR-compliant and this action cannot be undone.
+    > Note: If you are part of a GitKraken organization and not an admin, you’ll need an admin to remove your account before proceeding.
+
+<div class='callout callout--warning'>
+  <p>GitKraken is GDPR-compliant and this action cannot be undone. This action will revoke access to all GitKraken products and services linked to your account.</p>
+</div>
