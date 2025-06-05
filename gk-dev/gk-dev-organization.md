@@ -1,16 +1,16 @@
 ---
-title: Manage GitKraken Organization
-description: Learn about GitKraken Organizations
+title: Manage GitKraken Organizations | Roles, Users, Teams, SSO
+description: Learn how to manage GitKraken organizations, assign roles, add users, configure teams, and set up SSO.
 taxonomy:
     category: gk-dev
 ---
 
 <kbd>Last updated: June 2025</kbd>
 
-A GitKraken organization is a collection of [GitKraken accounts](/gk-dev/gk-dev-account/) that share a [subscription](/gk-dev/gk-dev-subscription/), enable collaboration between members, and provide centralized administration. When you create a new account, an organization is automatically created for you.
+Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. Centralize your GitKraken [subscription](/gk-dev/gk-dev-subscription/) to simplify provisioning and oversight across all GitKraken products.
 
 <div class='callout callout--warning'>
-    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users, roles, and settings.</p>
+    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users, roles, teams, and settings.</p>
 </div>
 
 ***
@@ -223,3 +223,8 @@ Leaving an organization will revoke your GitKraken license and access to shared 
 Single sign-on (SSO) is available for organizations that require it. For setup steps, visit the [Single Sign-On documentation](/gk-dev/gk-dev-single-sign-on/).
 
 
+### Next Steps
+
+- [Connect an Integration](/gk-dev/gk-dev-integrations/)
+- [Learn how to manage your GitKraken subscription](/gk-dev/gk-dev-subscription/)
+- [Return to GitKraken.dev Support Home](/gk-dev/gk-dev-home/)
