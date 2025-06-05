@@ -1,6 +1,6 @@
 ---
-title: Manage Subscription and Billing
-description: Understand how GitKraken Dev subscriptions work and how to manage them.
+title: Manage GitKraken Subscription and Billing
+description: Purchase or cancel GitKraken subscriptions, update billing info, and download past invoices. 
 taxonomy:
     category: gk-dev
 ---
@@ -88,3 +88,11 @@ You can select **Download PDF** to retrieve past invoices. The Owner and Billing
   <img src="/wp-content/uploads/gkdev-billing-history.png" srcset="/wp-content/uploads/gkdev-billing-history@2x.png" class="img-bordered center help-center-img" alt="Billing history view with download option">
   <figcaption style="color:#888;text-align:center">Access and download past invoices from your billing history</figcaption>
 </figure>
+
+***
+
+## Next Steps
+
+- [Assign licenses to users](/gk-dev/gk-dev-organization/#add-users)
+- [Set up Single Sign-On (SSO)](/gk-dev/gk-dev-single-sign-on/)
+- [Explore GitKraken.dev Home](/gk-dev/gk-dev-home/)
