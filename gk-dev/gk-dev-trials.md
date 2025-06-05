@@ -8,17 +8,26 @@ taxonomy:
 --- 
 <kbd>Last updated: June 2025</kbd>
 
-## 14-Day Trials
+## Trial options
 
-Both GitKraken Desktop and GitLens offer a 14-day trial of Pro. You can start a trial by logging into the respective app with your GitKraken account for the first time. Each trial is independent, and so starting a trial in one product does not activate it for the other.
+GitKraken offers two types of trials:
+
+- **14-day trial:** Try GitKraken Pro features on your own.
+- **Business trial (30 days):** Invite your team and try the full GitKraken platform.
+
+To compare features, visit the [GitKraken pricing page](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 ***
 
-## Business Plan Trials
+## Start a 14-day trial
 
-Business plan trials are available for teams or organizations that want to evaluate the [GitKraken DevEx platform](https://www.gitkraken.com/devex). The Business plan trial lasts 30 days and is shared by all members of the organization.
+Both GitKraken Desktop and GitLens offer a [14-day trial](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev). You can start a trial by logging into the respective app with your GitKraken account for the first time. 
 
-To start a Business plan trial:
+Each trial is independent, and so starting a trial in one product does not activate it for the other.
+
+***
+
+## Start a Business trial
 
 1. Visit [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
 2. Log in using your GitKraken account
@@ -26,8 +35,20 @@ To start a Business plan trial:
 4. Add one or more users
 5. Once users are added, the organization-wide trial begins
 
-<div class='callout callout--basic'>
-    <p><strong>Note:</strong> A user cannot participate in more than one Business plan trial at a time. After the trial expires, the trial owner cannot initiate another multi-user trial.</p>
+Business trials include:
+
+- 30 days of full access
+- Support for multiple users and license management
+- SSO setup and workspace configuration
+
+<div class='callout callout--warning'>
+  <p>Each user can only join one Business trial. Owners can’t start another Business trial after the first one ends.</p>
 </div>
 
+***
 
+## Next Steps
+
+- [Set up your organization](/gk-dev/gk-dev-organization/)
+- [Manage billing and licenses](/gk-dev/gk-dev-subscription/)
+- [Explore GitKraken.dev features](/gk-dev/gk-dev-home/)
