@@ -47,14 +47,14 @@ Roles determine what permissions a member has within your organization. There ar
             <th>✅</th>
             <th>✅</th>
             <th></th>
-            <th></th>
+            <th>✅</th>
         </tr>
         <tr>
             <td>Create and manage teams</td>
             <th>✅</th>
             <th>✅</th>
             <th></th>
-            <th></th>
+            <th>✅</th>
         </tr>
         <tr>
             <td>Manage billing and purchase licenses</td>
