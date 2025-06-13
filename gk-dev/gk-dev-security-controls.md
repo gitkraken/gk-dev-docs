@@ -23,7 +23,7 @@ To enable or disable GitKraken AI features for all organization members:
 
 - Go to **Settings > Security Controls > AI Features**
   - Requires [owner, admin, or billing contact](/gk-dev/gk-dev-organization/#roles)
-  - Available on [Teams or Enterprise plans](https://www.gitkraken.com/pricing)
+  - Available on [Advanced+ plans](https://www.gitkraken.com/pricing)
 
 <figure>
   <img src="/wp-content/uploads/administration-and-security-controls.png" srcset="/wp-content/uploads/administration-and-security-controls@2x.png" alt="GitKraken AI feature toggle in Security Controls">
@@ -32,7 +32,7 @@ To enable or disable GitKraken AI features for all organization members:
 
 ### Enforce AI Providers
 
-Organizations can enforce restrictions on which AI providers are allowed across GitKraken products. This ensures compliance with your data policies.
+Organizations on the Business+ plans can enforce restrictions on which AI providers are allowed across GitKraken products. This ensures compliance with your data policies.
 
 To configure provider-level controls:
 
