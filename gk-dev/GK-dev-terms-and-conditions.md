@@ -58,8 +58,4 @@ We may need to accelerate the timeline for EoL of functionality in extenuating c
 
 Similarly, integrated third-party software or services may need to be retired due to the third-party decision to change or retire their solution. In these situations, the pace of retirement will be out of our control.
 
-However, even under these circumstances, we will provide as much advance notice as possible.
-
-
-
-Visit the [EULA](https://www.gitkraken.com/eula) and [Privacy Policy](https://www.gitkraken.com/privacy) pages for more information.
+However, even under these circumstances, we will provide as much advance notice as possible.Visit the [EULA](https://www.gitkraken.com/eula) and [Privacy Policy](https://www.gitkraken.com/privacy) pages for more information.
