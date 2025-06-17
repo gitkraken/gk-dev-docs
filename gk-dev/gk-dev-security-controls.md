@@ -13,13 +13,67 @@ GitKraken provides centralized security settings to help your organization contr
 
 ## GitKraken AI Features
 
-GitKraken AI features can suggest code or perform smart actions to improve your workflow. These features may require sending code snippets to GitKraken AI hosted in the cloud.
+GitKraken AI features can suggest code or perform smart actions to improve your workflow. These features may require sending code snippets to GitKraken AI or third-party providers.
 
-If these features don’t align with your organization's security policies, you can disable them for all members in your organization.
+If these features don’t align with your organization's security policies, you can control access across your organization.
 
-- Go to <strong>Settings > Security Controls > AI Features</strong>
-    - Requires [owner, admin, or billing contact](/gk-dev/gk-dev-organization/#roles)
-    - Available on [Teams or Enterprise plans](https://www.gitkraken.com/pricing)
+### Manage AI Feature Access
+
+To enable or disable GitKraken AI features for all organization members:
+
+- Go to **Settings > Security Controls > AI Features**
+  - Requires [owner, admin, or billing contact](/gk-dev/gk-dev-organization/#roles)
+  - Available on [Advanced+ plans](https://www.gitkraken.com/pricing)
+
+<figure>
+  <img src="/wp-content/uploads/administration-and-security-controls.png" srcset="/wp-content/uploads/administration-and-security-controls@2x.png" alt="GitKraken AI feature toggle in Security Controls">
+  <figcaption style="color:#888;text-align:center">Organization-level toggle for GitKraken AI features</figcaption>
+</figure>
+
+### Enforce AI Providers
+
+Organizations on the Business+ plans can enforce restrictions on which AI providers are allowed across GitKraken products. This ensures compliance with your data policies.
+
+To configure provider-level controls:
+
+1. Go to **Settings > Security Controls > Enforce AI providers**.
+2. Enable the toggle to display supported providers.
+3. For each provider, you can:
+   - Enable: Allow team members to use the provider’s models.
+   - Disable: Block the provider completely.
+
+For the following marked* providers, you can also:
+   - Set an API Key: Enforce the use of your key.
+   - Add a Custom URL (requires a key): Restrict access to a specific endpoint.
+
+Supported providers include:
+- Anthropic*
+- Azure*
+- DeepSeek
+- GitHub Copilot
+- GitKraken AI
+- Google*
+- Hugging Face*
+- Mistral*
+- Ollama*
+- OpenAI*
+- OpenAI compatible*
+- OpenRouter
+- xAI
+
+<figure>
+  <img src="/wp-content/uploads/enforce-ai-providers.png" srcset="/wp-content/uploads/enforce-ai-providers@2x.png" alt="AI provider settings showing API key and URL fields">
+  <figcaption style="color:#888;text-align:center">Example of AI provider configuration fields</figcaption>
+</figure>
+
+<div class='callout callout--info'>
+  <p>
+    Providers marked with an asterisk (*) support setting a custom API key and URL.
+  </p>
+  <p>
+    These settings apply across all GitKraken products used by your organization.
+  </p>
+</div>
 
 ***
 
