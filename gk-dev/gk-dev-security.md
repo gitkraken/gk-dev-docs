@@ -7,6 +7,7 @@ taxonomy:
 
 <kbd>Last updated: June 2025</kbd>
 
+## Information Collection/Storage
 This page outlines how GitKraken.dev handles data security—including what data we collect, how it's transmitted, where it's stored, and how it's protected at rest.
 
 
@@ -17,3 +18,17 @@ This page outlines how GitKraken.dev handles data security—including what data
 | Subscriptions | Billing info: lastFour, name, type (credit card, paypal, ach...), zip, country, creditCard type (mastercard, visa...) | Encrypted with TLS | MongoDB Atlas | Encrypted at rest (AES-256) |
 | Launchpad | Storing meta-data for issues/pull-requests/URLs | Encrypted with TLS | Postgres (RDS) | Encrypted at rest (AES-256) |
 | Cloud Patches | Info related to the patch (repo name/URL/provider/base branch name/etc.) + the patch content itself. | Encrypted with TLS | Patch info is stored in a Postgres database, patch content is stored in AWS S3. | SSE-S3, which uses 256-bit Advanced Encryption Standard (AES-256) |
+
+## SOC2
+Gitkraken and it’s tools are now SOC 2 Certified! If you would like to request a copy of our SOC2 report, please visit our [Trust Center](https://trust.gitkraken.com/) to get the request process started. Please note that in order to provide a copy of the report, we will need you to sign an MNDA.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+       SOC 2 reports are only available for Business and Enterprise customers.
+    </div>
+    </div>
+</div>
