@@ -5,6 +5,8 @@ taxonomy:
     category: gk-dev
 ---
 
+<kbd>Last updated: July 2025</kbd>
+
 Subscriptions in GitKraken Dev are tied directly to an [organization](/gk-dev/gk-dev-organization/), even if there is only one user.
 
 All members of an organization share the same subscription, and each active member requires a license. Some [roles](/gk-dev/gk-dev-organization/#roles) do not consume a license.
@@ -27,6 +29,43 @@ To purchase a subscription for the first time:
 <div class='callout callout--info'>
     <p>If you encounter issues while purchasing and have verified your payment method, please <a href="https://www.gitkraken.com/billing-issues">contact us</a> for support.</p>
 </div>
+
+***
+
+## Purchase additional licenses
+
+To purchase additional licenses, you must be an **Admin**, **Owner**, or **Billing Contact** for your organization.
+
+Follow these steps to add licenses to your GitKraken subscription:
+
+1. **Go to your subscription page**  
+   Navigate to [gitkraken.dev/subscription](https://gitkraken.dev/subscription).
+
+2. **Click "Add Seats"**  
+   Select the **Add Seats** button.
+
+   <figure>
+     <img src="/wp-content/uploads/gk-dev-subscription-add-seats-2025.png" srcset="/wp-content/uploads/gk-dev-subscription-add-seats-2025@2x.png" alt="Subscription page with Add Seats button highlighted" style="display: block; margin: 0 auto;">
+     <figcaption style="color: #888; text-align: center;">The Add Seats button is in the subscription management area.</figcaption>
+   </figure>
+
+3. **Enter the number of licenses**  
+   A modal appears. Enter how many licenses you want to add. A price preview updates automatically. The amount is **prorated** based on your renewal date.  
+   *(Prorated means you pay only for the remaining time until your next renewal.)*
+
+   <figure>
+     <img src="/wp-content/uploads/gk-dev-purchase-licenses-2025.png" srcset="/wp-content/uploads/gk-dev-purchase-licenses-2025@2x.png" alt="Modal window for selecting license quantity and price preview" style="display: block; margin: 0 auto;">
+     <figcaption style="color: #888; text-align: center;">The modal lets you select the license quantity and preview the price.</figcaption>
+   </figure>
+
+4. **Complete your purchase**  
+   When ready, click **Purchase** to complete the transaction.
+
+5. **Allocate new licenses**  
+   After purchase, go to [gitkraken.dev/users](https://gitkraken.dev/users) to assign licenses to users.
+
+For more information, see [Managing users](https://gitkraken.dev/help/users).
+
 
 ***
 
