@@ -39,13 +39,13 @@ To purchase additional licenses, you must be an **Admin**, **Owner**, or **Billi
 Follow these steps to add licenses to your GitKraken subscription:
 
 1. **Go to your subscription page**  
-   Navigate to [gitkraken.dev/subscription](https://gitkraken.dev/subscription).
+   Navigate to [gitkraken.dev/subscription](https://gitkraken.dev/subscription?source=help_center&product=gitkraken_dot_dev).
 
 2. **Click "Add Seats"**  
    Select the **Add Seats** button.
 
    <figure>
-     <img src="/wp-content/uploads/gk-dev-subscription-add-seats-2025.png" srcset="/wp-content/uploads/gk-dev-subscription-add-seats-2025@2x.png" alt="Subscription page with Add Seats button highlighted" style="display: block; margin: 0 auto;">
+     <img src="/wp-content/uploads/gk-dev-subscription-add-seats-2025.png" srcset="/wp-content/uploads/gk-dev-subscription-add-seats-2025@2x.png" class="img-bordered center help-center-img" alt="Subscription page with Add Seats button highlighted" style="display: block; margin: 0 auto;">
      <figcaption style="color: #888; text-align: center;">The Add Seats button is in the subscription management area.</figcaption>
    </figure>
 
@@ -54,7 +54,7 @@ Follow these steps to add licenses to your GitKraken subscription:
    *(Prorated means you pay only for the remaining time until your next renewal.)*
 
    <figure>
-     <img src="/wp-content/uploads/gk-dev-purchase-licenses-2025.png" srcset="/wp-content/uploads/gk-dev-purchase-licenses-2025@2x.png" alt="Modal window for selecting license quantity and price preview" style="display: block; margin: 0 auto;">
+     <img src="/wp-content/uploads/gk-dev-purchase-licenses-2025.png" srcset="/wp-content/uploads/gk-dev-purchase-licenses-2025@2x.png" class="img-bordered center help-center-img" alt="Modal window for selecting license quantity and price preview" style="display: block; margin: 0 auto;">
      <figcaption style="color: #888; text-align: center;">The modal lets you select the license quantity and preview the price.</figcaption>
    </figure>
 
@@ -62,9 +62,9 @@ Follow these steps to add licenses to your GitKraken subscription:
    When ready, click **Purchase** to complete the transaction.
 
 5. **Allocate new licenses**  
-   After purchase, go to [gitkraken.dev/users](https://gitkraken.dev/users) to assign licenses to users.
+   After purchase, go to [gitkraken.dev/users](https://gitkraken.dev/users?source=help_center&product=gitkraken_dot_dev) to assign licenses to users.
 
-For more information, see [Managing users](https://gitkraken.dev/help/users).
+For more information, see [Managing Roles, Users, Teams, SSO](https://help.gitkraken.com/gk-dev/gk-dev-organization/).
 
 
 ***
