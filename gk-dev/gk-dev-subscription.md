@@ -42,7 +42,6 @@ Follow these steps to add licenses to your GitKraken subscription:
    Navigate to [gitkraken.dev/subscription](https://gitkraken.dev/subscription?source=help_center&product=gitkraken_dot_dev).
 
 2. **Click "Add Seats"**  
-   Select the **Add Seats** button.
 
    <figure>
      <img src="/wp-content/uploads/gk-dev-subscription-add-seats-2025.png" srcset="/wp-content/uploads/gk-dev-subscription-add-seats-2025@2x.png" class="img-bordered center help-center-img" alt="Subscription page with Add Seats button highlighted" style="display: block; margin: 0 auto;">
