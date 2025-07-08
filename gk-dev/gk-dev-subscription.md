@@ -44,7 +44,7 @@ Follow these steps to add licenses to your GitKraken subscription:
 2. **Click "Add Seats"**  
 
    <figure>
-     <img src="/wp-content/uploads/gk-dev-subscription-add-seats-2025.png" srcset="/wp-content/uploads/gk-dev-subscription-add-seats-2025@2x.png" class="img-bordered center help-center-img" alt="Subscription page with Add Seats button highlighted" style="display: block; margin: 0 auto;">
+     <img src="/wp-content/uploads/gk-dev-subscription-add-seats-2025-B.png" srcset="/wp-content/uploads/gk-dev-subscription-add-seats-2025-B@2x.png" class="img-bordered center help-center-img" alt="Subscription page with Add Seats button highlighted" style="display: block; margin: 0 auto;">
      <figcaption style="color: #888; text-align: center;">The Add Seats button is in the subscription management area.</figcaption>
    </figure>
 
@@ -53,7 +53,7 @@ Follow these steps to add licenses to your GitKraken subscription:
    *(Prorated means you pay only for the remaining time until your next renewal.)*
 
    <figure>
-     <img src="/wp-content/uploads/gk-dev-purchase-licenses-2025.png" srcset="/wp-content/uploads/gk-dev-purchase-licenses-2025@2x.png" class="img-bordered center help-center-img" alt="Modal window for selecting license quantity and price preview" style="display: block; margin: 0 auto;">
+     <img src="/wp-content/uploads/gk-dev-purchase-licenses-2025-B.png" srcset="/wp-content/uploads/gk-dev-purchase-licenses-2025-B@2x.png" class="img-bordered center help-center-img" alt="Modal window for selecting license quantity and price preview" style="display: block; margin: 0 auto;">
      <figcaption style="color: #888; text-align: center;">The modal lets you select the license quantity and preview the price.</figcaption>
    </figure>
 
