@@ -1,11 +1,11 @@
 ---
-title: GitHub & GitLab Workflow Automations
-description: Learn how to use GitKraken.dev automations to streamline GitHub and GitLab workflows with triggers, conditions, and actions.
+title: Automations
+description: Learn how to use GitKraken.dev automations to streamline GitHub, Bitbucket, Azure DevOps and GitLab workflows with triggers, conditions, and actions.
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: July 2025</kbd>
 
 Use **GitKraken.dev Automations** to create rule-based workflows that trigger actions when pull requests and issues match specific conditions. Automations help you streamline collaboration and enforce consistency across teams.
 
@@ -43,7 +43,7 @@ Log in at [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitk
 Click <button class="button button--success button--ui button--nolink">+ Create Automation</button>.
 
 1. Name your automation.
-2. Choose **GitHub** or **GitLab** from the Provider dropdown.
+2. Choose from the Provider dropdown.
 3. Pick the target repository.
 4. (Optional) Enable for draft pull requests by checking the box.
 
