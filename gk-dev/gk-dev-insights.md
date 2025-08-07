@@ -7,7 +7,7 @@ taxonomy:
 
 <kbd>Last updated: June 2025</kbd>
 
-<div style="background-color: #fff8e1; border-left: 4px solid #fbc02d; padding: 12px; margin-bottom: 24px;">
+<div style="background-color: #fff8e1; border-left: 4px solid #fbc02d; padding: 12px; margin-bottom: 24px; color: #000;">
   <strong>Heads up:</strong> We're excited to launch the new GitKraken Insights soon! The current version will be retired at that time. Stay tuned for more details.
 </div>
 
