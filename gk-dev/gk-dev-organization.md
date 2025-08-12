@@ -168,7 +168,7 @@ ashton.kutcher@gitkiraken.com,ashtonkutcher,User,Pro,Design Team
 constance.baker@gitkiraken.com,constancebaker,User,Pro,Design Team
 ```
 
-> **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column.
+> **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column. A single semicolon is used to separate multiple teams.
 
 <figure>
   <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
