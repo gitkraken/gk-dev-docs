@@ -143,18 +143,43 @@ To reallocate a license:
 
 ## Import and export users
 
-To import multiple users via CSV, click the **Add Users** button, then choose **Import via CSV**. Be sure your file includes the following columns: `Email`, `Username`, `Role`, and `User License`.
+To import multiple users via CSV, click the **Add Users** button, then choose **Import via CSV**. Be sure your file includes the following columns: `Email`, `Username`, `Role`, `User License`, and optionally `Teams`.
+
+### User Import CSV Format
+
+Your CSV file should include these columns:
+
+| Column | Required | Description |
+|--------|----------|-------------|
+| Email | Yes | User's email address |
+| Username | Yes | User's username |
+| Role | Yes | User's role (Owner, Admin, User, or Billing Contact) |
+| User License | Yes | License type for the user |
+| Teams | No | Teams to add the user to (separate multiple teams with semicolons) |
+
+**Example CSV for user import:**
+```csv
+Email,Username,Role,User License,Teams
+Email,Username,Role,User License,Teams
+john.doe@gitkiraken.com,johndoe,User,Pro,Frontend Team;Design Team
+jane.smith@gitkiraken.com,janesmith,Admin,Teams,Backend Team
+bob.wilson@gitkiraken.com,bobwilson,User,Pro,Frontend Team
+ashton.kutcher@gitkiraken.com,ashtonkutcher,User,Pro,Design Team
+constance.baker@gitkiraken.com,constancebaker,User,Pro,Design Team
+```
+
+> **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column. A single semicolon is used to separate multiple teams.
 
 <figure>
   <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
   <figcaption style="color:#888;text-align:center">Import multiple users via a formatted CSV file</figcaption>
 </figure>
 
-To export your current user list to CSV, click **Export via CSV**. The export will include columns for Email, Username, Role, and User License.
+To export your current user list to CSV, click **Export via CSV**. The export will include columns for Email, Username, Role, User License, and Teams.
 
 <figure>
   <img src="/wp-content/uploads/gk-dev-export-users.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
-  <figcaption style="color:#888;text-align:center">Export a CSV of your organization’s members</figcaption>
+  <figcaption style="color:#888;text-align:center">Export a CSV of your organization's members</figcaption>
 </figure>
 
 ***
@@ -164,6 +189,29 @@ To export your current user list to CSV, click **Export via CSV**. The export wi
 Teams help you organize members within your GitKraken organization. Teams can also create Shared Workspaces to stay aligned on collaborative work and avoid merge conflicts by seeing what files and branches team members are working on.
 
 Any member can create a team from the **Teams** tab in your organization at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev). For details on creating and working with teams, visit the [Teams](/gitkraken-desktop/teams/) documentation.
+
+### Bulk Import Teams
+
+To import multiple teams via CSV, go to the **Teams** tab and click **Create Team**, then choose **Import via CSV**. This allows you to create multiple teams at once and optionally add existing users to those teams.
+
+#### Team Import CSV Format
+
+Your CSV file should include these columns:
+
+| Column | Required | Description |
+|--------|----------|-------------|
+| Team Name | Yes | Name of the team to create |
+| Users | No | Existing users to add to the team (separate multiple users with semicolons) |
+
+**Example CSV for team import:**
+```csv
+Team,Emails
+Frontend Team,bob.wilson@gitkiraken.com;john.doe@gitkiraken.com
+Backend Team,jane.smith@gitkiraken.com
+Design Team,ashton.kutcher@gitkiraken.com;constance.baker@gitkiraken.com;john.doe@gitkiraken.com
+```
+
+> **Note:** The Users column is optional. If you include users, GitKraken will add existing users to the teams. Multiple users can be specified in a single cell by separating them with semicolons. Teams will be created if they don't already exist.
 
 <figure>
   <img src='/wp-content/uploads/gk-dev-teams.png' srcset='/wp-content/uploads/gk-dev-teams@2x.png' class='img-bordered center help-center-img' alt='GitKraken organization teams interface'>
