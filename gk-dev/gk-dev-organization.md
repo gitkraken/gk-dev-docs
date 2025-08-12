@@ -168,7 +168,7 @@ ashton.kutcher@gitkiraken.com,ashtonkutcher,User,Pro,Design Team
 constance.baker@gitkiraken.com,constancebaker,User,Pro,Design Team
 ```
 
-> **Note:** When you include teams in the CSV, GitKraken will automatically create any teams that don't exist and add users to those teams. Multiple teams can be specified in a single cell by separating them with semicolons.
+> **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column.
 
 <figure>
   <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
