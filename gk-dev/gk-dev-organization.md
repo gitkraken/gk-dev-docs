@@ -154,18 +154,16 @@ Your CSV file should include these columns:
 | Email | Yes | User's email address |
 | Username | Yes | User's username |
 | Role | Yes | User's role (Owner, Admin, User, or Billing Contact) |
-| User License | Yes | License type for the user |
 | Teams | No | Teams to add the user to (separate multiple teams with semicolons) |
 
 **Example CSV for user import:**
 ```csv
-Email,Username,Role,User License,Teams
-Email,Username,Role,User License,Teams
-john.doe@gitkiraken.com,johndoe,User,Pro,Frontend Team;Design Team
-jane.smith@gitkiraken.com,janesmith,Admin,Teams,Backend Team
-bob.wilson@gitkiraken.com,bobwilson,User,Pro,Frontend Team
-ashton.kutcher@gitkiraken.com,ashtonkutcher,User,Pro,Design Team
-constance.baker@gitkiraken.com,constancebaker,User,Pro,Design Team
+Email,Username,Role,Teams
+john.doe@gitkiraken.com,johndoe,user,Frontend Team;Design Team
+jane.smith@gitkiraken.com,janesmith,admin,Backend Team
+bob.wilson@gitkiraken.com,bobwilson,user,Frontend Team
+ashton.kutcher@gitkiraken.com,ashtonkutcher,user,Design Team
+constance.baker@gitkiraken.com,constancebaker,user,Design Team
 ```
 
 > **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column. A single semicolon is used to separate multiple teams.
