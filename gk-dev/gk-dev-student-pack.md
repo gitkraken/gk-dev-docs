@@ -33,7 +33,7 @@ After the 6 month free trial, you can upgrade to a PRO subscription at a discoun
 
 When the 6 month free trial is about to end, you will be notified both in the app and in the email you used to sign up.
 
-<img src="/wp-content/uploads/gk-dev-expire-notification.png" class="img-bordered center help-center-img" alt="Upgrade to PRO screen in GitKraken.dev">
+<img src="/wp-content/uploads/gk-dev-student-expire-notification.png" class="img-bordered center help-center-img" alt="Upgrade to PRO screen in GitKraken.dev">
 
 You can upgrade to a PRO subscription at a discounted rate following the instructions in the email. In the checkout process, verify the discount code is applied.
 
