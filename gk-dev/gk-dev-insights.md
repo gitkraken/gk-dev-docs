@@ -1,90 +1,122 @@
 ---
-title: GitKraken Insights | PR Analytics Dashboard 
-description: Use GitKraken Insights to analyze pull request metrics like cycle time, merge rate, and throughput with a visual dashboard.
+title: Getting Started with GitKraken Insights
+description: Learn how to request access, understand plan availability, and connect your data in GitKraken Insights.
 taxonomy:
     category: gk-dev
 ---
+<kbd>Last updated: September 2025</kbd>
 
-<kbd>Last updated: June 2025</kbd>
+GitKraken Insights transforms raw Git data into actionable intelligence for developers and leaders. By integrating directly into existing workflows, Insights connects code activity, pull requests, issues, and CI/CD results into a single view. 
 
-<div style="background-color: #fff8e1; border-left: 4px solid #fbc02d; padding: 12px; margin-bottom: 24px; color: #000;">
-  <strong>Heads up:</strong> We're excited to launch the new GitKraken Insights soon! Stay tuned for more details.
-</div>
-
-GitKraken Insights is an interactive analytics dashboard that visualizes how pull requests are merged across your repositories. Use it to track contribution velocity, monitor merge patterns, and evaluate engineering efficiency over time.
+The platform goes beyond vanity metrics to show how work aligns with business goals, highlights the impact of AI on development, and provides personalized recommendations to help teams improve efficiency and productivity.
 
 <figure>
-  <img src="/wp-content/uploads/gkdev-insights.png" srcset="/wp-content/uploads/gkdev-insights@2x.png" class="img-bordered center help-center-img" alt="Graph of PR trends in GitKraken Insights">
-  <figcaption style="color:#888;text-align:center">Visualize pull request activity across your repositories</figcaption>
+  <img src="/wp-content/uploads/gitkraken-insights-full-dashboard.png" srcset="/wp-content/uploads/gitkraken-insights-full-dashboard@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Overview of GitKraken Insights</figcaption>
 </figure>
 
-<div class='callout callout--warning'>
-  <p><strong>Preview Mode:</strong> Insights is in Preview. Click the "Feedback" button in the top right to share your thoughts with us.</p>
-</div>
+---
 
-***
+## Request Access
 
-## How to Get Started
+GitKraken Insights is available by request only. To get started, complete the [request access form](https://www.gitkraken.com/insights#form).  
 
-Access Insights at [gitkraken.dev/insights](https://gitkraken.dev/insights?source=help_center).
+After submitting the form, a member of the GitKraken team will contact you within 1–2 business days with next steps for enabling Insights and connecting your data.  
 
-1. [Connect an integration](/gk-dev/gk-dev-integrations/) at [gitkraken.dev/settings/integrations](https://gitkraken.dev/settings/integrations?source=help_center)
-2. Create a [Cloud Workspace](/gk-dev/gk-dev-home/#workspaces) at [gitkraken.dev/workspaces](https://gitkraken.dev/workspaces?source=help_center)
+> **Note:** GitKraken Insights requires an **Advanced** or **Business** plan. If your organization is on a Free or Pro plan, you’ll need to upgrade before requesting access.
 
-Once set up, filter by workspace and date to explore pull request data.
+---
+
+## Plan availability and entitlements
+
+Insights features vary depending on your subscription plan:  
+
+- **Advanced**  
+  Includes Insights & DORA metrics, up to 10 seats, self-hosted Git integrations, enterprise integrations, and team management.  
+
+- **Business**  
+  Includes everything in Advanced, plus up to 100 seats, multi-domain SSO, customer success support, admin controls, and advanced compliance features.  
+
+> **Tip:** Check your current plan in your GitKraken account settings before submitting an access request.
+
+---
+
+## Connecting your data
+
+Once your access is approved, you can connect Insights to your repositories and configure settings for your organization.  
+
+---
+
+### 1. Repo import
+
+1. In GitKraken.dev, go to **Insights > Data Connection**.  
+2. Click **Connect GitHub**.  
+   > Support for GitLab, Bitbucket, Azure DevOps, and Jira Cloud is coming soon.  
+3. Authorize GitKraken Insights by GitClear to connect with GitHub.  
+4. Select which repositories to track. Use the filter option at the top of the page to quickly narrow down the list.  
 
 <figure>
-  <img src="/wp-content/uploads/gkdev-insights-filters.png" srcset="/wp-content/uploads/gkdev-insights-filters@2x.png" class="img-bordered center help-center-img" alt="Filter controls in GitKraken Insights dashboard">
-  <figcaption style="color:#888;text-align:center">Filter Insights by workspace and timeframe</figcaption>
+  <img src="/wp-content/uploads/data-connection.png" srcset="/wp-content/uploads/data-connection@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Connect GitHub to enable Insights</figcaption>
 </figure>
-
-<div class='callout callout--note'>
-  <p>GitKraken attempts to add webhooks to your workspace repositories to reduce API calls and improve data freshness.</p>
-  <p>14-day filtering is available on Teams plans; 28-day filtering is available on Enterprise plans.</p>
-</div>
-
-### Azure DevOps Requirements
-
-To use Insights and [Workspaces](/gk-dev/gk-dev-home/#workspaces) with Azure, enable `Third-party application access via OAuth` under Azure’s `Organization Settings > Policies`. [Learn more](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops).
-
-***
-
-## Insights Metrics Explained
-
-The dashboard surfaces actionable pull request metrics to help identify trends and blockers for the selected period of time:
-
-- **Cycle Time** – Average time to merge a pull request.
-- **Average Throughput** – Total number of pull requests merged.
-- **Merge Rate** – Ratio of merged pull requests to total open.
-- **Open** – Number of pull requests opened.
-- **Merged** – Number of pull requests successfully merged.
-
-Hover over the <i class="fa-solid fa-circle-info"></i> icons in-app to see detailed definitions.
-
-***
-
-## Export Your Data
-
-Insights data can be exported as a CSV file.
-
-1. Click **Export CSV** in the top right of the dashboard.
-2. Download and analyze data externally.
 
 <figure>
-  <img src="/wp-content/uploads/gkdev-insights-export.png" srcset="/wp-content/uploads/gkdev-insights-export@2x.png" class="img-bordered center help-center-img" alt="Export button in GitKraken Insights">
-  <figcaption style="color:#888;text-align:center">Export GitKraken Insights data as a CSV</figcaption>
+  <img src="/wp-content/uploads/authorize-gitclear.png" srcset="/wp-content/uploads/authorize-gitclear@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Authorize GitHub access for GitKraken Insights</figcaption>
 </figure>
 
-<div class='callout callout--note'>
-  <p><strong>Note:</strong> Exporting is only available for Enterprise subscriptions.</p>
-</div>
+<figure>
+  <img src="/wp-content/uploads/import-repos.png" srcset="/wp-content/uploads/import-repos@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Select which repos to import. You can always import more later.</figcaption>
+</figure>
 
-***
+---
 
-## Next Steps
+### 2. Setup role
 
-Continue exploring GitKraken.dev analytics and collaboration features:
-- [Connect an Integration](/gk-dev/gk-dev-integrations/)
-- [Set up a Workspace](/gk-dev/gk-dev-home/#workspaces-organize-projects-by-team)
-- [Learn about Launchpad](/gk-dev/gk-dev-home/#launchpad-your-daily-git-dashboard)
-- [Visit GitKraken.dev Support Home](/gk-dev/gk-dev-home/)
+After connecting repositories, confirm your personal details:
+
+- First and last name  
+- Time zone  
+- Job role  
+
+<figure>
+  <img src="/wp-content/uploads/set-role.png" srcset="/wp-content/uploads/set-role@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Confirm your details before continuing</figcaption>
+</figure>
+
+---
+
+### 3. Goals setup
+
+Next, choose what goals to prioritize for your team:  
+
+- **Team Health** — engagement and productivity  
+- **Project Health** — sprint completion, bug/feature work, churn  
+- **Google DORA** — MTTR, lead time, deploy frequency  
+- **Pull Requests** — teamwork, efficiency, code maintainability  
+- **AI and Tech Debt** — detect codebase issues  
+
+You can also scroll down and click **Skip goal setup for now**.  
+
+For details, see [Setting up team goals](https://www.gitclear.com/help/setting_up_team_goals_to_improve_developer_experience).  
+
+<figure>
+  <img src="/wp-content/uploads/goal-setup.png" srcset="/wp-content/uploads/goal-setup@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Select or skip team goals during onboarding</figcaption>
+</figure>
+
+---
+
+### 4. Data import progress
+
+Once setup is complete, Insights will begin importing your repository data.  
+
+- Expect **past month’s activity** to appear within a few hours.  
+- Full **year’s activity** is usually ready within one to two days.  
+- Track import progress anytime from the **Dashboard** tab.  
+
+<figure>
+  <img src="/wp-content/uploads/import-progress.png" srcset="/wp-content/uploads/import-progress@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Monitor import progress while Insights processes your data</figcaption>
+</figure>
