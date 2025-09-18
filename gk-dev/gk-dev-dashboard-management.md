@@ -156,10 +156,6 @@ This metric shows the total number of reviews (all types) completed over a given
 
 Widgets on the dashboard can be customized to fit your needs.
 
-## Layout
-
-Widgets on the dashboard can be customized to fit your needs.
-
 - **Resize widgets:** Each widget is available in two sizes—small or large. Drag and drop the lower-right corner of a widget to adjust its size.
 - **Rearrange widgets:** Drag and drop from the upper-left corner of a widget to move it into a new position on the dashboard.
 - **One per dashboard:** Only one copy of each metric can be placed on a dashboard.
