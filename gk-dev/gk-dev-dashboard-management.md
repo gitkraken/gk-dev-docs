@@ -156,9 +156,21 @@ This metric shows the total number of reviews (all types) completed over a given
 
 Widgets on the dashboard can be customized to fit your needs.
 
+## Layout
+
+Widgets on the dashboard can be customized to fit your needs.
+
 - **Resize widgets:** Each widget is available in two sizes—small or large. Drag and drop the lower-right corner of a widget to adjust its size.
 - **Rearrange widgets:** Drag and drop from the upper-left corner of a widget to move it into a new position on the dashboard.
 - **One per dashboard:** Only one copy of each metric can be placed on a dashboard.
+- **Widget menu:** From the menu in the upper-right of each widget, you can switch between **line** and **bar** graph types, resize the widget between large or small, export the graph data, or remove the widget from the dashboard.
+
+<figure>
+  <img src="/wp-content/uploads/layout-options.png" srcset="/wp-content/uploads/layout-options@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Switch between bar or line graphs, resize, export graph data, or remove widget from the menu in the upper right.</figcaption>
+</figure>
+
+> **Note:** Currently, each user can create only one dashboard per organization. Support for multiple dashboards per user is planned for a future release.
 
 ---
 
@@ -172,10 +184,10 @@ The dashboard may be filtered by **Workspace**, **Repositories**, **Timeframe**,
 
 - **Timeframe:** Sets the timebox for the dashboard. Options include **This Week, Last Week, Last 7 days, Last 14 days, Last 28 days, Last 30 days, Last 90 days, Last 12 months**, or a custom date range.
 
-- **Team:** Filters the data by a group of users. Teams can be configured at [gitkraken.dev/teams](https://gitkraken.dev/teams).
+- **Team:** Filters the data by a group of users. To configure teams, go to **Insights > Settings > Setup your Team**.
 
 
 <figure>
   <img src="/wp-content/uploads/timeframe-filter.png" srcset="/wp-content/uploads/timeframe-filter@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">Fitler your dashboard by Workspace, Repo, Timeframe, or Team.</figcaption>
+  <figcaption style="text-align: center; color: #888">Filter your dashboard by Workspace, Repo, Timeframe, or Team.</figcaption>
 </figure>
