@@ -14,6 +14,8 @@ Use **GitKraken.dev Automations** to create rule-based workflows that trigger ac
     <p>This feature is only available on Pro subscription tiers or higher. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
 </div>
 
+***
+
 ## Automation examples
 
 Here are a few ways teams are using Automations to reduce manual effort and create scalable workflows:
@@ -28,6 +30,8 @@ Here are a few ways teams are using Automations to reduce manual effort and crea
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> Automations currently supports cloud integrations. Self-hosted support will be added in a future update.</p>
 </div>
+
+***
 
 ## Get started with automations
 
@@ -55,6 +59,8 @@ Click <button class="button button--success button--ui button--nolink">+ Create 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> Creating an automation sets up a webhook on the repository. You’ll need the appropriate permissions.</p>
 </div>
+
+***
 
 ## Set Conditions
 
@@ -114,6 +120,8 @@ GitKraken supports these automation actions:
     <p><strong>Note:</strong> Authors can’t review their own PRs. If selected, GitKraken will skip that step and apply all others.</p>
 </div>
 
+***
+
 ## Manage saved automations
 
 Once you've created automations, manage them at [GitKraken.dev](https://gitkraken.dev/automations/general?source=help_center&product=gitkraken_dot_dev).
@@ -153,6 +161,8 @@ Sort by **Status** (enabled/disabled) or **Action** (type of triggered automatio
 
 Click <button class="button button--success button--ui button--nolink">+ Create Automation</button> again from the list view.
 
+***
+
 ## Repository management
 
 The Repository Management screen shows which repos have active automations, who created them, the provider, and automation counts.
@@ -168,6 +178,8 @@ Admins can also add/remove repos or perform bulk actions.
   <img src="/wp-content/uploads/gkdev-createautomations9.png" class="help-center-img img-bordered" alt="Repository admin tasks for automations">
   <figcaption style="color:#888;text-align:center">Admin view for managing repository automation</figcaption>
 </figure>
+
+***
 
 ## Next Steps
 
