@@ -19,31 +19,19 @@ The platform goes beyond vanity metrics to show how work aligns with business go
 
 ## Request Access
 
-GitKraken Insights is available by request only. To get started, complete the [request access form](https://www.gitkraken.com/insights#form).  
+GitKraken Insights is available by request only. To get started, [request a guided tour](https://www.gitkraken.com/insights#form).  
 
-After submitting the form, a member of the GitKraken team will contact you within 1–2 business days with next steps for enabling Insights and connecting your data.  
+A member of the GitKraken team will contact you within 1–2 business days to walk you through Insights and explain how to enable access for your organization.  
 
-> **Note:** GitKraken Insights requires an **Advanced** or **Business** plan. If your organization is on a Free or Pro plan, you’ll need to upgrade before requesting access.
-
----
-
-## Plan availability and entitlements
-
-Insights features vary depending on your subscription plan:  
-
-- **Advanced**  
-  Includes Insights & DORA metrics, up to 10 seats, self-hosted Git integrations, enterprise integrations, and team management.  
-
-- **Business**  
-  Includes everything in Advanced, plus up to 100 seats, multi-domain SSO, customer success support, admin controls, and advanced compliance features.  
-
-> **Tip:** Check your current plan in your GitKraken account settings before submitting an access request.
+> **Note:** GitKraken Insights requires an **Advanced** or **Business** plan. To compare plan options, see the [GitKraken pricing page](https://www.gitkraken.com/pricing).
 
 ---
 
 ## Connecting your data
 
 Once your access is approved, you can connect Insights to your repositories and configure settings for your organization.  
+
+Currently, Insights supports connections with **GitHub only**. Support for GitLab, Bitbucket, Azure DevOps, and Jira Cloud is coming soon. 
 
 ---
 
@@ -85,30 +73,10 @@ After connecting repositories, confirm your personal details:
   <figcaption style="text-align: center; color: #888">Confirm your details before continuing</figcaption>
 </figure>
 
----
-
-### 3. Goals setup
-
-Next, choose what goals to prioritize for your team:  
-
-- **Team Health** — engagement and productivity  
-- **Project Health** — sprint completion, bug/feature work, churn  
-- **Google DORA** — MTTR, lead time, deploy frequency  
-- **Pull Requests** — teamwork, efficiency, code maintainability  
-- **AI and Tech Debt** — detect codebase issues  
-
-You can also scroll down and click **Skip goal setup for now**.  
-
-For details, see [Setting up team goals](https://www.gitclear.com/help/setting_up_team_goals_to_improve_developer_experience).  
-
-<figure>
-  <img src="/wp-content/uploads/goal-setup.png" srcset="/wp-content/uploads/goal-setup@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">Select or skip team goals during onboarding</figcaption>
-</figure>
 
 ---
 
-### 4. Data import progress
+### 3. Data import progress
 
 Once setup is complete, Insights will begin importing your repository data.  
 
