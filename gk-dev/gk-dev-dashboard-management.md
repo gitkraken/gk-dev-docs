@@ -24,7 +24,7 @@ GitKraken Insights provides a unified analytics platform integrated directly int
 
 Before you can add metrics, complete these setup steps:
 
-1. [Request access to GitKraken Insights](https://www.gitkraken.com/insights#form).
+1. [Request a guided tour to get access](https://www.gitkraken.com/insights#form).
 2. Connect GitKraken Insights to your GitHub account.
 3. Wait for your repositories to finish importing. For detailed instructions, see the [Getting Started guide](https://help.gitkraken.com/gk-dev/gk-dev-insights).
 
