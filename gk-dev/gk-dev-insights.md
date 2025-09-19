@@ -23,7 +23,7 @@ GitKraken Insights is available by request only. To get started, [request a guid
 
 A member of the GitKraken team will contact you within 1–2 business days to walk you through Insights and explain how to enable access for your organization.  
 
-> **Note:** GitKraken Insights requires an **Advanced** or **Business** plan. To compare plan options, see the [GitKraken pricing page](https://www.gitkraken.com/pricing).
+> **Note:** GitKraken Insights requires an **Advanced**, **Business**, or **Enterprise Cloud** plan. To compare plan options, see the [GitKraken pricing page](https://www.gitkraken.com/pricing).
 
 ---
 
