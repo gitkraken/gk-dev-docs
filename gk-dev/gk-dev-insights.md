@@ -6,9 +6,9 @@ taxonomy:
 ---
 <kbd>Last updated: September 2025</kbd>
 
-GitKraken Insights transforms raw Git data into actionable intelligence for developers and leaders. By integrating directly into existing workflows, Insights connects code activity, pull requests, issues, and CI/CD results into a single view. 
+GitKraken Insights turns raw Git data into clear, useful metrics for developers and leaders. It pulls code activity, pull requests, issues, and CI/CD results into a single view that fits directly into existing workflows.
 
-The platform goes beyond vanity metrics to show how work aligns with business goals, highlights the impact of AI on development, and provides personalized recommendations to help teams improve efficiency and productivity.
+Instead of surface-level stats, Insights shows how work connects to team goals and points out ways to improve flow and productivity.
 
 <figure>
   <img src="/wp-content/uploads/gitkraken-insights-full-dashboard.png" srcset="/wp-content/uploads/gitkraken-insights-full-dashboard@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />

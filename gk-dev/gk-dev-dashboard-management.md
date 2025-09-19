@@ -9,14 +9,13 @@ taxonomy:
 
 ## Overview
 
-GitKraken Insights provides a unified analytics platform integrated directly into developer workflows. It transforms raw Git activity and development metrics into actionable insights for teams and leaders. By combining code activity data, PR metrics, issue tracker integration, and CI/CD performance, dashboards deliver context-rich metrics that help optimize the entire development lifecycle.
+GitKraken Insights brings your Git data, pull requests, issues, and CI/CD results into one place. Instead of juggling tools or exporting spreadsheets, you get dashboards that show how work is really moving across code, reviews, and releases. The goal is to give both devs and leads a clear view of progress and bottlenecks without extra reporting overhead.
 
 ### Key benefits
 
-- **Workflow-integrated insights:** Access metrics derived directly from developer tools, with visibility into the impact of AI on development teams—without disrupting workflows.
-- **Context-rich metrics:** Go beyond vanity metrics by connecting code changes to business objectives through issue linking, PR quality analysis, benchmark goals/alerts, and work investment categorization.
-- **Improvement pathways:** Get personalized recommendations that identify inefficiencies and provide guided action plans to improve productivity.
-
+- **In your workflow:** Metrics come straight from the tools you already use: Git, PRs, CI/CD, issue trackers. No duplicate work, no disruption.  
+- **Useful context:** See how code changes connect to tickets, review quality, and team goals. Less vanity stats, more signal.  
+- **Clear next steps:** Spot inefficiencies and get practical ways to improve, whether it’s review speed, investment in features vs. fixes, or build times.  
 
 ---
 
