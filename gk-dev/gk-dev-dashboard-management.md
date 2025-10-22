@@ -179,7 +179,7 @@ The Copy/Paste vs Moved Percent metric compares how much code is duplicated vers
 
 <figure>
   <img src="/wp-content/uploads/copy-paste-moved.png" srcset="/wp-content/uploads/copy-paste-moved@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">Compare duplicated versus refactored code over time to identify reuse and duplication trends.</figcaption>
 </figure>
 
 You can hover over points on the chart to view the exact percentages for a specific time period, making it easy to see changes before and after implementing an AI coding tool.
@@ -191,14 +191,14 @@ The Duplicated Code metric highlights how much code is being repeated across you
 
 <figure>
   <img src="/wp-content/uploads/duplicated-code.png" srcset="/wp-content/uploads/duplicated-code@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">Track how duplicated code changes over time to identify growth in repeated code patterns.</figcaption>
 </figure>
 
 The detailed view breaks this down by repository and time period, showing where duplication is concentrated and how it changes alongside overall development activity, such as commits, pull requests, and issues resolved. This helps teams connect code duplication trends to broader workflow patterns and assess the real impact of AI tools on code quality.
 
 <figure>
   <img src="/wp-content/uploads/duplicated-code-details.png" srcset="/wp-content/uploads/duplicated-code-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">View duplicated code by repository to see which projects contribute most to redundancy.</figcaption>
 </figure>
 
 ### Percent of code rework (churned lines)
@@ -207,14 +207,14 @@ The Percent of Code Rework (Churned Lines) metric measures how often recently wr
 
 <figure>
   <img src="/wp-content/uploads/percent-of-code-rework.png" srcset="/wp-content/uploads/percent-of-code-rework@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">Track how frequently code is rewritten or replaced over time to identify rework trends.</figcaption>
 </figure>
 
 The detailed view breaks this down across repositories and time periods, helping teams see where rework is concentrated and how it aligns with activity levels like commits, pull requests, and issue resolutions. By monitoring this metric, teams can assess whether AI tools are improving long-term code quality or introducing avoidable rework.
 
 <figure>
   <img src="/wp-content/uploads/duplicated-code-details-view.png" srcset="/wp-content/uploads/duplicated-code-details-view@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">View rework percentages by repository to pinpoint where churn is most frequent.</figcaption>
 </figure>
 
 ### Post PR work occurring
@@ -223,14 +223,14 @@ The Post PR Work Occurring metric measures how much additional code is written o
 
 <figure>
   <img src="/wp-content/uploads/post-pr-work-occuring.png" srcset="/wp-content/uploads/post-pr-work-occuring@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">Track how much post-merge work occurs over time to identify spikes in follow-up activity.</figcaption>
 </figure>
 
 The detailed view breaks this activity down by repository and time period, revealing patterns in post-merge changes and how they relate to broader development activity, such as commits and pull requests. Tracking this metric over time helps teams improve review quality and identify whether AI-assisted coding leads to more—or less—post-merge rework.
 
 <figure>
   <img src="/wp-content/uploads/post-pr-work-occuring-details.png" srcset="/wp-content/uploads/post-pr-work-occuring-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+  <figcaption style="text-align: center; color: #888">View post-merge work by repository to see where additional changes are concentrated.</figcaption>
 </figure>
 
 
