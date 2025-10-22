@@ -68,6 +68,7 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Percent of code rework (churned lines)
 - Post PR work occurring
 
+***
 
 ## DORA metrics
 
@@ -111,6 +112,8 @@ This metric shows how long each pull request within a selected timeframe took to
 ### Defect Rate
 
 This metric shows the number of defects detected over time. Values are expressed as **defects** over a rolling **7-day window**. A lower defect rate indicates a more stable and reliable deployment process.
+
+***
 
 ## Pull Request metrics
 
@@ -168,6 +171,8 @@ This metric shows the total number of reviews (all types) completed over a given
   <img src="/wp-content/uploads/number-of-reviews.png" srcset="/wp-content/uploads/number-of-reviews@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
 </figure>
+
+***
 
 ## AI Impact
 
