@@ -45,7 +45,7 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
   <figcaption style="text-align: center; color: #888">Add DORA or PR metrics to your dashboard.</figcaption>
 </figure>
 
-## Available metrics
+### Available metrics
 
 **DORA metrics**
 
