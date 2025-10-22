@@ -11,7 +11,7 @@ GitKraken Insights turns raw Git data into clear, useful metrics for developers 
 Instead of surface-level stats, Insights shows how work connects to team goals and points out ways to improve flow and productivity.
 
 <figure>
-  <img src="/wp-content/uploads/gitkraken-insights-full-dashboard.png" srcset="/wp-content/uploads/gitkraken-insights-full-dashboard@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/insights-dashboard-oct-2025.png" srcset="/wp-content/uploads/insights-dashboard-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">Overview of GitKraken Insights</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Currently, Insights supports connections with **GitHub only**. Support for GitLa
 4. Select which repositories to track. Use the filter option at the top of the page to quickly narrow down the list.  
 
 <figure>
-  <img src="/wp-content/uploads/data-connection.png" srcset="/wp-content/uploads/data-connection@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/data-connection-oct-2025.png" srcset="/wp-content/uploads/data-connection-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">Connect GitHub to enable Insights</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ After connecting repositories, confirm your personal details:
 - Job role  
 
 <figure>
-  <img src="/wp-content/uploads/set-role.png" srcset="/wp-content/uploads/set-role@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/set-role-oct-2025.png" srcset="/wp-content/uploads/set-role-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">Confirm your details before continuing</figcaption>
 </figure>
 
