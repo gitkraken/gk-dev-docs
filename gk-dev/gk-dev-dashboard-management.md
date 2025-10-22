@@ -45,7 +45,7 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
   <figcaption style="text-align: center; color: #888">Add DORA or PR metrics to your dashboard.</figcaption>
 </figure>
 
-### Available metrics
+## Available metrics
 
 **DORA metrics**
 
@@ -60,6 +60,20 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Cycle time ("first commit" to "merge")
 - Lead time ("first commit" to "deployed")
 - Number of reviews per day/week/month
+
+**AI Impact metrics**
+
+- Copy/paste vs moved percent
+- Duplicated code
+- Percent of code rework (churned lines)
+- Post PR work occurring
+
+
+## DORA metrics
+
+DORA (DevOps Research and Assessment) metrics are a standardized set of four key performance indicators: deployment frequency, lead time for changes, change failure rate, and time to restore service. 
+
+Developed by a Google Cloud research team, these metrics help organizations measure DevOps performance, identify areas for improvement, and deliver software more efficiently and reliably.
 
 ### Deploy Frequency
 
@@ -97,6 +111,12 @@ This metric shows how long each pull request within a selected timeframe took to
 ### Defect Rate
 
 This metric shows the number of defects detected over time. Values are expressed as **defects** over a rolling **7-day window**. A lower defect rate indicates a more stable and reliable deployment process.
+
+## Pull Request metrics
+
+Pull Request metrics help teams understand how quickly and smoothly code changes move through review and deployment. 
+
+PR intelligence turns these insights into clear actions by highlighting slowdowns, spotting patterns in fast or delayed reviews, and uncovering blockers that may affect delivery.
 
 ### First Response Time ("Pickup Time")
 
@@ -149,6 +169,71 @@ This metric shows the total number of reviews (all types) completed over a given
   <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
 </figure>
 
+## AI Impact
+
+AI Impact metrics help teams understand how AI coding tools affect code quality and developer efficiency. By tracking rework, duplication, and post-PR changes, teams can see measurable improvements in code and workflow, proving ROI and guiding smarter use of AI tools.
+
+### Copy/paste vs moved percent
+
+The Copy/Paste vs Moved Percent metric compares how much code is duplicated versus refactored or relocated over time. When the copy/paste percentage is higher than the moved percentage, it suggests that developers are duplicating code instead of reusing or restructuring it, which can lead to higher maintenance costs and lower overall code quality. 
+
+<figure>
+  <img src="/wp-content/uploads/copy-paste-moved.png" srcset="/wp-content/uploads/copy-paste-moved@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+You can hover over points on the chart to view the exact percentages for a specific time period, making it easy to see changes before and after implementing an AI coding tool.
+
+
+### Duplicated code
+
+The Duplicated Code metric highlights how much code is being repeated across your repositories, helping teams identify inefficiencies and potential maintainability issues. When duplication rises, it often signals that AI-assisted or manual coding practices are reusing code without enough refactoring. 
+
+<figure>
+  <img src="/wp-content/uploads/duplicated-code.png" srcset="/wp-content/uploads/duplicated-code@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+The detailed view breaks this down by repository and time period, showing where duplication is concentrated and how it changes alongside overall development activity, such as commits, pull requests, and issues resolved. This helps teams connect code duplication trends to broader workflow patterns and assess the real impact of AI tools on code quality.
+
+<figure>
+  <img src="/wp-content/uploads/duplicated-code-details.png" srcset="/wp-content/uploads/duplicated-code-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+### Percent of code rework (churned lines)
+
+The Percent of Code Rework (Churned Lines) metric measures how often recently written code is rewritten, deleted, or replaced over time. High churn rates can indicate instability, unclear requirements, or inefficiencies in AI-assisted code generation. 
+
+<figure>
+  <img src="/wp-content/uploads/percent-of-code-rework.png" srcset="/wp-content/uploads/percent-of-code-rework@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+The detailed view breaks this down across repositories and time periods, helping teams see where rework is concentrated and how it aligns with activity levels like commits, pull requests, and issue resolutions. By monitoring this metric, teams can assess whether AI tools are improving long-term code quality or introducing avoidable rework.
+
+<figure>
+  <img src="/wp-content/uploads/duplicated-code-details-view.png" srcset="/wp-content/uploads/duplicated-code-details-view@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+### Post PR work occurring
+
+The Post PR Work Occurring metric measures how much additional code is written or modified after a pull request has been merged. This helps teams spot follow-up work that may indicate incomplete reviews, rushed merges, or overlooked issues during initial development. 
+
+<figure>
+  <img src="/wp-content/uploads/post-pr-work-occuring.png" srcset="/wp-content/uploads/post-pr-work-occuring@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+The detailed view breaks this activity down by repository and time period, revealing patterns in post-merge changes and how they relate to broader development activity, such as commits and pull requests. Tracking this metric over time helps teams improve review quality and identify whether AI-assisted coding leads to more—or less—post-merge rework.
+
+<figure>
+  <img src="/wp-content/uploads/post-pr-work-occuring-details.png" srcset="/wp-content/uploads/post-pr-work-occuring-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
+</figure>
+
+
 ---
 
 ## Layout
@@ -159,10 +244,11 @@ Widgets on the dashboard can be customized to fit your needs.
 - **Rearrange widgets:** Drag and drop from the upper-left corner of a widget to move it into a new position on the dashboard.
 - **One per dashboard:** Only one copy of each metric can be placed on a dashboard.
 - **Widget menu:** From the menu in the upper-right of each widget, you can switch between **line** and **bar** graph types, resize the widget between large or small, export the graph data, or remove the widget from the dashboard.
+- **Switch graph type** Switch between line graphs, area graphs, or bar graphs.
 
 <figure>
   <img src="/wp-content/uploads/layout-options.png" srcset="/wp-content/uploads/layout-options@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">Switch between bar or line graphs, resize, export graph data, or remove widget from the menu in the upper right.</figcaption>
+  <figcaption style="text-align: center; color: #888">Switch between bar, area or line graphs, resize, export graph data, or remove widget from the menu in the upper right.</figcaption>
 </figure>
 
 > **Note:** Currently, each user can create only one dashboard per organization. Support for multiple dashboards per user is planned for a future release.
