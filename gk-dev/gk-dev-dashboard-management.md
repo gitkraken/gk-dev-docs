@@ -4,7 +4,7 @@ description: Learn how to add and interpret key DORA and Pull Request metrics, a
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: September 2025</kbd>
+<kbd>Last updated: October 2025</kbd>
 
 
 ## Overview
@@ -78,7 +78,7 @@ In addition to the main chart, the following submetrics are displayed when you c
 - **Change failure rate**
 
 <figure>
-  <img src="/wp-content/uploads/deploy-frequency-details.png" srcset="/wp-content/uploads/deploy-frequency-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/deployment-frequency-oct-2025.png" srcset="/wp-content/uploads/deployment-frequency-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">Click the Details button to get 4 additional metrics.</figcaption>
 </figure>
 

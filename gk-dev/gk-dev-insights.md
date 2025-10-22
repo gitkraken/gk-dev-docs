@@ -4,7 +4,7 @@ description: Learn how to request access, understand plan availability, and conn
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: September 2025</kbd>
+<kbd>Last updated: October 2025</kbd>
 
 GitKraken Insights turns raw Git data into clear, useful metrics for developers and leaders. It pulls code activity, pull requests, issues, and CI/CD results into a single view that fits directly into existing workflows.
 
