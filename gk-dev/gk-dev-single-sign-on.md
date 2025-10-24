@@ -91,6 +91,9 @@ Note: JIT only works if there are available licenses. If none are available, use
 - If a user logs in with SSO but is not part of the organization, they’ll be prompted to contact an admin.
 - Owners and Admins may sign in using any supported method.
 
+<div class='callout callout--info'>
+    <p>Gitkraken SSO does not support signing in through the Identity Provider's dashboard.</p>
+</div>
 ***
 
 ## Set up SSO
