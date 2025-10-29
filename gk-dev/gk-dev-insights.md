@@ -31,7 +31,7 @@ A member of the GitKraken team will contact you within 1–2 business days to wa
 
 Once your access is approved, you can connect Insights to your repositories and configure settings for your organization.  
 
-Currently, Insights supports connections with **GitHub only**. Support for GitLab, Bitbucket, Azure DevOps, and Jira Cloud is coming soon. 
+Currently, Insights supports connections with GitHub, GitLab and Jira Cloud. Support for Bitbucket and Azure DevOps is coming soon. 
 
 ---
 
@@ -39,7 +39,7 @@ Currently, Insights supports connections with **GitHub only**. Support for GitLa
 
 1. In GitKraken.dev, go to **Insights > Data Connection**.  
 2. Click **Connect GitHub**.  
-   > Support for GitLab, Bitbucket, Azure DevOps, and Jira Cloud is coming soon.  
+   > Support for Bitbucket and Azure DevOps, is coming soon.  
 3. Authorize GitKraken Insights by GitClear to connect with GitHub.  
 4. Select which repositories to track. Use the filter option at the top of the page to quickly narrow down the list.  
 
