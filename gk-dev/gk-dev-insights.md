@@ -45,7 +45,7 @@ Currently, Insights supports connections with GitHub, GitLab and Jira Cloud. Sup
 
 <figure>
   <img src="/wp-content/uploads/data-connection-oct-25.png" srcset="/wp-content/uploads/data-connection-oct-25@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">Connect GitHub to enable Insights</figcaption>
+  <figcaption style="text-align: center; color: #888">Connect GitHub, GitLab, or Jira to enable Insights</figcaption>
 </figure>
 
 <figure>
