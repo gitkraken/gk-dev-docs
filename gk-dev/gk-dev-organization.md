@@ -22,6 +22,7 @@ Roles determine what permissions a member has within your organization. There ar
 - **Owner** – Each organization has one owner by default. The owner has full administrative and billing permissions and consumes a license.
 - **Admin** – Has full administrative and billing permissions and consumes a license. Admins cannot change or remove the owner.
 - **User** – Has access to GitKraken features but no administrative permissions. This role consumes a license.
+- **Leader** – Has access to GitKraken Insights, as well as GitKraken features but no administrative permissions for your GitKraken organization. This role consumes a license.
 - **Billing Contact** – Manages billing-related settings and receives invoices. This role does not consume a license.
 
 <table class='table table--bordered table--shortcuts'>
@@ -30,6 +31,7 @@ Roles determine what permissions a member has within your organization. There ar
             <th>Permission</th>
             <th>Owner</th>
             <th>Admin</th>
+            <th>Lead</th>
             <th>User</th>
             <th>Billing Contact</th>
         </tr>
@@ -40,12 +42,14 @@ Roles determine what permissions a member has within your organization. There ar
             <th>✅</th>
             <th>✅</th>
             <th>✅</th>
+            <th>✅</th>
             <th></th>
         </tr>
         <tr>
             <td>Add, edit, and remove users</td>
             <th>✅</th>
             <th>✅</th>
+            <th></th>
             <th></th>
             <th>✅</th>
         </tr>
@@ -54,6 +58,7 @@ Roles determine what permissions a member has within your organization. There ar
             <th>✅</th>
             <th>✅</th>
             <th></th>
+            <th></th>
             <th>✅</th>
         </tr>
         <tr>
@@ -61,12 +66,38 @@ Roles determine what permissions a member has within your organization. There ar
             <th>✅</th>
             <th>✅</th>
             <th></th>
+            <th></th>
             <th>✅</th>
         </tr>
         <tr>
             <td><a href="/gk-dev/gk-dev-organization/#transfer-ownership">Transfer ownership</a> of the organization</td>
             <th>✅</th>
             <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Connect data sources to GitKraken Insights</td>
+            <th>✅</th>
+            <th>✅</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Access and manage GitKraken Insights</td>
+            <th>✅</th>
+            <th>✅</th>
+            <th>✅</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Assign and manage Insights licenses</td>
+            <th>✅</th>
+            <th>✅</th>
+            <th>✅</th>
             <th></th>
             <th></th>
         </tr>
