@@ -4,7 +4,7 @@ description: Learn how to request access, understand plan availability, and conn
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: October 2025</kbd>
+<kbd>Last updated: December 2025</kbd>
 
 GitKraken Insights turns raw Git data into clear, useful metrics for developers and leaders. It pulls code activity, pull requests, issues, and CI/CD results into a single view that fits directly into existing workflows.
 
@@ -43,6 +43,7 @@ Currently, Insights supports connections with GitHub, GitLab and Jira Cloud. Sup
 3. Authorize GitKraken Insights by GitClear to connect with GitHub.  
 4. Select which repositories to track. Use the filter option at the top of the page to quickly narrow down the list.  
 
+
 <figure>
   <img src="/wp-content/uploads/data-connection-oct-25.png" srcset="/wp-content/uploads/data-connection-oct-25@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">Connect GitHub, GitLab, or Jira to enable Insights</figcaption>
@@ -57,6 +58,15 @@ Currently, Insights supports connections with GitHub, GitLab and Jira Cloud. Sup
   <img src="/wp-content/uploads/import-repos.png" srcset="/wp-content/uploads/import-repos@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
   <figcaption style="text-align: center; color: #888">Select which repos to import. You can always import more later.</figcaption>
 </figure>
+
+#### Avoiding GitHub API rate limits
+
+If you're importing a large number of repositories—typically over 100, depending on size and commit history—you may encounter GitHub's hourly API rate limits. This can temporarily throttle other GitHub services used by your organization.
+
+To avoid this, additional members of your organization can connect to Insights using a [Lead role](/gk-dev/gk-dev-organization/#roles). When multiple Leads are connected, GitClear distributes processing across their GitHub tokens to help avoid throttling.
+
+After the initial import is complete, rate limit issues are unlikely to recur.
+
 
 ---
 
