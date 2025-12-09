@@ -61,9 +61,9 @@ Currently, Insights supports connections with GitHub, GitLab and Jira Cloud. Sup
 
 #### Avoiding GitHub API rate limits
 
-If you're importing a large number of repositories—typically over 100, depending on size and commit history—you may encounter GitHub's hourly API rate limits. This can temporarily throttle other GitHub services used by your organization.
+If you're importing a large number of repositories—depending on size and commit history—you may encounter GitHub's hourly API rate limits. This can temporarily throttle other GitHub services used by your organization.
 
-To avoid this, additional members of your organization can connect to Insights using a [Lead role](/gk-dev/gk-dev-organization/#roles). When multiple Leads are connected, GitClear distributes processing across their GitHub tokens to help avoid throttling.
+To avoid this, additional members of your organization can connect to Insights using a [Lead role](/gk-dev/gk-dev-organization/#roles). When multiple people are connected, the app distributes processing across their GitHub tokens to help avoid throttling.
 
 After the initial import is complete, rate limit issues are unlikely to recur.
 
