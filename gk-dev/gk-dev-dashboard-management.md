@@ -60,6 +60,11 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Cycle time ("first commit" to "merge")
 - Lead time ("first commit" to "deployed")
 - Number of reviews per day/week/month
+- Open Time ("opened" to "merged")
+- Number of PRs Abandoned
+- Number of PRs Merged Without Review
+- Number of PR Comments
+- PR Size/Effort
 
 **AI Impact metrics**
 
