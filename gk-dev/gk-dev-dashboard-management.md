@@ -65,6 +65,7 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Number of PRs Merged Without Review
 - Number of PR Comments
 - PR Size/Effort
+- Code Review Hours
 
 **AI Impact metrics**
 
@@ -72,6 +73,10 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Duplicated code
 - Percent of code rework (churned lines)
 - Post PR work occurring
+- Active Users
+- Suggestions (by total lines)
+- Prompt Acceptance Rate
+- Tab Acceptance Rate
 
 ***
 
@@ -290,21 +295,27 @@ This metric quantifies the average time investment in reviewing code. It helps l
 
 AI Impact metrics help teams understand how AI coding tools affect code quality and developer efficiency. By tracking rework, duplication, and post-PR changes, teams can see measurable improvements in code and workflow, proving ROI and guiding smarter use of AI tools.
 
-### Copy/paste vs moved percent
+### Copy/Paste vs Moved Percent
 
-The Copy/Paste vs Moved Percent metric compares how much code is duplicated versus refactored or relocated over time. When the copy/paste percentage is higher than the moved percentage, it suggests that developers are duplicating code instead of reusing or restructuring it, which can lead to higher maintenance costs and lower overall code quality. 
+**Definition:** _This metric compares how much code is duplicated versus refactored or relocated over time. Moved lines reflect healthy code reorganization, while copy/pasted lines often signal duplicated logic that can lead to technical debt._
+
+Tracking this metric helps teams distinguish between maintainable refactoring and potentially problematic duplication. This is especially important for teams using AI coding assistants, which tend to duplicate code rather than abstract or reuse it—leading to higher long-term maintenance costs if left unchecked.
 
 <figure>
-  <img src="/wp-content/uploads/copy-paste-moved.png" srcset="/wp-content/uploads/copy-paste-moved@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/copy-paste-moved.png" srcset="/wp-content/uploads/copy-paste-moved@2x.png" class="help-center-img img-bordered" alt="Line chart comparing duplicated and moved code over time" />
   <figcaption style="text-align: center; color: #888">Compare duplicated versus refactored code over time to identify reuse and duplication trends.</figcaption>
 </figure>
 
 You can hover over points on the chart to view the exact percentages for a specific time period, making it easy to see changes before and after implementing an AI coding tool.
 
 
-### Duplicated code
+### Duplicated Code
 
-The Duplicated Code metric highlights how much code is being repeated across your repositories, helping teams identify inefficiencies and potential maintainability issues. When duplication rises, it often signals that AI-assisted or manual coding practices are reusing code without enough refactoring. 
+**Definition:** _The amount of lines in duplicate blocks detected._
+
+This metric measures redundant code blocks in your codebase. It correlates with increased maintenance costs and a higher risk of defect propagation, since duplicated logic must be updated consistently across multiple places.
+
+When duplication rises, it often signals that AI-assisted or manual coding practices are reusing code without enough refactoring.
 
 <figure>
   <img src="/wp-content/uploads/duplicated-code.png" srcset="/wp-content/uploads/duplicated-code@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
@@ -318,9 +329,11 @@ The detailed view breaks this down by repository and time period, showing where 
   <figcaption style="text-align: center; color: #888">View duplicated code by repository to see which projects contribute most to redundancy.</figcaption>
 </figure>
 
-### Percent of code rework (churned lines)
+### Percent of Code Rework (Churned Lines)
 
-The Percent of Code Rework (Churned Lines) metric measures how often recently written code is rewritten, deleted, or replaced over time. High churn rates can indicate instability, unclear requirements, or inefficiencies in AI-assisted code generation. 
+**Definition:** _The percentage of recently written code that gets modified again quickly, which may indicate instability or changing requirements._
+
+This metric calculates how much recently written code gets modified again, signaling instability, shifting requirements, or potential quality issues. High churn rates can reflect rework caused by unclear goals, rushed reviews, or limitations in AI-assisted code generation.
 
 <figure>
   <img src="/wp-content/uploads/percent-of-code-rework.png" srcset="/wp-content/uploads/percent-of-code-rework@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
@@ -334,9 +347,11 @@ The detailed view breaks this down across repositories and time periods, helping
   <figcaption style="text-align: center; color: #888">View rework percentages by repository to pinpoint where churn is most frequent.</figcaption>
 </figure>
 
-### Post PR work occurring
+### Post PR Work Occurring
 
-The Post PR Work Occurring metric measures how much additional code is written or modified after a pull request has been merged. This helps teams spot follow-up work that may indicate incomplete reviews, rushed merges, or overlooked issues during initial development. 
+**Definition:** _Follow-up work and bug fixes needed after merging, indicating the initial quality of AI-assisted code._
+
+This metric quantifies rework and fixes needed after a pull request is merged, providing an early signal of code quality. It is especially useful when evaluating AI-assisted development, where code may pass initial review but still require corrections post-merge.
 
 <figure>
   <img src="/wp-content/uploads/post-pr-work-occuring.png" srcset="/wp-content/uploads/post-pr-work-occuring@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
@@ -350,6 +365,51 @@ The detailed view breaks this activity down by repository and time period, revea
   <figcaption style="text-align: center; color: #888">View post-merge work by repository to see where additional changes are concentrated.</figcaption>
 </figure>
 
+### Active Users
+
+**Definition:** _The total count of unique users active in the connected AI provider integrations._
+
+This metric counts developers actively using AI coding assistants from connected providers. It establishes a baseline for tracking AI adoption across your teams and supports analysis of AI tool investment impact and developer productivity trends.
+
+<figure>
+  <img src="/wp-content/uploads/active-users.png" srcset="/wp-content/uploads/active-users@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">See how many developers are actively using AI coding tools over time.</figcaption>
+</figure>
+
+### Suggestions (by total lines)
+
+**Definition:** _The number of suggestions offered from your connected AI provider integrations._
+
+This metric tracks the volume of AI-generated code suggestions offered to developers. It provides scale context for measuring the extent of AI contribution to overall development output and helps teams evaluate how heavily AI is being leveraged in the coding process.
+
+<figure>
+  <img src="/wp-content/uploads/suggestions.png" srcset="/wp-content/uploads/suggestions@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Track the number of AI-generated suggestions to understand their influence on development activity.</figcaption>
+</figure>
+
+### Prompt Acceptance Rate
+
+**Definition:** _The percentage of prompt results a developer accepted from your connected AI provider integrations._
+
+This metric measures how many AI-generated code suggestions are accepted by developers. A higher rate indicates stronger alignment between AI outputs and developer expectations, signaling trust and effectiveness in AI-assisted workflows.
+
+
+<figure>
+  <img src="/wp-content/uploads/prompt-acceptance.png" srcset="/wp-content/uploads/prompt-acceptance@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Visualize how often AI suggestions are accepted by developers over time.</figcaption>
+</figure>
+
+### Tab Acceptance Rate
+
+**Definition:** _Measures what percentage of AI-generated code suggestions developers accept with tabs._
+
+Like prompt acceptance, this metric reflects the effectiveness and usability of AI suggestions. A higher tab acceptance rate indicates that developers find the suggestions useful and frictionless to apply, helping gauge the seamlessness of AI integration in development workflows.
+
+
+<figure>
+  <img src="/wp-content/uploads/tab-acceptance.png" srcset="/wp-content/uploads/tab-acceptance@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <figcaption style="text-align: center; color: #888">Track how frequently AI suggestions are accepted via tab completion.</figcaption>
+</figure>
 
 ---
 
