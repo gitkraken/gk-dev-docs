@@ -78,6 +78,8 @@ Developed by a Google Cloud research team, these metrics help organizations meas
 
 ### Deploy Frequency
 
+**Definition:** _The total number of deployments, as determined by the rules configured in the **Releases** settings._
+
 This metric shows how often new code is released or deployed to production, measured as the number of deployments per day, week, or other selected timeframe.
 
 <figure>
@@ -98,6 +100,9 @@ In addition to the main chart, the following submetrics are displayed when you c
 </figure>
 
 ### Change Lead Time
+
+**Definition:** _The time between the first commit linked to an issue (such as a Jira ticket) and when the associated code is deployed._
+
 This metric shows how long each pull request within a selected timeframe took to go from the first commit until it was deployed. Values are expressed in **days** and are calculated over a rolling **7-day period**.
 
 <figure>
@@ -107,9 +112,13 @@ This metric shows how long each pull request within a selected timeframe took to
 
 ### Mean Time to Repair/Recover (MTTR)
 
+**Definition:** _Business hours between "defect detected" and "final fix deployed"._
+
 This metric shows how long each pull request within a selected timeframe took to go from the first commit until it was deployed. Values are expressed in **days** and calculated over a rolling **7-day period**. Lower MTTR indicates that teams can respond quickly to incidents and minimize downtime.
 
 ### Defect Rate
+
+**Definition:** _The percentage of deployments that resolve a critical defect. This metric measures the stability and quality of your deployment process._
 
 This metric shows the number of defects detected over time. Values are expressed as **defects** over a rolling **7-day window**. A lower defect rate indicates a more stable and reliable deployment process.
 
@@ -123,6 +132,8 @@ PR intelligence turns these insights into clear actions by highlighting slowdown
 
 ### First Response Time ("Pickup Time")
 
+**Definition:** _The time measured from when a PR is opened to when the 1st review or comment is left on a PR._
+
 This metric shows how long each pull request within a selected timeframe took to have a first response (comment or review). Values are expressed in **hours** and averaged over a **7-day period**. Shorter pickup times indicate faster reviewer engagement and healthier collaboration.
 
 <figure>
@@ -131,6 +142,8 @@ This metric shows how long each pull request within a selected timeframe took to
 </figure>
 
 ### Cycle Time ("first commit" to "merge")
+
+**Definition:** _The time measured between the 1st commit of a PR to when the PR is merged._
 
 This metric shows how long each pull request within a selected timeframe took to merge from the time the first commit was made. Values are expressed in **days** and averaged over a **7-day period**. Cycle time provides insight into overall delivery speed, highlighting how quickly work moves from coding to production.
 
@@ -156,6 +169,8 @@ The **Details** view offers deeper analysis.
 
 ### Lead Time
 
+**Definition:** _The time from the first commit in a pull request to when that code is deployed to production. This bridges development and deployment activities._
+
 This metric shows how long each pull request within a selected timeframe remained open, measured from when the PR was created until it was merged. Values are expressed in **days** and averaged over a **7-day period**.
 
 <figure>
@@ -164,6 +179,8 @@ This metric shows how long each pull request within a selected timeframe remaine
 </figure>
 
 ### Number of Reviews per Day/Week/Month
+
+**Definition:** _The volume of code reviews being conducted, indicating team review capacity and activity._
 
 This metric shows the total number of reviews (all types) completed over a given period of time. Values are expressed in **reviews** and averaged over a **7-day window**. Tracking review activity helps teams understand collaboration patterns and reviewer workload across different timeframes (daily, weekly, or monthly).
 
