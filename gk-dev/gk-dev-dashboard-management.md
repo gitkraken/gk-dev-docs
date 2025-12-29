@@ -413,6 +413,26 @@ Like prompt acceptance, this metric reflects the effectiveness and usability of 
 
 ---
 
+## Code Quality
+
+This section includes metrics that help teams evaluate and monitor overall code quality. These indicators offer insight into how much time is spent on bug fixes, documentation, and testing, as well as how frequently and in what ways code changes. 
+
+Use these metrics to guide technical debt reduction, identify refactoring opportunities, and strengthen engineering best practices.
+
+### Bug Work Percent
+
+**Definition:** _The ratio of development work spent on fixing bugs vs everything else._
+
+This metric reveals the proportion of engineering work consumed by fixing defects versus feature development. It helps leaders assess the level of code quality debt and prioritize efforts toward refactoring and process improvements.
+
+<figure>
+  <img src="/wp-content/uploads/bug-work-percent.png" srcset="/wp-content/uploads/bug-work-percent@2x.png" class="help-center-img img-bordered" alt="Chart showing percentage of work on bug fixes over time" />
+  <figcaption style="text-align: center; color: #888">See how much development effort is spent resolving bugs compared to building new features.</figcaption>
+</figure>
+
+
+***
+
 ## Layout
 
 Widgets on the dashboard can be customized to fit your needs.
