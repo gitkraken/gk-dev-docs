@@ -34,6 +34,24 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
   <figcaption style="text-align: center; color: #888">Access your Insights Dashboard from gitkraken.dev.</figcaption>
 </figure>
 
+### Creating Dashboards
+
+You can create multiple dashboards in GitKraken Insights to organize metrics by team, project, or focus area. To begin, use the dropdown menu in the top-left corner of the dashboard view. From there, select **+ Create dashboard** to open the creation modal.
+
+<figure>
+  <img src="/wp-content/uploads/create-dashboard-dropdown.png" srcset="/wp-content/uploads/create-dashboard-dropdown@2x.png" class="help-center-img img-bordered" alt="Dashboard dropdown showing Create dashboard option" />
+  <figcaption style="text-align: center; color: #888">Use the dropdown menu to select an existing dashboard or create a new one.</figcaption>
+</figure>
+
+In the modal, enter a **Title** and optional **Description** to help distinguish this dashboard from others. Creating focused dashboards is especially helpful for tracking metrics by repository group, product area, or individual contributor activity.
+
+<figure>
+  <img src="/wp-content/uploads/create-dashboard-modal.png" srcset="/wp-content/uploads/create-dashboard-modal@2x.png" class="help-center-img img-bordered" alt="Create dashboard modal with title and description fields" />
+  <figcaption style="text-align: center; color: #888">Name your dashboard and optionally add a description to clarify its focus.</figcaption>
+</figure>
+
+
+
 ### Add a metric
 
 1. In the Dashboard view, click the **Add Metric** button in the top-right corner.
@@ -47,14 +65,14 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 
 ### Available metrics
 
-**DORA metrics**
+**[DORA metrics](/gk-dev-dashboard-management/#dora-metrics)**
 
 - Deploy Frequency
 - Change lead time
 - Mean time to repair/recover
 - Defect rate (% of deploy with severe defect)
 
-**Pull Request metrics**
+**[Pull Request metrics](/gk-dev-dashboard-management/#pull-request-metrics)**
 
 - First response time ("Pickup time")
 - Cycle time ("first commit" to "merge")
@@ -67,7 +85,7 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - PR Size/Effort
 - Code Review Hours
 
-**AI Impact metrics**
+**[AI Impact metrics](/gk-dev-dashboard-management/#ai-impact)**
 
 - Copy/paste vs moved percent
 - Duplicated code
@@ -78,35 +96,17 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Prompt Acceptance Rate
 - Tab Acceptance Rate
 
-**Code Quality metrics**
+**[Code Quality metrics](/gk-dev-dashboard-management/#code-quality)**
 
 - Bug Work Percent
 - Documentation and Test Percent
 - Code Change Rate
 - Code Change by Operation
 
-**Velocity/Delivery Consistency**
+**[Velocity/Delivery Consistency](/gk-dev-dashboard-management/#velocity-delivery-consistency)**
 
 - Commit Count
 - Estimated Coding Hours
-
-### Creating Dashboards
-
-You can create multiple dashboards in GitKraken Insights to organize metrics by team, project, or focus area. To begin, use the dropdown menu in the top-left corner of the dashboard view. From there, select **+ Create dashboard** to open the creation modal.
-
-<figure>
-  <img src="/wp-content/uploads/create-dashboard-dropdown.png" srcset="/wp-content/uploads/create-dashboard-dropdown@2x.png" class="help-center-img img-bordered" alt="Dashboard dropdown showing Create dashboard option" />
-  <figcaption style="text-align: center; color: #888">Use the dropdown menu to select an existing dashboard or create a new one.</figcaption>
-</figure>
-
-In the modal, enter a **Title** and optional **Description** to help distinguish this dashboard from others.
-
-<figure>
-  <img src="/wp-content/uploads/create-dashboard-modal.png" srcset="/wp-content/uploads/create-dashboard-modal@2x.png" class="help-center-img img-bordered" alt="Create dashboard modal with title and description fields" />
-  <figcaption style="text-align: center; color: #888">Name your dashboard and optionally add a description to clarify its focus.</figcaption>
-</figure>
-
-Creating focused dashboards is especially helpful for tracking metrics by repository group, product area, or individual contributor activity.
 
 
 ***
