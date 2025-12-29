@@ -78,6 +78,13 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Prompt Acceptance Rate
 - Tab Acceptance Rate
 
+**Code Quality metrics**
+
+- Bug Work Percent
+- Documentation and Test Percent
+- Code Change Rate
+- Code Change by Operation
+
 ***
 
 ## DORA metrics
@@ -415,9 +422,10 @@ Like prompt acceptance, this metric reflects the effectiveness and usability of 
 
 ## Code Quality
 
-This section includes metrics that help teams evaluate and monitor overall code quality. These indicators offer insight into how much time is spent on bug fixes, documentation, and testing, as well as how frequently and in what ways code changes. 
+This section presents metrics designed to assess and improve engineering quality. Together, they offer a balanced view of code health by examining how much work is spent on bugs, tests, and documentation, how frequently older code is modified, and how engineering effort is distributed across different parts of the system.
 
-Use these metrics to guide technical debt reduction, identify refactoring opportunities, and strengthen engineering best practices.
+Use these metrics to monitor technical debt, maintain development quality, and align team investments with maintainability and product stability goals.
+
 
 ### Bug Work Percent
 
