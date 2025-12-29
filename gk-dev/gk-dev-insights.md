@@ -33,6 +33,7 @@ Once your access is approved, you can connect Insights to your repositories and 
 
 Currently, Insights supports connections with GitHub, GitLab, Bitbucket and Jira Cloud. Support for Azure DevOps is coming soon. 
 
+In addition, you can connect AI providers to enable AI Impact insights (like Duplicated Code, Prompt Acceptance Rate, and more).
 ---
 
 ### 1. Repo import
@@ -69,6 +70,20 @@ After the initial import is complete, rate limit issues are unlikely to recur.
 
 
 ---
+
+### AI Provider Connection (Optional)
+
+As of December 2025, GitKraken Insights only supports connections with Cursor and GitHub Copilot to enable AI insights.
+
+To enable AI Impact insights, connect your preferred AI provider:
+1. In GitKraken.dev, go to [**Insights > Data Connection**](https://gitkraken.dev/insights/data-connections).
+2. Click to `Manage` with Cursor or Github Copilot.
+3. In the new window, select the AI provider you wish to connect with and enter the provider Token.
+4. Click **Connect AI Provider** to finish the connection.
+<figure>
+  <img src="/wp-content/uploads/gk-dev-ai-provider-connection.png" srcset="/wp-content/uploads/gk-dev-ai-provider-connection@2x.png" class="help-center-img img-bordered" alt="Screenshot of AI provider connection" />
+  <figcaption style="text-align: center; color: #888">Connect your AI provider to enable AI Impact insights</figcaption>
+</figure>
 
 ### 2. Setup role
 
