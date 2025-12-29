@@ -65,14 +65,14 @@ In the modal, enter a **Title** and optional **Description** to help distinguish
 
 ### Available metrics
 
-**[DORA metrics](/gk-dev-dashboard-management/#dora-metrics)**
+**[DORA metrics](/gk-dev/gk-dev-dashboard-management/#dora-metrics)**
 
 - Deploy Frequency
 - Change lead time
 - Mean time to repair/recover
 - Defect rate (% of deploy with severe defect)
 
-**[Pull Request metrics](/gk-dev-dashboard-management/#pull-request-metrics)**
+**[Pull Request metrics](/gk-dev/gk-dev-dashboard-management/#pull-request-metrics)**
 
 - First response time ("Pickup time")
 - Cycle time ("first commit" to "merge")
@@ -85,7 +85,7 @@ In the modal, enter a **Title** and optional **Description** to help distinguish
 - PR Size/Effort
 - Code Review Hours
 
-**[AI Impact metrics](/gk-dev-dashboard-management/#ai-impact)**
+**[AI Impact metrics](/gk-dev/gk-dev-dashboard-management/#ai-impact)**
 
 - Copy/paste vs moved percent
 - Duplicated code
@@ -96,14 +96,14 @@ In the modal, enter a **Title** and optional **Description** to help distinguish
 - Prompt Acceptance Rate
 - Tab Acceptance Rate
 
-**[Code Quality metrics](/gk-dev-dashboard-management/#code-quality)**
+**[Code Quality metrics](/gk-dev/gk-dev-dashboard-management/#code-quality)**
 
 - Bug Work Percent
 - Documentation and Test Percent
 - Code Change Rate
 - Code Change by Operation
 
-**[Velocity/Delivery Consistency](/gk-dev-dashboard-management/#velocity-delivery-consistency)**
+**[Velocity/Delivery Consistency](/gk-dev/gk-dev-dashboard-management/#velocity-delivery-consistency)**
 
 - Commit Count
 - Estimated Coding Hours
