@@ -85,6 +85,30 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 - Code Change Rate
 - Code Change by Operation
 
+**Velocity/Delivery Consistency**
+
+- Commit Count
+- Estimated Coding Hours
+
+### Creating Dashboards
+
+You can create multiple dashboards in GitKraken Insights to organize metrics by team, project, or focus area. To begin, use the dropdown menu in the top-left corner of the dashboard view. From there, select **+ Create dashboard** to open the creation modal.
+
+<figure>
+  <img src="/wp-content/uploads/create-dashboard-dropdown.png" srcset="/wp-content/uploads/create-dashboard-dropdown@2x.png" class="help-center-img img-bordered" alt="Dashboard dropdown showing Create dashboard option" />
+  <figcaption style="text-align: center; color: #888">Use the dropdown menu to select an existing dashboard or create a new one.</figcaption>
+</figure>
+
+In the modal, enter a **Title** and optional **Description** to help distinguish this dashboard from others.
+
+<figure>
+  <img src="/wp-content/uploads/create-dashboard-modal.png" srcset="/wp-content/uploads/create-dashboard-modal@2x.png" class="help-center-img img-bordered" alt="Create dashboard modal with title and description fields" />
+  <figcaption style="text-align: center; color: #888">Name your dashboard and optionally add a description to clarify its focus.</figcaption>
+</figure>
+
+Creating focused dashboards is especially helpful for tracking metrics by repository group, product area, or individual contributor activity.
+
+
 ***
 
 ## DORA metrics
@@ -473,6 +497,33 @@ This metric breaks down engineering work by category, such as testing, documenta
 
 ***
 
+## Velocity/Delivery Consistency
+
+This section highlights metrics that reflect development rhythm and consistency. Tracking commit volume and coding hours helps teams assess delivery patterns and ensure developers have time for focused work.
+
+### Commit Count
+
+**Definition:** _The number of commits pushed to all connected repositories._
+
+This metric tracks the volume of code commits over time, offering a basic signal of development activity. While not a productivity metric on its own, it can help identify engagement patterns, team rhythm, and delivery frequency.
+
+<figure>
+  <img src="/wp-content/uploads/commit-count.png" srcset="/wp-content/uploads/commit-count@2x.png" class="help-center-img img-bordered" alt="Chart showing total commit volume" />
+  <figcaption style="text-align: center; color: #888">Track how often developers commit code across connected repositories.</figcaption>
+</figure>
+
+### Estimated Coding Hours
+
+**Definition:** _Estimates the amount of time a team's developers spend coding._
+
+This metric approximates the total active development time across your team. It helps leaders assess engineering capacity, detect shifts in focus time, and understand whether developers are able to engage in deep work versus being blocked or interrupted.
+
+<figure>
+  <img src="/wp-content/uploads/estimated-coding-hours.png" srcset="/wp-content/uploads/estimated-coding-hours@2x.png" class="help-center-img img-bordered" alt="Chart showing estimated time spent coding" />
+  <figcaption style="text-align: center; color: #888">Visualize how much time teams spend actively coding over time.</figcaption>
+</figure>
+
+***
 ## Layout
 
 Widgets on the dashboard can be customized to fit your needs.
