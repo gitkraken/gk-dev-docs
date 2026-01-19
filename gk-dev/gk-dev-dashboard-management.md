@@ -4,7 +4,7 @@ description: Learn how to add and interpret key DORA and Pull Request metrics, a
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: December 2025</kbd>
+<kbd>Last updated: January 2026</kbd>
 
 
 ## Overview
@@ -542,6 +542,30 @@ Widgets on the dashboard can be customized to fit your needs.
 > **Note:** Currently, each user can create only one dashboard per organization. Support for multiple dashboards per user is planned for a future release.
 
 ---
+
+## Trendlines
+
+You can add trendlines to any chart in GitKraken Insights to help visualize patterns over time. These overlays make it easier to understand whether your metrics are improving, declining, or fluctuating—and how consistently.
+
+### How to add a trendline
+
+1. On any dashboard widget, click the **⋯ (three dots)** menu in the upper-right corner.
+2. Select **Set trendline**.
+3. Choose one of the available types:
+
+- **None:** No trendline is shown.
+- **Linear:** Adds a straight line through the data to show steady upward or downward trends.
+- **Polynomial:** Adds a curved line that reveals acceleration, deceleration, or changing directions in the data.
+- **Moving Average:** Smooths out short-term fluctuations to highlight the overall pattern, especially useful for noisy or jumpy data.
+
+<figure>
+  <img src="/wp-content/uploads/trendline-menu.png" srcset="/wp-content/uploads/trendline-menu@2x.png" class="help-center-img img-bordered" alt="Chart with trendline settings menu showing Linear and Moving Average options" />
+  <figcaption style="text-align: center; color: #888">From the widget menu, select a trendline type to better understand long-term changes in your metrics.</figcaption>
+</figure>
+
+> **Tip:** Use trendlines to spot steady improvements, regressions, or shifts in behavior across delivery, review, or quality metrics.
+
+***
 
 ## Filters
 
