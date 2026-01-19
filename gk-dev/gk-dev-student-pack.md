@@ -23,10 +23,16 @@ After the 6 month free trial, you can upgrade to a PRO subscription at a discoun
 # How to get the Student Pack
 
 1. You need to be a student with a valid student email address and a verified Github Student Developer Pack.
+<img src="/wp-content/uploads/gk-dev-github-student-pack-verified.png" class="img-bordered center help-center-img" alt="Github Student Developer Pack page">
 2. Create a new account on GitKraken using your Github account.
-3. Once you have created your account, the `Student`flag shows next to your name in GitKraken.dev
-4. Now you can sign into all GitKraken products with your Github account with premium features applied.
+<img src="/wp-content/uploads/gk-dev-github-signup.png" class="img-bordered center help-center-img" alt="Sign up with Github button on GitKraken.dev">
+3. Navigate to the [GitKraken.dev/student](https://gitkraken.dev/student) and click the 'Start trial' button.
+<img src="/wp-content/uploads/gk-dev-github-student-pack-start-trial.png" class="img-bordered center help-center-img" alt="Start trial button on GitKraken.dev/student">
 
+4. You should be all set! To confirm, navigate to your Subscription page in GitKraken.dev (https://gitkraken.dev/subscription) and verify that you have a Student trial active.
+<img src="/wp-content/uploads/gk-dev-student-subscription-page.png" class="img-bordered center help-center-img" alt="Subscription page in GitKraken.dev">
+5. Now you can sign into all GitKraken products with your Github account with premium features applied.
+<img src="/wp-content/uploads/gkd-student-icon.png" class="img-bordered center help-center-img" alt="GitKraken Desktop with Student Pack features">
 <img src="/wp-content/uploads/gk-dev-student-account.png" class="img-bordered center help-center-img" alt="Student flag in GitKraken.dev">
 
 # How to upgrade to a PRO subscription
