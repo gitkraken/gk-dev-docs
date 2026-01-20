@@ -14,9 +14,8 @@ This plan is a 6 month free trial of PRO features for students who are verified 
 After the 6 month free trial, you can upgrade to a PRO subscription at a discounted rate.
 
 <div class='callout callout--warning'>
-    <p>The 6 month free trial starts from the original Student account creation date. If you were on the Student Plan prior to the introduction of the 6 month length you have used your free period retroactively and will need to upgrade to regain access. <a href="https://www.gitkraken.dev/student" target="_blank">See gitkraken.dev/student for more info</a>.</p>
+    <p>The 6 month free trial starts from the original Student account creation date. If you were previously on the Student Plan prior to the introduction of the 6 month length you retroactively have used your free period and will need to upgrade to regain access. <a href="https://www.gitkraken.dev/student" target="_blank">See gitkraken.dev/student for more info</a>.</p>
 </div>
-
 # What is in the GitKraken Student Pack
 
 - GitKraken Desktop
@@ -51,4 +50,5 @@ When the 6 month free trial is about to end, you will be notified both in the ap
 
 You can upgrade to a PRO subscription at a discounted rate following the instructions in the email. In the checkout process, verify the discount code is applied.
 
-If you previously had the Student Pack and you did not see the notification, you can navigate to [gitkraken.dev/student](https://gitkraken.dev/student) for purchasing options.
+If you previously had the Student Pack you can navigate to [gitkraken.dev/student](https://gitkraken.dev/student) for purchasing options.
+
