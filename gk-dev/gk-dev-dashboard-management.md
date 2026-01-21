@@ -30,7 +30,7 @@ Before you can add metrics, complete these setup steps:
 Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.dev](https://gitkraken.dev).
 
 <figure>
-  <img src="/wp-content/uploads/Insights-Dashboard.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/Insights-Dashboard.png" class="help-center-img img-bordered" alt="GitKraken.dev interface showing how to access the Insights Dashboard with navigation menu highlighted and sample deployment metric displayed." />
   <figcaption style="text-align: center; color: #888">Access your Insights Dashboard from gitkraken.dev.</figcaption>
 </figure>
 
@@ -39,14 +39,14 @@ Once setup is complete, open the **Insights > Dashboard** tab from [gitkraken.de
 You can create multiple dashboards in GitKraken Insights to organize metrics by team, project, or focus area. To begin, use the dropdown menu in the top-left corner of the dashboard view. From there, select **+ Create dashboard** to open the creation modal.
 
 <figure>
-  <img src="/wp-content/uploads/create-dashboard-dropdown.png" srcset="/wp-content/uploads/create-dashboard-dropdown@2x.png" class="help-center-img img-bordered" alt="Dashboard dropdown showing Create dashboard option" />
+  <img src="/wp-content/uploads/create-dashboard-dropdown.png" srcset="/wp-content/uploads/create-dashboard-dropdown@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights UI showing the GitLens Team dashboard dropdown with the Create dashboard option highlighted and a pointer hovering over it." />
   <figcaption style="text-align: center; color: #888">Use the dropdown menu to select an existing dashboard or create a new one.</figcaption>
 </figure>
 
 In the modal, enter a **Title** and optional **Description** to help distinguish this dashboard from others. Creating focused dashboards is especially helpful for tracking metrics by repository group, product area, or individual contributor activity.
 
 <figure>
-  <img src="/wp-content/uploads/create-dashboard-modal.png" srcset="/wp-content/uploads/create-dashboard-modal@2x.png" class="help-center-img img-bordered" alt="Create dashboard modal with title and description fields" />
+  <img src="/wp-content/uploads/create-dashboard-modal.png" srcset="/wp-content/uploads/create-dashboard-modal@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights modal for creating a new dashboard, showing fields for title and description, and a Create dashboard button." />
   <figcaption style="text-align: center; color: #888">Name your dashboard and optionally add a description to clarify its focus.</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ In the modal, enter a **Title** and optional **Description** to help distinguish
 3. Click **Add** next to the metric you want to display on your dashboard.
 
 <figure>
-  <img src="/wp-content/uploads/add-metric.png" srcset="/wp-content/uploads/add-metric@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/add-metric.png" srcset="/wp-content/uploads/add-metric@2x.png" class="help-center-img img-bordered" alt="Dropdown menu in GitKraken Insights showing options to add DORA and pull request metrics to a dashboard" />
   <figcaption style="text-align: center; color: #888">Add DORA or PR metrics to your dashboard.</figcaption>
 </figure>
 
@@ -124,7 +124,7 @@ Developed by a Google Cloud research team, these metrics help organizations meas
 This metric shows how often new code is released or deployed to production, measured as the number of deployments per day, week, or other selected timeframe.
 
 <figure>
-  <img src="/wp-content/uploads/deploy-frequency.png" srcset="/wp-content/uploads/deploy-frequency@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/deploy-frequency.png" srcset="/wp-content/uploads/deploy-frequency@2x.png" class="help-center-img img-bordered" alt="Line chart showing Deployments per Weekday metric in GitKraken Insights with data points and tooltip for August 25–31, 2025" />
   <figcaption style="text-align: center; color: #888">Shows deployments per day, week or selected timeframe.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ In addition to the main chart, the following submetrics are displayed when you c
 - **Change failure rate**
 
 <figure>
-  <img src="/wp-content/uploads/deployment-frequency-oct-2025.png" srcset="/wp-content/uploads/deployment-frequency-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/deployment-frequency-oct-2025.png" srcset="/wp-content/uploads/deployment-frequency-oct-2025@2x.png" class="help-center-img img-bordered" alt="Bar chart showing GitKraken Insights deployment frequency by repo and week, including tooltip with deployment breakdown for the week of October 13–19, 2025" />
   <figcaption style="text-align: center; color: #888">Click the Details button to get 4 additional metrics.</figcaption>
 </figure>
 
@@ -147,7 +147,7 @@ In addition to the main chart, the following submetrics are displayed when you c
 This metric shows how long each pull request within a selected timeframe took to go from the first commit until it was deployed. Values are expressed in **days** and are calculated over a rolling **7-day period**.
 
 <figure>
-  <img src="/wp-content/uploads/change-lead-time.png" srcset="/wp-content/uploads/change-lead-time@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/change-lead-time.png" srcset="/wp-content/uploads/change-lead-time@2x.png" class="help-center-img img-bordered" alt="Line graph showing change lead time in GitKraken Insights, with a tooltip highlighting 3.2 days for the week of August 11–17, 2025" />
   <figcaption style="text-align: center; color: #888">Shows how long each PR took from first commit to deployment.</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ PR intelligence turns these insights into clear actions by highlighting slowdown
 This metric shows how long each pull request within a selected timeframe took to have a first response (comment or review). Values are expressed in **hours** and averaged over a **7-day period**. Shorter pickup times indicate faster reviewer engagement and healthier collaboration.
 
 <figure>
-  <img src="/wp-content/uploads/first-response-time.png" srcset="/wp-content/uploads/first-response-time@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/first-response-time.png" srcset="/wp-content/uploads/first-response-time@2x.png" class="help-center-img img-bordered" alt="Line graph of GitKraken Insights showing average first response time for pull requests, with tooltip indicating 39 hours for the week of June 30 to July 6, 2025" />
   <figcaption style="text-align: center; color: #888">Average time it took for PR to receive comment or review.</figcaption>
 </figure>
 
@@ -189,14 +189,14 @@ This metric shows how long each pull request within a selected timeframe took to
 This metric shows how long each pull request within a selected timeframe took to merge from the time the first commit was made. Values are expressed in **days** and averaged over a **7-day period**. Cycle time provides insight into overall delivery speed, highlighting how quickly work moves from coding to production.
 
 <figure>
-  <img src="/wp-content/uploads/cycle-time-line.png" srcset="/wp-content/uploads/cycle-time-line@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">Average time it took for PR to receive comment or review.</figcaption>
+  <img src="/wp-content/uploads/cycle-time-line.png" srcset="/wp-content/uploads/cycle-time-line@2x.png" class="help-center-img img-bordered" alt="Line graph of GitKraken Insights showing cycle time from first commit to merge, with a tooltip indicating 7.3 days for the week of July 21 to July 27, 2025" />
+  <figcaption style="text-align: center; color: #888">Average time it took from first commit to PR merge.</figcaption>
 </figure>
 
 The **Details** view offers deeper analysis.
 
 <figure>
-  <img src="/wp-content/uploads/pr-cycle-time-details.png" srcset="/wp-content/uploads/pr-cycle-time-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/pr-cycle-time-details.png" srcset="/wp-content/uploads/pr-cycle-time-details@2x.png" class="help-center-img img-bordered" alt="Scatterplot of pull request cycle time in GitKraken Insights, grouped by speed category with PR tooltip showing author and merge status" />
   <figcaption style="text-align: center; color: #888">Get a detailed breakdown of PR cycle time.</figcaption>
 </figure>
 
@@ -215,7 +215,7 @@ The **Details** view offers deeper analysis.
 This metric shows how long each pull request within a selected timeframe remained open, measured from when the PR was created until it was merged. Values are expressed in **days** and averaged over a **7-day period**.
 
 <figure>
-  <img src="/wp-content/uploads/lead-time.png" srcset="/wp-content/uploads/lead-time@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/lead-time.png" srcset="/wp-content/uploads/lead-time@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing lead time from first commit to deployment over time, with a tooltip for a 10-day duration" />
   <figcaption style="text-align: center; color: #888">See how long PRs remained open until it was merged.</figcaption>
 </figure>
 
@@ -226,7 +226,7 @@ This metric shows how long each pull request within a selected timeframe remaine
 This metric shows the total number of reviews (all types) completed over a given period of time. Values are expressed in **reviews** and averaged over a **7-day window**. Tracking review activity helps teams understand collaboration patterns and reviewer workload across different timeframes (daily, weekly, or monthly).
 
 <figure>
-  <img src="/wp-content/uploads/number-of-reviews.png" srcset="/wp-content/uploads/number-of-reviews@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/number-of-reviews.png" srcset="/wp-content/uploads/number-of-reviews@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing number of code reviews over time, with a tooltip displaying 105 reviews for the week of July 21–27, 2025" />
   <figcaption style="text-align: center; color: #888">See how many reviews have been given over a time period.</figcaption>
 </figure>
 
@@ -237,14 +237,14 @@ This metric shows the total number of reviews (all types) completed over a given
 This metric captures the duration from pull request creation to merge. It differs from PR Cycle Time, which starts from the first commit. Open Time isolates the review and approval phase, helping teams identify delays specifically related to code review and collaboration workflows.
 
 <figure>
-  <img src="/wp-content/uploads/open-time.png" srcset="/wp-content/uploads/open-time@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/open-time.png" srcset="/wp-content/uploads/open-time@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing pull request open time from creation to merge, with tooltip highlighting 7-day average for the week of September 29 to October 5, 2025" />
   <figcaption style="text-align: center; color: #888">Shows the time each pull request remained open before being merged.</figcaption>
 </figure>
 
 The **Open Time details view** provides a stacked bar chart that visualizes average PR open durations per repository across time intervals. Each bar segment represents a specific repository, allowing teams to compare performance across services.
 
 <figure>
-  <img src="/wp-content/uploads/open-time-details.png" srcset="/wp-content/uploads/open-time-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/open-time-details.png" srcset="/wp-content/uploads/open-time-details@2x.png" class="help-center-img img-bordered" alt="Bar chart in GitKraken Insights showing pull request open time details by repository for each week, with tooltip highlighting average days open for six repositories during the week of September 8–14, 2025" />
   <figcaption style="text-align: center; color: #888">Detailed breakdown of PR open durations across repositories and time intervals.</figcaption>
 </figure>
 
@@ -267,7 +267,7 @@ These metrics help teams identify trends, uncover review bottlenecks, and monito
 This metric can reveal wasted engineering effort, scope management issues, or breakdowns in work planning and prioritization. A high abandonment rate may indicate unclear requirements, excessive rework, or bottlenecks earlier in the development process.
 
 <figure>
-  <img src="/wp-content/uploads/prs-abandoned.png" srcset="/wp-content/uploads/prs-abandoned@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/prs-abandoned.png" srcset="/wp-content/uploads/prs-abandoned@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing number of pull requests abandoned over time, with a tooltip highlighting that 3 PRs were abandoned between September 22 and 28, 2025" />
   <figcaption style="text-align: center; color: #888">Visualizes how many PRs were closed without merging, segmented by repository and time.</figcaption>
 </figure>
 
@@ -278,7 +278,7 @@ This metric can reveal wasted engineering effort, scope management issues, or br
 This metric can indicate potential process gaps in peer review enforcement. It identifies PRs integrated without peer review, exposing quality risks and gaps in your code review governance that could lead to production defects.
 
 <figure>
-  <img src="/wp-content/uploads/prs-merged-without-review.png" srcset="/wp-content/uploads/prs-merged-without-review@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/prs-merged-without-review.png" srcset="/wp-content/uploads/prs-merged-without-review@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing number of pull requests merged without review, with a tooltip indicating 7 PRs were merged without review between October 13 and 19, 2025" />
   <figcaption style="text-align: center; color: #888">Tracks PRs merged without review, highlighting enforcement issues in your review process.</figcaption>
 </figure>
 
@@ -289,7 +289,7 @@ This metric can indicate potential process gaps in peer review enforcement. It i
 This metric measures the level of engagement during code reviews, revealing how thoroughly code is being evaluated. A high number of comments can indicate active feedback, knowledge sharing, and mentorship opportunities across the team.
 
 <figure>
-  <img src="/wp-content/uploads/pr-comments.png" srcset="/wp-content/uploads/pr-comments@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/pr-comments.png" srcset="/wp-content/uploads/pr-comments@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing number of PR comments over time, with a tooltip indicating 151 comments were made between September 8 and 14, 2025" />
   <figcaption style="text-align: center; color: #888">Shows total PR comments, which can reflect review depth and collaboration intensity.</figcaption>
 </figure>
 
@@ -300,7 +300,7 @@ This metric measures the level of engagement during code reviews, revealing how 
 This metric reflects the total effort involved in the review process. It is calculated by summing the "Before PR submitted" and "While under review" diff delta values, representing the total size of the pull request and the energy required for its review.
 
 <figure>
-  <img src="/wp-content/uploads/pr-size.png" srcset="/wp-content/uploads/pr-size@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/pr-size.png" srcset="/wp-content/uploads/pr-size@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing PR Size/Effort over time, with a tooltip indicating 3,077 lines changed between September 29 and October 5, 2025" />
   <figcaption style="text-align: center; color: #888">Displays total PR size (diff delta), helping evaluate review load and PR size trends.</figcaption>
 </figure>
 
@@ -315,7 +315,7 @@ By aggregatating the total change volume across merged PRs, this helps teams bal
 This metric quantifies the average time investment in reviewing code. It helps leaders evaluate whether code review capacity aligns with delivery goals and whether review processes need optimization to support team velocity and quality.
 
 <figure>
-  <img src="/wp-content/uploads/code-review-hours.png" srcset="/wp-content/uploads/code-review-hours@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/code-review-hours.png" srcset="/wp-content/uploads/code-review-hours@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing Code Review Hours over time, with a tooltip indicating 0.9 average hours between October 27 and November 2, 2025" />
   <figcaption style="text-align: center; color: #888">Average code review time per developer, highlighting team review investment trends.</figcaption>
 </figure>
 
@@ -333,7 +333,7 @@ AI Impact metrics help teams understand how AI coding tools affect code quality 
 Tracking this metric helps teams distinguish between maintainable refactoring and potentially problematic duplication. This is especially important for teams using AI coding assistants, which tend to duplicate code rather than abstract or reuse it—leading to higher long-term maintenance costs if left unchecked.
 
 <figure>
-  <img src="/wp-content/uploads/copy-paste-moved.png" srcset="/wp-content/uploads/copy-paste-moved@2x.png" class="help-center-img img-bordered" alt="Line chart comparing duplicated and moved code over time" />
+  <img src="/wp-content/uploads/copy-paste-moved.png" srcset="/wp-content/uploads/copy-paste-moved@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing Copy/Paste vs Moved Percent over time, with a tooltip for August 2025 showing 16.4% copied and 12.1% moved" />
   <figcaption style="text-align: center; color: #888">Compare duplicated versus refactored code over time to identify reuse and duplication trends.</figcaption>
 </figure>
 
@@ -349,14 +349,14 @@ This metric measures redundant code blocks in your codebase. It correlates with 
 When duplication rises, it often signals that AI-assisted or manual coding practices are reusing code without enough refactoring.
 
 <figure>
-  <img src="/wp-content/uploads/duplicated-code.png" srcset="/wp-content/uploads/duplicated-code@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/duplicated-code.png" srcset="/wp-content/uploads/duplicated-code@2x.png" class="help-center-img img-bordered" alt="Area chart in GitKraken Insights showing 1610 lines of duplicated code during the week of October 6–12, 2025" />
   <figcaption style="text-align: center; color: #888">Track how duplicated code changes over time to identify growth in repeated code patterns.</figcaption>
 </figure>
 
 The detailed view breaks this down by repository and time period, showing where duplication is concentrated and how it changes alongside overall development activity, such as commits, pull requests, and issues resolved. This helps teams connect code duplication trends to broader workflow patterns and assess the real impact of AI tools on code quality.
 
 <figure>
-  <img src="/wp-content/uploads/duplicated-code-details.png" srcset="/wp-content/uploads/duplicated-code-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/duplicated-code-details.png" srcset="/wp-content/uploads/duplicated-code-details@2x.png" class="help-center-img img-bordered" alt="Bar chart showing GitKraken Insights duplicated code details by repository and week, highlighting 1610 total duplicated lines for October 6–12, 2025" />
   <figcaption style="text-align: center; color: #888">View duplicated code by repository to see which projects contribute most to redundancy.</figcaption>
 </figure>
 
@@ -367,14 +367,14 @@ The detailed view breaks this down by repository and time period, showing where 
 This metric calculates how much recently written code gets modified again, signaling instability, shifting requirements, or potential quality issues. High churn rates can reflect rework caused by unclear goals, rushed reviews, or limitations in AI-assisted code generation.
 
 <figure>
-  <img src="/wp-content/uploads/percent-of-code-rework.png" srcset="/wp-content/uploads/percent-of-code-rework@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/percent-of-code-rework.png" srcset="/wp-content/uploads/percent-of-code-rework@2x.png" class="help-center-img img-bordered" alt="Line chart showing the percent of code rework (churned lines) over time, peaking at 13% during September 15–21, 2025" />
   <figcaption style="text-align: center; color: #888">Track how frequently code is rewritten or replaced over time to identify rework trends.</figcaption>
 </figure>
 
 The detailed view breaks this down across repositories and time periods, helping teams see where rework is concentrated and how it aligns with activity levels like commits, pull requests, and issue resolutions. By monitoring this metric, teams can assess whether AI tools are improving long-term code quality or introducing avoidable rework.
 
 <figure>
-  <img src="/wp-content/uploads/duplicated-code-details-view.png" srcset="/wp-content/uploads/duplicated-code-details-view@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/duplicated-code-details-view.png" srcset="/wp-content/uploads/duplicated-code-details-view@2x.png" class="help-center-img img-bordered" alt="Line chart comparing percent of code rework across repositories from July to October 2025, with api-docs peaking at 57% rework in late August" />
   <figcaption style="text-align: center; color: #888">View rework percentages by repository to pinpoint where churn is most frequent.</figcaption>
 </figure>
 
@@ -385,14 +385,14 @@ The detailed view breaks this down across repositories and time periods, helping
 This metric quantifies rework and fixes needed after a pull request is merged, providing an early signal of code quality. It is especially useful when evaluating AI-assisted development, where code may pass initial review but still require corrections post-merge.
 
 <figure>
-  <img src="/wp-content/uploads/post-pr-work-occuring.png" srcset="/wp-content/uploads/post-pr-work-occuring@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/post-pr-work-occuring.png" srcset="/wp-content/uploads/post-pr-work-occuring@2x.png" class="help-center-img img-bordered" alt="Line chart showing lines of code changed after pull requests were merged, with spikes around September 8 and October 20, 2025" />
   <figcaption style="text-align: center; color: #888">Track how much post-merge work occurs over time to identify spikes in follow-up activity.</figcaption>
 </figure>
 
 The detailed view breaks this activity down by repository and time period, revealing patterns in post-merge changes and how they relate to broader development activity, such as commits and pull requests. Tracking this metric over time helps teams improve review quality and identify whether AI-assisted coding leads to more—or less—post-merge rework.
 
 <figure>
-  <img src="/wp-content/uploads/post-pr-work-occuring-details.png" srcset="/wp-content/uploads/post-pr-work-occuring-details@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/post-pr-work-occuring-details.png" srcset="/wp-content/uploads/post-pr-work-occuring-details@2x.png" class="help-center-img img-bordered" alt="Bar chart showing post-PR work by repository, with gitkraken.dev contributing all 190 lines of code during the week of September 8, 2025" />
   <figcaption style="text-align: center; color: #888">View post-merge work by repository to see where additional changes are concentrated.</figcaption>
 </figure>
 
@@ -403,7 +403,7 @@ The detailed view breaks this activity down by repository and time period, revea
 This metric counts developers actively using AI coding assistants from connected providers. It establishes a baseline for tracking AI adoption across your teams and supports analysis of AI tool investment impact and developer productivity trends.
 
 <figure>
-  <img src="/wp-content/uploads/active-users.png" srcset="/wp-content/uploads/active-users@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/active-users.png" srcset="/wp-content/uploads/active-users@2x.png" class="help-center-img img-bordered" alt="Line chart showing weekly count of active AI tool users, peaking at 10 developers for the week of October 27, 2025" />
   <figcaption style="text-align: center; color: #888">See how many developers are actively using AI coding tools over time.</figcaption>
 </figure>
 
@@ -414,7 +414,7 @@ This metric counts developers actively using AI coding assistants from connected
 This metric tracks the volume of AI-generated code suggestions offered to developers. It provides scale context for measuring the extent of AI contribution to overall development output and helps teams evaluate how heavily AI is being leveraged in the coding process.
 
 <figure>
-  <img src="/wp-content/uploads/suggestions.png" srcset="/wp-content/uploads/suggestions@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/suggestions.png" srcset="/wp-content/uploads/suggestions@2x.png" class="help-center-img img-bordered" alt="Line chart showing weekly AI suggestion volume, peaking at 16,816 lines for the week of October 27, 2025" />
   <figcaption style="text-align: center; color: #888">Track the number of AI-generated suggestions to understand their influence on development activity.</figcaption>
 </figure>
 
@@ -426,7 +426,7 @@ This metric measures how many AI-generated code suggestions are accepted by deve
 
 
 <figure>
-  <img src="/wp-content/uploads/prompt-acceptance.png" srcset="/wp-content/uploads/prompt-acceptance@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/prompt-acceptance.png" srcset="/wp-content/uploads/prompt-acceptance@2x.png" class="help-center-img img-bordered" alt="Line chart showing AI prompt acceptance rate by developers over time, with a 61% average the week of October 27, 2025" />
   <figcaption style="text-align: center; color: #888">Visualize how often AI suggestions are accepted by developers over time.</figcaption>
 </figure>
 
@@ -438,7 +438,7 @@ Like prompt acceptance, this metric reflects the effectiveness and usability of 
 
 
 <figure>
-  <img src="/wp-content/uploads/tab-acceptance.png" srcset="/wp-content/uploads/tab-acceptance@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/tab-acceptance.png" srcset="/wp-content/uploads/tab-acceptance@2x.png" class="help-center-img img-bordered" alt="Line chart showing AI tab acceptance rate over time, averaging 21% for the week of October 6, 2025" />
   <figcaption style="text-align: center; color: #888">Track how frequently AI suggestions are accepted via tab completion.</figcaption>
 </figure>
 
@@ -458,7 +458,7 @@ Use these metrics to monitor technical debt, maintain development quality, and a
 This metric reveals the proportion of engineering work consumed by fixing defects versus feature development. It helps leaders assess the level of code quality debt and prioritize efforts toward refactoring and process improvements.
 
 <figure>
-  <img src="/wp-content/uploads/bug-work-percent.png" srcset="/wp-content/uploads/bug-work-percent@2x.png" class="help-center-img img-bordered" alt="Chart showing percentage of work on bug fixes over time" />
+  <img src="/wp-content/uploads/bug-work-percent.png" srcset="/wp-content/uploads/bug-work-percent@2x.png" class="help-center-img img-bordered" alt="Line chart showing the percentage of work spent on bug fixes, averaging 13.3% for the week of October 27, 2025" />
   <figcaption style="text-align: center; color: #888">See how much development effort is spent resolving bugs compared to building new features.</figcaption>
 </figure>
 
@@ -469,7 +469,7 @@ This metric reveals the proportion of engineering work consumed by fixing defect
 This metric shows the proportion of engineering work dedicated to writing tests and documentation. These activities are strong indicators of long-term maintainability and help improve onboarding efficiency, especially in growing or distributed teams.
 
 <figure>
-  <img src="/wp-content/uploads/doc-test-percent.png" srcset="/wp-content/uploads/doc-test-percent@2x.png" class="help-center-img img-bordered" alt="Chart showing percentage of test and documentation work" />
+  <img src="/wp-content/uploads/doc-test-percent.png" srcset="/wp-content/uploads/doc-test-percent@2x.png" class="help-center-img img-bordered" alt="Line chart showing documentation and test work percentages, with documentation peaking at 27.9% and tests at 3.9% for the week of November 10, 2025" />
   <figcaption style="text-align: center; color: #888">Track how much work goes into tests and documentation over time.</figcaption>
 </figure>
 
@@ -480,7 +480,7 @@ This metric shows the proportion of engineering work dedicated to writing tests 
 This metric tracks the age of code being modified. Frequent changes to older code may reveal technical debt hotspots, signaling the need for deeper refactoring or even system replacement. Teams can use this data to prioritize stability improvements and architectural upgrades.
 
 <figure>
-  <img src="/wp-content/uploads/code-change-rate.png" srcset="/wp-content/uploads/code-change-rate@2x.png" class="help-center-img img-bordered" alt="Chart showing age of code being modified" />
+  <img src="/wp-content/uploads/code-change-rate.png" srcset="/wp-content/uploads/code-change-rate@2x.png" class="help-center-img img-bordered" alt="Line chart showing code change activity by code age, with a spike of 13,106 new lines during the week of October 13, 2025, and smaller contributions from code under one year old" />
   <figcaption style="text-align: center; color: #888">See how much work targets older code, highlighting potential legacy or debt-heavy areas.</figcaption>
 </figure>
 
@@ -491,7 +491,7 @@ This metric tracks the age of code being modified. Frequent changes to older cod
 This metric breaks down engineering work by category, such as testing, documentation, front-end, and back-end development. It helps teams visualize where their effort is being spent and supports more strategic allocation of resources across system layers and quality activities.
 
 <figure>
-  <img src="/wp-content/uploads/code-change-by-operation.png" srcset="/wp-content/uploads/code-change-by-operation@2x.png" class="help-center-img img-bordered" alt="Chart showing breakdown of code changes by category" />
+  <img src="/wp-content/uploads/code-change-by-operation.png" srcset="/wp-content/uploads/code-change-by-operation@2x.png" class="help-center-img img-bordered" alt="Line chart showing code changes by operation for the week of October 27, 2025, including 5644 lines added, 1774 deleted, and smaller volumes of moved, updated, copy/pasted, and find/replaced changes" />
   <figcaption style="text-align: center; color: #888">Understand the distribution of code changes across different areas of the codebase.</figcaption>
 </figure>
 
@@ -508,7 +508,7 @@ This section highlights metrics that reflect development rhythm and consistency.
 This metric tracks the volume of code commits over time, offering a basic signal of development activity. While not a productivity metric on its own, it can help identify engagement patterns, team rhythm, and delivery frequency.
 
 <figure>
-  <img src="/wp-content/uploads/commit-count.png" srcset="/wp-content/uploads/commit-count@2x.png" class="help-center-img img-bordered" alt="Chart showing total commit volume" />
+  <img src="/wp-content/uploads/commit-count.png" srcset="/wp-content/uploads/commit-count@2x.png" class="help-center-img img-bordered" alt="Line chart showing commit activity over time with a peak of 277 commits during the week of October 20, 2025" />
   <figcaption style="text-align: center; color: #888">Track how often developers commit code across connected repositories.</figcaption>
 </figure>
 
@@ -519,7 +519,7 @@ This metric tracks the volume of code commits over time, offering a basic signal
 This metric approximates the total active development time across your team. It helps leaders assess engineering capacity, detect shifts in focus time, and understand whether developers are able to engage in deep work versus being blocked or interrupted.
 
 <figure>
-  <img src="/wp-content/uploads/estimated-coding-hours.png" srcset="/wp-content/uploads/estimated-coding-hours@2x.png" class="help-center-img img-bordered" alt="Chart showing estimated time spent coding" />
+  <img src="/wp-content/uploads/estimated-coding-hours.png" srcset="/wp-content/uploads/estimated-coding-hours@2x.png" class="help-center-img img-bordered" alt="Line chart showing estimated coding hours over time, highlighting a drop to 276 hours during the week of October 27, 2025" />
   <figcaption style="text-align: center; color: #888">Visualize how much time teams spend actively coding over time.</figcaption>
 </figure>
 
@@ -535,7 +535,7 @@ Widgets on the dashboard can be customized to fit your needs.
 - **Switch graph type** Switch between line graphs, area graphs, or bar graphs.
 
 <figure>
-  <img src="/wp-content/uploads/layout-options.png" srcset="/wp-content/uploads/layout-options@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/layout-options.png" srcset="/wp-content/uploads/layout-options@2x.png" class="help-center-img img-bordered" alt="Cycle time line graph with dropdown menu expanded showing options such as switching to bar graph, resizing, exporting data, or removing the widget" />
   <figcaption style="text-align: center; color: #888">Switch between bar, area or line graphs, resize, export graph data, or remove widget from the menu in the upper right.</figcaption>
 </figure>
 
@@ -559,7 +559,7 @@ You can add trendlines to any chart in GitKraken Insights to help visualize patt
 - **Moving Average:** Smooths out short-term fluctuations to highlight the overall pattern, especially useful for noisy or jumpy data.
 
 <figure>
-  <img src="/wp-content/uploads/trendline-menu.png" srcset="/wp-content/uploads/trendline-menu@2x.png" class="help-center-img img-bordered" alt="Chart with trendline settings menu showing Linear and Moving Average options" />
+  <img src="/wp-content/uploads/trendline-menu.png" srcset="/wp-content/uploads/trendline-menu@2x.png" class="help-center-img img-bordered" alt="Mean Time to Repair chart with menu open showing trendline options including None, Polynomial, and Moving Average" />
   <figcaption style="text-align: center; color: #888">From the widget menu, select a trendline type to better understand long-term changes in your metrics.</figcaption>
 </figure>
 
@@ -581,6 +581,6 @@ The dashboard may be filtered by **Workspace**, **Repositories**, **Timeframe**,
 
 
 <figure>
-  <img src="/wp-content/uploads/timeframe-filter.png" srcset="/wp-content/uploads/timeframe-filter@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/timeframe-filter.png" srcset="/wp-content/uploads/timeframe-filter@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights dashboard with filters for Workspace, Repository, Team, and Timeframe shown with a 90-day range selected in the calendar" />
   <figcaption style="text-align: center; color: #888">Filter your dashboard by Workspace, Repo, Timeframe, or Team.</figcaption>
 </figure>
