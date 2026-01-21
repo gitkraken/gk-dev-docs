@@ -4,14 +4,14 @@ description: Learn how to request access, understand plan availability, and conn
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: December 2025</kbd>
+<kbd>Last updated: January 2026</kbd>
 
 GitKraken Insights turns raw Git data into clear, useful metrics for developers and leaders. It pulls code activity, pull requests, issues, and CI/CD results into a single view that fits directly into existing workflows.
 
 Instead of surface-level stats, Insights shows how work connects to team goals and points out ways to improve flow and productivity.
 
 <figure>
-  <img src="/wp-content/uploads/insights-dashboard-oct-2025.png" srcset="/wp-content/uploads/insights-dashboard-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/insights-dashboard-oct-2025.png" srcset="/wp-content/uploads/insights-dashboard-oct-2025@2x.png" class="help-center-img img-bordered" alt="Dashboard view showing GitKraken Insights metrics, including deployment frequency, code duplication, PR response time, and code rework trends over a 30-day period." />
   <figcaption style="text-align: center; color: #888">Overview of GitKraken Insights</figcaption>
 </figure>
 
@@ -46,17 +46,17 @@ In addition, you can connect AI providers to enable AI Impact insights (like Dup
 
 
 <figure>
-  <img src="/wp-content/uploads/data-connection-dec-2025.png" srcset="/wp-content/uploads/data-connection-dec-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
-  <figcaption style="text-align: center; color: #888">Connect GitHub, GitLab, or Jira to enable Insights</figcaption>
+  <img src="/wp-content/uploads/data-connection-dec-2025.png" srcset="/wp-content/uploads/data-connection-dec-2025@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights data connections screen showing integration status and options to connect GitHub, GitLab, Bitbucket, and other tools." />
+  <figcaption style="text-align: center; color: #888">Connect GitHub, GitLab,Bitbucket or Jira to enable Insights</figcaption>
 </figure>
 
 <figure>
-  <img src="/wp-content/uploads/authorize-gitclear.png" srcset="/wp-content/uploads/authorize-gitclear@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/authorize-gitclear.png" srcset="/wp-content/uploads/authorize-gitclear@2x.png" class="help-center-img img-bordered" alt="GitHub authorization screen for GitKraken Insights by GitClear, showing requested access permissions including repositories, teams, and Copilot." />
   <figcaption style="text-align: center; color: #888">Authorize GitHub access for GitKraken Insights</figcaption>
 </figure>
 
 <figure>
-  <img src="/wp-content/uploads/import-repos.png" srcset="/wp-content/uploads/import-repos@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/import-repos.png" srcset="/wp-content/uploads/import-repos@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights interface for selecting and importing repositories, with a quick import field and a list of user repos to choose from." />
   <figcaption style="text-align: center; color: #888">Select which repos to import. You can always import more later.</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ After connecting repositories, confirm your personal details:
 - Job role  
 
 <figure>
-  <img src="/wp-content/uploads/set-role-oct-2025.png" srcset="/wp-content/uploads/set-role-oct-2025@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/set-role-oct-2025.png" srcset="/wp-content/uploads/set-role-oct-2025@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights onboarding screen prompting the user to enter their first name, last name, time zone, and job title before continuing." />
   <figcaption style="text-align: center; color: #888">Confirm your details before continuing</figcaption>
 </figure>
 
@@ -110,6 +110,6 @@ Once setup is complete, Insights will begin importing your repository data.
 - Track import progress anytime from the **Dashboard** tab.  
 
 <figure>
-  <img src="/wp-content/uploads/import-progress.png" srcset="/wp-content/uploads/import-progress@2x.png" class="help-center-img img-bordered" alt="Overview of GitKraken Insights" />
+  <img src="/wp-content/uploads/import-progress.png" srcset="/wp-content/uploads/import-progress@2x.png" class="help-center-img img-bordered" alt="GitKraken Insights data import progress screen with options to manage teams, releases, and users, alongside an illustration of the GitKraken mascot loading data." />
   <figcaption style="text-align: center; color: #888">Monitor import progress while Insights processes your data</figcaption>
 </figure>
