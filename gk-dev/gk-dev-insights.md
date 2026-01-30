@@ -71,7 +71,7 @@ After the initial import is complete, rate limit issues are unlikely to recur.
 
 ---
 
-### AI Provider Connection (Optional)
+#### AI Provider Connection (Optional)
 
 As of December 2025, GitKraken Insights only supports connections with Cursor and GitHub Copilot to enable AI insights.
 

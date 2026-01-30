@@ -175,7 +175,7 @@ PR intelligence turns these insights into clear actions by highlighting slowdown
 
 **Definition:** _The time measured from when a PR is opened to when the 1st review or comment is left on a PR._
 
-This metric shows how long each pull request within a selected timeframe took to have a first response (comment or review). Values are expressed in **hours** and averaged over a **7-day period**. Shorter pickup times indicate faster reviewer engagement and healthier collaboration.
+This metric shows how long each pull request within a selected timeframe took to have a first response (comment, review or approval). Values are expressed in **hours** and averaged over a **7-day period**. Shorter pickup times indicate faster reviewer engagement and healthier collaboration.
 
 <figure>
   <img src="/wp-content/uploads/first-response-time.png" srcset="/wp-content/uploads/first-response-time@2x.png" class="help-center-img img-bordered" alt="Line graph of GitKraken Insights showing average first response time for pull requests, with tooltip indicating 39 hours for the week of June 30 to July 6, 2025" />
@@ -186,7 +186,7 @@ This metric shows how long each pull request within a selected timeframe took to
 
 **Definition:** _The time measured between the 1st commit of a PR to when the PR is merged._
 
-This metric shows how long each pull request within a selected timeframe took to merge from the time the first commit was made. Values are expressed in **days** and averaged over a **7-day period**. Cycle time provides insight into overall delivery speed, highlighting how quickly work moves from coding to production.
+This metric shows how long each pull request within a selected timeframe took to merge from the time the first commit (authored local timestamp) was made. Values are expressed in **days** and averaged over a **7-day period**. Cycle time provides insight into overall delivery speed, highlighting how quickly work moves from coding to production.
 
 <figure>
   <img src="/wp-content/uploads/cycle-time-line.png" srcset="/wp-content/uploads/cycle-time-line@2x.png" class="help-center-img img-bordered" alt="Line graph of GitKraken Insights showing cycle time from first commit to merge, with a tooltip indicating 7.3 days for the week of July 21 to July 27, 2025" />
@@ -292,6 +292,8 @@ This metric measures the level of engagement during code reviews, revealing how 
   <img src="/wp-content/uploads/pr-comments.png" srcset="/wp-content/uploads/pr-comments@2x.png" class="help-center-img img-bordered" alt="Line chart in GitKraken Insights showing number of PR comments over time, with a tooltip indicating 151 comments were made between September 8 and 14, 2025" />
   <figcaption style="text-align: center; color: #888">Shows total PR comments, which can reflect review depth and collaboration intensity.</figcaption>
 </figure>
+
+Currently, this metric counts all comments, including those from bots. Future updates may allow filtering by comment type to focus on human feedback.
 
 ### PR Size / Effort
 
