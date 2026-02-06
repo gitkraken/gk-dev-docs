@@ -118,7 +118,7 @@ To update your billing method:
 
 ## Billing history
 
-You may view your billing history from [gitkraken.dev/subscription/history](https://staging.gitkraken.dev/subscription/history?source=help_center&product=gitkraken_dot_dev) or by navigating to **Subscription > View Billing History**.
+You may view your billing history from [gitkraken.dev/subscription/history](https://gitkraken.dev/subscription/history?source=help_center&product=gitkraken_dot_dev) or by navigating to **Subscription > View Billing History**.
 
 You can select **Download PDF** to retrieve past invoices. The Owner and Billing Contacts will also receive an invoice email at the end of each billing cycle.
 
