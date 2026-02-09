@@ -39,8 +39,7 @@ In addition, you can connect AI providers to enable AI Impact insights (like Dup
 ### 1. Repo import
 
 1. In GitKraken.dev, go to **Insights > Data Connection**.  
-2. Click to connect with GitHub, GitLab, Cursor, GitHub CoPilot, Bitbucket or Jira Cloud.  
-   > Support for Azure DevOps, is coming soon.  
+2. Click to connect with GitHub, GitLab, Cursor, GitHub CoPilot, Azure Devops, Bitbucket or Jira Cloud.  
 3. Authorize GitKraken Insights by GitClear to connect with GitHub.  
 4. Select which repositories to track. Use the filter option at the top of the page to quickly narrow down the list.  
 
