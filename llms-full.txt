@@ -1,0 +1,1007 @@
+# GitKraken.dev Documentation — Full Content
+
+> GitKraken.dev is the web platform for managing GitKraken licenses, teams, Git integrations, Launchpad, Workspaces, Cloud Patches, Code Suggest, Automations, and Insights. This file contains the full text of all GitKraken.dev documentation pages.
+
+---
+
+## GitKraken.dev Support Home
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-home/
+
+GitKraken.dev is a browser-based Git project management app. From tracking issues and pull requests to organizing repositories with your team, GitKraken.dev helps you stay productive directly from your browser.
+
+### Launchpad: Your Daily Git Dashboard
+
+The Launchpad offers a real-time summary of pull requests and issues based on your filters, helping you take action faster without context-switching.
+
+Connect an integration to begin. This feature is only available on Pro or higher plans.
+
+#### Take Quick Actions from Launchpad
+
+Use the actions column to update fields, open branches in GitKraken Desktop or VS Code, merge or close pull requests, and open code suggestions.
+
+#### Refine Results with Filters
+
+Filter the Launchpad by services, statuses (assigned/created/mentioned), or workspaces.
+
+Pin items for priority or snooze them to hide under the SNOOZED section. Return to the SNOOZED section to unsnooze.
+
+### Cloud Patches (PRO)
+
+Cloud Patches let you securely store and share Git patches without a pull request. Create them using GitKraken Desktop, GitLens, or the GitKraken CLI. Store them on GitKraken servers or your own AWS S3 bucket.
+
+This feature is only available on Pro or higher plans.
+
+#### Create and Share Cloud Patches
+
+Initiate patches from GitKraken Desktop, GitLens, or GitKraken CLI. Manage shared Cloud Patches from gitkraken.dev.
+
+#### Apply and Review Patches
+
+Select "Open" to view patch contents. Open patches in GitKraken Desktop or GitLens to apply them.
+
+### Workspaces: Organize Projects by Team
+
+Use Workspaces to group repositories for teams or organizations using GitKraken.dev, GitKraken Desktop, GitLens, or GitKraken CLI.
+
+#### Set Up a New Workspace
+
+Connect a service integration, select "Create Workspace", name it, choose a provider, and set sharing preferences.
+
+#### Use Workspaces Across Tools
+
+Click "Open Launchpad" to focus on that Workspace's repositories. Perform Git actions in your preferred GitKraken tool.
+
+#### Azure Configuration for Workspaces & Insights
+
+To use Workspaces or Insights with Azure DevOps, enable "Third-party application access via OAuth" in Azure's Organization Settings.
+
+### Code Suggest (PRO)
+
+Suggest code edits across your codebase—not just changed lines—using GitKraken.dev, GitLens, or GitKraken Desktop. Suggestions appear in the pull request for review.
+
+This feature is only available on Pro or higher plans.
+
+#### Working with Code Suggestions
+
+Create suggestions in GitKraken Desktop or GitLens. Once submitted, the pull request includes a comment with links to open the suggestion in GitKraken.dev or on your machine. Select "Code Suggestion for #PR" to open in GitKraken.dev and review the changes. Accepting adds a commit to the remote branch.
+
+---
+
+## Manage Your GitKraken Account
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-account/
+
+Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences in one place.
+
+Note: Your GitKraken account is not compatible with Git Integration for Jira. We recommend using a single GitKraken account for yourself. Avoid creating duplicate accounts or sharing your account with others.
+
+### Sign in or create an account
+
+Go to gitkraken.dev and choose one of the supported login options:
+
+**Git providers:**
+- GitHub
+- GitLab
+- Bitbucket
+- Azure DevOps
+
+**Other options:**
+- Google
+- Microsoft
+- Email + password
+- Single Sign-On (SSO)
+
+Each login method is tied to your primary email address. If you sign up with email, you'll need to verify it via a confirmation link.
+
+### Personalize your account
+
+Click your avatar in the top right to:
+- Change your display name or avatar
+- Manage your GitKraken licenses
+- Configure email settings
+- View your plan and billing information
+
+GitKraken uses Gravatar to manage profile avatars. To change your avatar, select your profile image and follow the link to Gravatar. Updates may take several hours to appear.
+
+### Delete your account
+
+To permanently delete your account:
+
+1. Go to Settings > Account Settings
+2. Click "Delete Account"
+3. Confirm the deletion in the prompt
+
+Note: If you are part of a GitKraken organization and not an admin, you'll need an admin to remove your account before proceeding.
+
+GitKraken is GDPR-compliant and this action cannot be undone. This action will revoke access to all GitKraken products and services linked to your account.
+
+---
+
+## GitKraken Trials
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-trials/
+
+### Trial options
+
+GitKraken offers two types of trials:
+- **14-day trial:** Try GitKraken Pro features on your own.
+- **Business trial (30 days):** Invite your team and try the full GitKraken platform.
+
+To compare features, visit the GitKraken pricing page.
+
+### Start a 14-day trial
+
+Both GitKraken Desktop and GitLens offer a 14-day trial. You can start a trial by logging into the respective app with your GitKraken account for the first time.
+
+Each trial is independent, and so starting a trial in one product does not activate it for the other.
+
+### Start a Business trial
+
+1. Visit gitkraken.dev
+2. Log in using your GitKraken account
+3. Navigate to Users
+4. Add one or more users
+5. Once users are added, the organization-wide trial begins
+
+Business trials include:
+- 30 days of full access
+- Support for multiple users and license management
+- SSO setup and workspace configuration
+
+Each user can only join one Business trial. Owners can't start another Business trial after the first one ends.
+
+---
+
+## Connect GitHub, GitLab, Azure Integrations
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-integrations/
+
+Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces, and Cloud Patches. Supported integrations include GitHub, GitLab, Bitbucket, Azure DevOps, and self-hosted options.
+
+### How to Connect an Integration
+
+Go to the Integrations page in GitKraken.dev and follow the instructions based on the type of integration.
+
+#### 1. Cloud-Based Integrations (GitHub, GitLab.com, Bitbucket.org, Azure DevOps)
+
+1. Under "Add Integration", select your service.
+2. Log into your account.
+3. Approve access when prompted to authorize GitKraken.
+
+#### 2. Self-Hosted or Server-Based Integrations
+
+1. Under "Add Integration", select your self-hosted service (e.g., GitHub Enterprise).
+2. Enter the Host Domain.
+3. Click "Generate a token on {service}". This opens a pre-filled Personal Access Token (PAT) creation page.
+4. Create the PAT.
+5. Paste the token into GitKraken.
+6. Click "Connect".
+
+Note: To access repositories owned by a GitHub organization, organization approval is required.
+
+### What's Next?
+
+Once connected, you can:
+- Use Launchpad to track PRs and issues.
+- Organize repos into Workspaces.
+- Share Cloud Patches.
+
+---
+
+## Manage GitKraken Subscription and Billing
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-subscription/
+
+Subscriptions in GitKraken Dev are tied directly to an organization, even if there is only one user.
+
+All members of an organization share the same subscription, and each active member requires a license. Some roles do not consume a license.
+
+### How to purchase
+
+To purchase a subscription for the first time:
+
+1. Visit gitkraken.dev.
+2. Log in with your GitKraken account or create one.
+3. Select your organization in the left panel, then click "Purchase Subscription". You'll need a role with billing permissions.
+4. Set the number of user seats. Choose the subscription tier that best fits your organization (Pro, Teams, or Enterprise).
+5. Enter your organization name, first and last name, and your country or region. If you have a promo code, click "Have a promo code?" to enter it. Click "Payment details" to continue.
+6. Select a payment method and complete the billing information. Then click "Review your order".
+7. Click the "Buy now" button to complete your purchase.
+8. If you added more licenses than there are users to assign them to, you'll be redirected to the "Add Users" screen.
+
+### Purchase additional licenses
+
+To purchase additional licenses, you must be an Admin, Owner, or Billing Contact for your organization.
+
+1. Navigate to gitkraken.dev/subscription.
+2. Click "Add Seats".
+3. Enter the number of licenses to add. A price preview updates automatically. The amount is prorated based on your renewal date.
+4. Click "Purchase" to complete the transaction.
+5. After purchase, go to gitkraken.dev/users to assign licenses to users.
+
+### Cancel
+
+You can cancel your subscription at any time:
+
+1. Log in to gitkraken.dev
+2. Select your organization
+3. Go to "Subscription" in the left panel
+4. Click "Cancel" and follow the prompts to confirm cancellation
+
+Once canceled, your subscription remains active until the end of the current billing period. After that, all members will lose access to the subscription.
+
+Organizations with a pending cancellation will be labeled as non-renewing. Once fully expired, they will appear as canceled.
+
+Only the Owner, Admins, and Billing Contacts can cancel subscriptions.
+
+### Reactivation
+
+You can reactivate a canceled subscription anytime:
+
+1. Log in to gitkraken.dev
+2. Select your organization
+3. Go to "Subscription" in the left panel
+4. Click "Keep GitKraken"
+
+### Edit billing
+
+To update your billing method:
+
+1. Visit gitkraken.dev
+2. Select your organization
+3. Go to "Subscription" in the left panel
+4. Click "Update" to modify or switch payment methods
+
+### Billing history
+
+View your billing history from gitkraken.dev/subscription/history or by navigating to Subscription > View Billing History.
+
+You can select "Download PDF" to retrieve past invoices. The Owner and Billing Contacts will also receive an invoice email at the end of each billing cycle.
+
+---
+
+## GitKraken Accounts and Licenses FAQ
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-faq/
+
+### GitKraken automatically put me in a trial. Is there a way to use the app without the trial?
+
+All new GitKraken accounts automatically begin a 14-day trial of all paid features. If you plan to use the free version, simply let the trial expire—GitKraken will revert to the free plan.
+
+### I just subscribed but I still see FREE in the lower right corner.
+
+Make sure you're logged in with the same email address tied to your paid subscription.
+
+### Can I transfer account ownership?
+
+Yes. If you're the Owner of a Paid subscription, you can transfer ownership to another user from gitkraken.dev/settings/organization.
+
+### How do I transfer ownership if I only have a single license?
+
+First, add the new user as a Billing Contact—this doesn't consume a license. Then transfer ownership.
+
+### Do I need a license to manage users?
+
+Licensed Owner or Admin users can manage others. An unlicensed Billing Contact can view, add, or remove general users. The User role does not have permissions to edit users.
+
+### Can I pay using a Purchase Order?
+
+For GitKraken Pro and Teams, we accept only credit card payments. Purchase orders are accepted for GitKraken On-Premise or On-Premise Serverless.
+
+### When are invoices sent?
+
+Invoice copies are emailed immediately to the purchaser (Owner or Billing Contact) from accounting@gitkraken.com. You can also download them from your Billing History.
+
+### I'm a single-user. What should I enter in the Organization/Company field?
+
+Use a value of your choice—common options include "Personal" or "Self".
+
+### Where is my license key?
+
+Your license is email-based. There is no key. All licenses are managed at gitkraken.dev. Any added users receive an activation email.
+
+### Can I use GitKraken Pro on multiple computers?
+
+Yes! Your license is tied to your email address, not to a specific device.
+
+### What happens when my subscription expires?
+
+Your GitKraken Desktop will revert to the free version. You won't lose any data, but private repos will be inaccessible, and you'll have access to only one profile.
+
+### I need my credit card info removed after purchase.
+
+Please contact our accounting team. Most requests are completed within one business day.
+
+---
+
+## GitKraken Student Pack
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-student-pack/
+
+GitKraken offers a free Student Pack for students to use GitKraken Desktop, GitLens, CLI, and GitKraken.dev.
+
+This plan is a 6-month free trial of PRO features for students who are verified on GitHub Student Developer Pack. After the 6-month free trial, you can upgrade to a PRO subscription at a discounted rate.
+
+The 6-month free trial starts from the original Student account creation date.
+
+### What is in the GitKraken Student Pack
+
+- GitKraken Desktop
+- GitLens
+- GitKraken CLI
+- GitKraken.dev
+
+### How to get the Student Pack
+
+1. You need to be a student with a valid student email address and a verified GitHub Student Developer Pack.
+2. Create a new account on GitKraken using your GitHub account.
+3. Navigate to gitkraken.dev/student and click the 'Start trial' button.
+4. Navigate to your Subscription page in GitKraken.dev to verify that you have a Student trial active.
+5. Sign into all GitKraken products with your GitHub account with premium features applied.
+
+You must create the account using the GitHub account creation method to synchronize the Student Pack license. Deleting and recreating your GitKraken account will not restart the trial period.
+
+### How to upgrade to a PRO subscription
+
+When the 6-month free trial is about to end, you will be notified both in the app and in the email you used to sign up. You can upgrade to a PRO subscription at a discounted rate following the instructions in the email.
+
+---
+
+## GitKraken Reseller Guide
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-reseller/
+
+### New Organization Purchases
+
+#### 1. Create an Account or Sign In
+
+Go to gitkraken.dev and create a GitKraken account using your reseller email address.
+- Use the email method (not social sign-in options).
+- Do not input end-user details. Register using your own email.
+- Verify your email address via the link sent to your inbox.
+
+#### 2. Purchase
+
+Go to "Purchase Subscription", choose the subscription type, set the number of seats, and enter payment details.
+
+To create a new organization for a different customer, visit gitkraken.dev/purchase.
+
+- **Seats:** Number of licenses for the customer
+- **Organization Name:** Name of the customer's organization
+- **Payment Info:** Enter reseller billing information
+
+We accept card, PayPal, ACH, and Google Pay. Invoicing is available for large GitKraken Enterprise orders.
+
+#### 3. Transfer Ownership to the Customer
+
+1. Go to Users
+2. Add the customer as a Billing Contact
+3. Go to Settings > Organization and transfer ownership
+
+If the customer hasn't verified their email, they'll receive an activation link. They have 7 days to accept.
+
+### Existing Organization Purchases
+
+1. Log into gitkraken.dev
+2. Select the customer's organization from the top-left dropdown
+3. Go to the "Subscriptions" tab
+4. Update billing info if needed
+5. Click "Edit Plan"
+6. Increase the total user count
+7. Review the Billing Summary for cost
+8. Click "Save." The additional licenses will be active immediately.
+
+### Quotes
+
+#### Upgrade Quote
+
+To quote for upgrades (adding seats or changing plans):
+1. Log into gitkraken.dev
+2. Select the customer organization
+3. Go to "Subscriptions"
+4. Click "Edit Plan"
+5. Make changes, but don't purchase
+6. Use the Billing Summary as an official quote
+
+#### Renewal Quote
+
+1. Log into gitkraken.dev
+2. Select the customer organization
+3. Go to "Subscriptions"
+4. Use the Annual Total in the Billing Summary as the renewal quote. The "Next charge" date indicates the renewal timing.
+
+---
+
+## Manage GitKraken Organizations
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-organization/
+
+Create an organization in GitKraken.dev to manage your team's access, roles, licenses, and SSO. Centralize your GitKraken subscription to simplify provisioning and oversight across all GitKraken products.
+
+Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users, roles, teams, and settings.
+
+### Roles
+
+Roles determine what permissions a member has within your organization. There are five roles available:
+
+- **Owner** – Each organization has one owner by default. Full administrative and billing permissions. Consumes a license.
+- **Admin** – Full administrative and billing permissions. Consumes a license. Admins cannot change or remove the owner.
+- **User** – Can manage teams but no other administrative permissions. Consumes a license.
+- **Lead** – Has access to GitKraken Insights and can manage teams but no other administrative permissions. Consumes a license.
+- **Billing Contact** – Manages billing-related settings and receives invoices. Does not consume a license.
+
+**Permissions by Role:**
+
+| Permission | Owner | Admin | Lead | User | Billing Contact |
+|---|---|---|---|---|---|
+| Licensed to use paid GitKraken features | ✅ | ✅ | ✅ | ✅ | |
+| Add, edit, and remove users | ✅ | ✅ | | | ✅ |
+| Create and manage teams | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Manage billing and purchase licenses | ✅ | ✅ | | | ✅ |
+| Transfer ownership of the organization | ✅ | | | | |
+| Connect data sources to GitKraken Insights | ✅ | ✅ | | | |
+| Access and manage GitKraken Insights | ✅ | ✅ | ✅ | | |
+| Assign and manage Insights licenses | ✅ | ✅ | ✅ | | |
+
+### Add users
+
+To add someone to your organization, go to gitkraken.dev, open the organization dropdown in the top left, select "Users", then click "Add Users".
+
+You can enter multiple email addresses and select the role to assign to all users.
+
+Only members with a role that includes user management permissions can invite others. Adding a user consumes a license from your subscription.
+
+### Inviting users to your organization
+
+As a User, you can invite others to your organization. These invitations must be reviewed and approved by an Owner, Admin, or Billing Contact.
+
+To invite someone:
+1. Go to gitkraken.dev
+2. Select your organization from the top-left dropdown
+3. Navigate to Users > Invite Users
+4. Enter the email address(es) of the person you want to invite
+
+Once submitted, Owners, Admins, or Billing Contacts will receive an email notification.
+
+### Reallocate licenses
+
+Owners, Admins, and Billing Contacts can remove existing users to free up licenses, then add new users in their place.
+
+Note: Billing Contacts cannot remove or edit Owner or Admin users.
+
+To reallocate a license:
+1. Navigate to "Users"
+2. Click "Remove" next to the user you want to remove
+3. Invite or add a new user to use the available license
+
+### Import and export users
+
+To import multiple users via CSV, click "Add Users", then choose "Import via CSV". Your file should include these columns: Email, Username, Role, and optionally Teams.
+
+**Example CSV for user import:**
+```
+Email,Username,Role,Teams
+john.doe@example.com,johndoe,user,Frontend Team;Design Team
+jane.smith@example.com,janesmith,admin,Backend Team
+```
+
+To export your current user list to CSV, click "Export via CSV".
+
+### Teams
+
+Teams help you organize members within your GitKraken organization. Teams can also create Shared Workspaces.
+
+Any member can create a team from the Teams tab in your organization at gitkraken.dev.
+
+**Team Import CSV Format:**
+```
+Team,Emails
+Frontend Team,bob@example.com;john@example.com
+Backend Team,jane@example.com
+```
+
+### Organization Settings
+
+Access your settings at gitkraken.dev/settings/organization. From here, you can view subscription details and update: organization name, ownership, SSO setup, and organization membership.
+
+### Transfer ownership
+
+If you're the owner of an organization and want to assign ownership to someone else:
+1. Make sure the new owner is already added to the organization
+2. Go to Settings > Transfer ownership
+3. Select the user and confirm their email
+4. Click "Transfer Ownership" to finalize the change
+
+Ownership transfers are final unless the new owner reassigns it.
+
+### Leave an organization
+
+To leave an organization:
+1. Navigate to Settings > Organization
+2. Click "Leave Organization"
+
+You must be part of another organization and cannot be the current owner. Leaving will revoke your GitKraken license and access to shared collaboration features.
+
+### Single sign-on
+
+SSO is available for organizations that require it. Visit the Single Sign-On documentation for setup steps.
+
+---
+
+## Configure Single Sign-On (SSO) for GitKraken
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-single-sign-on/
+
+Single Sign-On (SSO) is an easy way to manage users across all your services. SSO is supported only for GitKraken cloud users; On-Premise plans are not supported.
+
+Once your organization has set up SSO with an Identity Provider (IdP), the Owner or an Admin can link the GitKraken organization to that IdP.
+
+SSO is available with a GitKraken Advanced or Enterprise subscription. It's also included in the 30-day multi-user trial.
+
+### What is single sign-on (SSO)?
+
+SSO is an authentication method that lets users sign in once and gain access to multiple, independent software systems without needing to re-enter their credentials.
+
+**Key terms:**
+
+**Directory Server:** Stores information about organizational objects such as printers, computers, shared folders, users, or groups.
+
+**Identity Provider (IdP):** Manages identity information and provides authentication services. Examples: Azure Active Directory, Okta, Google Identity Platform.
+
+**Third-party applications:** Services that use an IdP to authenticate users. Examples: GitKraken, Slack, Jira.
+
+### How SSO works in GitKraken
+
+GitKraken supports SAML 2.0 for SSO. Any identity provider that supports SAML 2.0 is compatible.
+
+SSO requires a GitKraken Teams or Enterprise subscription, or a 30-day multi-user trial.
+
+**SSO Enforcement:**
+- SSO is enforced at the domain level: Users whose account emails match a verified SSO domain must log in via SSO. Owners and Admins can log in using any method.
+- SSO is enforced at the organization level: All users matching a verified domain must be part of the GitKraken organization.
+- Users cannot create other organizations or subscriptions.
+- Users cannot leave the organization or change their email/password.
+
+**Just-in-time provisioning (JIT):** When JIT is active and a user logs in successfully via SSO, they will automatically join the organization and consume a license. JIT only works if there are available licenses.
+
+### Set up SSO
+
+1. Log in to GitKraken.dev as an Owner or Admin.
+2. Navigate to Settings > Single sign-on in the left sidebar.
+3. Click "Set up SSO".
+4. Complete the connection form:
+   - **Connection name**: Name shown to users in GitKraken.
+   - **Domain**: Use the base domain (e.g., gitkraken.com).
+   - **Identity URL**: Provided by GitKraken, paste this into your IdP.
+   - **Credentials**: Choose Metadata URL, raw Metadata, or Certificate.
+   - Click "Create Connection" when done.
+5. Verify domain ownership by adding a DNS TXT record.
+6. (Optional) Add additional domains.
+7. Enable SSO and optionally enable JIT.
+
+### Example IdP Setup
+
+**SSO Callback URL for all providers:** `https://api.gitkraken.com/oauth/sso/callback`
+
+**Supported Identity Providers with step-by-step instructions:**
+- G Suite / Google Workspace
+- Azure Active Directory
+- Okta (Note: Logging through Okta Dashboard is not supported)
+- Ping Identity
+
+For each provider, use `https://api.gitkraken.com/oauth/sso/callback` as both the ACS URL and Entity ID (or equivalent fields).
+
+---
+
+## Getting Started with GitKraken Insights
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-insights/
+
+GitKraken Insights turns raw Git data into clear, useful metrics for developers and leaders. It pulls code activity, pull requests, issues, and CI/CD results into a single view that fits directly into existing workflows.
+
+### Request Access
+
+GitKraken Insights is available by request only. To get started, request a guided tour at gitkraken.com/insights.
+
+Insights is available as an add-on to the seats in your existing GitKraken subscription, or as a discounted standalone solution.
+
+### Connecting your data
+
+Currently, Insights supports connections with GitHub, GitLab, Bitbucket, and Jira Cloud. Support for Azure DevOps is coming soon.
+
+#### 1. Repo import
+
+1. In GitKraken.dev, go to Insights > Data Connection.
+2. Click to connect with GitHub, GitLab, Cursor, GitHub CoPilot, Azure DevOps, Bitbucket, or Jira Cloud.
+3. Authorize GitKraken Insights by GitClear to connect.
+4. Select which repositories to track.
+
+**Avoiding GitHub API rate limits:** If importing a large number of repositories, you may encounter GitHub's hourly API rate limits. To avoid this, additional organization members can connect to Insights using a Lead role to distribute processing across multiple GitHub tokens.
+
+#### AI Provider Connection (Optional)
+
+As of December 2025, GitKraken Insights supports connections with Cursor and GitHub Copilot to enable AI insights.
+
+To enable AI Impact insights:
+1. In GitKraken.dev, go to Insights > Data Connection.
+2. Click to "Manage" with Cursor or GitHub Copilot.
+3. Select the AI provider and enter the provider Token.
+4. Click "Connect AI Provider".
+
+#### 2. Setup role
+
+After connecting repositories, confirm your personal details: first and last name, time zone, and job role.
+
+#### 3. Data import progress
+
+Once setup is complete, Insights will begin importing your repository data.
+- Past month's activity appears within a few hours.
+- Full year's activity is usually ready within one to two days.
+- Track import progress from the Dashboard tab.
+
+---
+
+## Dashboard Management in GitKraken Insights
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-dashboard-management/
+
+GitKraken Insights brings your Git data, pull requests, issues, and CI/CD results into one place.
+
+**Key benefits:**
+- **In your workflow:** Metrics come from the tools you already use: Git, PRs, CI/CD, issue trackers.
+- **Useful context:** See how code changes connect to tickets, review quality, and team goals.
+- **Clear next steps:** Spot inefficiencies and get practical ways to improve.
+
+### Adding Metrics
+
+Setup prerequisites:
+1. Request a guided tour to get access.
+2. Connect GitKraken Insights to your GitHub account.
+3. Wait for repositories to finish importing.
+
+Once setup is complete, open the Insights > Dashboard tab from gitkraken.dev.
+
+#### Creating Dashboards
+
+You can create multiple dashboards to organize metrics by team, project, or focus area. Use the dropdown menu in the top-left corner of the dashboard view and select "+ Create dashboard".
+
+#### Available metrics
+
+**DORA metrics:**
+- Deploy Frequency
+- Change Lead Time
+- Mean Time to Repair/Recover (MTTR)
+- Defect Rate (% of deploys with severe defect)
+
+**Pull Request metrics:**
+- First Response Time ("Pickup time")
+- Cycle Time ("first commit" to "merge")
+- Lead Time ("first commit" to "deployed")
+- Number of Reviews per day/week/month
+- Open Time ("opened" to "merged")
+- Number of PRs Abandoned
+- Number of PRs Merged Without Review
+- Number of PR Comments
+- PR Size/Effort
+- Code Review Hours
+
+**AI Impact metrics:**
+- Copy/Paste vs Moved Percent
+- Duplicated Code
+- Percent of Code Rework (Churned Lines)
+- Post PR Work Occurring
+- Active Users
+- Suggestions (by total lines)
+- Prompt Acceptance Rate
+- Tab Acceptance Rate
+
+**Code Quality metrics:**
+- Bug Work Percent
+- Documentation and Test Percent
+- Code Change Rate
+- Code Change by Operation
+
+**Velocity/Delivery Consistency:**
+- Commit Count
+- Estimated Coding Hours
+
+### DORA metrics
+
+DORA (DevOps Research and Assessment) metrics are a standardized set of four key performance indicators: deployment frequency, lead time for changes, change failure rate, and time to restore service.
+
+**Deploy Frequency:** The total number of deployments over a selected timeframe. Shows how often new code is released to production.
+
+**Change Lead Time:** Time between the first commit linked to an issue and when the associated code is deployed. Expressed in days over a rolling 7-day period.
+
+**Mean Time to Repair/Recover (MTTR):** Business hours between "defect detected" and "final fix deployed". Lower MTTR indicates teams can respond quickly to incidents.
+
+**Defect Rate:** The percentage of deployments that resolve a critical defect. A lower defect rate indicates a more stable deployment process.
+
+### Pull Request metrics
+
+**First Response Time ("Pickup Time"):** Time from when a PR is opened to when the first review or comment is left. Expressed in hours, averaged over a 7-day period.
+
+**Cycle Time:** Time from the first commit to when the PR is merged. Expressed in days, averaged over a 7-day period. PRs are grouped into four categories: Elite (<1 day), Fast (1–7 days), Average (7–29 days), Slower (>30 days).
+
+**Lead Time:** Time from the first commit in a PR to when that code is deployed to production. Bridges development and deployment activities.
+
+**Number of Reviews per Day/Week/Month:** Volume of code reviews completed over a given period.
+
+**Open Time:** Time between when a pull request is opened and when it is merged. Differs from Cycle Time (which starts from first commit); isolates the review and approval phase.
+
+**Number of PRs Abandoned:** Number of pull requests closed without being merged. Can reveal wasted engineering effort or breakdowns in work planning.
+
+**Number of PRs Merged Without Review:** Number of pull requests merged without any (bot or human) review. Identifies PRs integrated without peer review.
+
+**Number of PR Comments:** Total number of comments left on pull requests. Measures engagement during code reviews.
+
+**PR Size/Effort:** Aggregate amount of change (diff delta) across all merged pull requests during a given time period.
+
+**Code Review Hours:** Average time spent in hours during the "review period" of pull requests. Calculated as total review hours / number of committers.
+
+### AI Impact
+
+AI Impact metrics help teams understand how AI coding tools affect code quality and developer efficiency.
+
+**Copy/Paste vs Moved Percent:** Compares how much code is duplicated versus refactored or relocated. Moved lines reflect healthy code reorganization; copy/pasted lines often signal duplicated logic.
+
+**Duplicated Code:** Amount of lines in duplicate blocks detected. Correlates with increased maintenance costs and higher risk of defect propagation.
+
+**Percent of Code Rework (Churned Lines):** Percentage of recently written code that gets modified again quickly. High churn rates can reflect rework caused by unclear goals or limitations in AI-assisted code generation.
+
+**Post PR Work Occurring:** Follow-up work and bug fixes needed after merging. Quantifies rework and fixes needed after a pull request is merged.
+
+**Active Users:** Total count of unique users active in connected AI provider integrations. Tracks AI adoption across teams.
+
+**Suggestions (by total lines):** Number of suggestions offered from connected AI provider integrations.
+
+**Prompt Acceptance Rate:** Percentage of prompt results a developer accepted. A higher rate indicates stronger alignment between AI outputs and developer expectations.
+
+**Tab Acceptance Rate:** Percentage of AI-generated code suggestions developers accept with tab completion.
+
+### Code Quality
+
+**Bug Work Percent:** Ratio of development work spent on fixing bugs vs everything else.
+
+**Documentation and Test Percent:** Percent of work related to tests and documentation.
+
+**Code Change Rate:** Tracks the age of code being modified. Frequent changes to older code may reveal technical debt hotspots.
+
+**Code Change by Operation:** Breaks down engineering work by category (testing, documentation, front-end, back-end).
+
+### Velocity/Delivery Consistency
+
+**Commit Count:** Number of commits pushed to all connected repositories. Tracks volume of code commits over time.
+
+**Estimated Coding Hours:** Estimates the amount of time a team's developers spend coding. Helps leaders assess engineering capacity.
+
+### Layout
+
+- **Resize widgets:** Each widget is available in two sizes—small or large.
+- **Rearrange widgets:** Drag and drop from the upper-left corner of a widget.
+- **One per dashboard:** Only one copy of each metric can be placed on a dashboard.
+- **Widget menu:** Switch between line and bar graph types, resize, export data, or remove widget.
+
+### Trendlines
+
+You can add trendlines to any chart to help visualize patterns over time.
+
+Trendline options:
+- **None:** No trendline.
+- **Linear:** Straight line showing steady upward or downward trends.
+- **Polynomial:** Curved line revealing acceleration, deceleration, or changing directions.
+- **Moving Average:** Smooths out short-term fluctuations to highlight the overall pattern.
+
+### Filters
+
+The dashboard may be filtered by:
+- **Workspace:** Preset groups of repositories.
+- **Repositories:** The list of repos imported into GitKraken Insights.
+- **Timeframe:** Options include This Week, Last Week, Last 7 days, Last 14 days, Last 28 days, Last 30 days, Last 90 days, Last 12 months, or a custom date range.
+- **Team:** Filters data by a group of users.
+
+---
+
+## Automations
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-automations/
+
+Use GitKraken.dev Automations to create rule-based workflows that trigger actions when pull requests and issues match specific conditions.
+
+This feature is only available on Pro subscription tiers or higher. Automations currently supports cloud integrations. Self-hosted support will be added in a future update.
+
+### Automation examples
+
+- **Safe deployments**: Add a checklist for database migrations.
+- **Critical code reviews**: Assign reviewers to high-impact areas like payments.
+- **Security checks**: Flag sensitive changes (e.g., auth) for review.
+- **Refactoring guardrails**: Prevent conflicts and schedule follow-ups.
+- **SOC 2 compliance**: Automate tasks for encryption and security checks.
+- **DevOps enhancements**: Enforce quality checks and automate infrastructure changes.
+
+### Get started with automations
+
+Log in at gitkraken.dev and select "Automations" in the left menu.
+
+**Create an automation:**
+1. Click "+ Create Automation".
+2. Name your automation.
+3. Choose from the Provider dropdown.
+4. Pick the target repository.
+5. (Optional) Enable for draft pull requests.
+
+Note: Creating an automation sets up a webhook on the repository. You'll need the appropriate permissions.
+
+### Set Conditions
+
+Conditions define when an automation is triggered:
+
+- **Pull request content:** Trigger on PR metadata, activity, or discussion.
+- **Review: Status:** Watch for approvals, missing reviews, or stale feedback.
+- **Branch and origin:** Trigger based on the source or target branch.
+- **CI/CD checks:** React to build, test, and deployment outcomes.
+- **File condition:** Match file paths, folders, or specific code snippets.
+- **GitKraken AI:** Analyze pull request diffs and metadata.
+
+**Boolean logic:** Choose whether all or any of the conditions must be true.
+
+**File location conditions:**
+- File name: Matches file names.
+- File path: Matches full file paths.
+- File added in folder: Triggers when a new file is added to a specified folder.
+
+**File contents conditions:**
+- Old code: Matches the red (left side) of a split diff.
+- New code: Matches the green (right side) of a split diff.
+- New and old code: Matches both sides.
+
+**Pull request conditions:**
+- Number of changed files
+- PR author
+- PR labels
+
+### Actions
+
+**AI:**
+- GitKraken AI: Post a comment with a summary generated from an AI prompt.
+
+**People:**
+- Notify user: Send a custom notification to selected users.
+- Add reviewer: Assign a reviewer or team.
+- Add assignee: Assign the PR to selected users.
+- Remove reviewer: Unassign a reviewer or team.
+- Remove assignee: Unassign a user.
+
+**Pull Request:**
+- Add comment: Post a comment on the PR.
+- Add label: Apply a label to the PR.
+- Close PR: Automatically close the pull request.
+- Add to checklist: Add checklist items to the PR description.
+
+### Manage saved automations
+
+Once created, manage automations at gitkraken.dev/automations. You can: enable/disable, edit, delete, duplicate, and sort by status or action.
+
+### Repository management
+
+The Repository Management screen shows which repos have active automations, who created them, the provider, and automation counts. Admins can add/remove repos or perform bulk actions.
+
+---
+
+## Security Information for GitKraken.dev
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-security/
+
+### Information Collection/Storage
+
+| Service | Data Collected | Transfer Security | Storage Location | Storage Security |
+|---|---|---|---|---|
+| Workspaces/Insights | Repo metadata, issues/PRs | TLS | MongoDB Atlas | AES-256 |
+| Teams & Users | Repo-relative file paths, lines changed, branch name, first commit SHA | TLS | MongoDB Atlas | AES-256 |
+| Subscriptions | Billing info: last four digits, name, type, zip, country | TLS | MongoDB Atlas | AES-256 |
+| Launchpad | Metadata for issues/pull-requests/URLs | TLS | Postgres (RDS) | AES-256 |
+| Cloud Patches | Patch metadata + patch content | TLS | Postgres (info) + AWS S3 (content) | SSE-S3 (AES-256) |
+
+### SOC2
+
+GitKraken and its tools are SOC 2 Certified. To request a copy of the SOC2 report, visit the GitKraken Trust Center (trust.gitkraken.com). An MNDA is required to receive the report.
+
+SOC 2 reports are only available for Business and Enterprise customers.
+
+---
+
+## Security Controls & Cloud Patch Configuration
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-security-controls/
+
+GitKraken provides centralized security settings to help your organization control data-sharing features, enforce compliance, and manage where Git patches are stored.
+
+### GitKraken AI Features
+
+GitKraken AI features can suggest code or perform smart actions to improve your workflow. These features may require sending code snippets to GitKraken AI or third-party providers.
+
+#### Manage AI Feature Access
+
+To enable or disable GitKraken AI features for all organization members:
+- Go to Settings > Security Controls > AI Features
+- Requires owner, admin, or billing contact role
+- Available on Advanced+ plans
+
+#### Enforce AI Providers
+
+Organizations on Business+ plans can enforce restrictions on which AI providers are allowed. To configure:
+1. Go to Settings > Security Controls > Enforce AI providers.
+2. Enable the toggle to display supported providers.
+3. For each provider: Enable or Disable. Some providers also support setting an API Key and custom URL.
+
+**Supported providers:** Anthropic, Azure, DeepSeek, GitHub Copilot, GitKraken AI, Google, Hugging Face, Mistral, Ollama, OpenAI, OpenAI compatible, OpenRouter, xAI.
+
+Providers marked with asterisk (*) support setting a custom API key and URL: Anthropic, Azure, Google, Hugging Face, Mistral, Ollama, OpenAI, OpenAI compatible.
+
+### Cloud Patches
+
+Allow developers to create Cloud Patches that can be shared with others. Cloud Patches are encrypted Git patch files stored in GitKraken-managed or customer-managed storage.
+
+#### Self-Host Cloud Patches with AWS S3
+
+Requirements:
+- An AWS account with S3 access
+- Admin permissions to apply bucket policies
+- GitKraken Pro or Enterprise plan
+
+Setup Steps:
+1. Create an S3 bucket (e.g., "gitkraken-cloud-patches").
+2. Apply the GitKraken-supplied bucket policy.
+3. Enter your AWS credentials into GitKraken: bucket name, access key ID, secret access key, AWS region.
+4. Test the connection and save.
+
+GitKraken encrypts all Cloud Patches, even when self-hosted. Only users with access to the patch link and repository permissions can view contents.
+
+---
+
+## GitKraken Cloud Services Support Terms and Conditions
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-terms-and-conditions/
+
+### GitKraken Cloud Services Support
+
+Support requests for GitKraken Cloud Services should be submitted via the Contact Support form.
+
+The following product plans are guaranteed support: Pro, Advanced, Business, and Enterprise.
+
+Support Hours are 10:00 am to 10:00 pm, Monday to Friday, UTC.
+
+**Response times during support hours:**
+
+| Plan | Response Time |
+|---|---|
+| Pro | 3 Business Days |
+| Advanced | 1 Business Day |
+| Business | 12 Hours |
+| Enterprise | 6 Hours |
+
+Student and Community plan users are not guaranteed a response.
+
+GitKraken Cloud Services include: GitKraken.dev, GitKraken Workspaces, and Launchpad.
+
+Currently in preview (best-effort support): GitKraken Insights, Cloud Patches, and Automations.
+
+### Support Period
+
+GitKraken supports Generally Available (GA) releases. Code fixes and hot fixes are provided via new releases on top of the latest major/minor release branch. Versioning uses: Version X.Y.Z (X = major, Y = minor, Z = patch).
+
+Customers are expected to stay at the current release to receive optimal support.
+
+### End-of-Life
+
+GitKraken will support a Major release for at least 12 months from the major release date.
+
+GitKraken's end-of-life policy provides at least 60 days' prior notice before discontinuing any product.
+
+**EoL process guidelines:**
+- Advance notice: At least 60 days' notice for major features or products.
+- Viable alternatives: GitKraken will strive to provide alternatives when retiring functionality.
+- Continued support: GitKraken commits to providing continued support until the retirement date.
+
+GitKraken may accelerate EoL timelines in extenuating circumstances, such as essential security changes.
