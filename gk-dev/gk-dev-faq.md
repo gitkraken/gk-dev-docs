@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 ### GitKraken automatically put me in a trial. Is there a way to use the app without the trial?
 

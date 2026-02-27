@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences in one place. 
 

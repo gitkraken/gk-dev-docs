@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: July 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 Subscriptions in GitKraken Dev are tied directly to an [organization](/gk-dev/gk-dev-organization/), even if there is only one user.
 

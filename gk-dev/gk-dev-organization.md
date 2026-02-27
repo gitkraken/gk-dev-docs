@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. Centralize your GitKraken [subscription](/gk-dev/gk-dev-subscription/) to simplify provisioning and oversight across all GitKraken products.
 

@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces, and Cloud Patches. Supported integrations include GitHub, GitLab, Bitbucket, Azure DevOps, and self-hosted options.
 

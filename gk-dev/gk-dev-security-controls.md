@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 GitKraken provides centralized security settings to help your organization control data-sharing features, enforce compliance, and manage where Git patches are stored.
 

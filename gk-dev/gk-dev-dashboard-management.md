@@ -4,7 +4,7 @@ description: Learn how to add and interpret key DORA and Pull Request metrics, a
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: January 2026</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 
 ## Overview
