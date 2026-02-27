@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 ## Information Collection/Storage
 This page outlines how GitKraken.dev handles data security—including what data we collect, how it's transmitted, where it's stored, and how it's protected at rest.

@@ -6,7 +6,7 @@ taxonomy:
     category: gk-dev
      
 --- 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 ## Trial options
 

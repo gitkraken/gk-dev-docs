@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: December 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 Use **GitKraken.dev Automations** to create rule-based workflows that trigger actions when pull requests and issues match specific conditions. Automations help you streamline collaboration and enforce consistency across teams.
 

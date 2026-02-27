@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 GitKraken.dev is a browser-based Git project management app. From tracking issues and pull requests to organizing repositories with your team, GitKraken.dev helps you stay productive directly from your browser.
 

@@ -5,7 +5,7 @@ taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: August 2025</kbd>
+<kbd>Last updated: February 2026</kbd>
 
 GitKraken offers a free Student Pack for students to use GitKraken Desktop, GitLens, CLI, and GitKraken.dev.
 
