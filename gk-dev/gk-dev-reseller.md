@@ -7,6 +7,20 @@ taxonomy:
 
 <kbd>Last updated: February 2026</kbd>
 
+## Quick Start
+
+GitKraken resellers purchase subscriptions on behalf of customers and transfer organization ownership after purchase.
+
+To purchase a new organization subscription as a reseller:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center) using your reseller email address. Use the email sign-in method, not social sign-in.
+2. Go to [gitkraken.dev/purchase](https://gitkraken.dev/purchase?source=help_center) to create a subscription for a new customer organization.
+3. Set the seat count, enter the customer's organization name, and provide your reseller payment details.
+4. After purchase, go to **Users** and add the customer as a **Billing Contact**.
+5. Navigate to **Settings > Organization** and transfer ownership to the customer.
+
+The customer receives an activation link valid for 7 days. For existing customer organizations, select the organization from the top-left dropdown, go to **Subscriptions**, and use **Edit Plan** to adjust seat count. License costs are prorated against the original billing cycle.
+
 ## New Organization Purchases
 
 Follow this reseller guide for purchasing and user license management information.
