@@ -13,6 +13,21 @@ Once your organization has set up SSO with an Identity Provider (IdP), the Owner
     <p>SSO is available with a GitKraken Advanced or Enterprise subscription. It’s also included in the 30-day multi-user trial.</p>
 </div>
 
+## Quick Start
+
+GitKraken SSO uses SAML 2.0 and is available on Teams and Enterprise plans, or during a 30-day multi-user trial. SSO is enforced at the domain level: users with emails matching a verified domain must sign in via SSO.
+
+To configure SSO for your organization:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) as an Owner or Admin.
+2. Navigate to **Settings > Single sign-on** and click **Set up SSO**.
+3. Enter a connection name, your base domain (e.g., `yourcompany.com`), and credentials from your IdP: Metadata URL, raw Metadata, or Certificate.
+4. Click **Create Connection**.
+5. Add the provided DNS TXT record at your domain registrar, then return to GitKraken.dev and click **Verify Ownership**.
+6. Enable the SSO toggle. Optionally enable Just-in-time (JIT) provisioning to auto-add verified users on first login.
+
+The SSO callback URL for all IdPs is `https://api.gitkraken.com/oauth/sso/callback`.
+
 ***
 
 ## What is single sign-on (SSO)?

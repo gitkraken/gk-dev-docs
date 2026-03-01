@@ -11,6 +11,27 @@ Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces
 
 ***
 
+## Quick Start
+
+Connecting a Git provider to GitKraken.dev enables Launchpad, Workspaces, and Cloud Patches for that provider's repositories.
+
+**For cloud providers (GitHub, GitLab.com, Bitbucket.org, Azure DevOps):**
+
+1. Go to [gitkraken.dev/settings/integrations](https://gitkraken.dev/settings/integrations?source=help_center&product=gitkraken_dot_dev).
+2. Under **Add Integration**, select your provider.
+3. Authenticate with your provider account and approve access when prompted.
+
+**For self-hosted or server-based providers (e.g., GitHub Enterprise):**
+
+1. Under **Add Integration**, select your self-hosted service.
+2. Enter the **Host Domain**.
+3. Click **Generate a token on {service}** to open a pre-filled Personal Access Token (PAT) creation page on your provider.
+4. Create the PAT, paste it into GitKraken.dev, and click **Connect**.
+
+To access repositories owned by a GitHub organization, you must request organization approval from GitHub after connecting. Once connected, open Launchpad or create a Workspace to begin working with your repositories.
+
+***
+
 ## How to Connect an Integration
 
 Go to the <a href="https://gitkraken.dev/settings/integrations?source=help_center&product=gitkraken_dot_dev" target="_blank">Integrations page</a> in GitKraken.dev and follow the instructions based on the type of integration.

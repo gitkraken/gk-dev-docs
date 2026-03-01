@@ -6,6 +6,22 @@ taxonomy:
 ---
 <kbd>Last updated: February 2026</kbd>
 
+## Quick Start
+
+GitKraken Insights dashboards display engineering metrics drawn from connected repositories, pull requests, and CI/CD pipelines. Dashboards support filtering by Workspace, repository, timeframe, and team.
+
+To add metrics to a dashboard:
+
+1. Complete Insights onboarding by connecting a data source and importing repositories. See the [Getting Started guide](https://help.gitkraken.com/gk-dev/gk-dev-insights/).
+2. Open [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and navigate to **Insights > Dashboard**.
+3. Click **Add Metric** in the top-right corner.
+4. Browse metric categories: DORA, Pull Requests, AI Impact, Code Quality, or Velocity/Delivery Consistency.
+5. Click **Add** next to the desired metric to place it on the dashboard.
+6. Resize widgets by dragging the lower-right corner. Reorder them by dragging the upper-left handle.
+
+To create a separate view scoped to a team or project, select **+ Create dashboard** from the dropdown in the top-left corner. Each dashboard supports one copy of each metric.
+
+***
 
 ## Overview
 

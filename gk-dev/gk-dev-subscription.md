@@ -13,6 +13,23 @@ All members of an organization share the same subscription, and each active memb
 
 ***
 
+## Quick Start
+
+GitKraken subscriptions are organization-based. Every active member requires a license, except for the Billing Contact role.
+
+To purchase a new subscription:
+
+1. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and sign in.
+2. Select your organization in the left panel and click **Purchase Subscription**.
+3. Set the number of user seats and select a plan tier: Pro, Teams, or Enterprise.
+4. Enter your organization name, contact details, and payment information, then click **Buy now**.
+
+After purchase, navigate to [gitkraken.dev/users](https://gitkraken.dev/users?source=help_center&product=gitkraken_dot_dev) to assign licenses to organization members.
+
+To add seats to an existing subscription, navigate to **Subscription** and click **Add Seats**. The additional cost is prorated against your current billing cycle. Only Owners, Admins, and Billing Contacts can purchase or modify subscriptions.
+
+***
+
 ## How to purchase
 
 To purchase a subscription for the first time:

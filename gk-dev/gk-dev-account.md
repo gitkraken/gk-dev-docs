@@ -16,6 +16,20 @@ Your GitKraken account provides access to all GitKraken products and services, i
 
 ***
 
+## Quick Start
+
+A GitKraken account is required to access GitKraken Desktop, GitLens, CLI, and GitKraken.dev using a single set of credentials.
+
+1. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and select a login method: GitHub, GitLab, Bitbucket, Azure DevOps, Google, Microsoft, email, or SSO.
+2. If using email, verify your address via the confirmation link sent to your inbox.
+3. After signing in, click your avatar in the top right to access account settings: display name, avatar, licenses, email preferences, and billing.
+4. To update your avatar, navigate to account settings and follow the link to Gravatar. GitKraken uses Gravatar for profile images.
+5. To delete your account, go to **Settings > Account Settings > Delete Account**. This action is GDPR-compliant and cannot be undone.
+
+A single GitKraken account applies across all GitKraken products. Licenses are email-based and tied to one account per person. Avoid creating duplicate accounts.
+
+***
+
 ## Sign in or create an account
 
 Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and choose one of the supported login options:
