@@ -95,7 +95,7 @@ Use Workspaces to group repositories for teams or organizations using GitKraken.
 Connect a [service integration](/gk-dev/gk-dev-integrations/), select `Create Workspace`, name it, choose a provider, and set sharing preferences.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-create-workspace.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
+  <img src="/wp-content/uploads/gkd-create-workspace-20260227.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
   <figcaption style="color:#888;text-align:center">Customize your Workspace with settings and visuals</figcaption>
 </figure>
 
