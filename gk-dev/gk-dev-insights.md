@@ -23,7 +23,7 @@ To get started:
 
 1. Request access at [gitkraken.com/insights](https://www.gitkraken.com/insights#form). The GitKraken team will enable access for your organization.
 2. After access is approved, go to **Insights > Data Connection** in [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev).
-3. Connect GitHub, GitLab, or Bitbucket and authorize GitKraken Insights by GitClear.
+3. Connect GitHub, GitLab, or Bitbucket and authorize GitKraken Insights.
 4. Select the repositories to import, then click **Import**.
 5. Confirm your name, time zone, and job role to complete setup.
 

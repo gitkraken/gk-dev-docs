@@ -30,6 +30,8 @@ To activate the Student Pack:
 
 The 6-month trial starts from the original account creation date and cannot be restarted by deleting and recreating the account. When the trial is close to expiring, a notification appears in the app and is sent to your registered email. Upgrade to Pro at a discounted rate from [gitkraken.dev/student](https://gitkraken.dev/student?source=help_center&product=gitkraken_dot_dev).
 
+***
+
 # What is in the GitKraken Student Pack
 
 - GitKraken Desktop

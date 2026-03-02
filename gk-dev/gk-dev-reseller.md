@@ -21,11 +21,12 @@ To purchase a new organization subscription as a reseller:
 
 The customer receives an activation link valid for 7 days. For existing customer organizations, select the organization from the top-left dropdown, go to **Subscriptions**, and use **Edit Plan** to adjust seat count. License costs are prorated against the original billing cycle.
 
+***
+
 ## New Organization Purchases
 
 Follow this reseller guide for purchasing and user license management information.
 
-***
 
 ### 1. Create an Account or Sign In
 

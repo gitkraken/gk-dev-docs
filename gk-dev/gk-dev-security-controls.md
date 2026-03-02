@@ -9,6 +9,8 @@ taxonomy:
 
 GitKraken provides centralized security settings to help your organization control data-sharing features, enforce compliance, and manage where Git patches are stored.
 
+***
+
 ## Quick Start
 
 GitKraken.dev security controls allow organization administrators to manage AI feature access and configure Cloud Patch storage across all GitKraken products.
