@@ -15,6 +15,22 @@ Create an organization in GitKraken.dev to manage your team’s access, roles, l
 
 ***
 
+## Quick Start
+
+GitKraken organizations centralize license management, role assignment, team configuration, and SSO across all GitKraken products.
+
+To set up an organization and add users:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and select your organization from the top-left dropdown.
+2. Navigate to **Users** and click **Add Users**.
+3. Enter one or more email addresses and assign a role: Owner, Admin, User, Lead, or Billing Contact.
+4. Click **Add** to send activation emails. Owner, Admin, User, and Lead roles each consume a license. Billing Contact does not.
+5. To organize members into groups, go to the **Teams** tab and create a team.
+
+To import multiple users at once, use **Add Users > Import via CSV** with columns for Email, Username, Role, and optionally Teams. Pro plans and higher are required for user, role, and team management.
+
+***
+
 ## Roles
 
 Roles determine what permissions a member has within your organization. There are four roles available:

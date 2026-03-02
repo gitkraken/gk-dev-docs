@@ -4,36 +4,36 @@
 
 ## Getting Started
 
-- [GitKraken.dev Home](https://help.gitkraken.com/gk-dev/gk-dev-home/): Overview of core features including Launchpad, Cloud Patches, Workspaces, and Code Suggest.
-- [Manage Your GitKraken Account](https://help.gitkraken.com/gk-dev/gk-dev-account/): Create and manage your GitKraken account, login options (GitHub, GitLab, Bitbucket, Azure DevOps, Google, Microsoft, email, SSO), profile personalization, and account deletion.
+- [GitKraken.dev Home](https://help.gitkraken.com/gk-dev/gk-dev-home/): Sign in, connect a Git integration, then open Launchpad to manage PRs and issues. Covers Launchpad, Workspaces, Cloud Patches, and Code Suggest. Cloud Patches and Code Suggest require Pro or higher.
+- [Manage Your GitKraken Account](https://help.gitkraken.com/gk-dev/gk-dev-account/): Create an account using GitHub, GitLab, Bitbucket, Azure DevOps, Google, Microsoft, email, or SSO. Covers profile personalization via Gravatar and permanent account deletion (GDPR-compliant).
 - [GitKraken Trials](https://help.gitkraken.com/gk-dev/gk-dev-trials/): Two trial types—14-day individual trial and 30-day business trial with team features.
-- [Connect GitHub, GitLab, Azure Integrations](https://help.gitkraken.com/gk-dev/gk-dev-integrations/): Connect cloud and self-hosted Git providers (GitHub, GitLab, Bitbucket, Azure DevOps) for Launchpad, Workspaces, and Cloud Patches.
+- [Connect GitHub, GitLab, Azure Integrations](https://help.gitkraken.com/gk-dev/gk-dev-integrations/): Connect cloud providers (GitHub, GitLab, Bitbucket, Azure DevOps) via OAuth, or self-hosted providers via a Personal Access Token. Required for Launchpad, Workspaces, and Cloud Patches.
 
 ## Subscription & Billing
 
-- [Manage GitKraken Subscription and Billing](https://help.gitkraken.com/gk-dev/gk-dev-subscription/): Purchase, add seats, cancel, reactivate, update billing method, and download invoices.
+- [Manage GitKraken Subscription and Billing](https://help.gitkraken.com/gk-dev/gk-dev-subscription/): Purchase a Pro, Teams, or Enterprise plan, add seats (prorated), cancel, reactivate, update billing method, and download invoices. Only Owners, Admins, and Billing Contacts can manage subscriptions.
 - [GitKraken Accounts and Licenses FAQ](https://help.gitkraken.com/gk-dev/gk-dev-faq/): Common questions on trials, license keys, multi-device use, subscription expiry, invoices, and payment options.
-- [GitKraken Student Pack](https://help.gitkraken.com/gk-dev/gk-dev-student-pack/): 6-month free Pro trial for verified GitHub Student Developer Pack members.
-- [GitKraken Reseller Guide](https://help.gitkraken.com/gk-dev/gk-dev-reseller/): Reseller instructions for purchasing subscriptions, transferring ownership, and generating quotes.
+- [GitKraken Student Pack](https://help.gitkraken.com/gk-dev/gk-dev-student-pack/): 6-month free Pro trial for students verified through the GitHub Student Developer Pack. Requires GitHub sign-in to sync the license. Trial starts from account creation and cannot be restarted.
+- [GitKraken Reseller Guide](https://help.gitkraken.com/gk-dev/gk-dev-reseller/): Resellers sign in with email, purchase via gitkraken.dev/purchase, then add the customer as Billing Contact and transfer ownership. License costs are prorated. Covers existing org purchases and generating upgrade or renewal quotes.
 
 ## Organization & Team Management
 
-- [Manage GitKraken Organizations](https://help.gitkraken.com/gk-dev/gk-dev-organization/): Roles (Owner, Admin, User, Lead, Billing Contact), adding/inviting users, CSV import/export, teams, license reallocation, and ownership transfer.
-- [Configure Single Sign-On (SSO)](https://help.gitkraken.com/gk-dev/gk-dev-single-sign-on/): SAML 2.0 SSO setup with domain verification and IdP examples for G Suite, Azure AD, Okta, and Ping Identity.
+- [Manage GitKraken Organizations](https://help.gitkraken.com/gk-dev/gk-dev-organization/): Add users by email and assign roles (Owner, Admin, User, Lead, Billing Contact). Supports CSV import/export, team creation, license reallocation, SSO setup, and ownership transfer. Requires Pro or higher.
+- [Configure Single Sign-On (SSO)](https://help.gitkraken.com/gk-dev/gk-dev-single-sign-on/): SAML 2.0 SSO available on Teams and Enterprise plans or during the 30-day multi-user trial. Setup requires domain verification via DNS TXT record. Supports JIT provisioning. SSO callback URL: `https://api.gitkraken.com/oauth/sso/callback`. IdP examples include G Suite, Azure AD, Okta, and Ping Identity.
 
 ## Insights & Analytics
 
-- [Getting Started with GitKraken Insights](https://help.gitkraken.com/gk-dev/gk-dev-insights/): Connect data sources (GitHub, GitLab, Bitbucket), import repositories, and optionally link an AI provider.
-- [Dashboard Management in GitKraken Insights](https://help.gitkraken.com/gk-dev/gk-dev-dashboard-management/): Create dashboards with DORA metrics, PR metrics, AI Impact, Code Quality, and Velocity. Customize layouts, trendlines, and filters.
+- [Getting Started with GitKraken Insights](https://help.gitkraken.com/gk-dev/gk-dev-insights/): Access is by request. After approval, connect GitHub, GitLab, or Bitbucket and import repositories. Past month's data appears within hours; full year within one to two days. Optionally connect an AI provider (Cursor or GitHub Copilot) for AI Impact metrics.
+- [Dashboard Management in GitKraken Insights](https://help.gitkraken.com/gk-dev/gk-dev-dashboard-management/): Add metrics from five categories: DORA, Pull Requests, AI Impact, Code Quality, and Velocity. Widgets are resizable and reorderable. Dashboards support trendlines and can be filtered by Workspace, repository, timeframe, and team.
 
 ## Automation & Workflows
 
-- [Automations](https://help.gitkraken.com/gk-dev/gk-dev-automations/): Rule-based automations for pull requests and issues (Pro+). Set conditions and actions, manage saved automations by repository.
+- [Automations](https://help.gitkraken.com/gk-dev/gk-dev-automations/): Rule-based automations for pull requests and issues, available on Pro or higher (cloud integrations only). Create an automation by selecting a provider and repository, defining conditions (file path, CI/CD outcome, review status, GitKraken AI), and configuring actions (notify, assign reviewers, label, comment, close PR).
 
 ## Security
 
 - [Security Information for GitKraken.dev](https://help.gitkraken.com/gk-dev/gk-dev-security/): Data collection, TLS encryption in transit, AES-256 encryption at rest (MongoDB Atlas, Postgres, S3), and SOC2 certification.
-- [Security Controls & Cloud Patch Configuration](https://help.gitkraken.com/gk-dev/gk-dev-security-controls/): Manage AI feature access org-wide, enforce AI providers, and self-host Cloud Patches with AWS S3.
+- [Security Controls & Cloud Patch Configuration](https://help.gitkraken.com/gk-dev/gk-dev-security-controls/): Enable or disable GitKraken AI features org-wide (Advanced+ plans). Enforce allowed AI providers and custom API keys (Business+ plans). Self-host Cloud Patches on AWS S3 by supplying bucket name, access key, secret key, and region.
 
 ## Policies
 

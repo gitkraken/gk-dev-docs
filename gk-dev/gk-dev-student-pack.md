@@ -16,6 +16,20 @@ After the 6 month free trial, you can upgrade to a PRO subscription at a discoun
 <div class='callout callout--warning'>
     <p>The 6 month free trial starts from the original Student account creation date. If you were previously on the Student Plan prior to the introduction of the 6 month length you retroactively have used your free period and will need to upgrade to regain access. <a href="https://www.gitkraken.dev/student" target="_blank">See gitkraken.dev/student for more info</a>.</p>
 </div>
+
+## Quick Start
+
+The GitKraken Student Pack provides a 6-month free trial of Pro features for students verified through the GitHub Student Developer Pack.
+
+To activate the Student Pack:
+
+1. Verify student status through the [GitHub Student Developer Pack](https://education.github.com/pack).
+2. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and create an account using the **GitHub** sign-in option. Other sign-in methods will not sync the student license.
+3. Navigate to [gitkraken.dev/student](https://gitkraken.dev/student?source=help_center&product=gitkraken_dot_dev) and click **Start trial**.
+4. Confirm activation at [gitkraken.dev/subscription](https://gitkraken.dev/subscription?source=help_center&product=gitkraken_dot_dev). The subscription page should show an active Student trial.
+
+The 6-month trial starts from the original account creation date and cannot be restarted by deleting and recreating the account. When the trial is close to expiring, a notification appears in the app and is sent to your registered email. Upgrade to Pro at a discounted rate from [gitkraken.dev/student](https://gitkraken.dev/student?source=help_center&product=gitkraken_dot_dev).
+
 # What is in the GitKraken Student Pack
 
 - GitKraken Desktop

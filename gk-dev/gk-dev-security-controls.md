@@ -9,6 +9,23 @@ taxonomy:
 
 GitKraken provides centralized security settings to help your organization control data-sharing features, enforce compliance, and manage where Git patches are stored.
 
+## Quick Start
+
+GitKraken.dev security controls allow organization administrators to manage AI feature access and configure Cloud Patch storage across all GitKraken products.
+
+To manage AI features and provider access:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) as an Owner, Admin, or Billing Contact.
+2. Navigate to **Settings > Security Controls > AI Features** to enable or disable GitKraken AI features for all organization members. Requires an Advanced or higher plan.
+3. To restrict which AI providers are permitted, go to **Settings > Security Controls > Enforce AI providers** (Business+ plans required).
+4. Enable the toggle, then configure each provider: allow it, block it, or enforce a specific API key and endpoint URL.
+
+To self-host Cloud Patches on your own AWS S3 bucket:
+
+1. Create an S3 bucket and apply the GitKraken-supplied bucket policy.
+2. Enter your bucket name, access key ID, secret access key, and AWS region under **Settings > Security Controls > Cloud Patches**.
+3. Test the connection and save.
+
 ***
 
 ## GitKraken AI Features

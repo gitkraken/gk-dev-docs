@@ -16,6 +16,21 @@ GitKraken.dev is a browser-based Git project management app. From tracking issue
 
 ***
 
+## Quick Start
+
+To begin using GitKraken.dev, connect a Git provider integration and use Launchpad to track pull requests and issues across repositories.
+
+1. Go to [gitkraken.dev](https://gitkraken.dev) and sign in with your GitKraken account.
+2. Navigate to **Settings > Integrations** and connect a Git provider: GitHub, GitLab, Bitbucket, or Azure DevOps. Self-hosted providers require a Personal Access Token (PAT).
+3. Open **Launchpad** from the left sidebar. Launchpad aggregates pull requests and issues from connected providers in real time.
+4. Use the actions column to open branches in GitKraken Desktop or VS Code, merge or close pull requests, and access code suggestions.
+5. Filter by service, status (assigned, created, or mentioned), or Workspace to narrow the view.
+6. To organize repositories for a team, select **Workspaces** and create a new Workspace linked to your provider.
+
+Cloud Patches and Code Suggest require a Pro or higher plan. For Azure DevOps, enable **Third-party application access via OAuth** in your Azure Organization Settings before connecting.
+
+***
+
 ## Launchpad: Your Daily Git Dashboard
 
 The Launchpad offers a real-time summary of pull requests and issues based on your filters, helping you take action faster without context-switching.

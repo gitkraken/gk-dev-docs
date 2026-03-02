@@ -16,6 +16,23 @@ Use **GitKraken.dev Automations** to create rule-based workflows that trigger ac
 
 ***
 
+## Quick Start
+
+GitKraken.dev Automations trigger configured actions on pull requests and issues when defined conditions are met. Automations require a Pro or higher subscription and support cloud integrations only.
+
+To create an automation:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and select **Automations** from the left sidebar.
+2. Click **+ Create Automation**, enter a name, select a Git provider, and choose a target repository. This installs a webhook on the repository.
+3. Under **Conditions**, add one or more triggers: pull request content, review status, branch, CI/CD outcome, file path, or GitKraken AI analysis.
+4. Set the condition logic to **All** or **Any**.
+5. Under **Actions**, configure the response: notify users, add or remove reviewers or assignees, post a comment, apply a label, close the PR, or add checklist items.
+6. Save and enable the automation.
+
+From the Automations list view, automations can be enabled, disabled, duplicated, or deleted individually.
+
+***
+
 ## Automation examples
 
 Here are a few ways teams are using Automations to reduce manual effort and create scalable workflows:

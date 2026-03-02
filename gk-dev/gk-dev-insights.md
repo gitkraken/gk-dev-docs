@@ -15,6 +15,22 @@ Instead of surface-level stats, Insights shows how work connects to team goals a
   <figcaption style="text-align: center; color: #888">Overview of GitKraken Insights</figcaption>
 </figure>
 
+## Quick Start
+
+GitKraken Insights connects to Git repositories and CI/CD pipelines to surface engineering metrics including DORA metrics, pull request analytics, and AI Impact measurements.
+
+To get started:
+
+1. Request access at [gitkraken.com/insights](https://www.gitkraken.com/insights#form). The GitKraken team will enable access for your organization.
+2. After access is approved, go to **Insights > Data Connection** in [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev).
+3. Connect GitHub, GitLab, or Bitbucket and authorize GitKraken Insights by GitClear.
+4. Select the repositories to import, then click **Import**.
+5. Confirm your name, time zone, and job role to complete setup.
+
+Past month activity appears within a few hours. Full year history is ready within one to two days. Track import progress from the **Dashboard** tab.
+
+To avoid GitHub API rate limits during large imports, have additional organization members with the Lead role connect their GitHub tokens to distribute processing load.
+
 ---
 
 ## Request Access
