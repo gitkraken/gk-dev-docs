@@ -19,11 +19,18 @@ If you have questions, please [contact our sales team](https://www.gitkraken.com
 
 ***
 
-### I just subscribed but I still see FREE in the lower right corner.
+### I just subscribed/upgraded but I still see FREE in the lower right corner.
 
-Make sure you’re logged in with the same email address tied to your paid subscription.
+First, navigate to [gk.dev](gitkraken.dev), then select the dropdown in the top left and select your licensed organization.
 
-To check, navigate to:
+<figure>
+  <img src="/wp-content/uploads/gk-dev-org-select" class="help-center-img center img-bordered">
+  <figcaption style="text-align: center; color: #888;">Select your default organization on gk.dev</figcaption>
+</figure>
+
+Then sign out, and back in to the GitKraken Client.
+
+To do so, navigate to:
 <em class='context-menu'><i class="fa fa-bars"> </i>  <i class='fa fa-caret-right'></i> Sign into a different account</em>
 
 ***
@@ -94,3 +101,11 @@ If you're using the Serverless client, the app locks upon expiration until a new
 ### I need my credit card info removed after purchase.
 
 Please [contact our accounting team](https://www.gitkraken.com/billing-issues?source=help_center&product=gitkraken_dot_dev). Most requests are completed within one business day.
+
+### My Student Plan is not activating. 
+
+Please follow these instructions exactly, [Student Pack Activation](https://help.gitkraken.com/gk-dev/gk-dev-student-pack/). Skipping a step or not activating the account as outlined can fail to attach the benefits. 
+
+#### I have reached out to Support regarding my Student Benefits and have not received a response. 
+
+While we try to get to everyone who reaches out, a response is not guaranteed to all users. This includes any users who are on Student and Community plans. We encourage all users to engage in our community and utilize our self service resources.
