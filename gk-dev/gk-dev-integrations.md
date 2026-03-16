@@ -32,7 +32,7 @@ Go to the <a href="https://gitkraken.dev/settings/integrations?source=help_cente
 6. Click **Connect**.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-integrations-0.png" class="center img-bordered help-center-img" alt="Connecting GitHub and GitLab integrations in GitKraken.dev">
+  <img src="/wp-content/uploads/gkd-integrations-20260317.png" class="center img-bordered help-center-img" alt="Connecting GitHub and GitLab integrations in GitKraken.dev">
   <figcaption style="color:#888;text-align:center">Integration settings page on GitKraken.dev</figcaption>
 </figure>
 
