@@ -110,7 +110,7 @@ Use Workspaces to group repositories for teams or organizations using GitKraken.
 Connect a [service integration](/gk-dev/gk-dev-integrations/), select `Create Workspace`, name it, choose a provider, and set sharing preferences.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-create-workspace.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
+  <img src="/wp-content/uploads/gkd-create-workspace-20260317.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
   <figcaption style="color:#888;text-align:center">Customize your Workspace with settings and visuals</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Connect a [service integration](/gk-dev/gk-dev-integrations/), select `Create Wo
 Click `Open Launchpad` to focus on that Workspace’s repositories. Perform Git actions in your preferred GitKraken tool.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-open-workspace.png" class="img-bordered help-center-img" alt="Open workspace to view associated repositories">
+  <img src="/wp-content/uploads/gkd-open-workspace-20260317.png" class="img-bordered help-center-img" alt="Open workspace to view associated repositories">
   <figcaption style="color:#888;text-align:center">Work across repositories from a single Workspace</figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ To use Workspaces or [Insights](/gk-dev/gk-dev-insights) with Azure DevOps, enab
 Suggest code edits across your codebase—not just changed lines—using GitKraken.dev, GitLens, or GitKraken Desktop. Suggestions appear in the pull request for review.
 
 <figure>
-  <img src="/wp-content/uploads/cli-code-suggest.png" class="img-bordered help-center-img" alt="Suggesting code changes within a pull request">
+  <img src="/wp-content/uploads/gkd-code-suggest.png" class="img-bordered help-center-img" alt="Suggesting code changes within a pull request">
   <figcaption style="color:#888;text-align:center">Post suggested edits across your project</figcaption>
 </figure>
 

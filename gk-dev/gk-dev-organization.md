@@ -127,14 +127,14 @@ Roles determine what permissions a member has within your organization. There ar
 To add someone to your organization, go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), open the organization dropdown in the top left, select **Users**, then click **Add Users**.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-bordered center help-center-img" alt="Add Users screen in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-add-user-20260317.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-bordered center help-center-img" alt="Add Users screen in GitKraken">
   <figcaption style="color:#888;text-align:center">Access the Add Users screen from the Users tab</figcaption>
 </figure>
 
 You can enter multiple email addresses and select the [role](/gk-dev/gk-dev-organization/#roles) from the dropdown to assign to all users.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user-modal.png" class="img-bordered center help-center-img" alt="Add users modal with email and role fields">
+  <img src="/wp-content/uploads/gk-dev-add-user-modal-20260317.png" class="img-bordered center help-center-img" alt="Add users modal with email and role fields">
   <figcaption style="color:#888;text-align:center">Enter emails and assign a role to each new user</figcaption>
 </figure>
 

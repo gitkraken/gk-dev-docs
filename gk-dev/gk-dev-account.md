@@ -65,7 +65,7 @@ Click your avatar in the top right to:
 - View your plan and billing information
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-account-personalization.png" class="img-bordered center help-center-img" alt="GitKraken account profile settings">
+  <img src="/wp-content/uploads/gk-dev-account-personalization-20260317.png" class="img-bordered center help-center-img" alt="GitKraken account profile settings">
   <figcaption style="color:#888;text-align:center">Access account and license settings</figcaption>
 </figure>
 
