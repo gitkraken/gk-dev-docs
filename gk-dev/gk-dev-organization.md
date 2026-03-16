@@ -125,7 +125,7 @@ You can enter multiple email addresses and select the [role](/gk-dev/gk-dev-orga
 Only members with a [role](/gk-dev/gk-dev-organization/#roles) that includes user management permissions can invite others. Adding a user consumes a license from your subscription. If you exceed your license count during this step, a billing summary will appear. Select **Purchase** to complete the transaction and add the users.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user-modal-2.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
+  <img src="/wp-content/uploads/gk-dev-add-user-modal-2-20260317.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
   <figcaption style="color:#888;text-align:center">Purchase additional licenses if needed when adding users</figcaption>
 </figure>
 
