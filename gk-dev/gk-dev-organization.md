@@ -156,6 +156,11 @@ Once submitted, Owners, Admins, or Billing Contacts will receive an email notifi
   <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
 </figure>
 
+<figure>
+  <img src='/wp-content/uploads/gkdev-review-user-invite-2.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
+</figure>
+
 ***
 
 ## Reallocate licenses
@@ -200,14 +205,14 @@ constance.baker@gitkiraken.com,constancebaker,user,Design Team
 > **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column. A single semicolon is used to separate multiple teams.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-import-users-20260317.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
   <figcaption style="color:#888;text-align:center">Import multiple users via a formatted CSV file</figcaption>
 </figure>
 
 To export your current user list to CSV, click **Export via CSV**. The export will include columns for Email, Username, Role, User License, and Teams.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-export-users.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-export-users-20260317.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
   <figcaption style="color:#888;text-align:center">Export a CSV of your organization's members</figcaption>
 </figure>
 
