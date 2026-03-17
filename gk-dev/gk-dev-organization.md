@@ -141,7 +141,7 @@ You can enter multiple email addresses and select the [role](/gk-dev/gk-dev-orga
 Only members with a [role](/gk-dev/gk-dev-organization/#roles) that includes user management permissions can invite others. Adding a user consumes a license from your subscription. If you exceed your license count during this step, a billing summary will appear. Select **Purchase** to complete the transaction and add the users.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user-modal-2.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
+  <img src="/wp-content/uploads/gk-dev-add-user-modal-2-20260317.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
   <figcaption style="color:#888;text-align:center">Purchase additional licenses if needed when adding users</figcaption>
 </figure>
 
@@ -161,14 +161,19 @@ To invite someone:
 4. Enter the email address(es) of the person you want to invite
 
 <figure>
-  <img src='/wp-content/uploads/gkdev-invite-user-as-user.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
+  <img src='/wp-content/uploads/gkdev-invite-user-as-user-20260317.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
   <figcaption style='color:#888;text-align:center'>Submit user invitations for approval</figcaption>
 </figure>
 
 Once submitted, Owners, Admins, or Billing Contacts will receive an email notification. They can click **Review** from the email or go to **Users > Review** in the GitKraken interface to approve or deny the invitation. If your organization is at its user limit, approving an invite may prompt a license purchase.
 
 <figure>
-  <img src='/wp-content/uploads/gkdev-review-user-invite.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <img src='/wp-content/uploads/gkdev-review-user-invite-20260317.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
+</figure>
+
+<figure>
+  <img src='/wp-content/uploads/gkdev-review-user-invite-2.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
   <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
 </figure>
 
@@ -216,14 +221,14 @@ constance.baker@gitkiraken.com,constancebaker,user,Design Team
 > **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column. A single semicolon is used to separate multiple teams.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-import-users-20260317.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
   <figcaption style="color:#888;text-align:center">Import multiple users via a formatted CSV file</figcaption>
 </figure>
 
 To export your current user list to CSV, click **Export via CSV**. The export will include columns for Email, Username, Role, User License, and Teams.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-export-users.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-export-users-20260317.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
   <figcaption style="color:#888;text-align:center">Export a CSV of your organization's members</figcaption>
 </figure>
 
