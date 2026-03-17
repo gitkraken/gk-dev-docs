@@ -35,7 +35,7 @@ Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and choose one o
 Each login method is tied to your primary email address. If you sign up with email, you’ll need to verify it via a confirmation link.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-create-account.png" class="img-bordered center help-center-img" alt="GitKraken login options screen">
+  <img src="/wp-content/uploads/gk-dev-create-account-20260317.png" class="img-bordered center help-center-img" alt="GitKraken login options screen">
   <figcaption style="color:#888;text-align:center">Choose a connected service to authenticate with GitKraken</figcaption>
 </figure>
 
