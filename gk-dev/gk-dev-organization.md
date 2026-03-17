@@ -145,14 +145,14 @@ To invite someone:
 4. Enter the email address(es) of the person you want to invite
 
 <figure>
-  <img src='/wp-content/uploads/gkdev-invite-user-as-user.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
+  <img src='/wp-content/uploads/gkdev-invite-user-as-user-20260317.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
   <figcaption style='color:#888;text-align:center'>Submit user invitations for approval</figcaption>
 </figure>
 
 Once submitted, Owners, Admins, or Billing Contacts will receive an email notification. They can click **Review** from the email or go to **Users > Review** in the GitKraken interface to approve or deny the invitation. If your organization is at its user limit, approving an invite may prompt a license purchase.
 
 <figure>
-  <img src='/wp-content/uploads/gkdev-review-user-invite.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <img src='/wp-content/uploads/gkdev-review-user-invite-20260317.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
   <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
 </figure>
 
