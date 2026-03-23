@@ -20,8 +20,6 @@ Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces
 
 ## Quick Start
 
-Connecting a Git provider to GitKraken.dev enables Launchpad, Workspaces, and Cloud Patches for that provider's repositories.
-
 **For cloud providers (GitHub, GitLab.com, Bitbucket.org, Azure DevOps):**
 
 1. Go to [gitkraken.dev/settings/integrations](https://gitkraken.dev/settings/integrations?source=help_center&product=gitkraken_dot_dev).

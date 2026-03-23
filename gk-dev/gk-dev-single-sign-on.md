@@ -24,7 +24,7 @@ Once your organization has set up SSO with an Identity Provider (IdP), the Owner
 
 ## Quick Start
 
-GitKraken SSO uses SAML 2.0 and is available on Advanced, Business, and Enterprise plans, or during a 30-day multi-user trial. SSO is enforced at the domain level: users with emails matching a verified domain must sign in via SSO.
+GitKraken SSO uses SAML 2.0.
 
 To configure SSO for your organization:
 

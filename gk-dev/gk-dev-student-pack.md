@@ -25,8 +25,6 @@ After the 6 month free trial, you can upgrade to a Pro subscription at a discoun
 
 ## Quick Start
 
-The GitKraken Student Pack provides a 6-month free trial of Pro features for students verified through the GitHub Student Developer Pack.
-
 To activate the Student Pack:
 
 1. Verify student status through the [GitHub Student Developer Pack](https://education.github.com/pack).

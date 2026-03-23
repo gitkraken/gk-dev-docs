@@ -21,8 +21,6 @@ GitKraken.dev provides centralized security controls for organization Owners, Ad
 
 ## Quick Start
 
-GitKraken.dev security controls allow organization administrators to manage AI feature access and configure Cloud Patch storage across all GitKraken products.
-
 To manage AI features and provider access:
 
 1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) as an Owner, Admin, or Billing Contact.

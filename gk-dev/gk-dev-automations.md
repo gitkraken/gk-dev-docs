@@ -25,8 +25,6 @@ Use **GitKraken.dev Automations** to create rule-based workflows that trigger ac
 
 ## Quick Start
 
-GitKraken.dev Automations trigger configured actions on pull requests and issues when defined conditions are met. Automations require an Advanced or higher subscription and support cloud integrations only.
-
 To create an automation:
 
 1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and select **Automations** from the left sidebar.

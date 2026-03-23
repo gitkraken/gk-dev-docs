@@ -18,7 +18,7 @@ GitKraken Insights dashboards display engineering metrics from connected reposit
 
 ## Quick Start
 
-GitKraken Insights dashboards display engineering metrics drawn from connected repositories, pull requests, and CI/CD pipelines. Dashboards support filtering by Workspace, repository, timeframe, and team.
+Dashboards support filtering by Workspace, repository, timeframe, and team.
 
 To add metrics to a dashboard:
 

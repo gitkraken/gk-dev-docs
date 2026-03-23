@@ -28,8 +28,6 @@ This guide is for third-party resellers who purchase and manage GitKraken subscr
 
 ## Quick Start
 
-GitKraken resellers purchase subscriptions on behalf of customers and transfer organization ownership after purchase.
-
 To purchase a new organization subscription as a reseller:
 
 1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center) using your reseller email address. Use the email sign-in method, not social sign-in.

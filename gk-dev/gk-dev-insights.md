@@ -24,8 +24,6 @@ GitKraken Insights is available as an add-on to GitKraken subscriptions, or as a
 
 ## Quick Start
 
-GitKraken Insights connects to Git repositories and CI/CD pipelines to surface engineering metrics including DORA metrics, pull request analytics, and AI Impact measurements.
-
 To get started:
 
 1. Request access at [gitkraken.com/insights](https://www.gitkraken.com/insights#form). The GitKraken team will enable access for your organization.

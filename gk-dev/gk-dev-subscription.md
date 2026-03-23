@@ -22,8 +22,6 @@ All members of an organization share the same subscription, and each active memb
 
 ## Quick Start
 
-GitKraken subscriptions are organization-based. Every active member requires a license, except for the Billing Contact role.
-
 To purchase a new subscription:
 
 1. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and sign in.

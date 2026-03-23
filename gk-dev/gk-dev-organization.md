@@ -24,8 +24,6 @@ Create an organization in GitKraken.dev to manage your team’s access, roles, l
 
 ## Quick Start
 
-GitKraken organizations centralize license management, role assignment, team configuration, and SSO across all GitKraken products.
-
 To set up an organization and add users:
 
 1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and select your organization from the top-left dropdown.
