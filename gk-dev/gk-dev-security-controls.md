@@ -73,20 +73,21 @@ For the following marked* providers, you can also:
    - Set an API Key: Enforce the use of your key.
    - Add a Custom URL (requires a key): Restrict access to a specific endpoint.
 
-Supported providers include:
-- Anthropic*
-- Azure*
-- DeepSeek
-- GitHub Copilot
-- GitKraken AI
-- Google*
-- Hugging Face*
-- Mistral*
-- Ollama*
-- OpenAI*
-- OpenAI compatible*
-- OpenRouter
-- xAI
+| Provider | Custom API Key | Custom URL | Notes |
+|---|---|---|---|
+| Anthropic | Yes | Yes | |
+| Azure | Yes | Yes | |
+| DeepSeek | No | No | Enable or disable only |
+| GitHub Copilot | No | No | Enable or disable only |
+| GitKraken AI | No | No | Enable or disable only |
+| Google | Yes | Yes | |
+| Hugging Face | Yes | Yes | |
+| Mistral | Yes | Yes | |
+| Ollama | Yes | Yes | |
+| OpenAI | Yes | Yes | |
+| OpenAI compatible | Yes | Yes | |
+| OpenRouter | No | No | Enable or disable only |
+| xAI | No | No | Enable or disable only |
 
 <figure>
   <img src="/wp-content/uploads/enforce-ai-providers.png" srcset="/wp-content/uploads/enforce-ai-providers@2x.png" alt="AI provider settings showing API key and URL fields">
@@ -106,9 +107,10 @@ Supported providers include:
 
 ## Cloud Patches
 
-Allow developers in your organization to create Cloud Patches that can be shared with others. Cloud Patches are encrypted Git patch files that GitKraken can store in GitKraken-managed or customer-managed storage.
+Allow developers in your organization to create Cloud Patches that can be shared with others. Cloud Patches are encrypted Git patch files that GitKraken can store in GitKraken-managed or customer-managed storage. Security controls on this page are available for GitKraken cloud organizations only. On-Premise plans manage security settings locally.
 
-If your company policies require internal storage, you can set up self-hosted Cloud Patches using your own AWS S3 bucket.
+> **Use GitKraken-managed storage** when your organization does not have specific data residency or compliance requirements for patch files.
+> **Use customer-managed AWS S3** when your company policies require that patch data remain on infrastructure you control. Self-hosted Cloud Patches require a Business or Enterprise plan.
 
 If this setup is not feasible, please contact our <a href="https://www.gitkraken.com/contact" target="_blank">customer success team</a>.
 

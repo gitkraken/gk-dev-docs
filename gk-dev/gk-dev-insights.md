@@ -57,13 +57,24 @@ Once your access is approved, you can connect Insights to your repositories and 
 Currently, Insights supports connections with GitHub, GitLab, Bitbucket and Jira Cloud. Support for Azure DevOps is coming soon. 
 
 In addition, you can connect AI providers to enable AI Impact insights (like Duplicated Code, Prompt Acceptance Rate, and more).
+
+| Data Source | Type | Status | Auth Method |
+|---|---|---|---|
+| GitHub | Git provider | GA | OAuth via GitKraken Insights |
+| GitLab | Git provider | GA | OAuth via GitKraken Insights |
+| Bitbucket | Git provider | GA | OAuth via GitKraken Insights |
+| Jira Cloud | Issue tracker | GA | OAuth via GitKraken Insights |
+| Azure DevOps | Git provider | Coming soon | -- |
+| Cursor | AI provider | GA | API token |
+| GitHub Copilot | AI provider | GA | API token |
+
 ---
 
 ### How to import repositories
 
 1. In GitKraken.dev, go to **Insights > Data Connection**.  
 2. Click to connect with GitHub, GitLab, Cursor, GitHub CoPilot, Azure Devops, Bitbucket or Jira Cloud.  
-3. Authorize GitKraken Insights by GitClear to connect with GitHub.  
+3. Authorize GitKraken Insights to connect with GitHub. (GitKraken Insights is powered by GitClear.)  
 4. Select which repositories to track. Use the filter option at the top of the page to quickly narrow down the list.  
 
 

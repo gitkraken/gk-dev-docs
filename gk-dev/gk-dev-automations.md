@@ -89,25 +89,16 @@ Click <button class="button button--success button--ui button--nolink">+ Create 
 
 ## Set Conditions
 
-Conditions define when an automation is triggered. GitKraken currently supports the following condition types:
+Conditions define when an automation is triggered. Requires Owner or Admin role to create or edit automations.
 
-- **Pull request content**  
-  Trigger on PR metadata, activity, or discussion.
-
-- **Review: Status**  
-  Watch for approvals, missing reviews, or stale feedback.
-
-- **Branch and origin**  
-  Trigger based on the source or target branch, or the repository.
-
-- **CI/CD checks**  
-  React to build, test, and deployment outcomes.
-
-- **File condition**  
-  Match file paths, folders, or specific code snippets.
-
-- **GitKraken AI**  
-  Analyze pull request diffs and metadata to detect conditions you care about.
+| Condition Type | Triggers On | Example |
+|---|---|---|
+| Pull request content | PR metadata, activity, or discussion | PR title contains "hotfix" |
+| Review: Status | Approvals, missing reviews, or stale feedback | PR has no reviews after 24 hours |
+| Branch and origin | Source or target branch, or repository | Target branch is `main` |
+| CI/CD checks | Build, test, and deployment outcomes | CI pipeline fails |
+| File condition | File paths, folders, or code snippets | File path matches `src/auth/*` |
+| GitKraken AI | AI analysis of PR diffs and metadata | AI detects security-sensitive changes |
 
 <figure>
   <img src="/wp-content/uploads/gkdev-createautomations3.png" class="help-center-img img-bordered" alt="Conditions configuration screen">
@@ -150,41 +141,18 @@ You can choose whether **all** or **any** of the conditions must be true.
 
 GitKraken supports these automation actions:
 
-### AI
-
-- **GitKraken AI**  
-  Post a comment with a summary generated from an AI prompt.
-
-### People
-
-- **Notify user**  
-  Send a custom notification to selected users.
-
-- **Add reviewer**  
-  Assign a reviewer or team, with an optional message.
-
-- **Add assignee**  
-  Assign the PR to selected users, optionally including a message.
-
-- **Remove reviewer**  
-  Unassign a reviewer or team from the PR.
-
-- **Remove assignee**  
-  Unassign a user from the PR.
-
-### Pull Request
-
-- **Add comment**  
-  Post a comment on the PR.
-
-- **Add label**  
-  Apply a GitHub label to the PR.
-
-- **Close PR**  
-  Automatically close the pull request.
-
-- **Add to checklist**  
-  Add checklist items to the PR description.
+| Action | Category | Effect |
+|---|---|---|
+| GitKraken AI | AI | Posts an AI-generated summary comment on the PR |
+| Notify user | People | Sends a custom notification to selected users |
+| Add reviewer | People | Assigns a reviewer or team, with an optional message |
+| Add assignee | People | Assigns the PR to selected users |
+| Remove reviewer | People | Unassigns a reviewer or team from the PR |
+| Remove assignee | People | Unassigns a user from the PR |
+| Add comment | Pull Request | Posts a comment on the PR |
+| Add label | Pull Request | Applies a GitHub label to the PR |
+| Close PR | Pull Request | Closes the pull request |
+| Add to checklist | Pull Request | Adds checklist items to the PR description |
 
 <div class='callout callout--warning'>
     <p><strong>Note:</strong> Authors can’t review their own PRs. If selected, GitKraken will skip that step and apply all others.</p>

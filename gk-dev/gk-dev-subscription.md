@@ -37,6 +37,30 @@ To add seats to an existing subscription, navigate to **Subscription** and click
 
 ***
 
+## How to choose a plan
+
+Use the table below to compare plans and identify the right fit for your organization.
+
+| | Community | Pro | Advanced | Business | Enterprise |
+|---|---|---|---|---|---|
+| Max seats | 1 | 2 | 10 | 100 | 100+ |
+| Private repos | No | Yes | Yes | Yes | Yes |
+| Team management | No | No | Yes | Yes | Yes |
+| Self-hosted Git integrations | No | No | Yes | Yes | Yes |
+| AI features | No | Basic | Org controls | Org-enforced providers | Full |
+| Automations | No | No | Preview | Yes | Enterprise scale |
+| SSO | No | No | Yes | Yes | Yes (includes LDAP) |
+| Self-hosted Cloud Patches (S3) | No | No | No | Yes | Yes |
+| Support response time | Community | 3 business days | 1 business day | 12 hours | 6 hours |
+
+> **Use Community** when you are an individual developer working with local and public repositories only.
+> **Use Pro** when you need private repository access and basic AI features for solo or very small team use (up to 2 seats).
+> **Use Advanced** when your team needs self-hosted Git integrations, team management, SSO, and org-level AI controls (up to 10 seats).
+> **Use Business** when your organization requires higher repo limits, org-enforced AI providers, automations, and customer-managed Cloud Patch storage (up to 100 seats).
+> **Use Enterprise** for 100+ seats, self-hosted deployment options, LDAP/SSO, compliance readiness (HIPAA, GDPR, SOC 2, ISO 27001), and quote-based pricing.
+
+***
+
 ## How to purchase
 
 To purchase a subscription for the first time:

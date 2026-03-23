@@ -16,6 +16,14 @@ taxonomy:
 
 This guide is for third-party resellers who purchase and manage GitKraken subscriptions on behalf of customer organizations. Resellers create accounts using their own email, purchase on behalf of customers, then transfer organization ownership. Available plans for reseller purchase include Pro, Advanced, Business, and Enterprise.
 
+| Step | New Organization | Existing Organization |
+|---|---|---|
+| 1 | Create account with reseller email | Log in to existing account |
+| 2 | Purchase subscription at [gitkraken.dev/purchase](https://gitkraken.dev/purchase) | Select customer org from dropdown |
+| 3 | Add customer as Billing Contact | Go to Subscriptions > Edit Plan |
+| 4 | Transfer ownership to customer | Increase seat count |
+| 5 | Customer accepts activation link (7-day expiry) | Additional licenses are active immediately |
+
 ***
 
 ## Quick Start

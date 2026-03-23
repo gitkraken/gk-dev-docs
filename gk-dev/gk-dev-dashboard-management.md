@@ -91,48 +91,38 @@ In the modal, enter a **Title** and optional **Description** to help distinguish
 
 ### Available metrics
 
-**[DORA metrics](/gk-dev/gk-dev-dashboard-management/#dora-metrics)**
+| Metric | Category | Unit | Use when you need to... |
+|---|---|---|---|
+| [Deploy Frequency](#deploy-frequency) | DORA | Deployments per period | Measure how often code reaches production |
+| [Change Lead Time](#change-lead-time) | DORA | Days | Track time from first commit to deployment |
+| [Mean Time to Repair](#mean-time-to-repairrecover-mttr) | DORA | Hours | Measure incident response and recovery speed |
+| [Defect Rate](#defect-rate) | DORA | Percentage | Assess deployment stability and failure rate |
+| [First Response Time](#first-response-time-pickup-time) | Pull Requests | Hours | Identify delays in initial PR review engagement |
+| [Cycle Time](#cycle-time-first-commit-to-merge) | Pull Requests | Days | Measure total time from first commit to merge |
+| [Lead Time](#lead-time) | Pull Requests | Days | Measure total time from first commit to deployment |
+| [Number of Reviews](#number-of-reviews-per-dayweekmonth) | Pull Requests | Count per period | Track review activity and reviewer workload |
+| [Open Time](#open-time-opened-to-merged) | Pull Requests | Days | Isolate the review and approval phase duration |
+| [PRs Abandoned](#number-of-prs-abandoned) | Pull Requests | Count | Detect wasted effort or scope management issues |
+| [PRs Merged Without Review](#number-of-prs-merged-without-review) | Pull Requests | Count | Identify gaps in code review enforcement |
+| [PR Comments](#number-of-pr-comments) | Pull Requests | Count | Gauge review depth and collaboration intensity |
+| [PR Size/Effort](#pr-size--effort) | Pull Requests | Lines changed | Evaluate review load and identify oversized PRs |
+| [Code Review Hours](#code-review-hours) | Pull Requests | Hours | Assess team investment in code review |
+| [Copy/Paste vs Moved](#copypaste-vs-moved-percent) | AI Impact | Percentage | Distinguish duplication from healthy refactoring |
+| [Duplicated Code](#duplicated-code) | AI Impact | Lines | Track redundant code blocks across repos |
+| [Code Rework](#percent-of-code-rework-churned-lines) | AI Impact | Percentage | Identify instability or premature code changes |
+| [Post PR Work](#post-pr-work-occurring) | AI Impact | Lines | Measure rework needed after merging |
+| [Active Users](#active-users) | AI Impact | Count | Track AI coding tool adoption across teams |
+| [Suggestions](#suggestions-by-total-lines) | AI Impact | Lines | Measure volume of AI-generated code suggestions |
+| [Prompt Acceptance Rate](#prompt-acceptance-rate) | AI Impact | Percentage | Gauge developer trust in AI suggestions |
+| [Tab Acceptance Rate](#tab-acceptance-rate) | AI Impact | Percentage | Measure frictionless AI suggestion adoption |
+| [Bug Work Percent](#bug-work-percent) | Code Quality | Percentage | Assess proportion of effort spent on bug fixes |
+| [Documentation and Test %](#documentation-and-test-percent) | Code Quality | Percentage | Monitor investment in tests and documentation |
+| [Code Change Rate](#code-change-rate) | Code Quality | Lines by age | Identify technical debt hotspots in older code |
+| [Code Change by Operation](#code-change-by-operation) | Code Quality | Lines by type | Visualize effort distribution across system layers |
+| [Commit Count](#commit-count) | Velocity | Count | Track development activity volume |
+| [Estimated Coding Hours](#estimated-coding-hours) | Velocity | Hours | Approximate total active development time |
 
-- Deploy Frequency
-- Change lead time
-- Mean time to repair/recover
-- Defect rate (% of deploy with severe defect)
-
-**[Pull Request metrics](/gk-dev/gk-dev-dashboard-management/#pull-request-metrics)**
-
-- First response time ("Pickup time")
-- Cycle time ("first commit" to "merge")
-- Lead time ("first commit" to "deployed")
-- Number of reviews per day/week/month
-- Open Time ("opened" to "merged")
-- Number of PRs Abandoned
-- Number of PRs Merged Without Review
-- Number of PR Comments
-- PR Size/Effort
-- Code Review Hours
-
-**[AI Impact metrics](/gk-dev/gk-dev-dashboard-management/#ai-impact)**
-
-- Copy/paste vs moved percent
-- Duplicated code
-- Percent of code rework (churned lines)
-- Post PR work occurring
-- Active Users
-- Suggestions (by total lines)
-- Prompt Acceptance Rate
-- Tab Acceptance Rate
-
-**[Code Quality metrics](/gk-dev/gk-dev-dashboard-management/#code-quality)**
-
-- Bug Work Percent
-- Documentation and Test Percent
-- Code Change Rate
-- Code Change by Operation
-
-**[Velocity/Delivery Consistency](/gk-dev/gk-dev-dashboard-management/#velocity-delivery-consistency)**
-
-- Commit Count
-- Estimated Coding Hours
+> **Use Cycle Time** to measure from first commit to merge (development speed). **Use Open Time** to isolate just the review phase (review efficiency). **Use Lead Time** to measure from first commit to deployment (end-to-end delivery).
 
 
 ***

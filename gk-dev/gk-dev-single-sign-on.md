@@ -213,9 +213,6 @@ How to Create a SAML Application in G Suite:
 </figure>
 
 Now you are all set to <a href="/gk-dev/gk-dev-single-sign-on/#setup-sso">set up your SSO on a GitKraken Organization</a>.
-- If a user tries to log in using a method other than SSO and matches a managed domain, they’ll see a message requiring SSO.
-- If a user logs in with SSO but is not part of the organization, they’ll be prompted to contact an admin.
-- Owners and Admins may sign in using any supported method.
 
 ### Azure Active Directory
 

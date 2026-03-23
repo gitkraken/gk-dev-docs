@@ -37,6 +37,22 @@ Cloud Patches and Code Suggest require a Pro or higher plan. For Azure DevOps, e
 
 ***
 
+## Feature overview
+
+| Feature | Plan Required | Available In | Purpose |
+|---|---|---|---|
+| Launchpad | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens | Real-time PR and issue triage across repos |
+| Workspaces | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens, GitKraken CLI | Group repositories by team or project |
+| Cloud Patches | Pro or higher | GitKraken Desktop, GitLens, GitKraken CLI | Share uncommitted changes without creating a PR |
+| Code Suggest | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens | Suggest code edits across entire files in a PR |
+
+> **Use Launchpad** for daily triage: reviewing, merging, and managing pull requests and issues across all connected providers.
+> **Use Workspaces** to organize repositories into team- or project-scoped groups that persist across GitKraken tools.
+> **Use Cloud Patches** to share work-in-progress changes with teammates before committing or opening a pull request.
+> **Use Code Suggest** to propose code edits across a full codebase (not just changed lines) directly within a pull request.
+
+***
+
 ## Launchpad: Your Daily Git Dashboard
 
 The Launchpad offers a real-time summary of pull requests and issues based on your filters, helping you take action faster without context-switching.

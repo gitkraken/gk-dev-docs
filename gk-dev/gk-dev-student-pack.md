@@ -40,25 +40,30 @@ The 6-month trial starts from the original account creation date and cannot be r
 
 # What is in the GitKraken Student Pack
 
-- GitKraken Desktop
-- GitLens
-- GitKraken CLI
-- GitKraken.dev
+| Product | Included | Features |
+|---|---|---|
+| GitKraken Desktop | Yes | Pro features for 6 months |
+| GitLens | Yes | Pro features for 6 months |
+| GitKraken CLI | Yes | Pro features for 6 months |
+| GitKraken.dev | Yes | Pro features for 6 months |
 
 # How to get the Student Pack
 
-1. You need to be a student with a valid student email address and a verified GitHub Student Developer Pack.
-<img src="/wp-content/uploads/gk-dev-github-student-pack-verified.png" class="img-bordered center help-center-img" alt="GitHub Student Developer Pack page">
-2. Create a new account on GitKraken using your GitHub account.
-<img src="/wp-content/uploads/gk-dev-github-signup.png" class="img-bordered center help-center-img" alt="Sign up with GitHub button on GitKraken.dev">
-3. Navigate to the [GitKraken.dev/student](https://gitkraken.dev/student) and click the 'Start trial' button.
-<img src="/wp-content/uploads/gk-dev-github-student-pack-start-trial.png" class="img-bordered center help-center-img" alt="Start trial button on GitKraken.dev/student">
+Follow the steps in the [Quick Start](#quick-start) above. The key requirements are:
 
-4. You should be all set! To confirm, navigate to your Subscription page in GitKraken.dev (https://gitkraken.dev/subscription) and verify that you have a Student trial active.
-<img src="/wp-content/uploads/gk-dev-student-subscription-page.png" class="img-bordered center help-center-img" alt="Subscription page in GitKraken.dev">
-5. Now you can sign into all GitKraken products with your GitHub account with premium features applied.
-<img src="/wp-content/uploads/gkd-student-icon.png" class="img-bordered center help-center-img" alt="GitKraken Desktop with Student Pack features">
-<img src="/wp-content/uploads/gk-dev-student-account.png" class="img-bordered center help-center-img" alt="Student flag in GitKraken.dev">
+1. Verify your student status through the [GitHub Student Developer Pack](https://education.github.com/pack).
+2. Create your GitKraken account using the **GitHub sign-in method** (other sign-in methods will not sync the student license).
+3. Activate the trial at [gitkraken.dev/student](https://gitkraken.dev/student).
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-github-student-pack-verified.png" class="img-bordered center help-center-img" alt="GitHub Student Developer Pack page">
+  <figcaption style="color:#888;text-align:center">Verify your student status on GitHub</figcaption>
+</figure>
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-student-subscription-page.png" class="img-bordered center help-center-img" alt="Subscription page in GitKraken.dev">
+  <figcaption style="color:#888;text-align:center">Confirm activation on the Subscription page</figcaption>
+</figure>
 
 <div class='callout callout--warning'>
     <p>You must create the account using the GitHub account creation method to synchronize the Student Pack license. Deleting and recreating your GitKraken account will not restart the trial period.</p>

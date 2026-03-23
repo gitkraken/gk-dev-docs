@@ -30,9 +30,14 @@ This page describes the support terms for GitKraken Cloud Services (GitKraken.de
 
 - While we try to get to everyone who reaches out, a response is not guaranteed to all users. This includes any users who are on Student and Community plans. We encourage all users to engage in our community and utilize our self-service free resources. [Additional Resources](https://help.gitkraken.com/gitkraken-desktop/gitkraken-desktop-home/#additional-resources) 
 
-- GitKraken Cloud Services include GitKraken.dev, GitKraken Workspaces, and Launchpad
-
-- The following GitKraken Cloud Services are currently in preview and are eligible for best-effort support. GitKraken Insights, Cloud Patches and Automations
+| Service | Status | Support Level |
+|---|---|---|
+| GitKraken.dev | GA | Full support per plan |
+| GitKraken Workspaces | GA | Full support per plan |
+| Launchpad | GA | Full support per plan |
+| GitKraken Insights | Preview | Best-effort support |
+| Cloud Patches | Preview | Best-effort support |
+| Automations | Preview | Best-effort support |
 
 ### Which product versions are supported?
  
