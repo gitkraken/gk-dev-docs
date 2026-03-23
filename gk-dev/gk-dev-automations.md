@@ -1,24 +1,31 @@
 ---
 title: Automations
 description: Learn how to use GitKraken.dev automations to streamline GitHub, Bitbucket, Azure DevOps and GitLab workflows with triggers, conditions, and actions.
+product: "GitKraken.dev"
+content_type: "how-to"
+audience: "developer"
+plan_required: "Advanced, Business, Enterprise"
+cloud_only: true
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
 Use **GitKraken.dev Automations** to create rule-based workflows that trigger actions when pull requests and issues match specific conditions. Automations help you streamline collaboration and enforce consistency across teams.
 
 
 <div class='callout callout--warning'>
-    <p>This feature is only available on Pro subscription tiers or higher. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
+    <p>This feature is only available on Advanced or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
 </div>
 
 ***
 
 ## Quick Start
 
-GitKraken.dev Automations trigger configured actions on pull requests and issues when defined conditions are met. Automations require a Pro or higher subscription and support cloud integrations only.
+GitKraken.dev Automations trigger configured actions on pull requests and issues when defined conditions are met. Automations require an Advanced or higher subscription and support cloud integrations only.
 
 To create an automation:
 
@@ -33,7 +40,7 @@ From the Automations list view, automations can be enabled, disabled, duplicated
 
 ***
 
-## Automation examples
+## When to use automations
 
 Here are a few ways teams are using Automations to reduce manual effort and create scalable workflows:
 
@@ -139,7 +146,7 @@ You can choose whether **all** or **any** of the conditions must be true.
 - **PR labels**
 
 
-## Actions
+## What actions can an automation perform?
 
 GitKraken supports these automation actions:
 
@@ -226,7 +233,7 @@ Click <button class="button button--success button--ui button--nolink">+ Create 
 
 ***
 
-## Repository management
+## How to manage repositories with automations
 
 The Repository Management screen shows which repos have active automations, who created them, the provider, and automation counts.
 

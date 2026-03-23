@@ -1,12 +1,20 @@
 ---
- 
-title: GitKraken Trials 
-description: Learn about GitKraken Trials 
-taxonomy: 
+title: GitKraken Trials
+description: Learn about the two types of GitKraken trials and how to start each one.
+product: "GitKraken.dev"
+content_type: "how-to"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
+taxonomy:
     category: gk-dev
-     
---- 
-<kbd>Last updated: February 2026</kbd>
+---
+<kbd>Last updated: March 2026</kbd>
+
+GitKraken offers trial access to paid features so individual developers and teams can evaluate the platform before purchasing. Two trial types are available: a 14-day individual Pro trial and a 30-day multi-user Business trial. Each trial type has different eligibility, scope, and duration.
+
+***
 
 ## Trial options
 

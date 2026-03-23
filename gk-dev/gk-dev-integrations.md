@@ -1,13 +1,20 @@
 ---
 title: Connect GitHub, GitLab, Azure Integrations
 description: Step-by-step guide to connecting GitHub, GitLab, Bitbucket, and self-hosted integrations on GitKraken.dev for Launchpad, Insights, Workspaces, and Cloud Patches.
+product: "GitKraken.dev"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+integrations: ["GitHub", "GitLab", "Bitbucket", "Azure DevOps"]
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces, and Cloud Patches. Supported integrations include GitHub, GitLab, Bitbucket, Azure DevOps, and self-hosted options.
+Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces, and Cloud Patches. Supported integrations include GitHub, GitLab, Bitbucket, Azure DevOps, and self-hosted options. Connecting an integration is available on all plans and does not require an admin role.
 
 ***
 

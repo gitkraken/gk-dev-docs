@@ -1,13 +1,21 @@
 ---
-
-title:  GitKraken Accounts and Licenses FAQ
+title: GitKraken Accounts and Licenses FAQ
 description: Here are the most common questions about GitKraken accounts and licenses.
+product: "GitKraken.dev"
+content_type: "faq"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
-
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
+
+This page answers the most common questions about GitKraken accounts, licenses, billing, and subscription management. GitKraken accounts are email-based and apply across GitKraken Desktop, GitLens, CLI, and GitKraken.dev. For organization and role management, see [Organization Management](/gk-dev/gk-dev-organization/).
+
+***
 
 ### GitKraken automatically put me in a trial. Is there a way to use the app without the trial?
 
@@ -55,7 +63,7 @@ The <kbd>User</kbd> role does not have permissions to edit users.
 
 ### Can I pay using a Purchase Order?
 
-For GitKraken Pro and Teams, we accept only credit card payments. Purchase orders are accepted for [GitKraken On-Premise or On-Premise Serverless](https://gitkraken.com/pricing). [Contact our sales team](https://www.gitkraken.com/sales-inquiries) for more info.
+For GitKraken Pro, Advanced, and Business plans, we accept only credit card payments. Purchase orders are accepted for [GitKraken On-Premise or On-Premise Serverless](https://gitkraken.com/pricing). [Contact our sales team](https://www.gitkraken.com/sales-inquiries) for more info.
 
 ***
 

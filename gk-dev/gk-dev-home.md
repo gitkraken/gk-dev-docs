@@ -1,13 +1,19 @@
 ---
 title: GitKraken.dev Support Home
 description: Learn how to work with GitKraken.dev features including Launchpad, Cloud Patches, Workspaces, and Code Suggestions.
+product: "GitKraken.dev"
+content_type: "concept"
+audience: "all"
+plan_required: "Pro or higher (Launchpad, Workspaces, Cloud Patches, Code Suggest)"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-GitKraken.dev is a browser-based Git project management app. From tracking issues and pull requests to organizing repositories with your team, GitKraken.dev helps you stay productive directly from your browser.
+GitKraken.dev is a browser-based Git project management app for tracking pull requests, organizing repositories, and sharing code changes across teams. It works alongside GitKraken Desktop, GitLens, and GitKraken CLI. Launchpad, Workspaces, Cloud Patches, and Code Suggest require a Pro or higher plan.
 
 <figure>
   <img src="/wp-content/uploads/gkd-main-0-20260227.png" class="img-responsive center img-bordered help-center-img" alt="GitKraken.dev dashboard overview">
@@ -68,7 +74,7 @@ Pin items for priority or snooze them to hide under the SNOOZED section. Return 
 
 ***
 
-## Cloud Patches `PRO`
+## Cloud Patches `Pro`
 
 Cloud Patches let you securely store and share Git patches without a pull request. Create them using GitKraken Desktop, GitLens, or the GitKraken CLI. Store them on GitKraken servers or your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted).
 
@@ -129,7 +135,7 @@ To use Workspaces or [Insights](/gk-dev/gk-dev-insights) with Azure DevOps, enab
 
 ***
 
-## Code Suggest `PRO`
+## Code Suggest `Pro`
 
 Suggest code edits across your codebase—not just changed lines—using GitKraken.dev, GitLens, or GitKraken Desktop. Suggestions appear in the pull request for review.
 

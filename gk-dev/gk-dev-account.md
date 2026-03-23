@@ -1,13 +1,19 @@
 ---
-title: Manage Your GitKraken Account 
+title: Manage Your GitKraken Account
 description: Set up and manage your GitKraken account used across GitKraken Desktop, GitLens, CLI, and more. Learn how to log in, personalize your profile, and delete your account.
+product: "GitKraken.dev"
+content_type: "how-to"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences in one place. 
+Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences from a single dashboard. Creating a GitKraken account is free. Your license tier (Community, Pro, Advanced, Business, or Enterprise) is determined by your organization's subscription, not by the account itself.
 
 <div class='callout callout--basic'>
   <p>Note that your GitKraken account is not compatible with <a href="/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/">Git Integration for Jira</a>.</p>

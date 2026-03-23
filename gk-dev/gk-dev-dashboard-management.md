@@ -1,10 +1,20 @@
 ---
 title: Dashboard Management in GitKraken Insights
 description: Learn how to add and interpret key DORA and Pull Request metrics, arrange your layout, and use filters to analyze data on dashboards.
+product: "GitKraken Insights"
+content_type: "reference"
+audience: "admin"
+plan_required: "Insights add-on"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
+
+GitKraken Insights dashboards display engineering metrics from connected repositories, pull requests, CI/CD pipelines, and AI coding tools. Dashboards require completing Insights onboarding and importing at least one repository. GitKraken Insights is available as an add-on to GitKraken subscriptions or as a standalone product by request.
+
+***
 
 ## Quick Start
 
@@ -23,7 +33,7 @@ To create a separate view scoped to a team or project, select **+ Create dashboa
 
 ***
 
-## Overview
+## What GitKraken Insights dashboards show
 
 GitKraken Insights brings your Git data, pull requests, issues, and CI/CD results into one place. Instead of juggling tools or exporting spreadsheets, you get dashboards that show how work is really moving across code, reviews, and releases. The goal is to give both devs and leads a clear view of progress and bottlenecks without extra reporting overhead.
 
@@ -322,7 +332,7 @@ This metric reflects the total effort involved in the review process. It is calc
   <figcaption style="text-align: center; color: #888">Displays total PR size (diff delta), helping evaluate review load and PR size trends.</figcaption>
 </figure>
 
-By aggregatating the total change volume across merged PRs, this helps teams balance workload distribution and recognize when PRs may be too large for effective review.
+By aggregating the total change volume across merged PRs, this helps teams balance workload distribution and recognize when PRs may be too large for effective review.
 
 ### Code Review Hours
 
@@ -542,7 +552,7 @@ This metric approximates the total active development time across your team. It 
 </figure>
 
 ***
-## Layout
+## How to customize dashboard layout
 
 Widgets on the dashboard can be customized to fit your needs.
 
@@ -561,7 +571,7 @@ Widgets on the dashboard can be customized to fit your needs.
 
 ---
 
-## Trendlines
+## How to add trendlines to charts
 
 You can add trendlines to any chart in GitKraken Insights to help visualize patterns over time. These overlays make it easier to understand whether your metrics are improving, declining, or fluctuating—and how consistently.
 
@@ -585,7 +595,7 @@ You can add trendlines to any chart in GitKraken Insights to help visualize patt
 
 ***
 
-## Filters
+## How to filter dashboard data
 
 The dashboard may be filtered by **Workspace**, **Repositories**, **Timeframe**, and **Team**.
 

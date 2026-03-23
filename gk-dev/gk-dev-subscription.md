@@ -1,13 +1,20 @@
 ---
 title: Manage GitKraken Subscription and Billing
-description: Purchase or cancel GitKraken subscriptions, update billing info, and download past invoices. 
+description: Purchase or cancel GitKraken subscriptions, update billing info, and download past invoices.
+product: "GitKraken.dev"
+content_type: "admin"
+audience: "admin"
+plan_required: "Pro, Advanced, Business, Enterprise"
+role_required: "Owner, Admin, Billing Contact"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Subscriptions in GitKraken Dev are tied directly to an [organization](/gk-dev/gk-dev-organization/), even if there is only one user.
+Subscriptions in GitKraken.dev are tied directly to an [organization](/gk-dev/gk-dev-organization/), even if there is only one user.
 
 All members of an organization share the same subscription, and each active member requires a license. Some [roles](/gk-dev/gk-dev-organization/#roles) do not consume a license.
 
@@ -21,7 +28,7 @@ To purchase a new subscription:
 
 1. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and sign in.
 2. Select your organization in the left panel and click **Purchase Subscription**.
-3. Set the number of user seats and select a plan tier: Pro, Teams, or Enterprise.
+3. Set the number of user seats and select a plan tier: Pro, Advanced, Business, or Enterprise.
 4. Enter your organization name, contact details, and payment information, then click **Buy now**.
 
 After purchase, navigate to [gitkraken.dev/users](https://gitkraken.dev/users?source=help_center&product=gitkraken_dot_dev) to assign licenses to organization members.
@@ -37,7 +44,7 @@ To purchase a subscription for the first time:
 1. Visit [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev).
 2. Log in with your [GitKraken account](/gk-dev/gk-dev-account/) or create one.
 3. Select your organization in the left panel, then click **Purchase Subscription**. You’ll need a [role](/gk-dev/gk-dev-organization/#roles) with billing permissions.
-4. Set the number of user seats. Choose the subscription tier that best fits your organization (Pro, Teams, or Enterprise). Each tier includes a link to learn more.
+4. Set the number of user seats. Choose the subscription tier that best fits your organization (Pro, Advanced, Business, or Enterprise). Each tier includes a link to learn more.
 5. Enter your organization name, first and last name, and your country or region. If you have a promo code, click **Have a promo code?** to enter it. Click **Payment details** to continue.
 6. Select a payment method and complete the billing information. Then click **Review your order**.
 7. Click the **Buy now** button to complete your purchase.
@@ -104,7 +111,7 @@ Organizations with a pending cancellation will be labeled as **non-renewing**. O
 
 ***
 
-## Reactivation
+## How to reactivate a canceled subscription
 
 You can reactivate a canceled subscription anytime:
 
@@ -117,7 +124,7 @@ If the subscription is labeled **non-renewing** and still active, reactivation w
 
 ***
 
-## Edit billing
+## How to update your billing method
 
 To update your billing method:
 
@@ -133,7 +140,7 @@ To update your billing method:
 
 ***
 
-## Billing history
+## How to view and download invoices
 
 You may view your billing history from [gitkraken.dev/subscription/history](https://gitkraken.dev/subscription/history?source=help_center&product=gitkraken_dot_dev) or by navigating to **Subscription > View Billing History**.
 

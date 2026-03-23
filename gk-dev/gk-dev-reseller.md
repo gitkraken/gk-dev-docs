@@ -1,11 +1,22 @@
 ---
 title: GitKraken Reseller Guide
 description: Learn how to purchase and manage GitKraken accounts and organizations as a reseller.
+product: "GitKraken.dev"
+content_type: "admin"
+audience: "reseller"
+plan_required: "Pro, Advanced, Business, Enterprise"
+role_required: "Owner, Billing Contact"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
+
+This guide is for third-party resellers who purchase and manage GitKraken subscriptions on behalf of customer organizations. Resellers create accounts using their own email, purchase on behalf of customers, then transfer organization ownership. Available plans for reseller purchase include Pro, Advanced, Business, and Enterprise.
+
+***
 
 ## Quick Start
 
@@ -23,7 +34,7 @@ The customer receives an activation link valid for 7 days. For existing customer
 
 ***
 
-## New Organization Purchases
+## How to purchase a new organization subscription
 
 Follow this reseller guide for purchasing and user license management information.
 
@@ -84,7 +95,7 @@ If the customer hasn’t verified their email, they’ll receive an activation l
 
 ***
 
-## Existing Organization Purchases
+## How to add licenses to an existing organization
 
 Follow these steps to purchase additional licenses:
 
@@ -103,7 +114,7 @@ Follow these steps to purchase additional licenses:
 
 ***
 
-## Quotes
+## How to generate quotes for customers
 
 ### Upgrade Quote
 
