@@ -1,13 +1,21 @@
 ---
 title: Security Controls & Cloud Patch Configuration
 description: Learn how to manage GitKraken security settings, disable AI features, and configure self-hosted Cloud Patches via AWS S3.
+product: "GitKraken.dev"
+content_type: "security"
+audience: "admin"
+plan_required: "Advanced, Business, Enterprise"
+role_required: "Owner, Admin, Billing Contact"
+cloud_only: true
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-GitKraken provides centralized security settings to help your organization control data-sharing features, enforce compliance, and manage where Git patches are stored.
+GitKraken.dev provides centralized security controls for organization Owners, Admins, and Billing Contacts to manage AI feature access, enforce AI provider restrictions, and configure Cloud Patch storage. These settings apply across all GitKraken products used by organization members.
 
 ***
 
@@ -19,7 +27,7 @@ To manage AI features and provider access:
 
 1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) as an Owner, Admin, or Billing Contact.
 2. Navigate to **Settings > Security Controls > AI Features** to enable or disable GitKraken AI features for all organization members. Requires an Advanced or higher plan.
-3. To restrict which AI providers are permitted, go to **Settings > Security Controls > Enforce AI providers** (Business+ plans required).
+3. To restrict which AI providers are permitted, go to **Settings > Security Controls > Enforce AI providers** (Business or higher plans required).
 4. Enable the toggle, then configure each provider: allow it, block it, or enforce a specific API key and endpoint URL.
 
 To self-host Cloud Patches on your own AWS S3 bucket:
@@ -42,7 +50,7 @@ To enable or disable GitKraken AI features for all organization members:
 
 - Go to **Settings > Security Controls > AI Features**
   - Requires [owner, admin, or billing contact](/gk-dev/gk-dev-organization/#roles)
-  - Available on [Advanced+ plans](https://www.gitkraken.com/pricing)
+  - Available on [Advanced or higher plans](https://www.gitkraken.com/pricing)
 
 <figure>
   <img src="/wp-content/uploads/administration-and-security-controls.png" srcset="/wp-content/uploads/administration-and-security-controls@2x.png" alt="GitKraken AI feature toggle in Security Controls">
@@ -51,7 +59,7 @@ To enable or disable GitKraken AI features for all organization members:
 
 ### Enforce AI Providers
 
-Organizations on the Business+ plans can enforce restrictions on which AI providers are allowed across GitKraken products. This ensures compliance with your data policies.
+Organizations on Business or higher plans can enforce restrictions on which AI providers are allowed across GitKraken products. This ensures compliance with your data policies.
 
 To configure provider-level controls:
 
@@ -65,20 +73,21 @@ For the following marked* providers, you can also:
    - Set an API Key: Enforce the use of your key.
    - Add a Custom URL (requires a key): Restrict access to a specific endpoint.
 
-Supported providers include:
-- Anthropic*
-- Azure*
-- DeepSeek
-- GitHub Copilot
-- GitKraken AI
-- Google*
-- Hugging Face*
-- Mistral*
-- Ollama*
-- OpenAI*
-- OpenAI compatible*
-- OpenRouter
-- xAI
+| Provider | Custom API Key | Custom URL | Notes |
+|---|---|---|---|
+| Anthropic | Yes | Yes | |
+| Azure | Yes | Yes | |
+| DeepSeek | No | No | Enable or disable only |
+| GitHub Copilot | No | No | Enable or disable only |
+| GitKraken AI | No | No | Enable or disable only |
+| Google | Yes | Yes | |
+| Hugging Face | Yes | Yes | |
+| Mistral | Yes | Yes | |
+| Ollama | Yes | Yes | |
+| OpenAI | Yes | Yes | |
+| OpenAI compatible | Yes | Yes | |
+| OpenRouter | No | No | Enable or disable only |
+| xAI | No | No | Enable or disable only |
 
 <figure>
   <img src="/wp-content/uploads/enforce-ai-providers.png" srcset="/wp-content/uploads/enforce-ai-providers@2x.png" alt="AI provider settings showing API key and URL fields">
@@ -98,9 +107,10 @@ Supported providers include:
 
 ## Cloud Patches
 
-Allow developers in your organization to create Cloud Patches that can be shared with others. Cloud Patches are encrypted Git patch files that GitKraken can store in GitKraken-managed or customer-managed storage.
+Allow developers in your organization to create Cloud Patches that can be shared with others. Cloud Patches are encrypted Git patch files that GitKraken can store in GitKraken-managed or customer-managed storage. Security controls on this page are available for GitKraken cloud organizations only. On-Premise plans manage security settings locally.
 
-If your company policies require internal storage, you can set up self-hosted Cloud Patches using your own AWS S3 bucket.
+> **Use GitKraken-managed storage** when your organization does not have specific data residency or compliance requirements for patch files.
+> **Use customer-managed AWS S3** when your company policies require that patch data remain on infrastructure you control. Self-hosted Cloud Patches require a Business or Enterprise plan.
 
 If this setup is not feasible, please contact our <a href="https://www.gitkraken.com/contact" target="_blank">customer success team</a>.
 
@@ -108,13 +118,13 @@ If this setup is not feasible, please contact our <a href="https://www.gitkraken
 
 Configure your GitKraken organization to store Cloud Patches on your own infrastructure.
 
-#### Requirements
+#### What you need to self-host Cloud Patches
 
 - An AWS account with S3 access
 - Admin permissions to apply bucket policies
-- GitKraken Pro or Enterprise plan
+- GitKraken Business or Enterprise plan
 
-#### Setup Steps
+#### How to configure AWS S3 for Cloud Patches
 
 1. **Create an S3 bucket** and give it a meaningful name (e.g., `gitkraken-cloud-patches`).
 2. **Apply the GitKraken-supplied bucket policy** using the UI template.

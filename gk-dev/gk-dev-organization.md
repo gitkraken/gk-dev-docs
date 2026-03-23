@@ -1,16 +1,23 @@
 ---
 title: Manage GitKraken Organizations | Roles, Users, Teams, SSO
 description: Learn how to manage GitKraken organizations, assign roles, add users, configure teams, and set up SSO.
+product: "GitKraken.dev"
+content_type: "admin"
+audience: "admin"
+plan_required: "Pro, Advanced, Business, Enterprise"
+role_required: "Owner, Admin"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. Centralize your GitKraken [subscription](/gk-dev/gk-dev-subscription/) to simplify provisioning and oversight across all GitKraken products.
+Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. A GitKraken organization applies across GitKraken Desktop, GitLens, GitKraken CLI, and GitKraken.dev. Manage your [subscription](/gk-dev/gk-dev-subscription/) to provision and oversee licenses for all GitKraken products.
 
 <div class='callout callout--warning'>
-    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users, roles, teams, and settings.</p>
+    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users and roles. Advanced plans and higher can also create and manage teams.</p>
 </div>
 
 ***
@@ -27,13 +34,13 @@ To set up an organization and add users:
 4. Click **Add** to send activation emails. Owner, Admin, User, and Lead roles each consume a license. Billing Contact does not.
 5. To organize members into groups, go to the **Teams** tab and create a team.
 
-To import multiple users at once, use **Add Users > Import via CSV** with columns for Email, Username, Role, and optionally Teams. Pro plans and higher are required for user, role, and team management.
+To import multiple users at once, use **Add Users > Import via CSV** with columns for Email, Username, Role, and optionally Teams. Pro plans and higher are required for user and role management. Team management requires an Advanced or higher plan.
 
 ***
 
-## Roles
+## How roles and permissions work
 
-Roles determine what permissions a member has within your organization. There are four roles available:
+Roles determine what permissions a member has within your organization. There are five roles available:
 
 - **Owner** – Each organization has one owner by default. The owner has full administrative and billing permissions and consumes a license.
 - **Admin** – Has full administrative and billing permissions and consumes a license. Admins cannot change or remove the owner.
@@ -234,7 +241,7 @@ To export your current user list to CSV, click **Export via CSV**. The export wi
 
 ***
 
-## Teams
+## How to organize members into teams
 
 Teams help you organize members within your GitKraken organization. Teams can also create Shared Workspaces to stay aligned on collaborative work and avoid merge conflicts by seeing what files and branches team members are working on.
 
@@ -270,7 +277,7 @@ Design Team,ashton.kutcher@gitkiraken.com;constance.baker@gitkiraken.com;john.do
 
 ***
 
-## Organization Settings
+## How to manage organization settings
 
 Access your settings at [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization?source=help_center&product=gitkraken_dot_dev). From here, you can view subscription details and update:
 

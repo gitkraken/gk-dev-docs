@@ -1,13 +1,20 @@
 ---
 title: Connect GitHub, GitLab, Azure Integrations
 description: Step-by-step guide to connecting GitHub, GitLab, Bitbucket, and self-hosted integrations on GitKraken.dev for Launchpad, Insights, Workspaces, and Cloud Patches.
+product: "GitKraken.dev"
+content_type: "integration"
+audience: "all"
+plan_required: "all"
+integrations: ["GitHub", "GitLab", "Bitbucket", "Azure DevOps"]
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces, and Cloud Patches. Supported integrations include GitHub, GitLab, Bitbucket, Azure DevOps, and self-hosted options.
+Connect integrations on GitKraken.dev to use features like Launchpad, Workspaces, and Cloud Patches. Supported integrations include GitHub, GitLab, Bitbucket, Azure DevOps, and self-hosted options. Connecting an integration is available on all plans and does not require an admin role.
 
 ***
 
@@ -32,25 +39,27 @@ To access repositories owned by a GitHub organization, you must request organiza
 
 ***
 
+## Supported integrations
+
+| Provider | Type | Auth Method | PAT Required |
+|---|---|---|---|
+| GitHub | Cloud | OAuth | No |
+| GitLab.com | Cloud | OAuth | No |
+| Bitbucket.org | Cloud | OAuth | No |
+| Azure DevOps | Cloud | OAuth | No |
+| GitHub Enterprise | Self-hosted | Personal Access Token | Yes |
+| GitLab Self-Managed | Self-hosted | Personal Access Token | Yes |
+| Bitbucket Data Center | Self-hosted | Personal Access Token | Yes |
+| Azure DevOps Server | Self-hosted | Personal Access Token | Yes |
+
+> **Use a cloud integration** when your repositories are hosted on the provider's cloud service (e.g., github.com, gitlab.com).
+> **Use a self-hosted integration** when your organization runs its own server instance (e.g., GitHub Enterprise Server behind a firewall). Self-hosted integrations require an Advanced or higher plan.
+
+***
+
 ## How to Connect an Integration
 
-Go to the <a href="https://gitkraken.dev/settings/integrations?source=help_center&product=gitkraken_dot_dev" target="_blank">Integrations page</a> in GitKraken.dev and follow the instructions based on the type of integration.
-
-### 1. Cloud-Based Integrations (GitHub, GitLab.com, Bitbucket.org, Azure DevOps)
-
-1. Under **Add Integration**, select your service.
-2. Log into your account.
-3. Approve access when prompted to authorize GitKraken.
-
-### 2. Self-Hosted or Server-Based Integrations
-
-1. Under **Add Integration**, select your self-hosted service (e.g., GitHub Enterprise).
-2. Enter the Host Domain.
-3. Click **Generate a token on {service}**.
-   - This opens a pre-filled Personal Access Token (PAT) creation page.
-4. Create the PAT.
-5. Paste the token into GitKraken.
-6. Click **Connect**.
+Go to the <a href="https://gitkraken.dev/settings/integrations?source=help_center&product=gitkraken_dot_dev" target="_blank">Integrations page</a> in GitKraken.dev. See the [Quick Start](#quick-start) above for step-by-step instructions for both cloud and self-hosted providers.
 
 <figure>
   <img src="/wp-content/uploads/gkd-integrations-20260317.png" class="center img-bordered help-center-img" alt="Connecting GitHub and GitLab integrations in GitKraken.dev">

@@ -1,13 +1,19 @@
 ---
-title: Manage Your GitKraken Account 
+title: Manage Your GitKraken Account
 description: Set up and manage your GitKraken account used across GitKraken Desktop, GitLens, CLI, and more. Learn how to log in, personalize your profile, and delete your account.
+product: "GitKraken.dev"
+content_type: "how-to"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences in one place. 
+Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences from a single dashboard. Creating a GitKraken account is free. Your license tier (Community, Pro, Advanced, Business, or Enterprise) is determined by your organization's subscription, not by the account itself.
 
 <div class='callout callout--basic'>
   <p>Note that your GitKraken account is not compatible with <a href="/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/">Git Integration for Jira</a>.</p>
@@ -34,17 +40,16 @@ A single GitKraken account applies across all GitKraken products. Licenses are e
 
 Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and choose one of the supported login options:
 
-**Git providers:**
-- GitHub
-- GitLab
-- Bitbucket
-- Azure DevOps
-
-**Other options:**
-- Google
-- Microsoft
-- Email + password
-- [Single Sign-On (SSO)](/gk-dev/gk-dev-single-sign-on/)
+| Login Method | Type | Notes |
+|---|---|---|
+| GitHub | Git provider | Also used for GitHub Student Developer Pack verification |
+| GitLab | Git provider | |
+| Bitbucket | Git provider | |
+| Azure DevOps | Git provider | |
+| Google | Identity provider | |
+| Microsoft | Identity provider | |
+| Email + password | Direct | Requires email verification via confirmation link |
+| [SSO](/gk-dev/gk-dev-single-sign-on/) | Organization IdP | Available on Advanced or higher plans |
 
 Each login method is tied to your primary email address. If you sign up with email, you’ll need to verify it via a confirmation link.
 
@@ -70,6 +75,17 @@ Click your avatar in the top right to:
 </figure>
 
 GitKraken uses [Gravatar](https://gravatar.com) to manage profile avatars. To change your avatar, select your profile image and follow the link to Gravatar. Updates may take several hours to appear.
+
+***
+
+## Account settings vs. organization settings
+
+Your GitKraken account and your GitKraken organization are managed separately:
+
+- **Account settings** (name, avatar, email, login method) affect only your personal identity. Changes here do not affect other organization members.
+- **Organization settings** (licenses, roles, SSO, teams, billing) affect all members of the organization. Only Owners, Admins, or Billing Contacts can change organization settings.
+
+To manage your account, click your avatar in the top right. To manage your organization, select the organization from the top-left dropdown and navigate to **Settings**.
 
 ***
 

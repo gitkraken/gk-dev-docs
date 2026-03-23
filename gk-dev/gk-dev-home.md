@@ -1,13 +1,19 @@
 ---
 title: GitKraken.dev Support Home
 description: Learn how to work with GitKraken.dev features including Launchpad, Cloud Patches, Workspaces, and Code Suggestions.
+product: "GitKraken.dev"
+content_type: "concept"
+audience: "all"
+plan_required: "Pro or higher (Launchpad, Workspaces, Cloud Patches, Code Suggest)"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: February 2026</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-GitKraken.dev is a browser-based Git project management app. From tracking issues and pull requests to organizing repositories with your team, GitKraken.dev helps you stay productive directly from your browser.
+GitKraken.dev is a browser-based Git project management app for tracking pull requests, organizing repositories, and sharing code changes across teams. It works alongside GitKraken Desktop, GitLens, and GitKraken CLI. Launchpad, Workspaces, Cloud Patches, and Code Suggest require a Pro or higher plan.
 
 <figure>
   <img src="/wp-content/uploads/gkd-main-0-20260227.png" class="img-responsive center img-bordered help-center-img" alt="GitKraken.dev dashboard overview">
@@ -28,6 +34,22 @@ To begin using GitKraken.dev, connect a Git provider integration and use Launchp
 6. To organize repositories for a team, select **Workspaces** and create a new Workspace linked to your provider.
 
 Cloud Patches and Code Suggest require a Pro or higher plan. For Azure DevOps, enable **Third-party application access via OAuth** in your Azure Organization Settings before connecting.
+
+***
+
+## Feature overview
+
+| Feature | Plan Required | Available In | Purpose |
+|---|---|---|---|
+| Launchpad | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens | Real-time PR and issue triage across repos |
+| Workspaces | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens, GitKraken CLI | Group repositories by team or project |
+| Cloud Patches | Pro or higher | GitKraken Desktop, GitLens, GitKraken CLI | Share uncommitted changes without creating a PR |
+| Code Suggest | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens | Suggest code edits across entire files in a PR |
+
+> **Use Launchpad** for daily triage: reviewing, merging, and managing pull requests and issues across all connected providers.
+> **Use Workspaces** to organize repositories into team- or project-scoped groups that persist across GitKraken tools.
+> **Use Cloud Patches** to share work-in-progress changes with teammates before committing or opening a pull request.
+> **Use Code Suggest** to propose code edits across a full codebase (not just changed lines) directly within a pull request.
 
 ***
 
@@ -68,7 +90,7 @@ Pin items for priority or snooze them to hide under the SNOOZED section. Return 
 
 ***
 
-## Cloud Patches `PRO`
+## Cloud Patches `Pro`
 
 Cloud Patches let you securely store and share Git patches without a pull request. Create them using GitKraken Desktop, GitLens, or the GitKraken CLI. Store them on GitKraken servers or your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted).
 
@@ -129,7 +151,7 @@ To use Workspaces or [Insights](/gk-dev/gk-dev-insights) with Azure DevOps, enab
 
 ***
 
-## Code Suggest `PRO`
+## Code Suggest `Pro`
 
 Suggest code edits across your codebase—not just changed lines—using GitKraken.dev, GitLens, or GitKraken Desktop. Suggestions appear in the pull request for review.
 

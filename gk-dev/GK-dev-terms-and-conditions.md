@@ -1,20 +1,22 @@
 ---
-
 title: GitKraken Cloud Services Support Terms and Conditions
-description: Learn about Gitkraken Cloud Services Support terms and conditions
+description: Learn about GitKraken Cloud Services Support terms and conditions.
+product: "GitKraken.dev"
+content_type: "reference"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
-
 ---
 
 
-Our goal is to ensure you can use GitKraken Cloud Services effortlessly and with minimal friction. In the unlikely event that you need to reach out to a human, refer to our current Terms and Conditions below.
-
-You can always reach out to us by using the Contact support. [Contact support](https://help.gitkraken.com/gk-dev/gk-dev-contact-support/?product_s_=GitKraken.dev).
+This page describes the support terms for GitKraken Cloud Services (GitKraken.dev, Workspaces, and Launchpad). Support is guaranteed for Pro, Advanced, Business, and Enterprise plans. Student and Community plan users receive best-effort support. You can always reach out via [Contact support](https://help.gitkraken.com/gk-dev/gk-dev-contact-support/?product_s_=GitKraken.dev).
 
 ---
 
-## GitKraken Cloud Services Support
+## What support is included with each plan?
 
 - Support requests for GitKraken Cloud Services should be submitted at [Contact support](https://help.gitkraken.com/gk-dev/gk-dev-contact-support/?product_s_=GitKraken.dev). Users submitting tickets interact primarily through emails, though other communication services, such as phone calls and screen share services, might be used to deliver Support Services.
 
@@ -22,23 +24,28 @@ You can always reach out to us by using the Contact support. [Contact support](h
 
 - Support Hours are 10:00 am to 10:00 pm, Monday to Friday, UTC. While users can submit support requests anytime, responses to requests and interactions with support are provided during Support Hours only. Below are the response times for each of our Plans during support hours 
 
-|  | PRO | Advanced | Business | Enterprise |
+|  | Pro | Advanced | Business | Enterprise |
 | :--- | :--- | :--- | :--- | :--- |
 | Response Time | 3 Business Days | 1 Business day | 12 Hours | 6 Hours |
 
-- While we try to get to everyone who reaches out, a response is not guaranteed to all users. This includes any users who are on Student and Community plans. We encourage all users to engage in our community and utilize our self servicefree resources. [Additional Resources](https://help.gitkraken.com/gitkraken-desktop/gitkraken-desktop-home/#additional-resources) 
+- While we try to get to everyone who reaches out, a response is not guaranteed to all users. This includes any users who are on Student and Community plans. We encourage all users to engage in our community and utilize our self-service free resources. [Additional Resources](https://help.gitkraken.com/gitkraken-desktop/gitkraken-desktop-home/#additional-resources) 
 
-- GitKraken Cloud Services include GitKraken.dev, GitKraken Workspaces, and Launchpad
+| Service | Status | Support Level |
+|---|---|---|
+| GitKraken.dev | GA | Full support per plan |
+| GitKraken Workspaces | GA | Full support per plan |
+| Launchpad | GA | Full support per plan |
+| GitKraken Insights | Preview | Best-effort support |
+| Cloud Patches | Preview | Best-effort support |
+| Automations | Preview | Best-effort support |
 
-- The following Gitkraken Cloud Services are currently in preview and are eligible for best-effort support. GitKraken Insights, Cloud Patches and Automations
-
-### Support Period
+### Which product versions are supported?
  
 We will support Generally Available (GA) releases of products. Eligible code fixes and hot fixes are provided via a new release (Z) on top of the latest “Major release” and “minor release” branch. A major release is identified by a change in the first (X), minor release is identified by the second (Y) digit in the following versioning nomenclature: Version X.Y.Z.
 
 As a best practice, we expect customers to stay at the current release in order to receive optimal support. Release updates for customers are provided regularly on the GitKraken Help Center for each GitKraken product. While we will provide troubleshooting assistance to GA products, we might ask customers to upgrade to the current release during the troubleshooting process in order for them to receive functionality enhancements, security updates, and code fixes. 
 
-### End-of-Life 
+### What happens when a product reaches end-of-life?
 
 GitKraken will support a Major release for a period of at least 12 (twelve) months from the major release, excluding minor and patch releases (eg version 9.Y.Z will be eligible for support for 12 month period from when the 9.0.x version was released). However, while troubleshooting customer issues, a customer may be asked to upgrade to the current release.
 
