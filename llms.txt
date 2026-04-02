@@ -11,10 +11,10 @@
 
 ## Subscription & Billing
 
-- [Manage GitKraken Subscription and Billing](https://help.gitkraken.com/gk-dev/gk-dev-subscription/): Purchase a Pro, Advanced, Business, or Enterprise plan, add seats (prorated), cancel, reactivate, update billing method, and download invoices. Only Owners, Admins, and Billing Contacts can manage subscriptions.
+- [Manage GitKraken Subscription and Billing](https://help.gitkraken.com/gk-dev/gk-dev-subscription/): Purchase a Pro, Advanced, Business, or Enterprise plan, add seats (prorated), create quotes for renewals and seat expansions, cancel, reactivate, update billing method, and download invoices. Only Owners, Admins, and Billing Contacts can manage subscriptions.
 - [GitKraken Accounts and Licenses FAQ](https://help.gitkraken.com/gk-dev/gk-dev-faq/): Common questions on trials, license keys, multi-device use, subscription expiry, invoices, and payment options.
 - [GitKraken Student Pack](https://help.gitkraken.com/gk-dev/gk-dev-student-pack/): 6-month free Pro trial for students verified through the GitHub Student Developer Pack. Requires GitHub sign-in to sync the license. Trial starts from the original Student account creation date and cannot be restarted.
-- [GitKraken Reseller Guide](https://help.gitkraken.com/gk-dev/gk-dev-reseller/): Resellers sign in with email, purchase via gitkraken.dev/purchase, then add the customer as Billing Contact and transfer ownership. License costs are prorated. Covers existing org purchases and generating upgrade or renewal quotes.
+- [GitKraken Reseller Guide](https://help.gitkraken.com/gk-dev/gk-dev-reseller/): Resellers register via gitkraken.dev/reseller to get automatically associated with customer organizations. The dedicated Reseller role provides access to subscription management including billing, payment methods, plan changes, and quote generation. Also covers purchasing new organizations and transferring ownership. Organization members see a restricted view when managed by a reseller.
 
 ## Organization & Team Management
 
