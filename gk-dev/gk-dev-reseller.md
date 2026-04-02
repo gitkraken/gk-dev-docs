@@ -111,8 +111,8 @@ Follow these steps to purchase additional licenses:
 4. Update billing info if needed
 5. Click "Edit Plan"
 6. Increase the total user count
-7. Review the Billing Summary for cost and use it as an official quote
-8. Click “Save.” The additional licenses will be active immediately.
+Review the Billing Summary for cost. You can also click "View Prorated Charges Quote" to generate a formal quote document for the additional licenses.
+7. Click “Save.” The additional licenses will be active immediately.
 
 <div class='callout callout--basic'>
     <p>License costs are prorated against the original billing cycle. If a customer org is not listed under your account, <a href="https://www.gitkraken.com/sales-inquiries?source=help_center">contact our Customer Success team</a>.</p>
@@ -122,20 +122,4 @@ Follow these steps to purchase additional licenses:
 
 ## How to generate quotes for customers
 
-### Upgrade Quote
-
-To quote for upgrades (adding seats or changing plans):
-
-1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
-2. Select the customer organization
-3. Go to "Subscriptions"
-4. Click "Edit Plan"
-5. Make changes, but don’t purchase
-6. Use the Billing Summary as an official quote
-
-### Renewal Quote
-
-1. Log into [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev)
-2. Select the customer organization
-3. Go to "Subscriptions"
-4. Use the Annual Total in the Billing Summary as the renewal quote. The “Next charge” date indicates the renewal timing.
+You can generate formal quotes for renewals and mid-cycle upgrades (such as adding seats or changing plans) directly from the Edit Plan page. See [How to create a quote](/gk-dev/gk-dev-subscription/#create-quote) for step-by-step instructions.
