@@ -305,6 +305,26 @@ To update your billing method:
 3. Go to "Subscription" in the left panel
 4. Click "Update" to modify or switch payment methods
 
+### How to create a quote
+
+You can generate a formal quote for subscription renewals or mid-cycle upgrades (such as adding seats or changing plans) directly from the Edit Plan page.
+
+Quotes are available to Owners, Admins, Billing Contacts, and Resellers.
+
+1. Navigate to gitkraken.dev/subscription/edit.
+2. Configure the desired changes — select a plan tier and adjust the number of seats. The page will display a "Total due" (the immediate prorated charge) and a "Renewal preview" (the cost at your next renewal).
+3. Click "Create quote" at the bottom-left of the Edit Plan page.
+4. Confirm the quote request in the dialog that appears.
+5. Once ready, buttons will appear to access each quote — for example, "View Renewal Quote" and "View Prorated Charges Quote". Click a button to open the quote page where you can review, download, or print it.
+
+Creating a quote does not modify your subscription or trigger a charge. It only generates a quote document for review.
+
+**What quotes are generated:**
+- Renewal quote — Always generated. Shows the cost of your subscription at the next renewal date with the selected plan and seat count.
+- Prorated charges quote — Additionally generated when the changes include a mid-cycle upgrade (such as adding seats or upgrading to a higher plan tier). Shows the immediate prorated amount due for the remainder of the current billing cycle.
+
+Each quote document includes the organization name, plan, number of seats, unit price, total cost, renewal period (start and end dates), purchase terms, and a 30-day expiration date.
+
 ### Billing history
 
 View your billing history from gitkraken.dev/subscription/history or by navigating to Subscription > View Billing History.
@@ -414,16 +434,24 @@ When the 6-month free trial is about to end, you will be notified both in the ap
 
 URL: https://help.gitkraken.com/gk-dev/gk-dev-reseller/
 
+This guide is for third-party resellers who purchase and manage GitKraken subscriptions on behalf of customer organizations. Resellers have a dedicated Reseller role that provides access to subscription management for the organizations they manage, including billing, payment methods, and plan changes.
+
 ### Quick Start
 
-To purchase a new organization subscription as a reseller:
-1. Sign in at gitkraken.dev using your reseller email address. Use the email sign-in method, not social sign-in.
-2. Go to gitkraken.dev/purchase to create a subscription for a new customer organization.
-3. Set the seat count, enter the customer's organization name, and provide your reseller payment details.
-4. After purchase, go to "Users" and add the customer as a Billing Contact.
-5. Navigate to Settings > Organization and transfer ownership to the customer.
+To get started as a reseller:
+1. Visit gitkraken.dev/reseller and register or sign in using your reseller email address. Your account will automatically be associated with the customer organizations linked to your email.
+2. Use the organization selector in the top-left to navigate to a customer organization.
+3. Go to "Subscription" to manage billing, payment methods, and plan changes for that organization.
 
-The customer receives an activation link valid for 7 days. For existing customer organizations, select the organization from the top-left dropdown, go to "Subscriptions", and use "Edit Plan" to adjust seat count. License costs are prorated against the original billing cycle.
+To purchase a new organization subscription, go to gitkraken.dev/purchase, set the seat count, enter the customer's organization name, and provide your payment details. After purchase, add the customer as a Billing Contact under "Users", then transfer ownership under Settings > Organization. The customer receives an activation link valid for 7 days.
+
+### How to register as a reseller
+
+Visit gitkraken.dev/reseller to access the dedicated reseller registration and sign-in flow. Register or sign in using your reseller email address. Your account will automatically be associated with the customer organizations linked to your email. Once signed in, use the organization selector in the top-left to navigate between customer organizations.
+
+As a reseller, your view within each customer organization is simplified — you will only have access to the Subscription management page, where you can manage billing, payment methods, and plan changes.
+
+If your email is not yet associated with any customer organizations, contact the Customer Success team to get set up.
 
 ### New Organization Purchases
 
@@ -454,7 +482,7 @@ We accept card, PayPal, ACH, and Google Pay. Invoicing is available for large Gi
 
 If the customer hasn't verified their email, they'll receive an activation link. They have 7 days to accept.
 
-### Existing Organization Purchases
+### How to add licenses to an existing organization
 
 1. Log into gitkraken.dev
 2. Select the customer's organization from the top-left dropdown
@@ -462,27 +490,26 @@ If the customer hasn't verified their email, they'll receive an activation link.
 4. Update billing info if needed
 5. Click "Edit Plan"
 6. Increase the total user count
-7. Review the Billing Summary for cost
-8. Click "Save." The additional licenses will be active immediately.
+7. Click "Save." The additional licenses will be active immediately.
+
+License costs are prorated against the original billing cycle.
+
+### Reseller subscription management
+
+When you navigate to a customer organization as a reseller, the Subscription page provides access to manage billing information, payment methods, and subscription changes. Billing and payment method updates apply to your reseller account and are shared across the organizations you manage. Subscription changes (such as plan tier or seat count) apply to the specific customer organization and are billed to your reseller account.
+
+- **Update billing information** — From the Subscription page, click "Update" next to your billing information to update your billing address.
+- **Update payment method** — Click "Update" next to your payment method to change the card or payment method on file.
+- **Delete payment method** — Click "Delete" next to the payment method to remove it. This action cannot be undone and may affect your subscription.
+- **Edit subscription** — Click "Edit Plan" to change the plan tier or adjust the number of seats. The Edit Plan page shows a Renewal preview with the updated cost. Click "Save" to apply changes, or use "Create quote" to generate a formal quote before committing.
+
+### What organization members see
+
+When an organization is managed by a reseller, members with the Owner, Admin, or Billing Contact role will see a simplified Subscription page. Billing information, payment methods, and subscription changes are not available to organization members — these are managed exclusively by the reseller. Actions that would result in a charge, such as adding members beyond the subscription seat count, are also restricted.
 
 ### Quotes
 
-#### Upgrade Quote
-
-To quote for upgrades (adding seats or changing plans):
-1. Log into gitkraken.dev
-2. Select the customer organization
-3. Go to "Subscriptions"
-4. Click "Edit Plan"
-5. Make changes, but don't purchase
-6. Use the Billing Summary as an official quote
-
-#### Renewal Quote
-
-1. Log into gitkraken.dev
-2. Select the customer organization
-3. Go to "Subscriptions"
-4. Use the Annual Total in the Billing Summary as the renewal quote. The "Next charge" date indicates the renewal timing.
+You can generate formal quotes for renewals and mid-cycle upgrades (such as adding seats or changing plans) directly from the Edit Plan page. See the "How to create a quote" section in the Subscription and Billing documentation for step-by-step instructions.
 
 ---
 

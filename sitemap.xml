@@ -31,7 +31,7 @@
 
   <url>
     <loc>https://help.gitkraken.com/gk-dev/gk-dev-subscription/</loc>
-    <lastmod>2025-07-01</lastmod>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -52,9 +52,9 @@
 
   <url>
     <loc>https://help.gitkraken.com/gk-dev/gk-dev-reseller/</loc>
-    <lastmod>2025-06-01</lastmod>
+    <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>

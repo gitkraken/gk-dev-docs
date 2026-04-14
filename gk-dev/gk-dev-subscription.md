@@ -1,18 +1,18 @@
 ---
 title: Manage GitKraken Subscription and Billing
-description: Purchase or cancel GitKraken subscriptions, update billing info, and download past invoices.
+description: Purchase or cancel GitKraken subscriptions, create quotes for renewals and seat expansions, update billing info, and download past invoices.
 product: "GitKraken.dev"
 content_type: "admin"
 audience: "admin"
 plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Admin, Billing Contact"
 status: "GA"
-last_verified: "2026-03"
+last_verified: "2026-04"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: March 2026</kbd>
+<kbd>Last updated: April 2026</kbd>
 
 Subscriptions in GitKraken.dev are tied directly to an [organization](/gk-dev/gk-dev-organization/), even if there is only one user.
 
@@ -111,6 +111,59 @@ Follow these steps to add licenses to your GitKraken subscription:
 
 For more information, see [Managing Roles, Users, Teams, SSO](https://help.gitkraken.com/gk-dev/gk-dev-organization/).
 
+
+***
+
+## How to create a quote
+
+You can generate a formal quote for subscription renewals or mid-cycle upgrades (such as adding seats or changing plans) directly from the Edit Plan page. This is useful when your organization or reseller needs a quote document before approving a purchase.
+
+Quotes are available to **Owners**, **Admins**, **Billing Contacts**, and **Resellers**.
+
+To create a quote:
+
+1. **Go to the Edit Plan page**
+   Navigate to [gitkraken.dev/subscription/edit](https://gitkraken.dev/subscription/edit?source=help_center&product=gitkraken_dot_dev).
+
+2. **Configure the desired changes (optional, only if you want to modify the subscription)**
+   Select a plan tier and adjust the number of seats as needed. The page will display a **Total due** (the immediate prorated charge) and a **Renewal preview** (the cost at your next renewal).
+
+3. **Click "Create quote"**
+   The **Create quote** button is located at the bottom-left of the Edit Plan page.
+
+   <figure>
+     <img src="/wp-content/uploads/gk-dev-subscription-create-quote-button.png" class="img-bordered center help-center-img" alt="Edit Plan page showing the Create quote button" style="display: block; margin: 0 auto;">
+     <figcaption style="color: #888; text-align: center;">The Create quote button appears on the Edit Plan page after configuring your changes.</figcaption>
+   </figure>
+
+4. **Confirm the quote request**
+   A dialog will ask you to confirm that you want to generate a quote for the currently selected prorated changes. Click **Confirm** to proceed.
+
+   <figure>
+     <img src="/wp-content/uploads/gk-dev-subscription-create-quote-confirm.png" class="img-bordered center help-center-img" alt="Confirmation dialog for creating a quote" style="display: block; margin: 0 auto;">
+     <figcaption style="color: #888; text-align: center;">Confirm your quote request before it is generated.</figcaption>
+   </figure>
+
+5. **View your quotes**
+   Once the quotes are ready, a dialog will display buttons to access each quote — for example, **View Renewal Quote** and **View Prorated Charges Quote**. Click a button to open the quote page where you can review, download, or print it.
+
+   <figure>
+     <img src="/wp-content/uploads/gk-dev-subscription-create-quote-success.png" class="img-bordered center help-center-img" alt="Quote created successfully with links to view quotes" style="display: block; margin: 0 auto;">
+     <figcaption style="color: #888; text-align: center;">Links to your generated quotes are displayed after creation.</figcaption>
+   </figure>
+
+<div class='callout callout--info'>
+    <p>Creating a quote does not modify your subscription or trigger a charge. It only generates a quote document for review.</p>
+</div>
+
+### What quotes are generated
+
+The type of quote depends on the changes you configured:
+
+- **Renewal quote** — Always generated. Shows the cost of your subscription at the next renewal date with the selected plan and seat count.
+- **Prorated charges quote** — Additionally generated when the changes include a mid-cycle upgrade (such as adding seats or upgrading to a higher plan tier). Shows the immediate prorated amount due for the remainder of the current billing cycle.
+
+Each quote document includes the organization name, plan, number of seats, unit price, total cost, renewal period (start and end dates), purchase terms, and a 30-day expiration date.
 
 ***
 
