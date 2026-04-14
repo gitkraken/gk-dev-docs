@@ -1,14 +1,24 @@
 ---
 title: Security Information for GitKraken.dev
 description: Learn how GitKraken.dev encrypts data in transit and at rest across features like Workspaces, Launchpad, and Cloud Patches.
+product: "GitKraken.dev"
+content_type: "security"
+audience: "admin"
+plan_required: "all (SOC 2 reports: Business, Enterprise)"
+cloud_only: true
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-## Information Collection/Storage
-This page outlines how GitKraken.dev handles data security—including what data we collect, how it's transmitted, where it's stored, and how it's protected at rest.
+GitKraken.dev encrypts all data in transit (TLS) and at rest (AES-256). This page describes what data GitKraken.dev collects, where it is stored, and how it is secured for each cloud service. This applies to GitKraken cloud organizations only; On-Premise deployments manage data locally. SOC 2 reports are available for Business and Enterprise customers through the [Trust Center](https://trust.gitkraken.com/).
+
+***
+
+## What data does GitKraken.dev collect and how is it secured?
 
 
 | Service | What information are we collecting | How is this information secured in the transfer| Where is this information stored | How is this information secured in storage |
@@ -19,8 +29,8 @@ This page outlines how GitKraken.dev handles data security—including what data
 | Launchpad | Storing meta-data for issues/pull-requests/URLs | Encrypted with TLS | Postgres (RDS) | Encrypted at rest (AES-256) |
 | Cloud Patches | Info related to the patch (repo name/URL/provider/base branch name/etc.) + the patch content itself. | Encrypted with TLS | Patch info is stored in a Postgres database, patch content is stored in AWS S3. | SSE-S3, which uses 256-bit Advanced Encryption Standard (AES-256) |
 
-## SOC2
-Gitkraken and it’s tools are now SOC 2 Certified! If you would like to request a copy of our SOC2 report, please visit our [Trust Center](https://trust.gitkraken.com/) to get the request process started. Please note that in order to provide a copy of the report, we will need you to sign an MNDA.
+## How to request a SOC 2 report
+GitKraken and its tools are SOC 2 certified. To request a copy of the SOC 2 report, visit the [Trust Center](https://trust.gitkraken.com/) to start the request process. An MNDA (Mutual Non-Disclosure Agreement) is required before the report can be shared. Any member of a Business or Enterprise organization can initiate the request.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

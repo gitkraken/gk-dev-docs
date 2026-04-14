@@ -1,17 +1,41 @@
 ---
 title: Configure Single Sign-On (SSO) for GitKraken
 description: Learn how to enable and configure Single Sign-On (SSO) using your identity provider (IdP) for secure access to GitKraken cloud organizations.
+product: "GitKraken.dev"
+content_type: "admin"
+audience: "admin"
+plan_required: "Advanced, Business, Enterprise"
+role_required: "Owner, Admin"
+cloud_only: true
+integrations: ["G Suite", "Azure Active Directory", "Okta", "Ping Identity"]
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-Single Sign-On (SSO) is an easy way to manage users across all your services. SSO is supported only for GitKraken cloud users; On-Premise plans are not supported.
+Single Sign-On (SSO) lets organization Owners and Admins enforce centralized authentication for all GitKraken users on verified email domains. SSO is supported only for GitKraken cloud organizations; On-Premise plans are not supported.
 
 Once your organization has set up SSO with an Identity Provider (IdP), the Owner or an Admin can link the GitKraken organization to that IdP. After linking, users associated with the IdP can log in to GitKraken apps and services.
 
 <div class='callout callout--info'>
-    <p>SSO is available with a GitKraken Advanced or Enterprise subscription. It’s also included in the 30-day multi-user trial.</p>
+    <p>SSO is available with a GitKraken Advanced, Business, or Enterprise subscription. It is also included in the 30-day multi-user trial.</p>
 </div>
+
+## Quick Start
+
+GitKraken SSO uses SAML 2.0.
+
+To configure SSO for your organization:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) as an Owner or Admin.
+2. Navigate to **Settings > Single sign-on** and click **Set up SSO**.
+3. Enter a connection name, your base domain (e.g., `yourcompany.com`), and credentials from your IdP: Metadata URL, raw Metadata, or Certificate.
+4. Click **Create Connection**.
+5. Add the provided DNS TXT record at your domain registrar, then return to GitKraken.dev and click **Verify Ownership**.
+6. Enable the SSO toggle. Optionally enable Just-in-time (JIT) provisioning to auto-add verified users on first login.
+
+The SSO callback URL for all IdPs is `https://api.gitkraken.com/oauth/sso/callback`.
 
 ***
 
@@ -55,15 +79,15 @@ Examples:
 
 GitKraken is a third-party application in this context. The Owner or an Admin of a GitKraken organization can set up SSO.
 
-### Supported Identity Providers
+### Which identity providers does GitKraken support?
 
 GitKraken supports SAML 2.0 for SSO. Any identity provider (IdP) that supports SAML 2.0 is compatible.
 
-### License Requirements
+### Which plans include SSO?
 
-SSO requires a GitKraken Teams or Enterprise subscription, or a 30-day multi-user trial. To support multiple domains, GitKraken Enterprise or the multi-user trial is required.
+SSO requires a GitKraken Advanced, Business, or Enterprise subscription, or a 30-day multi-user trial. To support multiple domains, GitKraken Enterprise or the multi-user trial is required.
 
-### SSO Enforcement in GitKraken
+### How SSO enforcement works
 
 - SSO is enforced at the **domain level**:
   - Users whose account emails match a verified SSO domain must log in via SSO.
@@ -78,13 +102,13 @@ SSO requires a GitKraken Teams or Enterprise subscription, or a 30-day multi-use
   - Users cannot leave the organization or change their email/password.
   - Existing accounts with other organizations/subscriptions can keep them, but can’t access them until they are part of the organization and sign in with SSO.
 
-### Just-in-time provisioning (JIT)
+### How just-in-time provisioning (JIT) works
 
 JIT can be enabled at <a href="https://gitkraken.dev/settings/sso?source=help_center&product=gitkraken_dot_dev">GitKraken.dev > Settings > SSO</a>. When JIT is active and a user logs in successfully via SSO, they will automatically join the organization and consume a license.
 
 Note: JIT only works if there are available licenses. If none are available, users will not be added.
 
-### SSO login experience
+### What the SSO login experience looks like
 
 - On the login screen, select **SSO** to sign in.
 - If a user tries to log in using a method other than SSO and matches a managed domain, they’ll see a message requiring SSO.
@@ -92,7 +116,7 @@ Note: JIT only works if there are available licenses. If none are available, use
 - Owners and Admins may sign in using any supported method.
 
 <div class='callout callout--info'>
-    <p>Gitkraken SSO does not support signing in through the Identity Provider's dashboard.</p>
+    <p>GitKraken SSO does not support signing in through the Identity Provider's dashboard.</p>
 </div>
 ***
 
@@ -189,9 +213,6 @@ How to Create a SAML Application in G Suite:
 </figure>
 
 Now you are all set to <a href="/gk-dev/gk-dev-single-sign-on/#setup-sso">set up your SSO on a GitKraken Organization</a>.
-- If a user tries to log in using a method other than SSO and matches a managed domain, they’ll see a message requiring SSO.
-- If a user logs in with SSO but is not part of the organization, they’ll be prompted to contact an admin.
-- Owners and Admins may sign in using any supported method.
 
 ### Azure Active Directory
 

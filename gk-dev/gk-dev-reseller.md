@@ -1,17 +1,49 @@
 ---
 title: GitKraken Reseller Guide
 description: Learn how to purchase and manage GitKraken accounts and organizations as a reseller.
+product: "GitKraken.dev"
+content_type: "admin"
+audience: "reseller"
+plan_required: "Pro, Advanced, Business, Enterprise"
+role_required: "Owner, Billing Contact"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-## New Organization Purchases
+This guide is for third-party resellers who purchase and manage GitKraken subscriptions on behalf of customer organizations. Resellers create accounts using their own email, purchase on behalf of customers, then transfer organization ownership. Available plans for reseller purchase include Pro, Advanced, Business, and Enterprise.
+
+| Step | New Organization | Existing Organization |
+|---|---|---|
+| 1 | Create account with reseller email | Log in to existing account |
+| 2 | Purchase subscription at [gitkraken.dev/purchase](https://gitkraken.dev/purchase) | Select customer org from dropdown |
+| 3 | Add customer as Billing Contact | Go to Subscriptions > Edit Plan |
+| 4 | Transfer ownership to customer | Increase seat count |
+| 5 | Customer accepts activation link (7-day expiry) | Additional licenses are active immediately |
+
+***
+
+## Quick Start
+
+To purchase a new organization subscription as a reseller:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center) using your reseller email address. Use the email sign-in method, not social sign-in.
+2. Go to [gitkraken.dev/purchase](https://gitkraken.dev/purchase?source=help_center) to create a subscription for a new customer organization.
+3. Set the seat count, enter the customer's organization name, and provide your reseller payment details.
+4. After purchase, go to **Users** and add the customer as a **Billing Contact**.
+5. Navigate to **Settings > Organization** and transfer ownership to the customer.
+
+The customer receives an activation link valid for 7 days. For existing customer organizations, select the organization from the top-left dropdown, go to **Subscriptions**, and use **Edit Plan** to adjust seat count. License costs are prorated against the original billing cycle.
+
+***
+
+## How to purchase a new organization subscription
 
 Follow this reseller guide for purchasing and user license management information.
 
-***
 
 ### 1. Create an Account or Sign In
 
@@ -69,7 +101,7 @@ If the customer hasn’t verified their email, they’ll receive an activation l
 
 ***
 
-## Existing Organization Purchases
+## How to add licenses to an existing organization
 
 Follow these steps to purchase additional licenses:
 
@@ -88,7 +120,7 @@ Follow these steps to purchase additional licenses:
 
 ***
 
-## Quotes
+## How to generate quotes for customers
 
 ### Upgrade Quote
 

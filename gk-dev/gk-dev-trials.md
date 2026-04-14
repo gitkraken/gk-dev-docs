@@ -1,21 +1,38 @@
 ---
- 
-title: GitKraken Trials 
-description: Learn about GitKraken Trials 
-taxonomy: 
+title: GitKraken Trials
+description: Learn about the two types of GitKraken trials and how to start each one.
+product: "GitKraken.dev"
+content_type: "how-to"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
+taxonomy:
     category: gk-dev
-     
---- 
-<kbd>Last updated: June 2025</kbd>
+---
+<kbd>Last updated: March 2026</kbd>
+
+GitKraken offers trial access to paid features so individual developers and teams can evaluate the platform before purchasing. Two trial types are available: a 14-day individual Pro trial and a 30-day multi-user Business trial. Each trial type has different eligibility, scope, and duration.
+
+***
 
 ## Trial options
 
 GitKraken offers two types of trials:
 
-- **14-day trial:** Try GitKraken Pro features on your own.
-- **Business trial (30 days):** Invite your team and try the full GitKraken platform.
+| | 14-Day Individual Trial | 30-Day Business Trial |
+|---|---|---|
+| Duration | 14 days | 30 days |
+| Products | GitKraken Desktop or GitLens (independent per app) | All GitKraken products |
+| Features included | Pro features in the respective app | Full platform: multi-user management, SSO, Workspaces |
+| Seats | 1 (individual) | Multiple users with license management |
+| How to start | Log into GitKraken Desktop or GitLens for the first time | Add one or more users at [gitkraken.dev/users](https://gitkraken.dev/users) |
+| Eligibility | One trial per product per account | One Business trial per user; Owners cannot restart after expiry |
 
-To compare features, visit the [GitKraken pricing page](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
+> **Choose the 14-day trial** when you want to evaluate Pro features in GitKraken Desktop or GitLens individually before purchasing.
+> **Choose the Business trial** when you want to evaluate the full GitKraken platform with your team, including SSO setup, license management, and shared Workspaces.
+
+To compare plan features, visit the [GitKraken pricing page](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 ***
 

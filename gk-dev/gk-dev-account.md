@@ -1,13 +1,19 @@
 ---
-title: Manage Your GitKraken Account 
+title: Manage Your GitKraken Account
 description: Set up and manage your GitKraken account used across GitKraken Desktop, GitLens, CLI, and more. Learn how to log in, personalize your profile, and delete your account.
+product: "GitKraken.dev"
+content_type: "how-to"
+audience: "all"
+plan_required: "all"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences in one place. 
+Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences from a single dashboard. Creating a GitKraken account is free. Your license tier (Community, Pro, Advanced, Business, or Enterprise) is determined by your organization's subscription, not by the account itself.
 
 <div class='callout callout--basic'>
   <p>Note that your GitKraken account is not compatible with <a href="/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/">Git Integration for Jira</a>.</p>
@@ -16,26 +22,37 @@ Your GitKraken account provides access to all GitKraken products and services, i
 
 ***
 
+## Quick Start
+
+1. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and select a login method: GitHub, GitLab, Bitbucket, Azure DevOps, Google, Microsoft, email, or SSO.
+2. If using email, verify your address via the confirmation link sent to your inbox.
+3. After signing in, click your avatar in the top right to access account settings: display name, avatar, licenses, email preferences, and billing.
+4. To update your avatar, navigate to account settings and follow the link to Gravatar. GitKraken uses Gravatar for profile images.
+5. To delete your account, go to **Settings > Account Settings > Delete Account**. This action is GDPR-compliant and cannot be undone.
+
+A single GitKraken account applies across all GitKraken products. Licenses are email-based and tied to one account per person. Avoid creating duplicate accounts.
+
+***
+
 ## Sign in or create an account
 
 Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and choose one of the supported login options:
 
-**Git providers:**
-- GitHub
-- GitLab
-- Bitbucket
-- Azure DevOps
-
-**Other options:**
-- Google
-- Microsoft
-- Email + password
-- [Single Sign-On (SSO)](/gk-dev/gk-dev-single-sign-on/)
+| Login Method | Type | Notes |
+|---|---|---|
+| GitHub | Git provider | Also used for GitHub Student Developer Pack verification |
+| GitLab | Git provider | |
+| Bitbucket | Git provider | |
+| Azure DevOps | Git provider | |
+| Google | Identity provider | |
+| Microsoft | Identity provider | |
+| Email + password | Direct | Requires email verification via confirmation link |
+| [SSO](/gk-dev/gk-dev-single-sign-on/) | Organization IdP | Available on Advanced or higher plans |
 
 Each login method is tied to your primary email address. If you sign up with email, you’ll need to verify it via a confirmation link.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-create-account.png" class="img-bordered center help-center-img" alt="GitKraken login options screen">
+  <img src="/wp-content/uploads/gk-dev-create-account-20260317.png" class="img-bordered center help-center-img" alt="GitKraken login options screen">
   <figcaption style="color:#888;text-align:center">Choose a connected service to authenticate with GitKraken</figcaption>
 </figure>
 
@@ -51,11 +68,22 @@ Click your avatar in the top right to:
 - View your plan and billing information
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-account-personalization.png" class="img-bordered center help-center-img" alt="GitKraken account profile settings">
+  <img src="/wp-content/uploads/gk-dev-account-personalization-20260317.png" class="img-bordered center help-center-img" alt="GitKraken account profile settings">
   <figcaption style="color:#888;text-align:center">Access account and license settings</figcaption>
 </figure>
 
 GitKraken uses [Gravatar](https://gravatar.com) to manage profile avatars. To change your avatar, select your profile image and follow the link to Gravatar. Updates may take several hours to appear.
+
+***
+
+## Account settings vs. organization settings
+
+Your GitKraken account and your GitKraken organization are managed separately:
+
+- **Account settings** (name, avatar, email, login method) affect only your personal identity. Changes here do not affect other organization members.
+- **Organization settings** (licenses, roles, SSO, teams, billing) affect all members of the organization. Only Owners, Admins, or Billing Contacts can change organization settings.
+
+To manage your account, click your avatar in the top right. To manage your organization, select the organization from the top-left dropdown and navigate to **Settings**.
 
 ***
 

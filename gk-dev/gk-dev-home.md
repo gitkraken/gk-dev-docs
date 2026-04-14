@@ -1,18 +1,55 @@
 ---
 title: GitKraken.dev Support Home
 description: Learn how to work with GitKraken.dev features including Launchpad, Cloud Patches, Workspaces, and Code Suggestions.
+product: "GitKraken.dev"
+content_type: "concept"
+audience: "all"
+plan_required: "Pro or higher (Launchpad, Workspaces, Cloud Patches, Code Suggest)"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-GitKraken.dev is a browser-based Git project management app. From tracking issues and pull requests to organizing repositories with your team, GitKraken.dev helps you stay productive directly from your browser.
+GitKraken.dev is a browser-based Git project management app for tracking pull requests, organizing repositories, and sharing code changes across teams. It works alongside GitKraken Desktop, GitLens, and GitKraken CLI. Launchpad, Workspaces, Cloud Patches, and Code Suggest require a Pro or higher plan.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-main-0.png" class="img-responsive center img-bordered help-center-img" alt="GitKraken.dev dashboard overview">
+  <img src="/wp-content/uploads/gkd-main-0-20260227.png" class="img-responsive center img-bordered help-center-img" alt="GitKraken.dev dashboard overview">
   <figcaption style="color:#888;text-align:center">Overview of the GitKraken.dev dashboard</figcaption>
 </figure>
+
+***
+
+## Quick Start
+
+To begin using GitKraken.dev, connect a Git provider integration and use Launchpad to track pull requests and issues across repositories.
+
+1. Go to [gitkraken.dev](https://gitkraken.dev) and sign in with your GitKraken account.
+2. Navigate to **Settings > Integrations** and connect a Git provider: GitHub, GitLab, Bitbucket, or Azure DevOps. Self-hosted providers require a Personal Access Token (PAT).
+3. Open **Launchpad** from the left sidebar. Launchpad aggregates pull requests and issues from connected providers in real time.
+4. Use the actions column to open branches in GitKraken Desktop or VS Code, merge or close pull requests, and access code suggestions.
+5. Filter by service, status (assigned, created, or mentioned), or Workspace to narrow the view.
+6. To organize repositories for a team, select **Workspaces** and create a new Workspace linked to your provider.
+
+Cloud Patches and Code Suggest require a Pro or higher plan. For Azure DevOps, enable **Third-party application access via OAuth** in your Azure Organization Settings before connecting.
+
+***
+
+## Feature overview
+
+| Feature | Plan Required | Available In | Purpose |
+|---|---|---|---|
+| Launchpad | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens | Real-time PR and issue triage across repos |
+| Workspaces | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens, GitKraken CLI | Group repositories by team or project |
+| Cloud Patches | Pro or higher | GitKraken Desktop, GitLens, GitKraken CLI | Share uncommitted changes without creating a PR |
+| Code Suggest | Pro or higher | GitKraken.dev, GitKraken Desktop, GitLens | Suggest code edits across entire files in a PR |
+
+> **Use Launchpad** for daily triage: reviewing, merging, and managing pull requests and issues across all connected providers.
+> **Use Workspaces** to organize repositories into team- or project-scoped groups that persist across GitKraken tools.
+> **Use Cloud Patches** to share work-in-progress changes with teammates before committing or opening a pull request.
+> **Use Code Suggest** to propose code edits across a full codebase (not just changed lines) directly within a pull request.
 
 ***
 
@@ -31,7 +68,7 @@ Connect an [integration](/gk-dev/gk-dev-integrations/) to begin.
 Use the actions column to update fields, open branches in GitKraken Desktop or VS Code, merge or close pull requests, and open [code suggestions](/gk-dev/gk-dev-home/#code-suggest-pro).
 
 <figure>
-  <img src="/wp-content/uploads/gkd-take-action.png" class="img-bordered help-center-img" alt="Launchpad action options for PRs and issues">
+  <img src="/wp-content/uploads/gkd-take-action-20260227.png" class="img-bordered help-center-img" alt="Launchpad action options for PRs and issues">
   <figcaption style="color:#888;text-align:center">Quick actions available for pull requests and issues</figcaption>
 </figure>
 
@@ -40,20 +77,20 @@ Use the actions column to update fields, open branches in GitKraken Desktop or V
 Filter the Launchpad by services, statuses (assigned/created/mentioned), or [workspaces](/gk-dev/gk-dev-home/#workspaces).
 
 <figure>
-  <img src="/wp-content/uploads/gkd-launchpad-filter.png" class="img-responsive center img-bordered help-center-img" alt="Launchpad filter options to refine visible items">
+  <img src="/wp-content/uploads/gkd-launchpad-filter-20260227.png" class="img-responsive center img-bordered help-center-img" alt="Launchpad filter options to refine visible items">
   <figcaption style="color:#888;text-align:center">Use filters to narrow down visible tasks</figcaption>
 </figure>
 
 Pin items for priority or snooze them to hide under the SNOOZED section. Return to the SNOOZED section to unsnooze.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-pin-or-snooze.gif" class="img-responsive center img-bordered help-center-img" alt="GIF showing pinning and snoozing actions in Launchpad">
+  <img src="/wp-content/uploads/gkd-pin-or-snooze-20260227.gif" class="img-responsive center img-bordered help-center-img" alt="GIF showing pinning and snoozing actions in Launchpad">
   <figcaption style="color:#888;text-align:center">Pin or snooze tasks for focused attention</figcaption>
 </figure>
 
 ***
 
-## Cloud Patches `PRO`
+## Cloud Patches `Pro`
 
 Cloud Patches let you securely store and share Git patches without a pull request. Create them using GitKraken Desktop, GitLens, or the GitKraken CLI. Store them on GitKraken servers or your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted).
 
@@ -66,7 +103,7 @@ Cloud Patches let you securely store and share Git patches without a pull reques
 Initiate patches from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview), or [GitKraken CLI](/cli/cli-home/#cloud-patches). Manage shared Cloud Patches from gitkraken.dev.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-cloud-patch-view.png" class="img-responsive center img-bordered help-center-img" alt="List of cloud patches in GitKraken.dev">
+  <img src="/wp-content/uploads/gkd-cloud-patch-view-20260227.png" class="img-responsive center img-bordered help-center-img" alt="List of cloud patches in GitKraken.dev">
   <figcaption style="color:#888;text-align:center">View and manage shared Cloud Patches</figcaption>
 </figure>
 
@@ -75,7 +112,7 @@ Initiate patches from [GitKraken Desktop](/gitkraken-client/experimental-feature
 Select `Open` to view patch contents. Open patches in GitKraken Desktop or GitLens to apply them.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-open-cloud-patch.png" class="img-responsive center img-bordered help-center-img" alt="Open and review contents of a Cloud Patch">
+  <img src="/wp-content/uploads/gkd-open-cloud-patch-20260227.png" class="img-responsive center img-bordered help-center-img" alt="Open and review contents of a Cloud Patch">
   <figcaption style="color:#888;text-align:center">Review patch details before applying</figcaption>
 </figure>
 
@@ -86,7 +123,7 @@ Select `Open` to view patch contents. Open patches in GitKraken Desktop or GitLe
 Use Workspaces to group repositories for teams or organizations using GitKraken.dev, GitKraken Desktop, GitLens, or GitKraken CLI.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-workspaces-view.png" class="img-bordered help-center-img" alt="Workspace list showing multiple repo groups">
+  <img src="/wp-content/uploads/gkd-workspaces-view-20260227.png" class="img-bordered help-center-img" alt="Workspace list showing multiple repo groups">
   <figcaption style="color:#888;text-align:center">Group repositories under shared Workspaces</figcaption>
 </figure>
 
@@ -95,7 +132,7 @@ Use Workspaces to group repositories for teams or organizations using GitKraken.
 Connect a [service integration](/gk-dev/gk-dev-integrations/), select `Create Workspace`, name it, choose a provider, and set sharing preferences.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-create-workspace.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
+  <img src="/wp-content/uploads/gkd-create-workspace-20260317.png" class="img-bordered help-center-img" style="max-height:600px;" alt="Create a new workspace modal">
   <figcaption style="color:#888;text-align:center">Customize your Workspace with settings and visuals</figcaption>
 </figure>
 
@@ -104,7 +141,7 @@ Connect a [service integration](/gk-dev/gk-dev-integrations/), select `Create Wo
 Click `Open Launchpad` to focus on that Workspace’s repositories. Perform Git actions in your preferred GitKraken tool.
 
 <figure>
-  <img src="/wp-content/uploads/gkd-open-workspace.png" class="img-bordered help-center-img" alt="Open workspace to view associated repositories">
+  <img src="/wp-content/uploads/gkd-open-workspace-20260317.png" class="img-bordered help-center-img" alt="Open workspace to view associated repositories">
   <figcaption style="color:#888;text-align:center">Work across repositories from a single Workspace</figcaption>
 </figure>
 
@@ -114,12 +151,12 @@ To use Workspaces or [Insights](/gk-dev/gk-dev-insights) with Azure DevOps, enab
 
 ***
 
-## Code Suggest `PRO`
+## Code Suggest `Pro`
 
 Suggest code edits across your codebase—not just changed lines—using GitKraken.dev, GitLens, or GitKraken Desktop. Suggestions appear in the pull request for review.
 
 <figure>
-  <img src="/wp-content/uploads/cli-code-suggest.png" class="img-bordered help-center-img" alt="Suggesting code changes within a pull request">
+  <img src="/wp-content/uploads/gkd-code-suggest.png" class="img-bordered help-center-img" alt="Suggesting code changes within a pull request">
   <figcaption style="color:#888;text-align:center">Post suggested edits across your project</figcaption>
 </figure>
 

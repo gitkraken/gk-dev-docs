@@ -1,23 +1,44 @@
 ---
 title: Manage GitKraken Organizations | Roles, Users, Teams, SSO
 description: Learn how to manage GitKraken organizations, assign roles, add users, configure teams, and set up SSO.
+product: "GitKraken.dev"
+content_type: "admin"
+audience: "admin"
+plan_required: "Pro, Advanced, Business, Enterprise"
+role_required: "Owner, Admin"
+status: "GA"
+last_verified: "2026-03"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: June 2025</kbd>
+<kbd>Last updated: March 2026</kbd>
 
-Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. Centralize your GitKraken [subscription](/gk-dev/gk-dev-subscription/) to simplify provisioning and oversight across all GitKraken products.
+Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. A GitKraken organization applies across GitKraken Desktop, GitLens, GitKraken CLI, and GitKraken.dev. Manage your [subscription](/gk-dev/gk-dev-subscription/) to provision and oversee licenses for all GitKraken products.
 
 <div class='callout callout--warning'>
-    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users, roles, teams, and settings.</p>
+    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users and roles. Advanced plans and higher can also create and manage teams.</p>
 </div>
 
 ***
 
-## Roles
+## Quick Start
 
-Roles determine what permissions a member has within your organization. There are four roles available:
+To set up an organization and add users:
+
+1. Sign in at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev) and select your organization from the top-left dropdown.
+2. Navigate to **Users** and click **Add Users**.
+3. Enter one or more email addresses and assign a role: Owner, Admin, User, Lead, or Billing Contact.
+4. Click **Add** to send activation emails. Owner, Admin, User, and Lead roles each consume a license. Billing Contact does not.
+5. To organize members into groups, go to the **Teams** tab and create a team.
+
+To import multiple users at once, use **Add Users > Import via CSV** with columns for Email, Username, Role, and optionally Teams. Pro plans and higher are required for user and role management. Team management requires an Advanced or higher plan.
+
+***
+
+## How roles and permissions work
+
+Roles determine what permissions a member has within your organization. There are five roles available:
 
 - **Owner** – Each organization has one owner by default. The owner has full administrative and billing permissions and consumes a license.
 - **Admin** – Has full administrative and billing permissions and consumes a license. Admins cannot change or remove the owner.
@@ -111,21 +132,21 @@ Roles determine what permissions a member has within your organization. There ar
 To add someone to your organization, go to [gitkraken.dev](https://gitkraken.dev/?source=help_center&product=gitkraken_dot_dev), open the organization dropdown in the top left, select **Users**, then click **Add Users**.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-bordered center help-center-img" alt="Add Users screen in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-add-user-20260317.png" srcset="/wp-content/uploads/gk-dev-add-user@2x.png" class="img-bordered center help-center-img" alt="Add Users screen in GitKraken">
   <figcaption style="color:#888;text-align:center">Access the Add Users screen from the Users tab</figcaption>
 </figure>
 
 You can enter multiple email addresses and select the [role](/gk-dev/gk-dev-organization/#roles) from the dropdown to assign to all users.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user-modal.png" class="img-bordered center help-center-img" alt="Add users modal with email and role fields">
+  <img src="/wp-content/uploads/gk-dev-add-user-modal-20260317.png" class="img-bordered center help-center-img" alt="Add users modal with email and role fields">
   <figcaption style="color:#888;text-align:center">Enter emails and assign a role to each new user</figcaption>
 </figure>
 
 Only members with a [role](/gk-dev/gk-dev-organization/#roles) that includes user management permissions can invite others. Adding a user consumes a license from your subscription. If you exceed your license count during this step, a billing summary will appear. Select **Purchase** to complete the transaction and add the users.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-add-user-modal-2.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
+  <img src="/wp-content/uploads/gk-dev-add-user-modal-2-20260317.png" class="img-bordered center help-center-img" alt="Modal showing additional license purchase required">
   <figcaption style="color:#888;text-align:center">Purchase additional licenses if needed when adding users</figcaption>
 </figure>
 
@@ -145,14 +166,19 @@ To invite someone:
 4. Enter the email address(es) of the person you want to invite
 
 <figure>
-  <img src='/wp-content/uploads/gkdev-invite-user-as-user.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
+  <img src='/wp-content/uploads/gkdev-invite-user-as-user-20260317.png' srcset='/wp-content/uploads/gkdev-invite-user-as-user@2x.png' class='img-bordered center help-center-img' alt='User invite screen in GitKraken'>
   <figcaption style='color:#888;text-align:center'>Submit user invitations for approval</figcaption>
 </figure>
 
 Once submitted, Owners, Admins, or Billing Contacts will receive an email notification. They can click **Review** from the email or go to **Users > Review** in the GitKraken interface to approve or deny the invitation. If your organization is at its user limit, approving an invite may prompt a license purchase.
 
 <figure>
-  <img src='/wp-content/uploads/gkdev-review-user-invite.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <img src='/wp-content/uploads/gkdev-review-user-invite-20260317.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
+  <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
+</figure>
+
+<figure>
+  <img src='/wp-content/uploads/gkdev-review-user-invite-2.png' srcset='/wp-content/uploads/gkdev-review-user-invite@2x.png' class='img-bordered center help-center-img' alt='Review and approve user invitation interface'>
   <figcaption style='color:#888;text-align:center'>Approvers can approve, deny, or assign licenses to new users</figcaption>
 </figure>
 
@@ -200,20 +226,20 @@ constance.baker@gitkiraken.com,constancebaker,user,Design Team
 > **Note:** When you include teams in the CSV, these must already exist. Otherwise, gitkraken.dev will ignore the teams column. A single semicolon is used to separate multiple teams.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-import-users.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-import-users-20260317.png" class="img-bordered center help-center-img" alt="CSV import modal in GitKraken">
   <figcaption style="color:#888;text-align:center">Import multiple users via a formatted CSV file</figcaption>
 </figure>
 
 To export your current user list to CSV, click **Export via CSV**. The export will include columns for Email, Username, Role, User License, and Teams.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-export-users.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
+  <img src="/wp-content/uploads/gk-dev-export-users-20260317.png" class="img-bordered center help-center-img" alt="CSV export button in GitKraken">
   <figcaption style="color:#888;text-align:center">Export a CSV of your organization's members</figcaption>
 </figure>
 
 ***
 
-## Teams
+## How to organize members into teams
 
 Teams help you organize members within your GitKraken organization. Teams can also create Shared Workspaces to stay aligned on collaborative work and avoid merge conflicts by seeing what files and branches team members are working on.
 
@@ -249,7 +275,7 @@ Design Team,ashton.kutcher@gitkiraken.com;constance.baker@gitkiraken.com;john.do
 
 ***
 
-## Organization Settings
+## How to manage organization settings
 
 Access your settings at [gitkraken.dev/settings/organization](https://gitkraken.dev/settings/organization?source=help_center&product=gitkraken_dot_dev). From here, you can view subscription details and update:
 
