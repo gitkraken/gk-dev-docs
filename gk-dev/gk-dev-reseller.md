@@ -201,3 +201,7 @@ Actions that would result in a charge — such as adding members beyond the subs
 ## How to generate quotes
 
 You can generate formal quotes for renewals and mid-cycle upgrades (such as adding seats or changing plans) directly from the Edit Plan page. See [How to create a quote](/gk-dev/gk-dev-subscription/#create-quote) for step-by-step instructions.
+
+<div class='callout callout--warning'>
+    <p><strong>Self-service quote limitations:</strong> Quotes for more than 10 seats and quotes for mid-cycle plan upgrades cannot be generated through GitKraken.dev. For these requests, please contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for hands-on assistance.</p>
+</div>

@@ -120,6 +120,10 @@ You can generate a formal quote for subscription renewals or mid-cycle upgrades 
 
 Quotes are available to **Owners**, **Admins**, **Billing Contacts**, and **Resellers**.
 
+<div class='callout callout--warning'>
+    <p><strong>Self-service quote limitations:</strong> Quotes for more than 10 seats and quotes for mid-cycle plan upgrades cannot be generated through GitKraken.dev. For these requests, please contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for hands-on assistance.</p>
+</div>
+
 To create a quote:
 
 1. **Go to the Edit Plan page**
