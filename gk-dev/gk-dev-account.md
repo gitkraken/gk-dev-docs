@@ -1,17 +1,17 @@
 ---
 title: Manage Your GitKraken Account
-description: Set up and manage your GitKraken account used across GitKraken Desktop, GitLens, CLI, and more. Learn how to log in, personalize your profile, and delete your account.
+description: Set up and manage your GitKraken account used across GitKraken Desktop, GitLens, CLI, and more. Learn how to log in, personalize your profile, track your AI usage, and delete your account.
 product: "GitKraken.dev"
 content_type: "how-to"
 audience: "all"
 plan_required: "all"
 status: "GA"
-last_verified: "2026-03"
+last_verified: "2026-04"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: March 2026</kbd>
+<kbd>Last updated: April 2026</kbd>
 
 Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences from a single dashboard. Creating a GitKraken account is free. Your license tier (Community, Pro, Advanced, Business, or Enterprise) is determined by your organization's subscription, not by the account itself.
 
@@ -26,9 +26,10 @@ Your GitKraken account provides access to all GitKraken products and services, i
 
 1. Go to [gitkraken.dev](https://gitkraken.dev?source=help_center) and select a login method: GitHub, GitLab, Bitbucket, Azure DevOps, Google, Microsoft, email, or SSO.
 2. If using email, verify your address via the confirmation link sent to your inbox.
-3. After signing in, click your avatar in the top right to access account settings: display name, avatar, licenses, email preferences, and billing.
+3. After signing in, click your avatar in the top right to access account settings: display name, avatar, licenses, email preferences, billing, and AI usage.
 4. To update your avatar, navigate to account settings and follow the link to Gravatar. GitKraken uses Gravatar for profile images.
-5. To delete your account, go to **Settings > Account Settings > Delete Account**. This action is GDPR-compliant and cannot be undone.
+5. To review your weekly AI credit consumption, go to [gitkraken.dev/account#ai-usage](https://gitkraken.dev/account#ai-usage).
+6. To delete your account, go to **Settings > Account Settings > Delete Account**. This action is GDPR-compliant and cannot be undone.
 
 A single GitKraken account applies across all GitKraken products. Licenses are email-based and tied to one account per person. Avoid creating duplicate accounts.
 
@@ -73,6 +74,34 @@ Click your avatar in the top right to:
 </figure>
 
 GitKraken uses [Gravatar](https://gravatar.com) to manage profile avatars. To change your avatar, select your profile image and follow the link to Gravatar. Updates may take several hours to appear.
+
+***
+
+## View your AI usage
+
+Track how many AI credits you've consumed this week and which GitKraken AI features consumed them. Navigate to [gitkraken.dev/account#ai-usage](https://gitkraken.dev/account#ai-usage), or click your avatar and select **AI usage**.
+
+The page shows usage for your account in the organization currently selected in GitKraken.dev. To view usage against a different organization, switch organizations using the top-left dropdown.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-ai-usage-20260424.png" class="img-bordered center help-center-img" alt="AI usage page showing weekly credit total, organization usage, and a breakdown of credits consumed per AI feature">
+  <figcaption style="color:#888;text-align:center">View your weekly AI credit consumption and a per-feature breakdown</figcaption>
+</figure>
+
+The page is divided into three sections:
+
+- **AI usage details** — Your personal weekly credit consumption (for example, `35.4k/4000k credits this week`). If you are approaching your limit, click **Upgrade your plan** to increase your allotment.
+- **Organization usage** — Aggregate AI usage for the selected organization and the date the organization's allotment resets (shown in UTC).
+- **Usage breakdown** — The GitKraken AI actions that have consumed credits this period (for example, **Commit Message** or **Explain Changes**), the share of total usage each represents, and — via the <kbd>?</kbd> tooltip — the exact token count consumed by that action. Click **See all AI actions** to view the full list.
+
+<figure>
+  <img src="/wp-content/uploads/gk-dev-ai-usage-breakdown-tooltip-20260424.png" class="img-bordered center help-center-img" alt="Tooltip on the Commit Message row showing the action description and token count">
+  <figcaption style="color:#888;text-align:center">Hover the <kbd>?</kbd> icon next to an action to see its description and exact token count</figcaption>
+</figure>
+
+<div class='callout callout--info'>
+  <p>AI credits are consumed based on the amount of content sent to the AI provider. Larger diffs, longer prompts, and repeated requests on the same input all increase token consumption. See <a href="/gk-dev/gk-dev-faq/#ive-consumed-all-my-weekly-tokens-in-1-commit-message-generation-why">the FAQ</a> for more detail.</p>
+</div>
 
 ***
 
