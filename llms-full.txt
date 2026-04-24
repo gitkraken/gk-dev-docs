@@ -95,9 +95,10 @@ Note: Your GitKraken account is not compatible with Git Integration for Jira. We
 
 1. Go to gitkraken.dev and select a login method: GitHub, GitLab, Bitbucket, Azure DevOps, Google, Microsoft, email, or SSO.
 2. If using email, verify your address via the confirmation link sent to your inbox.
-3. After signing in, click your avatar in the top right to access account settings: display name, avatar, licenses, email preferences, and billing.
+3. After signing in, click your avatar in the top right to access account settings: display name, avatar, licenses, email preferences, billing, and AI usage.
 4. To update your avatar, navigate to account settings and follow the link to Gravatar. GitKraken uses Gravatar for profile images.
-5. To delete your account, go to Settings > Account Settings > Delete Account. This action is GDPR-compliant and cannot be undone.
+5. To review your weekly AI credit consumption, go to gitkraken.dev/account#ai-usage.
+6. To delete your account, go to Settings > Account Settings > Delete Account. This action is GDPR-compliant and cannot be undone.
 
 A single GitKraken account applies across all GitKraken products. Licenses are email-based and tied to one account per person.
 
@@ -128,6 +129,20 @@ Click your avatar in the top right to:
 - View your plan and billing information
 
 GitKraken uses Gravatar to manage profile avatars. To change your avatar, select your profile image and follow the link to Gravatar. Updates may take several hours to appear.
+
+### View your AI usage
+
+Track how many AI credits you've consumed this week and which GitKraken AI features consumed them. Navigate to gitkraken.dev/account#ai-usage, or click your avatar and select AI usage.
+
+The page shows usage for your account in the organization currently selected in GitKraken.dev. To view usage against a different organization, switch organizations using the top-left dropdown.
+
+The page is divided into three sections:
+
+- **AI usage details** — Your personal weekly credit consumption (for example, 35.4k/4000k credits this week). If you are approaching your limit, click "Upgrade your plan" to increase your allotment.
+- **Organization usage** — Aggregate AI usage for the selected organization and the date the organization's allotment resets (shown in UTC).
+- **Usage breakdown** — The GitKraken AI actions that have consumed credits this period (for example, Commit Message or Explain Changes), the share of total usage each represents, and — via the "?" tooltip — the exact token count consumed by that action. Click "See all AI actions" to view the full list.
+
+AI credits are consumed based on the amount of content sent to the AI provider. Larger diffs, longer prompts, and repeated requests on the same input all increase token consumption.
 
 ### Delete your account
 
@@ -384,6 +399,17 @@ Your GitKraken Desktop will revert to the free version. You won't lose any data,
 ### I need my credit card info removed after purchase.
 
 Please contact our accounting team. Most requests are completed within one business day.
+
+### I've consumed all my weekly tokens in 1 commit message generation, why?
+
+AI credits are consumed based on the size of the content sent to the AI provider, not the number of actions you take. A single commit message generation against a large diff — many modified files, or very large files — can consume a significant portion of your weekly allotment in one request.
+
+To reduce consumption:
+- Generate commit messages on smaller, more focused changesets.
+- Avoid re-running generation on the same diff; each attempt counts against your allotment.
+- If you regularly work on large changesets, upgrade your plan to increase your weekly credit allotment.
+
+You can review your remaining credits, the per-feature breakdown, and the reset date at gitkraken.dev/account#ai-usage.
 
 ---
 
