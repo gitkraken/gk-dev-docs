@@ -6,12 +6,12 @@ content_type: "faq"
 audience: "all"
 plan_required: "all"
 status: "GA"
-last_verified: "2026-03"
+last_verified: "2026-04"
 taxonomy:
     category: gk-dev
 ---
 
-<kbd>Last updated: March 2026</kbd>
+<kbd>Last updated: April 2026</kbd>
 
 This page answers the most common questions about GitKraken accounts, licenses, billing, and subscription management. GitKraken accounts are email-based and apply across GitKraken Desktop, GitLens, CLI, and GitKraken.dev. For organization and role management, see [Organization Management](/gk-dev/gk-dev-organization/).
 
@@ -109,6 +109,22 @@ If you're using the Serverless client, the app locks upon expiration until a new
 ## I need my credit card info removed after purchase.
 
 Please [contact our accounting team](https://www.gitkraken.com/billing-issues?source=help_center&product=gitkraken_dot_dev). Most requests are completed within one business day.
+
+***
+
+## I've consumed all my weekly tokens in 1 commit message generation, why?
+
+AI credits are consumed based on the size of the content sent to the AI provider, not the number of actions you take. A single commit message generation against a large diff — many modified files, or very large files — can consume a significant portion of your weekly allotment in one request.
+
+To reduce consumption:
+
+- Generate commit messages on smaller, more focused changesets.
+- Avoid re-running generation on the same diff; each attempt counts against your allotment.
+- If you regularly work on large changesets, [upgrade your plan](https://gitkraken.dev/subscription?source=help_center&product=gitkraken_dot_dev) to increase your weekly credit allotment.
+
+You can review your remaining credits, the per-feature breakdown, and the reset date at [gitkraken.dev/account#ai-usage](/gk-dev/gk-dev-account/#view-your-ai-usage).
+
+***
 
 ### My Student Plan is not activating. 
 
