@@ -52,7 +52,7 @@ GitKraken Insights is available by request only. To get started, [request a guid
 
 Once your access is approved, you can connect Insights to your repositories and configure settings for your organization.  
 
-Currently, Insights supports connections with GitHub, GitLab, Bitbucket and Jira Cloud. Support for Azure DevOps is coming soon. 
+Currently, Insights supports connections with GitHub, GitLab, Bitbucket, Azure DevOps, and Jira Cloud.
 
 In addition, you can connect AI providers to enable AI Impact insights (like Duplicated Code, Prompt Acceptance Rate, and more).
 
@@ -62,7 +62,7 @@ In addition, you can connect AI providers to enable AI Impact insights (like Dup
 | GitLab | Git provider | GA | OAuth via GitKraken Insights |
 | Bitbucket | Git provider | GA | OAuth via GitKraken Insights |
 | Jira Cloud | Issue tracker | GA | OAuth via GitKraken Insights |
-| Azure DevOps | Git provider | Coming soon | -- |
+| Azure DevOps | Git provider | GA | OAuth via GitKraken Insights |
 | Cursor | AI provider | GA | API token |
 | GitHub Copilot | AI provider | GA | API token |
 
