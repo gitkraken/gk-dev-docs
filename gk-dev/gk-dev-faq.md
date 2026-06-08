@@ -126,10 +126,10 @@ You can review your remaining credits, the per-feature breakdown, and the reset 
 
 ***
 
-### My Student Plan is not activating. 
+## My Student Plan is not activating. 
 
 Please follow these instructions exactly, [Student Pack Activation](https://help.gitkraken.com/gk-dev/gk-dev-student-pack/). Skipping a step or not activating the account as outlined can fail to attach the benefits. 
 
-#### I have reached out to Support regarding my Student Benefits and have not received a response. 
+## I have reached out to Support regarding my Student Benefits and have not received a response. 
 
 While we try to get to everyone who reaches out, a response is not guaranteed to all users. This includes any users who are on Student and Community plans. We encourage all users to engage in our community and utilize our self service resources.
