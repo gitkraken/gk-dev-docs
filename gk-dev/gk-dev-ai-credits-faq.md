@@ -69,5 +69,6 @@ For a breakdown of pricing for credits, please see our [Pricing page](https://ww
 ---
 
 ## Why do features cost credits in addition to the AI model?
-	A:Some AI features have an additional cost added aside from the AI cost due to value added as part of the feature functionality 
+
+Some AI features have an additional cost added aside from the AI cost due to value added as part of the feature functionality 
 ---
