@@ -57,7 +57,11 @@ This is the AI credit limit that is used for non user specific AI actions, like 
 ---
 
 ## What if I run out of AI credits mid-cycle?
-If your personal credit limit runs out before your next refresh, Gitkraken will start pulling from the organization’s overall available credit limit. If that limit is exhausted, then additional credits can be purchased by your organization.
+If your personal credit limit runs out before your next refresh, Gitkraken will start pulling from the organization’s overall available credit limit. If that limit is exhausted, then additional credits can be purchased by your organization as credit add-ons.
+---
+
+## What are credit add-ons?
+Credit add-ons are additional AI credits your organization can purchase on top of its plan allotment. They’re useful when your team consistently reaches its credit limit before the next refresh. Add-on credits are pooled into the organization’s overall available credit limit and are drawn on once the plan’s included credits are exhausted. Add-on credits can only be purchased by Owners, Admins, or Billing Contacts.
 ---
 
 ## Will the credit cost of a given action change later?

@@ -84,13 +84,13 @@ Track how many AI credits you've consumed this week and which GitKraken AI featu
 The page shows usage for your account in the organization currently selected in GitKraken.dev. To view usage against a different organization, switch organizations using the top-left dropdown.
 
 <figure>
-  <img src="/wp-content/uploads/gk-dev-ai-usage-20260424.png" class="img-bordered center help-center-img" alt="AI usage page showing weekly credit total, organization usage, and a breakdown of credits consumed per AI feature">
-  <figcaption style="color:#888;text-align:center">View your weekly AI credit consumption and a per-feature breakdown</figcaption>
+  <img src="/wp-content/uploads/gk-dev-ai-usage-20260618.png" class="img-bordered center help-center-img" alt="AI usage page showing weekly credit total, shared weekly credits with a credit add-on, and a breakdown of credits consumed per AI feature">
+  <figcaption style="color:#888;text-align:center">View your weekly AI credit consumption, shared credits and add-ons, and a per-feature breakdown</figcaption>
 </figure>
 
 The page is divided into three sections:
 
-- **AI usage details** — Your personal weekly credit consumption (for example, `35.4k/4000k credits this week`). If you are approaching your limit, click **Upgrade your plan** to increase your allotment.
+- **AI usage details** — Your personal weekly credit consumption (for example, `35.4k/4000k credits this week`). If you are approaching your limit, click **Upgrade your plan** to increase your allotment. If your organization needs more credits beyond its plan, additional credits can be purchased as credit add-ons. See [What are credit add-ons?](/gk-dev/gk-dev-ai-credits-faq/#what-are-credit-add-ons) in the AI Credits FAQ for details.
 - **Organization usage** — Aggregate AI usage for the selected organization and the date the organization's allotment resets (shown in UTC).
 - **Usage breakdown** — The GitKraken AI actions that have consumed credits this period (for example, **Commit Message** or **Explain Changes**), the share of total usage each represents, and — via the <kbd>?</kbd> tooltip — the exact token count consumed by that action. Click **See all AI actions** to view the full list.
 
