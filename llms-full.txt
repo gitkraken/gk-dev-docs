@@ -138,7 +138,7 @@ The page shows usage for your account in the organization currently selected in 
 
 The page is divided into three sections:
 
-- **AI usage details** — Your personal weekly credit consumption (for example, 35.4k/4000k credits this week). If you are approaching your limit, click "Upgrade your plan" to increase your allotment.
+- **AI usage details** — Your personal weekly credit consumption (for example, 35.4k/4000k credits this week). If you are approaching your limit, click "Upgrade your plan" to increase your allotment. If your organization needs more credits beyond its plan, additional credits can be purchased as credit add-ons (see the AI Credits FAQ).
 - **Organization usage** — Aggregate AI usage for the selected organization and the date the organization's allotment resets (shown in UTC).
 - **Usage breakdown** — The GitKraken AI actions that have consumed credits this period (for example, Commit Message or Explain Changes), the share of total usage each represents, and — via the "?" tooltip — the exact token count consumed by that action. Click "See all AI actions" to view the full list.
 
@@ -410,6 +410,64 @@ To reduce consumption:
 - If you regularly work on large changesets, upgrade your plan to increase your weekly credit allotment.
 
 You can review your remaining credits, the per-feature breakdown, and the reset date at gitkraken.dev/account#ai-usage.
+
+---
+
+## GitKraken AI Credits FAQ
+
+URL: https://help.gitkraken.com/gk-dev/gk-dev-ai-credits-faq/
+
+### Why are we switching from tokens to credits?
+
+Credits are a single, customer-facing unit that reflects the value of the work performed. Tokens were a technical artifact that forced customers to think in model internals to predict cost. With newer AI features that vary widely in compute (agent runs, long-running operations), a credit-based view is both simpler to understand and more accurately tied to what we deliver.
+
+### What exactly is a credit?
+
+A credit is a unit of work. Its size depends on the model used, the length of the request, the complexity of the operation, and how much context the feature pulled in.
+
+### How many credits equal one old token?
+
+There is no fixed conversion. The relationship between tokens and credits depends on several factors that change by request — model, length, operation type, context size. Any single number would be misleading.
+
+### Can you share the formula internally so I can explain it better?
+
+No, and here's why: even internally, there is no single formula. The pricing team adjusts the underlying weights as models and features evolve, so any number memorized today could be wrong next month. Stick to the variability framing — it ages well.
+
+### Will my usage change month-to-month?
+
+Yes, more visibly than before. Credits track usage, and usage varies. You'll see your credit consumption move with how you use AI features, and the type of usage.
+
+### What models are being used?
+
+We route different operations to different models based on what's best suited to the task.
+
+### What is an individual AI credit limit?
+
+This is the AI credit limit used for user-specific AI actions, like composing commits, explaining changes, and other AI functions generally used by individual users.
+
+### What is an Organization AI credit limit?
+
+This is the AI credit limit used for non-user-specific AI actions, like automations. In some cases, this limit may be used to cover user actions by users that have exhausted their personal credit limit.
+
+### What if I run out of AI credits mid-cycle?
+
+If your personal credit limit runs out before your next refresh, GitKraken will start pulling from the organization's overall available credit limit. If that limit is exhausted, then additional credits can be purchased by your organization as credit add-ons.
+
+### What are credit add-ons?
+
+Credit add-ons are additional AI credits your organization can purchase on top of its plan allotment. They're useful when your team consistently reaches its credit limit before the next refresh. Add-on credits are pooled into the organization's overall available credit limit and are drawn on once the plan's included credits are exhausted. Add-on credits can only be purchased by Owners, Admins, or Billing Contacts.
+
+### Will the credit cost of a given action change later?
+
+Yes, the cost of specific operations may be adjusted as the underlying models and features evolve.
+
+### How much do credits cost?
+
+For a breakdown of pricing for credits, please see our Pricing page (gitkraken.com/pricing) for details.
+
+### Why do features cost credits in addition to the AI model?
+
+Some AI features have an additional cost beyond the AI cost, reflecting the value added by the feature's functionality.
 
 ---
 
