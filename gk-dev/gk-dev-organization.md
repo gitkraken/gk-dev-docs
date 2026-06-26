@@ -42,8 +42,8 @@ Roles determine what permissions a member has within your organization. There ar
 
 - **Owner** – Each organization has one owner by default. The owner has full administrative and billing permissions and consumes a license.
 - **Admin** – Has full administrative and billing permissions and consumes a license. Admins cannot change or remove the owner.
-- **User** – Can manage teams but no other administrative permissions. This role consumes a license.
-- **Lead** – Has access to GitKraken Insights and can manage teams but no other administrative permissions. This role consumes a license.
+- **User** – Has no administrative permissions and cannot create or manage teams. This role consumes a license.
+- **Lead** – Has access to GitKraken Insights and can manage teams but no other administrative permissions. This role requires GitKraken Insights to be enabled and consumes a license.
 - **Billing Contact** – Manages billing-related settings and receives invoices. This role does not consume a license.
 
 <table class='table table--bordered table--shortcuts'>
@@ -79,7 +79,7 @@ Roles determine what permissions a member has within your organization. There ar
             <th>✅</th>
             <th>✅</th>
             <th>✅</th>
-            <th>✅</th>
+            <th></th>
             <th>✅</th>
         </tr>
         <tr>
@@ -243,7 +243,7 @@ To export your current user list to CSV, click **Export via CSV**. The export wi
 
 Teams help you organize members within your GitKraken organization. Teams can also create Shared Workspaces to stay aligned on collaborative work and avoid merge conflicts by seeing what files and branches team members are working on.
 
-Any member can create a team from the **Teams** tab in your organization at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev). For details on creating and working with teams, visit the [Teams](/gitkraken-desktop/teams/) documentation.
+Members with the Owner, Admin, Lead, or Billing Contact role can create a team from the **Teams** tab in your organization at [gitkraken.dev](https://gitkraken.dev?source=help_center&product=gitkraken_dot_dev). Users cannot create or manage teams. For details on creating and working with teams, visit the [Teams](/gitkraken-desktop/teams/) documentation.
 
 ### Bulk Import Teams
 
