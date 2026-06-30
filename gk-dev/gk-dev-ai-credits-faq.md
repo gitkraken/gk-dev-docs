@@ -76,3 +76,19 @@ For a breakdown of pricing for credits, please see our [Pricing page](https://ww
 
 Some AI features have an additional cost added aside from the AI cost due to value added as part of the feature functionality 
 ---
+
+## Why do my GK-provided credits get utilized when I am using my own BYOK provider/model?
+
+While the processing of requests is handled directly by your provider when using BYOK, GitKraken still utilizes a smaller amount of GK Credits for using our built-in AI features (eg: commit message generation, conflict resolution) due to the value of the feature-functionality we are providing. We are not charging for any token or processing usage, but rather for utilizing the functional IP we've built.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Note: GitKraken does not intercept or receive any sensitive information as part of this process. We receive basic function telemetry that we use to determine how many GK Credits to utilize for each instance of usage.
+    </div>
+    </div>
+</div>
+
+---
