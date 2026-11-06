@@ -9,6 +9,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "accounts-and-licenses"
+    nav_label: "Trials"
+    nav_order: 70
+    nav_parent: "accounts-and-licenses"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

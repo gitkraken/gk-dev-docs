@@ -9,6 +9,12 @@ status: "GA"
 last_verified: "2026-06"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "gk-dev-ai-credits-faq"
+    nav_label: "GitKraken AI Credits FAQ"
+    nav_order: 70
+    nav_parent: ""
+    page_type: "content"
 ---
 
 <kbd>Last updated: June 2026</kbd>

@@ -11,6 +11,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "gk-dev-security-controls"
+    nav_label: "Security Controls & Cloud Patch Configuration"
+    nav_order: 50
+    nav_parent: ""
+    page_type: "content"
 ---
 
 <kbd>Last updated: March 2026</kbd>
