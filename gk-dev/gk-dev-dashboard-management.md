@@ -9,6 +9,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "gk-dev-insights"
+    nav_label: "Dashboard Management in GitKraken Insights"
+    nav_order: 10
+    nav_parent: "gk-dev-insights"
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

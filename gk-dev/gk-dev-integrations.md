@@ -10,6 +10,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "gk-dev-integrations"
+    nav_label: "Connect Integrations"
+    nav_order: 20
+    nav_parent: ""
+    page_type: "content"
 ---
 
 <kbd>Last updated: March 2026</kbd>

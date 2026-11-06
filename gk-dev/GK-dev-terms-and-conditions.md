@@ -9,6 +9,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "gk-dev-terms-and-conditions"
+    nav_label: "GitKraken Cloud Services Support Terms and Conditions"
+    nav_order: 80
+    nav_parent: ""
+    page_type: "content"
 ---
 
 

@@ -12,6 +12,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "accounts-and-licenses"
+    nav_label: "Configure Single Sign-On (SSO)"
+    nav_order: 50
+    nav_parent: "accounts-and-licenses"
+    page_type: "content"
 ---
 
 Single Sign-On (SSO) lets organization Owners and Admins enforce centralized authentication for all GitKraken users on verified email domains. SSO is supported only for GitKraken cloud organizations; On-Premise plans are not supported.

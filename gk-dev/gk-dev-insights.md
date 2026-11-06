@@ -10,6 +10,12 @@ status: "GA"
 last_verified: "2026-03"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "gk-dev-insights"
+    nav_label: "Getting Started with GitKraken Insights"
+    nav_order: 30
+    nav_parent: ""
+    page_type: "content"
 ---
 <kbd>Last updated: March 2026</kbd>
 

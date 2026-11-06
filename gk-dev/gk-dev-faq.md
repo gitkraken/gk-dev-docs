@@ -9,6 +9,12 @@ status: "GA"
 last_verified: "2026-04"
 taxonomy:
     category: gk-dev
+custom_fields:
+    nav_category: "accounts-and-licenses"
+    nav_label: "FAQ"
+    nav_order: 80
+    nav_parent: "accounts-and-licenses"
+    page_type: "content"
 ---
 
 <kbd>Last updated: April 2026</kbd>
