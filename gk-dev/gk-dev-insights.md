@@ -6,7 +6,7 @@ content_type: "install"
 audience: "admin"
 plan_required: "Add-on (by request)"
 integrations: ["GitHub", "GitLab", "Bitbucket", "Jira Cloud"]
-status: "GA"
+status: "preview"
 last_verified: "2026-03"
 feature: "GitKraken Insights"
 git_hosts: [github, gitlab, bitbucket, azure-devops]

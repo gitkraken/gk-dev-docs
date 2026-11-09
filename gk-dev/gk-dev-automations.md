@@ -6,7 +6,7 @@ content_type: "how-to"
 audience: "developer"
 plan_required: "Advanced, Business, Enterprise"
 cloud_only: true
-status: "GA"
+status: "preview"
 last_verified: "2026-03"
 feature: "Automations"
 git_hosts: [github, gitlab, bitbucket, azure-devops]

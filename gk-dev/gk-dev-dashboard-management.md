@@ -5,7 +5,7 @@ product: "GitKraken Insights"
 content_type: "reference"
 audience: "admin"
 plan_required: "Insights add-on"
-status: "GA"
+status: "preview"
 last_verified: "2026-03"
 feature: "Insights Dashboards"
 git_hosts: [github]
