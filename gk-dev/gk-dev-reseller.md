@@ -2,7 +2,7 @@
 title: GitKraken Reseller Guide
 description: Learn how to register, purchase, and manage GitKraken subscriptions as a reseller, including billing, payment methods, and subscription changes for customer organizations.
 product: "GitKraken.dev"
-content_type: "admin"
+content_type: "how-to"
 audience: "reseller"
 plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Billing Contact, Reseller"

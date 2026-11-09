@@ -2,7 +2,7 @@
 title: Manage GitKraken Subscription and Billing
 description: Purchase or cancel GitKraken subscriptions, create quotes for renewals and seat expansions, update billing info, and download past invoices.
 product: "GitKraken.dev"
-content_type: "admin"
+content_type: "how-to"
 audience: "admin"
 plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Admin, Billing Contact"

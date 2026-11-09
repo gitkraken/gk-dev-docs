@@ -2,7 +2,7 @@
 title: GitKraken Cloud Services Support Terms and Conditions
 description: Learn about GitKraken Cloud Services Support terms and conditions.
 product: "GitKraken.dev"
-content_type: "reference"
+content_type: "policy"
 audience: "all"
 plan_required: "all"
 status: "GA"
