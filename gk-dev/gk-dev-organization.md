@@ -2,7 +2,7 @@
 title: Manage GitKraken Organizations | Roles, Users, Teams, SSO
 description: Learn how to manage GitKraken organizations, assign roles, add users, configure teams, and set up SSO.
 product: "GitKraken.dev"
-content_type: "admin"
+content_type: "how-to"
 audience: "admin"
 plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Admin"

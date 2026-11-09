@@ -2,7 +2,7 @@
 title: GitKraken.dev Support Home
 description: Learn how to work with GitKraken.dev features including Launchpad, Cloud Patches, Workspaces, and Code Suggestions.
 product: "GitKraken.dev"
-content_type: "concept"
+content_type: "home"
 audience: "all"
 plan_required: "Pro or higher (Launchpad, Workspaces, Cloud Patches, Code Suggest)"
 status: "GA"
