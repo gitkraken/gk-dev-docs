@@ -8,6 +8,12 @@ plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Admin, Billing Contact"
 status: "GA"
 last_verified: "2026-04"
+feature: "Subscriptions and Billing"
+git_hosts: [n/a]
+integrations: []
+hosted_variant: cloud
+llms_include: true
+tags: [subscription, billing, purchase, licenses, seats, quotes, invoices, cancel]
 taxonomy:
     category: gk-dev
 custom_fields:

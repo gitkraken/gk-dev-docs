@@ -7,6 +7,13 @@ audience: "developer"
 plan_required: "Community (Student Pack)"
 status: "GA"
 last_verified: "2026-03"
+feature: "Student Pack"
+git_hosts: [n/a]
+integrations: [github]
+hosted_variant: cloud
+role_required: [all]
+llms_include: true
+tags: [student-pack, github-student-developer-pack, trial, education, discount, pro]
 taxonomy:
     category: gk-dev
 custom_fields:

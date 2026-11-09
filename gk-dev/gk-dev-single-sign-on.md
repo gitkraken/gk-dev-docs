@@ -10,6 +10,10 @@ cloud_only: true
 integrations: ["G Suite", "Azure Active Directory", "Okta", "Ping Identity"]
 status: "GA"
 last_verified: "2026-03"
+feature: "Single Sign-On"
+git_hosts: [n/a]
+llms_include: true
+tags: [sso, saml, identity-provider, okta, azure-active-directory, jit-provisioning, domain-verification]
 taxonomy:
     category: gk-dev
 custom_fields:

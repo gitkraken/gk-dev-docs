@@ -8,6 +8,12 @@ plan_required: "Add-on (by request)"
 integrations: ["GitHub", "GitLab", "Bitbucket", "Jira Cloud"]
 status: "GA"
 last_verified: "2026-03"
+feature: "GitKraken Insights"
+git_hosts: [github, gitlab, bitbucket, azure-devops]
+hosted_variant: cloud
+role_required: [Owner, Admin]
+llms_include: true
+tags: [insights, data-connection, import-repositories, rate-limits, ai-providers, request-access]
 taxonomy:
     category: gk-dev
 custom_fields:

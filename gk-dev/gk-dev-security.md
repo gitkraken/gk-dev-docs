@@ -8,6 +8,12 @@ plan_required: "all (SOC 2 reports: Business, Enterprise)"
 cloud_only: true
 status: "GA"
 last_verified: "2026-03"
+feature: "Security Information"
+git_hosts: [n/a]
+integrations: []
+role_required: [all]
+llms_include: true
+tags: [security, encryption, data-collection, soc-2, tls, aes-256]
 taxonomy:
     category: gk-dev
 custom_fields:

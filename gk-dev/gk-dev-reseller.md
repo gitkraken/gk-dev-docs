@@ -8,6 +8,12 @@ plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Billing Contact, Reseller"
 status: "GA"
 last_verified: "2026-04"
+feature: "Reseller Guide"
+git_hosts: [n/a]
+integrations: []
+hosted_variant: cloud
+llms_include: true
+tags: [reseller, purchase, subscription, billing, quotes, transfer-ownership, licenses]
 taxonomy:
     category: gk-dev
 custom_fields:
