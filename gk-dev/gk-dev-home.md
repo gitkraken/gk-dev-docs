@@ -113,7 +113,7 @@ Cloud Patches let you securely store and share Git patches without a pull reques
 
 ### Create and Share Cloud Patches
 
-Initiate patches from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](gitlens/gitlens-features/#cloud-patches-preview), or [GitKraken CLI](/cli/cli-home/#cloud-patches). Manage shared Cloud Patches from gitkraken.dev.
+Initiate patches from [GitKraken Desktop](/gitkraken-client/experimental-features/#cloud-patches), [GitLens](/gitlens/gl-features-pull-requests-and-collaboration/#cloud-patches-preview), or [GitKraken CLI](/cli/cli-home/#cloud-patches). Manage shared Cloud Patches from gitkraken.dev.
 
 <figure>
   <img src="/wp-content/uploads/gkd-cloud-patch-view-20260227.png" class="img-responsive center img-bordered help-center-img" alt="List of cloud patches in GitKraken.dev">
@@ -179,7 +179,7 @@ Suggest code edits across your codebase—not just changed lines—using GitKrak
 
 ### Working with Code Suggestions
 
-Create suggestions in [GitKraken Desktop](/gitkraken-client/pull-requests/#review-code-and-suggest-changes) or [GitLens](gitlens/gitlens-features/#code-suggest-preview).
+Create suggestions in [GitKraken Desktop](/gitkraken-client/pull-requests/#review-code-and-suggest-changes) or [GitLens](/gitlens/gl-features-pull-requests-and-collaboration/#code-suggest).
 
 Once submitted, the pull request includes a comment with links to open the suggestion in GitKraken.dev or on your machine.
 
