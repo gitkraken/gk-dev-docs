@@ -7,6 +7,13 @@ audience: "all"
 plan_required: "all"
 status: "GA"
 last_verified: "2026-04"
+feature: "Accounts and Licenses"
+git_hosts: [n/a]
+integrations: []
+hosted_variant: cloud
+role_required: [all]
+llms_include: true
+tags: [faq, licenses, billing, ownership, invoices, purchase-order, student-pack, ai-credits]
 taxonomy:
     category: gk-dev
 custom_fields:

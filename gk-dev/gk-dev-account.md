@@ -7,6 +7,13 @@ audience: "all"
 plan_required: "all"
 status: "GA"
 last_verified: "2026-04"
+feature: "Account Management"
+git_hosts: [n/a]
+integrations: []
+hosted_variant: cloud
+role_required: [all]
+llms_include: true
+tags: [account, sign-in, login, profile, gravatar, ai-usage, ai-credits, delete-account]
 taxonomy:
     category: gk-dev
 custom_fields:

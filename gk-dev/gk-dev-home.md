@@ -7,6 +7,13 @@ audience: "all"
 plan_required: "Pro or higher (Launchpad, Workspaces, Cloud Patches, Code Suggest)"
 status: "GA"
 last_verified: "2026-03"
+feature: "Help Center Home"
+git_hosts: [github, gitlab, bitbucket, azure-devops]
+integrations: []
+hosted_variant: cloud
+role_required: [all]
+llms_include: true
+tags: [launchpad, workspaces, cloud-patches, code-suggest, pull-requests, issues]
 taxonomy:
     category: gk-dev
 custom_fields:

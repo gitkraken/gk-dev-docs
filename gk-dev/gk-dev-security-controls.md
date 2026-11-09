@@ -9,6 +9,11 @@ role_required: "Owner, Admin, Billing Contact"
 cloud_only: true
 status: "GA"
 last_verified: "2026-03"
+feature: "Security Controls"
+git_hosts: [n/a]
+integrations: [anthropic, azure, deepseek, github-copilot, google, hugging-face, mistral, ollama, openai, openai-compatible, openrouter, xai, aws-s3]
+llms_include: true
+tags: [security-controls, ai-features, ai-providers, api-keys, cloud-patches, aws-s3, self-hosted]
 taxonomy:
     category: gk-dev
 custom_fields:

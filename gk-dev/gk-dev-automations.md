@@ -8,6 +8,12 @@ plan_required: "Advanced, Business, Enterprise"
 cloud_only: true
 status: "GA"
 last_verified: "2026-03"
+feature: "Automations"
+git_hosts: [github, gitlab, bitbucket, azure-devops]
+integrations: []
+role_required: [Owner, Admin]
+llms_include: true
+tags: [automations, pull-requests, webhooks, conditions, actions, code-review, gitkraken-ai]
 taxonomy:
     category: gk-dev
 custom_fields:

@@ -7,6 +7,13 @@ audience: "admin"
 plan_required: "Insights add-on"
 status: "GA"
 last_verified: "2026-03"
+feature: "Insights Dashboards"
+git_hosts: [github]
+integrations: []
+hosted_variant: cloud
+role_required: [Owner, Admin, Lead]
+llms_include: true
+tags: [insights, dashboards, metrics, dora, pull-requests, ai-impact, trendlines, filters]
 taxonomy:
     category: gk-dev
 custom_fields:

@@ -7,6 +7,13 @@ audience: "all"
 plan_required: "all"
 status: "GA"
 last_verified: "2026-03"
+feature: "Support Terms and Conditions"
+git_hosts: [n/a]
+integrations: []
+hosted_variant: cloud
+role_required: [all]
+llms_include: true
+tags: [support, terms, sla, response-time, end-of-life, policy]
 taxonomy:
     category: gk-dev
 custom_fields:

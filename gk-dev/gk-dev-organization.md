@@ -8,6 +8,12 @@ plan_required: "Pro, Advanced, Business, Enterprise"
 role_required: "Owner, Admin"
 status: "GA"
 last_verified: "2026-03"
+feature: "Organization Management"
+git_hosts: [n/a]
+integrations: []
+hosted_variant: cloud
+llms_include: true
+tags: [organization, roles, users, teams, licenses, csv-import, transfer-ownership]
 taxonomy:
     category: gk-dev
 custom_fields:

@@ -8,6 +8,12 @@ plan_required: "all"
 integrations: ["GitHub", "GitLab", "Bitbucket", "Azure DevOps"]
 status: "GA"
 last_verified: "2026-03"
+feature: "Integrations"
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed, bitbucket, bitbucket-data-center, azure-devops, azure-devops-server]
+hosted_variant: cloud
+role_required: [all]
+llms_include: true
+tags: [integrations, github, gitlab, bitbucket, azure-devops, personal-access-token, self-hosted, oauth]
 taxonomy:
     category: gk-dev
 custom_fields:
