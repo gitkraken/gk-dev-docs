@@ -84,9 +84,7 @@ To purchase a subscription for the first time:
 7. Click the **Buy now** button to complete your purchase.
 8. If you added more licenses than there are users to assign them to, you’ll be redirected to the **Add Users** screen.
 
-<div class='callout callout--info'>
-    <p>If you encounter issues while purchasing and have verified your payment method, please <a href="https://www.gitkraken.com/billing-issues">contact us</a> for support.</p>
-</div>
+> **Note:** If you encounter issues while purchasing and have verified your payment method, please [contact us](https://www.gitkraken.com/billing-issues) for support.
 
 ***
 
@@ -132,9 +130,7 @@ You can generate a formal quote for subscription renewals or mid-cycle upgrades 
 
 Quotes are available to **Owners**, **Admins**, **Billing Contacts**, and **Resellers**.
 
-<div class='callout callout--warning'>
-    <p><strong>Self-service quote limitations:</strong> Quotes for more than 10 seats and quotes for mid-cycle plan upgrades cannot be generated through GitKraken.dev. For these requests, please contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for hands-on assistance.</p>
-</div>
+> **Warning:** **Self-service quote limitations:** Quotes for more than 10 seats and quotes for mid-cycle plan upgrades cannot be generated through GitKraken.dev. For these requests, please contact our [Customer Success team](https://www.gitkraken.com/sales-inquiries) for hands-on assistance.
 
 To create a quote:
 
@@ -168,9 +164,7 @@ To create a quote:
      <figcaption style="color: #888; text-align: center;">Links to your generated quotes are displayed after creation.</figcaption>
    </figure>
 
-<div class='callout callout--info'>
-    <p>Creating a quote does not modify your subscription or trigger a charge. It only generates a quote document for review.</p>
-</div>
+> **Note:** Creating a quote does not modify your subscription or trigger a charge. It only generates a quote document for review.
 
 ### What quotes are generated
 
@@ -196,9 +190,7 @@ Once canceled, your subscription remains active until the end of the current bil
 
 Organizations with a pending cancellation will be labeled as **non-renewing**. Once fully expired, they will appear as **canceled**.
 
-<div class='callout callout--info'>
-    <p>Only the Owner, Admins, and Billing Contacts can cancel subscriptions.</p>
-</div>
+> **Note:** Only the Owner, Admins, and Billing Contacts can cancel subscriptions.
 
 ***
 

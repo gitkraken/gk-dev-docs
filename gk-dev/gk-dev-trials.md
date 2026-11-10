@@ -71,9 +71,7 @@ Business trials include:
 - Support for multiple users and license management
 - SSO setup and workspace configuration
 
-<div class='callout callout--warning'>
-  <p>Each user can only join one Business trial. Owners can’t start another Business trial after the first one ends.</p>
-</div>
+> **Warning:** Each user can only join one Business trial. Owners can’t start another Business trial after the first one ends.
 
 ***
 

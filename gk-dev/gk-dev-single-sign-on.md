@@ -28,9 +28,7 @@ Single Sign-On (SSO) lets organization Owners and Admins enforce centralized aut
 
 Once your organization has set up SSO with an Identity Provider (IdP), the Owner or an Admin can link the GitKraken organization to that IdP. After linking, users associated with the IdP can log in to GitKraken apps and services.
 
-<div class='callout callout--info'>
-    <p>SSO is available with a GitKraken Advanced, Business, or Enterprise subscription. It is also included in the 30-day multi-user trial.</p>
-</div>
+> **Note:** SSO is available with a GitKraken Advanced, Business, or Enterprise subscription. It is also included in the 30-day multi-user trial.
 
 ## Quick Start
 
@@ -125,9 +123,8 @@ Note: JIT only works if there are available licenses. If none are available, use
 - If a user logs in with SSO but is not part of the organization, they’ll be prompted to contact an admin.
 - Owners and Admins may sign in using any supported method.
 
-<div class='callout callout--info'>
-    <p>GitKraken SSO does not support signing in through the Identity Provider's dashboard.</p>
-</div>
+> **Note:** GitKraken SSO does not support signing in through the Identity Provider's dashboard.
+
 ***
 
 ## Set up SSO
@@ -162,9 +159,7 @@ SSO is now enabled and enforced across GitKraken for your domains. Be sure to te
 
 ## Example Identity Provider (IdP) setup instructions
 
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> These are example instructions to help you with Identity Provider setup. In most cases all you will need from us is the callback URL: https://api.gitkraken.com/oauth/sso/callback. If you need assistance please contact your IdP administrator or consult the IdP documentation for help.</p>
-</div>
+> **Note:** These are example instructions to help you with Identity Provider setup. In most cases all you will need from us is the callback URL: https://api.gitkraken.com/oauth/sso/callback. If you need assistance please contact your IdP administrator or consult the IdP documentation for help.
 
 ### G Suite
 
@@ -262,9 +257,7 @@ How to create SAML application in Azure Active Directory:
 Now you are all set to [setup your SSO on a GitKraken Organization](/gk-dev/gk-dev-single-sign-on/#setup-sso)
 ### Okta
 
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> Logging through Okta Dashboard is not supported.</p>
-</div>
+> **Note:** Logging through Okta Dashboard is not supported.
 
 How to Create SAML Application in Okta:
 

@@ -62,9 +62,7 @@ To access the reseller experience, visit [gitkraken.dev/reseller](https://gitkra
 
 As a reseller, your view within each customer organization is simplified — you will only have access to the **Subscription** management page, where you can manage billing, payment methods, and plan changes.
 
-<div class='callout callout--info'>
-    <p>If your email is not yet associated with any customer organizations, <a href="https://www.gitkraken.com/sales-inquiries?source=help_center">contact our Customer Success team</a> to get set up.</p>
-</div>
+> **Note:** If your email is not yet associated with any customer organizations, [contact our Customer Success team](https://www.gitkraken.com/sales-inquiries?source=help_center) to get set up.
 
 ***
 
@@ -81,9 +79,7 @@ Go to [gitkraken.dev](https://gitkraken.dev/?source=help_center) and create a Gi
 - Do not input end-user details. Register using your own email.
 - Verify your email address via the link sent to your inbox.
 
-<div class='callout callout--basic'>
-    <p>If you already use GitKraken for multiple customers, simply log in to your existing account and continue to Step 2.</p>
-</div>
+> **Note:** If you already use GitKraken for multiple customers, simply log in to your existing account and continue to Step 2.
 
 <figure>
   <img src="/wp-content/uploads/gk-dev-reseller-sign-in.png" srcset="/wp-content/uploads/gk-dev-reseller-sign-in@2x.png" class="help-center-img center img-bordered">
@@ -96,9 +92,7 @@ Go to [gitkraken.dev](https://gitkraken.dev/?source=help_center) and create a Gi
 
 Go to `Purchase Subscription`, choose the subscription type, set the number of seats, and enter payment details.
 
-<div class='callout callout--basic'>
-    <p>To create a new organization for a different customer, visit <a href="https://gitkraken.dev/purchase?source=help_center">gitkraken.dev/purchase</a>.</p>
-</div>
+> **Note:** To create a new organization for a different customer, visit [gitkraken.dev/purchase](https://gitkraken.dev/purchase?source=help_center).
 
 - **Seats:** Number of licenses for the customer
 - **Organization Name:** Name of the customer's organization
@@ -109,9 +103,7 @@ Go to `Purchase Subscription`, choose the subscription type, set the number of s
   <figcaption style="text-align: center; color: #888;">Purchase subscription screen</figcaption>
 </figure>
 
-<div class='callout callout--basic'>
-    <p>We accept card, PayPal, ACH, and Google Pay. Invoicing is available for large GitKraken Enterprise orders. Contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for invoicing support.</p>
-</div>
+> **Note:** We accept card, PayPal, ACH, and Google Pay. Invoicing is available for large GitKraken Enterprise orders. Contact our [Customer Success team](https://www.gitkraken.com/sales-inquiries) for invoicing support.
 
 After purchase, a receipt will be emailed to you.
 
@@ -142,9 +134,7 @@ Follow these steps to purchase additional licenses:
 7. Review the Billing Summary for cost. You can also click "View Prorated Charges Quote" to generate a formal quote document for the additional licenses.
 8. Click “Save.” The additional licenses will be active immediately.
 
-<div class='callout callout--basic'>
-    <p>License costs are prorated against the original billing cycle. If a customer org is not listed under your account, <a href="https://www.gitkraken.com/sales-inquiries?source=help_center">contact our Customer Success team</a>.</p>
-</div>
+> **Note:** License costs are prorated against the original billing cycle. If a customer org is not listed under your account, [contact our Customer Success team](https://www.gitkraken.com/sales-inquiries?source=help_center).
 
 ***
 
@@ -214,6 +204,4 @@ Actions that would result in a charge — such as adding members beyond the subs
 
 You can generate formal quotes for renewals and mid-cycle upgrades (such as adding seats or changing plans) directly from the Edit Plan page. See [How to create a quote](/gk-dev/gk-dev-subscription/#create-quote) for step-by-step instructions.
 
-<div class='callout callout--warning'>
-    <p><strong>Self-service quote limitations:</strong> Quotes for more than 10 seats and quotes for mid-cycle plan upgrades cannot be generated through GitKraken.dev. For these requests, please contact our <a href="https://www.gitkraken.com/sales-inquiries">Customer Success team</a> for hands-on assistance.</p>
-</div>
+> **Warning:** **Self-service quote limitations:** Quotes for more than 10 seats and quotes for mid-cycle plan upgrades cannot be generated through GitKraken.dev. For these requests, please contact our [Customer Success team](https://www.gitkraken.com/sales-inquiries) for hands-on assistance.

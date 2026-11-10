@@ -29,9 +29,7 @@ custom_fields:
 Use **GitKraken.dev Automations** to create rule-based workflows that trigger actions when pull requests and issues match specific conditions. Automations help you streamline collaboration and enforce consistency across teams.
 
 
-<div class='callout callout--warning'>
-    <p>This feature is only available on Advanced or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
-</div>
+> **Warning:** This feature is only available on Advanced or higher plans. [See pricing options](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 ***
 
@@ -61,9 +59,7 @@ Here are a few ways teams are using Automations to reduce manual effort and crea
 - **SOC 2 compliance**: Automate tasks for encryption and security checks.
 - **DevOps enhancements**: Enforce quality checks and automate infrastructure changes.
 
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> Automations currently supports cloud integrations. Self-hosted support will be added in a future update.</p>
-</div>
+> **Note:** Automations currently supports cloud integrations. Self-hosted support will be added in a future update.
 
 ***
 
@@ -90,9 +86,7 @@ Click <button class="button button--success button--ui button--nolink">+ Create 
   <figcaption style="color:#888;text-align:center">Setup form for new automation</figcaption>
 </figure>
 
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> Creating an automation sets up a webhook on the repository. You’ll need the appropriate permissions.</p>
-</div>
+> **Note:** Creating an automation sets up a webhook on the repository. You’ll need the appropriate permissions.
 
 ***
 
@@ -130,9 +124,7 @@ You can choose whether **all** or **any** of the conditions must be true.
 - **File path**: Matches full file paths.
 - **File added in folder**: Triggers when a new file is added to a specified folder in a PR.
 
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> A file path includes folders, e.g. <code>src/app/index.ts</code>, while a file name is just <code>index.ts</code>.</p>
-</div>
+> **Note:** A file path includes folders, e.g. `src/app/index.ts`, while a file name is just `index.ts`.
 
 ### File contents conditions
 
@@ -164,9 +156,7 @@ GitKraken supports these automation actions:
 | Close PR | Pull Request | Closes the pull request |
 | Add to checklist | Pull Request | Adds checklist items to the PR description |
 
-<div class='callout callout--warning'>
-    <p><strong>Note:</strong> Authors can’t review their own PRs. If selected, GitKraken will skip that step and apply all others.</p>
-</div>
+> **Note:** Authors can’t review their own PRs. If selected, GitKraken will skip that step and apply all others.
 
 ***
 

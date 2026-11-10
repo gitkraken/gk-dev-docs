@@ -103,14 +103,9 @@ For the following marked* providers, you can also:
   <figcaption style="color:#888;text-align:center">Example of AI provider configuration fields</figcaption>
 </figure>
 
-<div class='callout callout--info'>
-  <p>
-    Providers marked with an asterisk (*) support setting a custom API key and URL.
-  </p>
-  <p>
-    These settings apply across all GitKraken products used by your organization.
-  </p>
-</div>
+> **Note:** Providers marked with an asterisk (\*) support setting a custom API key and URL.
+>
+> These settings apply across all GitKraken products used by your organization.
 
 ***
 
@@ -149,11 +144,7 @@ Configure your GitKraken organization to store Cloud Patches on your own infrast
   <figcaption style="color:#888;text-align:center">AWS S3 permissions screen for GitKraken Cloud Patches</figcaption>
 </figure>
 
-<div class='callout callout--warning'>
-  <p>
-    GitKraken encrypts all Cloud Patches, even when self-hosted. Only users with access to the patch link and repository permissions can view contents.
-  </p>
-</div>
+> **Warning:** GitKraken encrypts all Cloud Patches, even when self-hosted. Only users with access to the patch link and repository permissions can view contents.
 
 ***
 

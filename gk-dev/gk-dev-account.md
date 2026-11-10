@@ -28,10 +28,9 @@ custom_fields:
 
 Your GitKraken account provides access to all GitKraken products and services, including GitKraken Desktop, GitLens, CLI, and GitKraken.dev. Use it to manage your identity, license, and preferences from a single dashboard. Creating a GitKraken account is free. Your license tier (Community, Pro, Advanced, Business, or Enterprise) is determined by your organization's subscription, not by the account itself.
 
-<div class='callout callout--basic'>
-  <p>Note that your GitKraken account is not compatible with <a href="/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/">Git Integration for Jira</a>.</p>
-  <p>We recommend using a single GitKraken account for yourself. Avoid creating duplicate accounts or sharing your account with others.</p>
-</div>
+> **Note:** Note that your GitKraken account is not compatible with [Git Integration for Jira](/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/).
+>
+> We recommend using a single GitKraken account for yourself. Avoid creating duplicate accounts or sharing your account with others.
 
 ***
 
@@ -112,9 +111,7 @@ The page is divided into three sections:
   <figcaption style="color:#888;text-align:center">Hover the <kbd>?</kbd> icon next to an action to see its description and exact token count</figcaption>
 </figure>
 
-<div class='callout callout--info'>
-  <p>AI credits are consumed based on the amount of content sent to the AI provider. Larger diffs, longer prompts, and repeated requests on the same input all increase token consumption. See <a href="/gk-dev/gk-dev-faq/#ive-consumed-all-my-weekly-tokens-in-1-commit-message-generation-why">the FAQ</a> for more detail.</p>
-</div>
+> **Note:** AI credits are consumed based on the amount of content sent to the AI provider. Larger diffs, longer prompts, and repeated requests on the same input all increase token consumption. See [the FAQ](/gk-dev/gk-dev-faq/#ive-consumed-all-my-weekly-tokens-in-1-commit-message-generation-why) for more detail.
 
 ***
 
@@ -139,6 +136,4 @@ To permanently delete your account:
 
     > Note: If you are part of a GitKraken organization and not an admin, you’ll need an admin to remove your account before proceeding.
 
-<div class='callout callout--warning'>
-  <p>GitKraken is GDPR-compliant and this action cannot be undone. This action will revoke access to all GitKraken products and services linked to your account.</p>
-</div>
+> **Warning:** GitKraken is GDPR-compliant and this action cannot be undone. This action will revoke access to all GitKraken products and services linked to your account.
