@@ -22,6 +22,7 @@ custom_fields:
     nav_order: 50
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    anchor_map: ["setup-sso|#set-up-sso"]
 ---
 
 Single Sign-On (SSO) lets organization Owners and Admins enforce centralized authentication for all GitKraken users on verified email domains. SSO is supported only for GitKraken cloud organizations; On-Premise plans are not supported.
@@ -160,6 +161,13 @@ SSO is now enabled and enforced across GitKraken for your domains. Be sure to te
 ## Example Identity Provider (IdP) setup instructions
 
 > **Note:** These are example instructions to help you with Identity Provider setup. In most cases all you will need from us is the callback URL: https://api.gitkraken.com/oauth/sso/callback. If you need assistance please contact your IdP administrator or consult the IdP documentation for help.
+
+| Provider | Setup steps |
+|---|---|
+| **G Suite** | [How to create a SAML application in G Suite](#g-suite) |
+| **Azure Active Directory** | [How to create a SAML application in Azure Active Directory](#azure-active-directory) |
+| **Okta** | [How to create a SAML application in Okta](#okta) |
+| **Ping Identity** | [How to create a SAML application in Ping Identity](#ping-identity) |
 
 ### G Suite
 
