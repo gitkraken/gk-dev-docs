@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gk-dev-integrations"
+    home_group: "sections"
+    home_order: 10
+    card_icon: "plug-connected"
+    card_color: "purple"
+    card_description: "Connect GitHub, GitLab, Bitbucket, Azure DevOps and self-hosted providers"
     nav_label: "Connect Integrations"
     nav_order: 20
     nav_parent: ""

@@ -17,11 +17,19 @@ tags: [faq, licenses, billing, ownership, invoices, purchase-order, student-pack
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
+    home_group: "paths"
+    home_order: 40
+    entry_role: "Questions"
+    entry_title: "Accounts and licenses FAQ"
+    entry_desc: "Answers about licenses, billing, ownership and AI credits"
     nav_label: "FAQ"
     nav_order: 80
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
+    card_icon: "help-circle"
+    card_color: "blue"
+    card_description: "Common questions about accounts, licenses and billing"
 ---
 
 <kbd>Last updated: April 2026</kbd>

@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gk-dev-automations"
+    home_group: "sections"
+    home_order: 30
+    card_icon: "settings-automation"
+    card_color: "blue"
+    card_description: "Rule-based automations for pull requests and issues"
     nav_label: "Automations"
     nav_order: 40
     nav_parent: ""

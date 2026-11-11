@@ -17,12 +17,15 @@ tags: [sso, saml, identity-provider, okta, azure-active-directory, jit-provision
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Configure Single Sign-On (SSO)"
     anchor_map: ["setup-sso|#set-up-sso"]
     nav_order: 50
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
+    card_icon: "key"
+    card_color: "red"
+    card_description: "Enforce SAML single sign-on on your verified domains"
 ---
 
 Single Sign-On (SSO) lets organization Owners and Admins enforce centralized authentication for all GitKraken users on verified email domains. SSO is supported only for GitKraken cloud organizations; On-Premise plans are not supported.

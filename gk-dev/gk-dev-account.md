@@ -17,11 +17,14 @@ tags: [account, sign-in, login, profile, gravatar, ai-usage, ai-credits, delete-
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Account"
     nav_order: 10
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
+    card_icon: "user-circle"
+    card_color: "purple"
+    card_description: "Sign in, personalize your profile, track AI usage and delete your account"
 ---
 
 <kbd>Last updated: April 2026</kbd>

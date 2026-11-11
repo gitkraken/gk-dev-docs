@@ -17,11 +17,14 @@ tags: [security, encryption, data-collection, soc-2, tls, aes-256]
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Security Information"
     nav_order: 60
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "red"
+    card_description: "What GitKraken.dev collects and how it is encrypted and stored"
 ---
 
 <kbd>Last updated: March 2026</kbd>

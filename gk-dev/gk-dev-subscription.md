@@ -17,11 +17,19 @@ tags: [subscription, billing, purchase, licenses, seats, quotes, invoices, cance
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
+    home_group: "paths"
+    home_order: 30
+    entry_role: "Billing owner"
+    entry_title: "Manage your subscription"
+    entry_desc: "Plans, seats, trials and resellers"
     nav_label: "Subscriptions"
     nav_order: 30
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
+    card_icon: "credit-card"
+    card_color: "blue"
+    card_description: "Purchase, quotes, cancellation, billing and invoices"
 ---
 
 <kbd>Last updated: April 2026</kbd>

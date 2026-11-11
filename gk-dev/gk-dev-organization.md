@@ -17,11 +17,19 @@ tags: [organization, roles, users, teams, licenses, csv-import, transfer-ownersh
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
+    home_group: "paths"
+    home_order: 20
+    entry_role: "Admin"
+    entry_title: "Run your organization"
+    entry_desc: "Members, teams, SSO and security controls"
     nav_label: "Organization"
     nav_order: 20
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
+    card_icon: "building"
+    card_color: "green"
+    card_description: "Roles, users, teams and organization settings"
 ---
 
 <kbd>Last updated: March 2026</kbd>
