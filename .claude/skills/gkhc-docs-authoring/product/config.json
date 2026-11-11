@@ -1,0 +1,211 @@
+{
+  "_comment": "Product config of the gkhc-docs-authoring skill for this help center. Local to the docs repo (product/ is never overwritten by skillsync). Seeded by GK-WP-HC-Design skills/seed_products.py; check_pages.py and preview/ read it.",
+  "key": "gkdev",
+  "name": "gitkraken.dev",
+  "category": "gk-dev",
+  "content_dir": "gk-dev",
+  "images_dir": "_images",
+  "home_slug": "gk-dev-home",
+  "nav_file": "gkdev",
+  "max_depth": 5,
+  "toc_levels": [
+    2,
+    3
+  ],
+  "code_default_label": "Code",
+  "nav": {
+    "sections": null,
+    "section_fallback": false,
+    "parent_must_be_index": false,
+    "every_page_in_nav": false,
+    "card_fields_required": false,
+    "slug_prefix": ""
+  },
+  "features": {
+    "metric_pipeline": false,
+    "playbooks": false,
+    "settings_specs": false
+  },
+  "checks": {
+    "missing_link_target": "warn",
+    "missing_image": "error",
+    "figures_only": false,
+    "ignore_link_targets": []
+  },
+  "metadata": {
+    "check": "error",
+    "conditional": [
+      "git_hosts",
+      "integrations",
+      "hosted_variant",
+      "role_required"
+    ],
+    "optional": [
+      "og_image"
+    ],
+    "constants": {
+      "product": "GitKraken.dev"
+    },
+    "defaults": {},
+    "plan_required": [
+      "all",
+      "Community",
+      "Pro",
+      "Advanced",
+      "Business",
+      "Enterprise",
+      "insights-add-on"
+    ],
+    "plan_required_vocabulary": "error",
+    "aliases": {
+      "hosted_variant": "cloud_only"
+    },
+    "extra_fields": [
+      "cloud_only"
+    ]
+  },
+  "other_category_pages": {},
+  "known_wp_images": {
+    "/wp-content/uploads/gl-accept-code-suggestion.gif": [
+      "gk-dev-home"
+    ],
+    "/wp-content/uploads/gl-code-suggest-comment.png": [
+      "gk-dev-home"
+    ],
+    "/wp-content/uploads/sso-azure-1.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-azure-2.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-azure-3.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-azure-4.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-azure-5.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-azure-6.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-azure-7-1.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-diagram.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-1.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-10.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-2.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-3.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-4.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-5.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-6-1.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-7.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-8.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-example-idp-9.jpg": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-1.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-2.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-3.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-4.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-5-1.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-6.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-okta-7.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-10.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-11.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-12.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-13.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-14-2.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-14.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-15.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-16.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-17-2.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-17.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-18.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-3.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-4.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-5.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-6-2.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-6.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-7-2.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-7.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-8.png": [
+      "gk-dev-single-sign-on"
+    ],
+    "/wp-content/uploads/sso-pingidentity-9.png": [
+      "gk-dev-single-sign-on"
+    ]
+  }
+}
