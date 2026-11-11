@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gkdev-accounts-and-licenses"
+    home_group: "paths"
+    home_order: 30
+    entry_role: "Billing owner"
+    entry_title: "Manage your subscription"
+    entry_desc: "Plans, seats, trials and resellers"
     nav_label: "Subscriptions"
     nav_order: 30
     nav_parent: "gkdev-accounts-and-licenses"

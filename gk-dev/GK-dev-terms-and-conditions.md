@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gk-dev-terms-and-conditions"
+    home_group: "sections"
+    home_order: 70
+    card_icon: "file-certificate"
+    card_color: "purple"
+    card_description: "Support hours, response times and end-of-life policy"
     nav_label: "GitKraken Cloud Services Support Terms and Conditions"
     nav_order: 80
     nav_parent: ""
