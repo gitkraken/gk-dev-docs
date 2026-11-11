@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "building"
+    card_color: "green"
+    card_description: "Roles, users, teams and organization settings"
 ---
 
 <kbd>Last updated: March 2026</kbd>

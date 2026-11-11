@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "user-circle"
+    card_color: "purple"
+    card_description: "Sign in, personalize your profile, track AI usage and delete your account"
 ---
 
 <kbd>Last updated: April 2026</kbd>

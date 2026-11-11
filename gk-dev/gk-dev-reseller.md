@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "building-store"
+    card_color: "purple"
+    card_description: "Purchase and manage subscriptions for customer organizations"
 ---
 
 <kbd>Last updated: April 2026</kbd>

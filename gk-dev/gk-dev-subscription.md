@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "credit-card"
+    card_color: "blue"
+    card_description: "Purchase, quotes, cancellation, billing and invoices"
 ---
 
 <kbd>Last updated: April 2026</kbd>

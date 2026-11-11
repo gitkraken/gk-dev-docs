@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "hourglass"
+    card_color: "amber"
+    card_description: "The 14-day individual trial and the 30-day Business trial"
 ---
 <kbd>Last updated: March 2026</kbd>
 

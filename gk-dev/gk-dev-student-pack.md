@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "school"
+    card_color: "amber"
+    card_description: "Six months of Pro features for verified students"
 ---
 
 <kbd>Last updated: March 2026</kbd>

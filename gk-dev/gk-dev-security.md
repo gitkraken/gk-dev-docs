@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "red"
+    card_description: "What GitKraken.dev collects and how it is encrypted and stored"
 ---
 
 <kbd>Last updated: March 2026</kbd>

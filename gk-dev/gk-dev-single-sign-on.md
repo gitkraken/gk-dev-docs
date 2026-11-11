@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "key"
+    card_color: "red"
+    card_description: "Enforce SAML single sign-on on your verified domains"
 ---
 
 Single Sign-On (SSO) lets organization Owners and Admins enforce centralized authentication for all GitKraken users on verified email domains. SSO is supported only for GitKraken cloud organizations; On-Premise plans are not supported.

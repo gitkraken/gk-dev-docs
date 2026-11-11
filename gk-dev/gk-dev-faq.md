@@ -22,6 +22,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "accounts-and-licenses"
     page_type: "content"
+    card_icon: "help-circle"
+    card_color: "blue"
+    card_description: "Common questions about accounts, licenses and billing"
 ---
 
 <kbd>Last updated: April 2026</kbd>
