@@ -4,7 +4,7 @@ description: Get a free 6-month trial of GitKraken Pro features for students ver
 product: "GitKraken.dev"
 content_type: "how-to"
 audience: "developer"
-plan_required: "Community (Student Pack)"
+plan_required: [Community]
 status: "GA"
 last_verified: "2026-03"
 feature: "Student Pack"

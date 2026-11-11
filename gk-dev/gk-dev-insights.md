@@ -4,7 +4,7 @@ description: Learn how to request access, understand plan availability, and conn
 product: "GitKraken Insights"
 content_type: "install"
 audience: "admin"
-plan_required: "Add-on (by request)"
+plan_required: [all]
 integrations: ["GitHub", "GitLab", "Bitbucket", "Jira Cloud"]
 status: "preview"
 last_verified: "2026-03"

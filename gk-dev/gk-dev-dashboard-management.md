@@ -4,7 +4,7 @@ description: Learn how to add and interpret key DORA and Pull Request metrics, a
 product: "GitKraken Insights"
 content_type: "reference"
 audience: "admin"
-plan_required: "Insights add-on"
+plan_required: [all]
 status: "preview"
 last_verified: "2026-03"
 feature: "Insights Dashboards"

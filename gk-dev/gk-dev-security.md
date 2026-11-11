@@ -4,7 +4,7 @@ description: Learn how GitKraken.dev encrypts data in transit and at rest across
 product: "GitKraken.dev"
 content_type: "security"
 audience: "admin"
-plan_required: "all (SOC 2 reports: Business, Enterprise)"
+plan_required: [all]
 cloud_only: true
 status: "GA"
 last_verified: "2026-03"
