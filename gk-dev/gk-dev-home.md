@@ -4,7 +4,7 @@ description: Learn how to work with GitKraken.dev features including Launchpad, 
 product: "GitKraken.dev"
 content_type: "home"
 audience: "all"
-plan_required: "Pro or higher (Launchpad, Workspaces, Cloud Patches, Code Suggest)"
+plan_required: [Pro]
 status: "GA"
 last_verified: "2026-03"
 feature: "Help Center Home"
