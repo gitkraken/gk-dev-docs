@@ -17,10 +17,10 @@ tags: [student-pack, github-student-developer-pack, trial, education, discount, 
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "GitKraken Student Pack"
     nav_order: 40
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
     card_icon: "school"
     card_color: "amber"

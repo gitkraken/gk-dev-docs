@@ -17,7 +17,7 @@ tags: [account, organization, subscription, licenses, billing, sso, trials]
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Accounts and Licenses"
     nav_order: 60
     nav_parent: ""

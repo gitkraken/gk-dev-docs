@@ -17,10 +17,10 @@ tags: [trials, pro-trial, business-trial, evaluation, pricing]
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Trials"
     nav_order: 70
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
     card_icon: "hourglass"
     card_color: "amber"

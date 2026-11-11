@@ -17,10 +17,10 @@ tags: [organization, roles, users, teams, licenses, csv-import, transfer-ownersh
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Organization"
     nav_order: 20
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
     card_icon: "building"
     card_color: "green"

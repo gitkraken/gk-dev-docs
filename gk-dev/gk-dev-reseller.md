@@ -17,10 +17,10 @@ tags: [reseller, purchase, subscription, billing, quotes, transfer-ownership, li
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "Reseller Guide"
     nav_order: 90
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
     card_icon: "building-store"
     card_color: "purple"

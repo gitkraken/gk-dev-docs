@@ -17,10 +17,10 @@ tags: [faq, licenses, billing, ownership, invoices, purchase-order, student-pack
 taxonomy:
     category: gk-dev
 custom_fields:
-    nav_category: "accounts-and-licenses"
+    nav_category: "gkdev-accounts-and-licenses"
     nav_label: "FAQ"
     nav_order: 80
-    nav_parent: "accounts-and-licenses"
+    nav_parent: "gkdev-accounts-and-licenses"
     page_type: "content"
     card_icon: "help-circle"
     card_color: "blue"
