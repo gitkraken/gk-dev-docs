@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gk-dev-insights"
+    home_group: "sections"
+    home_order: 20
+    card_icon: "chart-bar"
+    card_color: "amber"
+    card_description: "Request access, connect your data and manage Insights dashboards"
     nav_label: "Getting Started with GitKraken Insights"
     nav_order: 30
     nav_parent: ""

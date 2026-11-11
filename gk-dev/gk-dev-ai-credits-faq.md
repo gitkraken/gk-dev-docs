@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gk-dev-ai-credits-faq"
+    home_group: "sections"
+    home_order: 60
+    card_icon: "coins"
+    card_color: "blue"
+    card_description: "How AI credits, limits and credit add-ons work"
     nav_label: "GitKraken AI Credits FAQ"
     nav_order: 70
     nav_parent: ""

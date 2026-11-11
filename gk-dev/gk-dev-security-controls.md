@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gk-dev-security-controls"
+    home_group: "sections"
+    home_order: 40
+    card_icon: "shield-lock"
+    card_color: "red"
+    card_description: "AI feature access, AI provider enforcement and self-hosted Cloud Patches"
     nav_label: "Security Controls & Cloud Patch Configuration"
     nav_order: 50
     nav_parent: ""

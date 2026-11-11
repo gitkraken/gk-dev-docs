@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gkdev-accounts-and-licenses"
+    home_group: "paths"
+    home_order: 40
+    entry_role: "Questions"
+    entry_title: "Accounts and licenses FAQ"
+    entry_desc: "Answers about licenses, billing, ownership and AI credits"
     nav_label: "FAQ"
     nav_order: 80
     nav_parent: "gkdev-accounts-and-licenses"

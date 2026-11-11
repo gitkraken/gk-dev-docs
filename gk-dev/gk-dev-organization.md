@@ -18,6 +18,11 @@ taxonomy:
     category: gk-dev
 custom_fields:
     nav_category: "gkdev-accounts-and-licenses"
+    home_group: "paths"
+    home_order: 20
+    entry_role: "Admin"
+    entry_title: "Run your organization"
+    entry_desc: "Members, teams, SSO and security controls"
     nav_label: "Organization"
     nav_order: 20
     nav_parent: "gkdev-accounts-and-licenses"
