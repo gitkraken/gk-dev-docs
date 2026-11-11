@@ -28,9 +28,7 @@ custom_fields:
 
 Create an organization in GitKraken.dev to manage your team’s access, roles, licenses, and SSO. A GitKraken organization applies across GitKraken Desktop, GitLens, GitKraken CLI, and GitKraken.dev. Manage your [subscription](/gk-dev/gk-dev-subscription/) to provision and oversee licenses for all GitKraken products.
 
-<div class='callout callout--warning'>
-    <p>Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users and roles. Advanced plans and higher can also create and manage teams.</p>
-</div>
+> **Warning:** Community users are on a single-user plan and cannot perform any organization management. Pro plans and higher can manage users and roles. Advanced plans and higher can also create and manage teams.
 
 ***
 

@@ -76,9 +76,7 @@ Go to the <a href="https://gitkraken.dev/settings/integrations?source=help_cente
   <figcaption style="color:#888;text-align:center">Integration settings page on GitKraken.dev</figcaption>
 </figure>
 
-<div class='callout callout--basic'>
-    <p>To access repositories owned by a GitHub organization, organization approval is required. <a href="https://help.github.com/articles/requesting-organization-approval-for-your-authorized-applications/" target="_blank">Request organization approval</a>.</p>
-</div>
+> **Note:** To access repositories owned by a GitHub organization, organization approval is required. [Request organization approval](https://help.github.com/articles/requesting-organization-approval-for-your-authorized-applications/).
 
 ***
 

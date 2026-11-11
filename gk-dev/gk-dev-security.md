@@ -44,13 +44,4 @@ GitKraken.dev encrypts all data in transit (TLS) and at rest (AES-256). This pag
 ## How to request a SOC 2 report
 GitKraken and its tools are SOC 2 certified. To request a copy of the SOC 2 report, visit the [Trust Center](https://trust.gitkraken.com/) to start the request process. An MNDA (Mutual Non-Disclosure Agreement) is required before the report can be shared. Any member of a Business or Enterprise organization can initiate the request.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-       SOC 2 reports are only available for Business and Enterprise customers.
-    </div>
-    </div>
-</div>
+> **Note:** SOC 2 reports are only available for Business and Enterprise customers.

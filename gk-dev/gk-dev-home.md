@@ -72,9 +72,7 @@ The Launchpad offers a real-time summary of pull requests and issues based on yo
 
 Connect an [integration](/gk-dev/gk-dev-integrations/) to begin.
 
-<div class='callout callout--warning'>
-    <p>This feature is only available on Pro or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
-</div>
+> **Warning:** This feature is only available on Pro or higher plans. [See pricing options](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 ### Take Quick Actions from Launchpad
 
@@ -107,9 +105,7 @@ Pin items for priority or snooze them to hide under the SNOOZED section. Return 
 
 Cloud Patches let you securely store and share Git patches without a pull request. Create them using GitKraken Desktop, GitLens, or the GitKraken CLI. Store them on GitKraken servers or your own [AWS S3 bucket](/gk-dev/gk-dev-security-controls/#self-hosted).
 
-<div class='callout callout--warning'>
-    <p>This feature is only available on Pro or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
-</div>
+> **Warning:** This feature is only available on Pro or higher plans. [See pricing options](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 ### Create and Share Cloud Patches
 
@@ -173,9 +169,7 @@ Suggest code edits across your codebase—not just changed lines—using GitKrak
   <figcaption style="color:#888;text-align:center">Post suggested edits across your project</figcaption>
 </figure>
 
-<div class='callout callout--warning'>
-    <p>This feature is only available on Pro or higher plans. <a href="https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev" target="_blank">See pricing options</a>.</p>
-</div>
+> **Warning:** This feature is only available on Pro or higher plans. [See pricing options](https://www.gitkraken.com/pricing?source=help_center&product=gitkraken_dot_dev).
 
 ### Working with Code Suggestions
 
