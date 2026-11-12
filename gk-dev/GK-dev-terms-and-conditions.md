@@ -35,7 +35,7 @@ This page describes the support terms for GitKraken Cloud Services (GitKraken.de
 | GitKraken.dev | GA | Full support per plan |
 | GitKraken Workspaces | GA | Full support per plan |
 | Launchpad | GA | Full support per plan |
-| GitKraken Insights | Preview | Best-effort support |
+| GitKraken Insights | GA | Full support per plan |
 | Cloud Patches | Preview | Best-effort support |
 | Automations | Preview | Best-effort support |
 
